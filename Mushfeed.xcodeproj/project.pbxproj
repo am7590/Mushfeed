@@ -3,23 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1C5A95955A2CBE8FF37B08 /* Pods_Mushfeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD33A115FA300DA406C270DF /* Pods_Mushfeed.framework */; };
 		E631CF4625EB37C200CE8417 /* MushfeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF4525EB37C200CE8417 /* MushfeedApp.swift */; };
 		E631CF4825EB37C200CE8417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF4725EB37C200CE8417 /* ContentView.swift */; };
 		E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4925EB37C400CE8417 /* Assets.xcassets */; };
 		E631CF4D25EB37C400CE8417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4C25EB37C400CE8417 /* Preview Assets.xcassets */; };
+		E631CF5625EB390B00CE8417 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E631CF5525EB390B00CE8417 /* GoogleService-Info.plist */; };
+		E631CF8125EB3B9800CE8417 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7225EB3B9800CE8417 /* FooterCell.swift */; };
+		E631CF8225EB3B9800CE8417 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7325EB3B9800CE8417 /* HeaderCell.swift */; };
+		E631CF8325EB3B9800CE8417 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7425EB3B9800CE8417 /* Story.swift */; };
+		E631CF8425EB3B9800CE8417 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7625EB3B9800CE8417 /* SignInButton.swift */; };
+		E631CF8525EB3B9800CE8417 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7725EB3B9800CE8417 /* PasswordTextField.swift */; };
+		E631CF8625EB3B9800CE8417 /* SignupText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7825EB3B9800CE8417 /* SignupText.swift */; };
+		E631CF8725EB3B9800CE8417 /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7925EB3B9800CE8417 /* UsernameTextField.swift */; };
+		E631CF8825EB3B9800CE8417 /* SignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7A25EB3B9800CE8417 /* SignupButton.swift */; };
+		E631CF8925EB3B9800CE8417 /* SignInHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7B25EB3B9800CE8417 /* SignInHeaderView.swift */; };
+		E631CF8A25EB3B9800CE8417 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7C25EB3B9800CE8417 /* EmailTextField.swift */; };
+		E631CF8B25EB3B9800CE8417 /* ProfileInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7E25EB3B9800CE8417 /* ProfileInformation.swift */; };
+		E631CF8C25EB3B9800CE8417 /* GridPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7F25EB3B9800CE8417 /* GridPosts.swift */; };
+		E631CF8D25EB3B9800CE8417 /* EditProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF8025EB3B9800CE8417 /* EditProfileButton.swift */; };
+		E631CF9125EB3BF100CE8417 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF9025EB3BF100CE8417 /* Constants.swift */; };
+		E631CF9425EB3C0200CE8417 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF9325EB3C0200CE8417 /* Modifiers.swift */; };
+		E631CF9925EB3C2E00CE8417 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF9725EB3C2D00CE8417 /* SigninView.swift */; };
+		E631CF9A25EB3C2E00CE8417 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF9825EB3C2E00CE8417 /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FA11BEF21D9A16907125E7C /* Pods-Mushfeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mushfeed.debug.xcconfig"; path = "Target Support Files/Pods-Mushfeed/Pods-Mushfeed.debug.xcconfig"; sourceTree = "<group>"; };
+		DD33A115FA300DA406C270DF /* Pods_Mushfeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mushfeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E631CF4225EB37C200CE8417 /* Mushfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mushfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E631CF4525EB37C200CE8417 /* MushfeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushfeedApp.swift; sourceTree = "<group>"; };
 		E631CF4725EB37C200CE8417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E631CF4925EB37C400CE8417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E631CF4C25EB37C400CE8417 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E631CF4E25EB37C400CE8417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E631CF5525EB390B00CE8417 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E631CF7225EB3B9800CE8417 /* FooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		E631CF7325EB3B9800CE8417 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		E631CF7425EB3B9800CE8417 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		E631CF7625EB3B9800CE8417 /* SignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		E631CF7725EB3B9800CE8417 /* PasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		E631CF7825EB3B9800CE8417 /* SignupText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupText.swift; sourceTree = "<group>"; };
+		E631CF7925EB3B9800CE8417 /* UsernameTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
+		E631CF7A25EB3B9800CE8417 /* SignupButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupButton.swift; sourceTree = "<group>"; };
+		E631CF7B25EB3B9800CE8417 /* SignInHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInHeaderView.swift; sourceTree = "<group>"; };
+		E631CF7C25EB3B9800CE8417 /* EmailTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		E631CF7E25EB3B9800CE8417 /* ProfileInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInformation.swift; sourceTree = "<group>"; };
+		E631CF7F25EB3B9800CE8417 /* GridPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridPosts.swift; sourceTree = "<group>"; };
+		E631CF8025EB3B9800CE8417 /* EditProfileButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileButton.swift; sourceTree = "<group>"; };
+		E631CF9025EB3BF100CE8417 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E631CF9325EB3C0200CE8417 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		E631CF9725EB3C2D00CE8417 /* SigninView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		E631CF9825EB3C2E00CE8417 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		EBC833968C26AE3C1363BBF3 /* Pods-Mushfeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mushfeed.release.xcconfig"; path = "Target Support Files/Pods-Mushfeed/Pods-Mushfeed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1C5A95955A2CBE8FF37B08 /* Pods_Mushfeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02BCF1CA6215EEA5DA8EAE7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD33A115FA300DA406C270DF /* Pods_Mushfeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		574ADB84F9869BCA7E6989E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA11BEF21D9A16907125E7C /* Pods-Mushfeed.debug.xcconfig */,
+				EBC833968C26AE3C1363BBF3 /* Pods-Mushfeed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E631CF3925EB37C200CE8417 = {
 			isa = PBXGroup;
 			children = (
 				E631CF4425EB37C200CE8417 /* Mushfeed */,
 				E631CF4325EB37C200CE8417 /* Products */,
+				574ADB84F9869BCA7E6989E4 /* Pods */,
+				02BCF1CA6215EEA5DA8EAE7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,8 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				E631CF4525EB37C200CE8417 /* MushfeedApp.swift */,
+				E631CF6F25EB3B3B00CE8417 /* Social Media Feature */,
 				E631CF4725EB37C200CE8417 /* ContentView.swift */,
 				E631CF4925EB37C400CE8417 /* Assets.xcassets */,
+				E631CF5525EB390B00CE8417 /* GoogleService-Info.plist */,
 				E631CF4E25EB37C400CE8417 /* Info.plist */,
 				E631CF4B25EB37C400CE8417 /* Preview Content */,
 			);
@@ -69,6 +131,78 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E631CF6F25EB3B3B00CE8417 /* Social Media Feature */ = {
+			isa = PBXGroup;
+			children = (
+				E631CF9C25EB3C5400CE8417 /* Views */,
+				E631CF7025EB3B9800CE8417 /* Components */,
+			);
+			path = "Social Media Feature";
+			sourceTree = "<group>";
+		};
+		E631CF7025EB3B9800CE8417 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E631CF9325EB3C0200CE8417 /* Modifiers.swift */,
+				E631CF9025EB3BF100CE8417 /* Constants.swift */,
+				E631CF7125EB3B9800CE8417 /* Home */,
+				E631CF7525EB3B9800CE8417 /* Auth */,
+				E631CF7D25EB3B9800CE8417 /* Profile */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E631CF7125EB3B9800CE8417 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E631CF7225EB3B9800CE8417 /* FooterCell.swift */,
+				E631CF7325EB3B9800CE8417 /* HeaderCell.swift */,
+				E631CF7425EB3B9800CE8417 /* Story.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E631CF7525EB3B9800CE8417 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E631CF7625EB3B9800CE8417 /* SignInButton.swift */,
+				E631CF7725EB3B9800CE8417 /* PasswordTextField.swift */,
+				E631CF7825EB3B9800CE8417 /* SignupText.swift */,
+				E631CF7925EB3B9800CE8417 /* UsernameTextField.swift */,
+				E631CF7A25EB3B9800CE8417 /* SignupButton.swift */,
+				E631CF7B25EB3B9800CE8417 /* SignInHeaderView.swift */,
+				E631CF7C25EB3B9800CE8417 /* EmailTextField.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E631CF7D25EB3B9800CE8417 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E631CF7E25EB3B9800CE8417 /* ProfileInformation.swift */,
+				E631CF7F25EB3B9800CE8417 /* GridPosts.swift */,
+				E631CF8025EB3B9800CE8417 /* EditProfileButton.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E631CF9625EB3C2D00CE8417 /* Auth Views */ = {
+			isa = PBXGroup;
+			children = (
+				E631CF9725EB3C2D00CE8417 /* SigninView.swift */,
+				E631CF9825EB3C2E00CE8417 /* SignupView.swift */,
+			);
+			path = "Auth Views";
+			sourceTree = "<group>";
+		};
+		E631CF9C25EB3C5400CE8417 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E631CF9625EB3C2D00CE8417 /* Auth Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E631CF5125EB37C400CE8417 /* Build configuration list for PBXNativeTarget "Mushfeed" */;
 			buildPhases = (
+				79E5A020453940C6E7754BE1 /* [CP] Check Pods Manifest.lock */,
 				E631CF3E25EB37C200CE8417 /* Sources */,
 				E631CF3F25EB37C200CE8417 /* Frameworks */,
 				E631CF4025EB37C200CE8417 /* Resources */,
+				D9DBDB3CF9A53343FBA6FD7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +263,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				E631CF4D25EB37C400CE8417 /* Preview Assets.xcassets in Resources */,
+				E631CF5625EB390B00CE8417 /* GoogleService-Info.plist in Resources */,
 				E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79E5A020453940C6E7754BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mushfeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DBDB3CF9A53343FBA6FD7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mushfeed/Pods-Mushfeed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mushfeed/Pods-Mushfeed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mushfeed/Pods-Mushfeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E631CF3E25EB37C200CE8417 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E631CF9A25EB3C2E00CE8417 /* SignupView.swift in Sources */,
+				E631CF8D25EB3B9800CE8417 /* EditProfileButton.swift in Sources */,
+				E631CF8225EB3B9800CE8417 /* HeaderCell.swift in Sources */,
+				E631CF9925EB3C2E00CE8417 /* SigninView.swift in Sources */,
 				E631CF4825EB37C200CE8417 /* ContentView.swift in Sources */,
+				E631CF8725EB3B9800CE8417 /* UsernameTextField.swift in Sources */,
+				E631CF8525EB3B9800CE8417 /* PasswordTextField.swift in Sources */,
+				E631CF9425EB3C0200CE8417 /* Modifiers.swift in Sources */,
+				E631CF8125EB3B9800CE8417 /* FooterCell.swift in Sources */,
 				E631CF4625EB37C200CE8417 /* MushfeedApp.swift in Sources */,
+				E631CF9125EB3BF100CE8417 /* Constants.swift in Sources */,
+				E631CF8325EB3B9800CE8417 /* Story.swift in Sources */,
+				E631CF8825EB3B9800CE8417 /* SignupButton.swift in Sources */,
+				E631CF8A25EB3B9800CE8417 /* EmailTextField.swift in Sources */,
+				E631CF8625EB3B9800CE8417 /* SignupText.swift in Sources */,
+				E631CF8925EB3B9800CE8417 /* SignInHeaderView.swift in Sources */,
+				E631CF8C25EB3B9800CE8417 /* GridPosts.swift in Sources */,
+				E631CF8425EB3B9800CE8417 /* SignInButton.swift in Sources */,
+				E631CF8B25EB3B9800CE8417 /* ProfileInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +460,7 @@
 		};
 		E631CF5225EB37C400CE8417 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA11BEF21D9A16907125E7C /* Pods-Mushfeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +483,7 @@
 		};
 		E631CF5325EB37C400CE8417 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC833968C26AE3C1363BBF3 /* Pods-Mushfeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
