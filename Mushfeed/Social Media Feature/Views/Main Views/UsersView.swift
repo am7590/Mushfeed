@@ -24,9 +24,9 @@ struct UsersView: View {
                                 ForEach(usersViewModel.users, id: \.uid) { user in
                                     NavigationLink(destination: UserProfileView(user: user)) {
                                         HStack {
-                                        URLImage(URL(string: user.profileImageUrl)!,
-                                        content: {
-                                            $0.image
+                                            URLImage(url: URL(string: user.profileImageUrl)!,
+                                        content: { image in
+                                            image
                                                 .resizable()
                                                 .aspectRatio(contentMode: .fill)
                                                 .clipShape(Circle())

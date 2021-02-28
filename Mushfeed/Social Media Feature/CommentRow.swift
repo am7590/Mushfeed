@@ -16,8 +16,8 @@ struct CommentRow: View {
     var body: some View {
         HStack {
             URLImage(url: URL(string: comment.avatarUrl)!,
-            content: {
-                $0.image
+            content: { image in
+                image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .clipShape(Circle())

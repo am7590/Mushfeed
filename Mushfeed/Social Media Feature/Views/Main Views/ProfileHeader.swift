@@ -14,9 +14,9 @@ struct ProfileHeader: View {
         VStack(alignment: .center) {
             if user != nil {
 
-                URLImage(URL(string: user!.profileImageUrl)!,
-                content: {
-                    $0.image
+                URLImage(url: URL(string: user!.profileImageUrl)!,
+                content: { image in
+                    image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())

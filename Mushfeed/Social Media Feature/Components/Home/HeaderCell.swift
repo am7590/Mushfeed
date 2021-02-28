@@ -23,10 +23,15 @@ struct HeaderCell: View {
 //                .frame(width: 340, height: 45.0).padding(.leading, 15).padding(.trailing, 15)
             HStack {
 
-                URLImage(URL(string: post.avatar)!, content: {
-                    $0.image.resizable().aspectRatio(contentMode: .fill).clipShape(RoundedRectangle(cornerRadius: 10))
-                }).frame(width: 35, height: 35).padding(.leading, 20)
-//                    VStack(alignment: .leading) {
+                URLImage(url: URL(string: post.avatar)!, content: { image in
+                    image.resizable().aspectRatio(contentMode: .fill).clipShape(RoundedRectangle(cornerRadius: 10))
+                })
+                .frame(width: 35, height: 35)
+                .padding(.leading, 20)
+
+                
+                
+                //                    VStack(alignment: .leading) {
 //
 //                        Text("location").font(.caption)
 //                    }
@@ -36,9 +41,9 @@ struct HeaderCell: View {
             }
             //}
                 
-            URLImage(URL(string: post.mediaUrl)!,
-                                          content: {
-                                              $0.image
+            URLImage(url: URL(string: post.mediaUrl)!,
+                                          content: { image in
+                                              image
                                                   .resizable()
                                                   .aspectRatio(contentMode: .fill)
                                           }).frame(width: UIScreen.main.bounds.size.width - 30, height: 300).clipped().cornerRadius(10).shadow(radius: 10)

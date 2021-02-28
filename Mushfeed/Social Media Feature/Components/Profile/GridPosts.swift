@@ -20,9 +20,9 @@ struct GridPosts: View {
                     // Columns
                     ForEach(self.splitted[index], id: \.postId) { post in
                         
-                        URLImage(URL(string: post.mediaUrl)!,
-                                 content: {
-                                    $0.image
+                        URLImage(url: URL(string: post.mediaUrl)!,
+                                 content: { image in
+                                    image
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                         

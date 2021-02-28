@@ -32,9 +32,9 @@ struct CommentInput: View {
     var body: some View {
         HStack(spacing: 0) {
             HStack {
-                URLImage(URL(string: session.userSession!.profileImageUrl)!,
-            content: {
-                $0.image
+                URLImage(url: URL(string: session.userSession!.profileImageUrl)!,
+            content: { image in
+                image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .clipShape(Circle())
