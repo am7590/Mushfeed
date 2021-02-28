@@ -100,6 +100,7 @@
 		E631D06525EB428600CE8417 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = E631D06425EB428600CE8417 /* URLImage */; };
 		E631D0AA25EB7D2E00CE8417 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D0A925EB7D2E00CE8417 /* SessionStore.swift */; };
 		E631D0C325EB7ED100CE8417 /* PopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFA525EB3E7700CE8417 /* PopViewModel.swift */; };
+		E631D0DC25EB826D00CE8417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D0DB25EB826D00CE8417 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +199,7 @@
 		E631D04725EB400200CE8417 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E631D04A25EB401500CE8417 /* CommentRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentRow.swift; sourceTree = "<group>"; };
 		E631D0A925EB7D2E00CE8417 /* SessionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		E631D0DB25EB826D00CE8417 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBC833968C26AE3C1363BBF3 /* Pods-Mushfeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mushfeed.release.xcconfig"; path = "Target Support Files/Pods-Mushfeed/Pods-Mushfeed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -253,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				E631D01C25EB3FBA00CE8417 /* growableMushrooms.json */,
+				E631D0DB25EB826D00CE8417 /* AppDelegate.swift */,
 				E631D01D25EB3FBB00CE8417 /* indexMushrooms.json */,
 				E631CF4525EB37C200CE8417 /* MushfeedApp.swift */,
 				E631D02125EB3FC500CE8417 /* Grow It */,
@@ -697,6 +700,7 @@
 				E631CFDD25EB3ED100CE8417 /* ProfileViewModel.swift in Sources */,
 				E631CFDB25EB3ED100CE8417 /* CommentViewModel.swift in Sources */,
 				E631D03E25EB3FC500CE8417 /* IndexMushroomItem.swift in Sources */,
+				E631D0DC25EB826D00CE8417 /* AppDelegate.swift in Sources */,
 				E631CF8425EB3B9800CE8417 /* SignInButton.swift in Sources */,
 				E631D03C25EB3FC500CE8417 /* ExpandingListView.swift in Sources */,
 				E631CFF725EB3F2B00CE8417 /* Comment.swift in Sources */,
