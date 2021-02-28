@@ -1,0 +1,46 @@
+ [
+    {
+        "id": 1001,
+        "name": "Oyster Mushroom",
+        "scientificName": "Pleurotus ostreatus",
+        "edible": "Edible",
+        "gourmet": "Choice Gourmet",
+        "isFeatured": false,
+        "isFavorite": false,
+        "family": "Pleurotus ostreatus",
+        "description": "Pleurotus djamor, commonly known as the pink oyster mushroom, is a species of fungus in the family Pleurotaceae. It was originally named Agaricus djamor by the German-born botanist Georg Eberhard Rumphius and sanctioned under that name by Elias Magnus Fries in 1821.",
+        "appearance": "The pink oyster mushroom, unsurprisingly has a pink color. When cooked, however, the color quickly fades. It has a curly cap which is 2 – 5 cm in diameter. The caps are also quite thin.",
+        "imageName": "pinkOyster",
+        "imageMap": "map",
+        "funFact": "The pink oyster is pink :o",
+        "lookalikes": "none",
+        "growable" : true,
+        "sources": "https://gallowaywildfoods.com/oyster-mushroom-edibility-identification-distribution/",
+        "resources": "https://www.foragesf.com/blog/2019/10/25/tips-on-how-to-find-and-cook-wild-oyster-mushrooms",
+        "wiki": "https://en.wikipedia.org/wiki/Pleurotus"
+
+    },
+    {
+        "id": 1002,
+        "name": "Shiitake Mushroom",
+        "scientificName": "Lentinula edodes",
+        "edible": "Edible",
+        "gourmet": "Choice Gourmet",
+        "isFeatured": false,
+        "isFavorite": false,
+        "family": "Marasmiaceae",
+        "description": "The shiitake is an edible mushroom native to East Asia, which is cultivated and consumed in many East Asian countries. It is considered a medicinal mushroom in some forms of traditional medicine.",
+        "appearance": "Shiitake mushrooms are small to medium in size with caps averaging 10-20 centimeters in diameter and are attached to thin stems. The caps range in color from light to dark brown and have a wide, umbrella shape with a characteristic curled rim. Inside, the cream-colored flesh is firm, chewy, and spongy.",
+        "imageName": "shiitake",
+        "imageMap": "map",
+        "funFact": "The shiitake is brown :o",
+        "lookalikes": "none",
+        "growable" : true,
+        "sources": "http://www.polarshiitake.com/en/shiitakemushroom",
+        "resources": "https://growyourpantry.com/blogs/mushroom-guides/shiitake-mushrooms-your-complete-guide",
+        "wiki": "https://en.wikipedia.org/wiki/Shiitake"
+
+    },
+
+    
+]
