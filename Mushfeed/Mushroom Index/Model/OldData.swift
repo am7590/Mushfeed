@@ -8,7 +8,7 @@
 
 import Foundation
 
-var mushrooms: [Mushroom] = load("landmarkData.json")
+var mushrooms: [Mushroom] = load("indexMushrooms.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

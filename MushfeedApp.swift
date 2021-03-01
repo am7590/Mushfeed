@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct MushfeedApp: App {
@@ -16,7 +17,7 @@ struct MushfeedApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SigninView()
         }
     }
 }

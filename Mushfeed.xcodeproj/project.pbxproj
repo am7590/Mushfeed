@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BB1C5A95955A2CBE8FF37B08 /* Pods_Mushfeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD33A115FA300DA406C270DF /* Pods_Mushfeed.framework */; };
-		E631CF4625EB37C200CE8417 /* MushfeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF4525EB37C200CE8417 /* MushfeedApp.swift */; };
 		E631CF4825EB37C200CE8417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF4725EB37C200CE8417 /* ContentView.swift */; };
 		E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4925EB37C400CE8417 /* Assets.xcassets */; };
 		E631CF4D25EB37C400CE8417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4C25EB37C400CE8417 /* Preview Assets.xcassets */; };
@@ -67,7 +66,6 @@
 		E631CFFA25EB3F2B00CE8417 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFF125EB3F2B00CE8417 /* Api.swift */; };
 		E631CFFB25EB3F2B00CE8417 /* PostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFF225EB3F2B00CE8417 /* PostApi.swift */; };
 		E631CFFF25EB3F4700CE8417 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFFE25EB3F4700CE8417 /* Selection.swift */; };
-		E631D01125EB3F8F00CE8417 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E631D00425EB3F8F00CE8417 /* landmarkData.json */; };
 		E631D01225EB3F8F00CE8417 /* OldData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00625EB3F8F00CE8417 /* OldData.swift */; };
 		E631D01325EB3F8F00CE8417 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00725EB3F8F00CE8417 /* Mushroom.swift */; };
 		E631D01425EB3F8F00CE8417 /* MushroomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00925EB3F8F00CE8417 /* MushroomList.swift */; };
@@ -100,14 +98,14 @@
 		E631D06525EB428600CE8417 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = E631D06425EB428600CE8417 /* URLImage */; };
 		E631D0AA25EB7D2E00CE8417 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D0A925EB7D2E00CE8417 /* SessionStore.swift */; };
 		E631D0C325EB7ED100CE8417 /* PopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFA525EB3E7700CE8417 /* PopViewModel.swift */; };
-		E631D0DC25EB826D00CE8417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D0DB25EB826D00CE8417 /* AppDelegate.swift */; };
+		E631F4E525EC879A0019757A /* MushfeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631F4E425EC879A0019757A /* MushfeedApp.swift */; };
+		E631F51925EC8B970019757A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631F51825EC8B970019757A /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FA11BEF21D9A16907125E7C /* Pods-Mushfeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mushfeed.debug.xcconfig"; path = "Target Support Files/Pods-Mushfeed/Pods-Mushfeed.debug.xcconfig"; sourceTree = "<group>"; };
 		DD33A115FA300DA406C270DF /* Pods_Mushfeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mushfeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E631CF4225EB37C200CE8417 /* Mushfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mushfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E631CF4525EB37C200CE8417 /* MushfeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushfeedApp.swift; sourceTree = "<group>"; };
 		E631CF4725EB37C200CE8417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E631CF4925EB37C400CE8417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E631CF4C25EB37C400CE8417 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 		E631CFF125EB3F2B00CE8417 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		E631CFF225EB3F2B00CE8417 /* PostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostApi.swift; sourceTree = "<group>"; };
 		E631CFFE25EB3F4700CE8417 /* Selection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
-		E631D00425EB3F8F00CE8417 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		E631D00625EB3F8F00CE8417 /* OldData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldData.swift; sourceTree = "<group>"; };
 		E631D00725EB3F8F00CE8417 /* Mushroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
 		E631D00925EB3F8F00CE8417 /* MushroomList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MushroomList.swift; sourceTree = "<group>"; };
@@ -199,7 +196,8 @@
 		E631D04725EB400200CE8417 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E631D04A25EB401500CE8417 /* CommentRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentRow.swift; sourceTree = "<group>"; };
 		E631D0A925EB7D2E00CE8417 /* SessionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
-		E631D0DB25EB826D00CE8417 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E631F4E425EC879A0019757A /* MushfeedApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MushfeedApp.swift; sourceTree = "<group>"; };
+		E631F51825EC8B970019757A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EBC833968C26AE3C1363BBF3 /* Pods-Mushfeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mushfeed.release.xcconfig"; path = "Target Support Files/Pods-Mushfeed/Pods-Mushfeed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -236,6 +234,7 @@
 		E631CF3925EB37C200CE8417 = {
 			isa = PBXGroup;
 			children = (
+				E631F4E425EC879A0019757A /* MushfeedApp.swift */,
 				E631CF4425EB37C200CE8417 /* Mushfeed */,
 				E631CF4325EB37C200CE8417 /* Products */,
 				574ADB84F9869BCA7E6989E4 /* Pods */,
@@ -255,9 +254,8 @@
 			isa = PBXGroup;
 			children = (
 				E631D01C25EB3FBA00CE8417 /* growableMushrooms.json */,
-				E631D0DB25EB826D00CE8417 /* AppDelegate.swift */,
+				E631F51825EC8B970019757A /* SceneDelegate.swift */,
 				E631D01D25EB3FBB00CE8417 /* indexMushrooms.json */,
-				E631CF4525EB37C200CE8417 /* MushfeedApp.swift */,
 				E631D02125EB3FC500CE8417 /* Grow It */,
 				E631D00125EB3F8F00CE8417 /* Mushroom Index */,
 				E631CF6F25EB3B3B00CE8417 /* Social Media Feature */,
@@ -442,7 +440,6 @@
 		E631D00125EB3F8F00CE8417 /* Mushroom Index */ = {
 			isa = PBXGroup;
 			children = (
-				E631D00425EB3F8F00CE8417 /* landmarkData.json */,
 				E631D00525EB3F8F00CE8417 /* Model */,
 				E631D00725EB3F8F00CE8417 /* Mushroom.swift */,
 				E631D00825EB3F8F00CE8417 /* Views */,
@@ -543,7 +540,7 @@
 				};
 			};
 			buildConfigurationList = E631CF3D25EB37C200CE8417 /* Build configuration list for PBXProject "Mushfeed" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -571,7 +568,6 @@
 				E631CF4D25EB37C400CE8417 /* Preview Assets.xcassets in Resources */,
 				E631D01E25EB3FBB00CE8417 /* growableMushrooms.json in Resources */,
 				E631CF5625EB390B00CE8417 /* GoogleService-Info.plist in Resources */,
-				E631D01125EB3F8F00CE8417 /* landmarkData.json in Resources */,
 				E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */,
 				E631D01F25EB3FBB00CE8417 /* indexMushrooms.json in Resources */,
 			);
@@ -629,6 +625,7 @@
 				E631CFB125EB3E7700CE8417 /* SearchView.swift in Sources */,
 				E631D01A25EB3F8F00CE8417 /* MushroomIndexContentView.swift in Sources */,
 				E631D01225EB3F8F00CE8417 /* OldData.swift in Sources */,
+				E631F51925EC8B970019757A /* SceneDelegate.swift in Sources */,
 				E631D04225EB3FC500CE8417 /* IndexHome.swift in Sources */,
 				E631CF9A25EB3C2E00CE8417 /* SignupView.swift in Sources */,
 				E631D0C325EB7ED100CE8417 /* PopViewModel.swift in Sources */,
@@ -641,6 +638,7 @@
 				E631D03825EB3FC500CE8417 /* GrowHome.swift in Sources */,
 				E631CF9925EB3C2E00CE8417 /* SigninView.swift in Sources */,
 				E631CFB225EB3E7700CE8417 /* UsersView.swift in Sources */,
+				E631F4E525EC879A0019757A /* MushfeedApp.swift in Sources */,
 				E631CF4825EB37C200CE8417 /* ContentView.swift in Sources */,
 				E631D01625EB3F8F00CE8417 /* TopImage.swift in Sources */,
 				E631CFB525EB3E7700CE8417 /* ProfileHeader.swift in Sources */,
@@ -656,7 +654,6 @@
 				E631CF8525EB3B9800CE8417 /* PasswordTextField.swift in Sources */,
 				E631CF9425EB3C0200CE8417 /* Modifiers.swift in Sources */,
 				E631CF8125EB3B9800CE8417 /* FooterCell.swift in Sources */,
-				E631CF4625EB37C200CE8417 /* MushfeedApp.swift in Sources */,
 				E631D01525EB3F8F00CE8417 /* TopImaeg.swift in Sources */,
 				E631CF9125EB3BF100CE8417 /* Constants.swift in Sources */,
 				E631CFBF25EB3E7700CE8417 /* CommentView.swift in Sources */,
@@ -700,7 +697,6 @@
 				E631CFDD25EB3ED100CE8417 /* ProfileViewModel.swift in Sources */,
 				E631CFDB25EB3ED100CE8417 /* CommentViewModel.swift in Sources */,
 				E631D03E25EB3FC500CE8417 /* IndexMushroomItem.swift in Sources */,
-				E631D0DC25EB826D00CE8417 /* AppDelegate.swift in Sources */,
 				E631CF8425EB3B9800CE8417 /* SignInButton.swift in Sources */,
 				E631D03C25EB3FC500CE8417 /* ExpandingListView.swift in Sources */,
 				E631CFF725EB3F2B00CE8417 /* Comment.swift in Sources */,
@@ -757,7 +753,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -817,7 +813,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -827,6 +823,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
