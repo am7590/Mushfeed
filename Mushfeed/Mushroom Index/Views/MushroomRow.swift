@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct MushroomRow: View {
-    var mushroom: Mushroom
+    var mushroom: IndexMushroom
 
     var body: some View {
         HStack {
@@ -23,13 +23,13 @@ struct MushroomRow: View {
     }
 }
 
-struct MushroomRow_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            MushroomRow(mushroom: mushrooms[0])
-            MushroomRow(mushroom: mushrooms[1])
-                
-        }.previewLayout(.fixed(width: 300, height: 70))
-        
-    }
-}
+//struct MushroomRow_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Group {
+//            MushroomRow(mushroom: indexMushroomData[0])
+//            MushroomRow(mushroom: indexMushroomData[1])
+//                
+//        }.previewLayout(.fixed(width: 300, height: 70))
+//        
+//    }
+//}

@@ -32,7 +32,7 @@ let IMAGE_PHOTO = Image("cameraView")
 
 class Ref {
     // Storage
-       static var STORAGE_ROOT = Storage.storage().reference(forURL: "gs://swiftui-instagram-ebc29.appspot.com")
+       static var STORAGE_ROOT = Storage.storage().reference(forURL: "gs://mushfeed-final.appspot.com")
        
        // Storage - Avatar
        static var STORAGE_AVATAR = STORAGE_ROOT.child("avatar")

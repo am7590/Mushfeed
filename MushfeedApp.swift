@@ -17,7 +17,7 @@ struct MushfeedApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SigninView()
+            ContentView()
         }
     }
 }

@@ -1,16 +1,15 @@
 //
 //  MushroomList.swift
-//  instagram
+//  Mushfeed
 //
-//  Created by Alek Michelson on 1/4/21.
-//  Copyright © 2021 Alek Michelson. All rights reserved.
+//  Created by Alek Michelson on 2/28/21.
 //
 
 import SwiftUI
 
 struct MushroomList: View {
     var body: some View {
-        List(mushrooms, id: \.id) { mushroom in
+        List(indexMushroomData, id: \.id) { mushroom in
             NavigationLink(destination: MushroomDetail(mushroom: mushroom)) {
                 MushroomRow(mushroom: mushroom)
             }
@@ -24,3 +23,4 @@ struct MushroomList_Previews: PreviewProvider {
         MushroomList()
     }
 }
+

@@ -23,7 +23,11 @@ struct IndexMushroom: Hashable, Codable, Identifiable {
     var family : String
     var appearance : String
     var funFact : String
+    var lookalikes: String
     var growable : Bool
+    var sources: String
+    var resources: String
+    var wiki: String
     
     enum Category : String, CaseIterable, Codable, Hashable {
         case edible = "edible"

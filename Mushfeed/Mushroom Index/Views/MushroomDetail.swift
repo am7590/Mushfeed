@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct MushroomDetail: View {
-    var mushroom: Mushroom
+    var mushroom: IndexMushroom
     
     var body: some View {
         
@@ -174,8 +174,8 @@ struct MushroomDetail: View {
     }
 }
 
-struct MushroomDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        MushroomDetail(mushroom: mushrooms[0])
-    }
-}
+//struct MushroomDetail_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MushroomDetail(mushroom: indexMushroomData[0])
+//    }
+//}
