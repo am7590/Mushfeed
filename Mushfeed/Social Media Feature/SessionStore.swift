@@ -29,7 +29,7 @@ class SessionStore: ObservableObject {
                   }
                 self.isLoggedIn = true
             } else {
-                print("isLoogedIn is false")
+                print("isLoggedIn is false")
                 self.isLoggedIn = false
                 self.userSession = nil
 

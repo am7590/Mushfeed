@@ -10,14 +10,12 @@ import Firebase
 
 @main
 struct MushfeedApp: App {
+    var sessionStore = SessionStore()
     
-    init() {
-     FirebaseApp.configure()
-    }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            InitialView().environmentObject(SessionStore())
         }
     }
 }

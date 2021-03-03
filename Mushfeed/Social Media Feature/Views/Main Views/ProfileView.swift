@@ -119,7 +119,7 @@ struct ProfileView: View {
                      } ).onAppear {
                          self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
                  }
-             }
+             }.environmentObject(self.session)
             
        
          
