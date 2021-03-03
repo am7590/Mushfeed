@@ -100,6 +100,7 @@
 		E631F51925EC8B970019757A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631F51825EC8B970019757A /* SceneDelegate.swift */; };
 		E631F54825EC9AEE0019757A /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E631F54725EC9AEE0019757A /* landmarkData.json */; };
 		E631F54E25EC9D500019757A /* MushroomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631F54D25EC9D500019757A /* MushroomList.swift */; };
+		E67BF74625EF5AE90062175E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BF74525EF5AE90062175E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +199,7 @@
 		E631F51825EC8B970019757A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E631F54725EC9AEE0019757A /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		E631F54D25EC9D500019757A /* MushroomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomList.swift; sourceTree = "<group>"; };
+		E67BF74525EF5AE90062175E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBC833968C26AE3C1363BBF3 /* Pods-Mushfeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mushfeed.release.xcconfig"; path = "Target Support Files/Pods-Mushfeed/Pods-Mushfeed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -255,6 +257,7 @@
 			children = (
 				E631D01C25EB3FBA00CE8417 /* growableMushrooms.json */,
 				E631F51825EC8B970019757A /* SceneDelegate.swift */,
+				E67BF74525EF5AE90062175E /* AppDelegate.swift */,
 				E631F54725EC9AEE0019757A /* landmarkData.json */,
 				E631D01D25EB3FBB00CE8417 /* indexMushrooms.json */,
 				E631D02125EB3FC500CE8417 /* Grow It */,
@@ -689,6 +692,7 @@
 				E631CFDD25EB3ED100CE8417 /* ProfileViewModel.swift in Sources */,
 				E631CFDB25EB3ED100CE8417 /* CommentViewModel.swift in Sources */,
 				E631D03E25EB3FC500CE8417 /* IndexMushroomItem.swift in Sources */,
+				E67BF74625EF5AE90062175E /* AppDelegate.swift in Sources */,
 				E631CF8425EB3B9800CE8417 /* SignInButton.swift in Sources */,
 				E631D03C25EB3FC500CE8417 /* ExpandingListView.swift in Sources */,
 				E631CFF725EB3F2B00CE8417 /* Comment.swift in Sources */,
