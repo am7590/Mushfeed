@@ -11,7 +11,7 @@ import SwiftUI
 struct SearchView: View {
         
         @ObservedObject var postPopularViewModel = PostPopularViewModel()
-        @State var selection: Selection = .grid
+        @State var selection: Selection = .table
         var body: some View {
             return
                 NavigationView {
@@ -38,10 +38,14 @@ struct SearchView: View {
                               
                             }
                    
-                        }.navigationBarTitle(Text("Discover"), displayMode: .inline).onAppear {
+                        }.navigationBarTitle(Text("Mushfeed"), displayMode: .inline).onAppear {
                             self.postPopularViewModel.loadPostPopular()
-                        }
-                }
+                        }.navigationBarItems(trailing: Button(action: {}) {
+                            NavigationLink(destination: CameraView()) {
+                                Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.black)
+                            }
+                   }
+                )}
         
         }
 }

@@ -17,7 +17,7 @@ struct MainView: View {
     
     var body: some View {
          TabView {
-                HomeView().tabItem({
+                SearchView().tabItem({
                         Image(systemName: "house.fill")
                 }).tag(0)
 //                GrowHome().tabItem({
