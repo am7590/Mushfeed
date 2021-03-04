@@ -24,7 +24,7 @@ struct HeaderCell: View {
             HStack {
 
                 URLImage(url: URL(string: post.avatar)!, content: { image in
-                    image.resizable().aspectRatio(contentMode: .fill).clipShape(RoundedRectangle(cornerRadius: 10))
+                    image.resizable().aspectRatio(contentMode: .fill).clipShape(Circle())
                 })
                 .frame(width: 35, height: 35)
                 .padding(.leading, 20)
