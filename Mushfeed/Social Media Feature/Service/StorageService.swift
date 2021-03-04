@@ -15,7 +15,7 @@ class StorageService {
                
         storagePostRef.putData(imageData, metadata: metadata) { (storageMetadata, error) in
               if error != nil {
-                  onError(error!.localizedDescription)
+                  onError(error!.localizedDescription)     
                   return
               }
             storagePostRef.downloadURL { (url, error) in
