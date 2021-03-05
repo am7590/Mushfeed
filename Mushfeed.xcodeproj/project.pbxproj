@@ -67,7 +67,6 @@
 		E631CFFB25EB3F2B00CE8417 /* PostApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFF225EB3F2B00CE8417 /* PostApi.swift */; };
 		E631CFFF25EB3F4700CE8417 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFFE25EB3F4700CE8417 /* Selection.swift */; };
 		E631D01325EB3F8F00CE8417 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00725EB3F8F00CE8417 /* Mushroom.swift */; };
-		E631D01525EB3F8F00CE8417 /* TopImaeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00A25EB3F8F00CE8417 /* TopImaeg.swift */; };
 		E631D01625EB3F8F00CE8417 /* TopImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00B25EB3F8F00CE8417 /* TopImage.swift */; };
 		E631D01725EB3F8F00CE8417 /* MushroomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00C25EB3F8F00CE8417 /* MushroomDetail.swift */; };
 		E631D01825EB3F8F00CE8417 /* MushroomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631D00D25EB3F8F00CE8417 /* MushroomRow.swift */; };
@@ -168,7 +167,6 @@
 		E631CFF225EB3F2B00CE8417 /* PostApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostApi.swift; sourceTree = "<group>"; };
 		E631CFFE25EB3F4700CE8417 /* Selection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		E631D00725EB3F8F00CE8417 /* Mushroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
-		E631D00A25EB3F8F00CE8417 /* TopImaeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopImaeg.swift; sourceTree = "<group>"; };
 		E631D00B25EB3F8F00CE8417 /* TopImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopImage.swift; sourceTree = "<group>"; };
 		E631D00C25EB3F8F00CE8417 /* MushroomDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MushroomDetail.swift; sourceTree = "<group>"; };
 		E631D00D25EB3F8F00CE8417 /* MushroomRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MushroomRow.swift; sourceTree = "<group>"; };
@@ -453,7 +451,6 @@
 		E631D00825EB3F8F00CE8417 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E631D00A25EB3F8F00CE8417 /* TopImaeg.swift */,
 				E631D00B25EB3F8F00CE8417 /* TopImage.swift */,
 				E631D00C25EB3F8F00CE8417 /* MushroomDetail.swift */,
 				E631F54D25EC9D500019757A /* MushroomList.swift */,
@@ -649,7 +646,6 @@
 				E631CF8525EB3B9800CE8417 /* PasswordTextField.swift in Sources */,
 				E631CF9425EB3C0200CE8417 /* Modifiers.swift in Sources */,
 				E631CF8125EB3B9800CE8417 /* FooterCell.swift in Sources */,
-				E631D01525EB3F8F00CE8417 /* TopImaeg.swift in Sources */,
 				E631CF9125EB3BF100CE8417 /* Constants.swift in Sources */,
 				E631CFBF25EB3E7700CE8417 /* CommentView.swift in Sources */,
 				E631CFD425EB3ED100CE8417 /* HomeViewModel.swift in Sources */,

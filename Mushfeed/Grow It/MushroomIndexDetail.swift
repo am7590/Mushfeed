@@ -1,9 +1,9 @@
 //
-//  MushroomIndexDetail.swift
-//  instagram
+//  MushroomDetail.swift
+//  Landmarks
 //
-//  Created by Alek Michelson on 2/5/21.
-//  Copyright © 2021 Alek Michelson. All rights reserved.
+//  Created by Alek Michelson on 12/31/20.
+//  Copyright © 2020 Apple. All rights reserved.
 //
 
 import SwiftUI
@@ -21,12 +21,12 @@ struct MushroomIndexDetail: View {
                 
                 Text(mushroom.name)
                     .font(.system(size: 35, weight: .bold))
-                    .foregroundColor(.primary)
+                    .foregroundColor(.black)
                 
                 
                 Text(mushroom.scientificName)
                     .font(.title)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.black)
                     .padding(.top,0)
                 
                 Divider().padding(.leading, 0).padding(.trailing, 0)
@@ -63,7 +63,7 @@ struct MushroomIndexDetail: View {
                 
                 Text(mushroom.description)
                     .padding(.top, 0)
-                    .foregroundColor(.primary)
+                    .foregroundColor(.black)
                                 
                 VStack(alignment: .leading,spacing: 15) {
                     
@@ -85,18 +85,34 @@ struct MushroomIndexDetail: View {
                     
                     Text(mushroom.appearance)
                         .padding(.top, 0)
-                        .foregroundColor(.primary)
+                        .foregroundColor(.black)
                
                     }
+                    
                     HStack() {
-                        Text("Natural Occurance")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-      
+                        VStack(alignment: .leading,spacing: 15) {
+                            Text("Natural Occurance")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+          
+                            Image("occ").resizable().aspectRatio(contentMode: .fill)
+                        }
+                        
+                        
                     }
                     
-                    HStack {
-                        Image("map").resizable().aspectRatio(contentMode: .fill)
+                    HStack() {
+                        VStack(alignment: .leading,spacing: 15) {
+                            Text("Monthly Occurances")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+          
+                            Image("occur").resizable().aspectRatio(contentMode: .fill)
+                            Text("Occurance data is from gbif.org")
+                            .font(.subheadline)
+                            
+                        }
+                        
                         
                     }
                     
@@ -115,88 +131,48 @@ struct MushroomIndexDetail: View {
                     
                         Divider()
                         
-                        HStack() {
-                            Text("More Images")
+                        
+                            Text("Sources & References")
                             .font(.largeTitle)
                             .fontWeight(.bold)
 
+                            
                         
-                        }
                         
-                        GeometryReader { geometry in
-                                        ImageCarouselView(numberOfImages: 3) {
-                                            Image("mush4")
-                                                .resizable()
-                                                .scaledToFill()
-                                                .frame(width: geometry.size.width, height: geometry.size.height)
-                                                .clipShape(RoundedRectangle(cornerRadius: 15))
-                                            Image("reishi")
-                                                .resizable()
-                                                .scaledToFill()
-                                                .frame(width: geometry.size.width, height: geometry.size.height)
-                                                .clipShape(RoundedRectangle(cornerRadius: 15))
-                                            Image("pinkOyster")
-                                                .resizable()
-                                                .scaledToFill()
-                                                .frame(width: geometry.size.width, height: geometry.size.height)
-                                                .clipShape(RoundedRectangle(cornerRadius: 15))
-                                        }
-                        }.frame(height: 300, alignment: .center).padding(.leading, 0)
-                                    
                         
-//                        HStack{
-//                            Button(action: {
-//                                //print("Hello button tapped!")
-//                            }) {
-//                                Text("Grow This")
-//                                    .fontWeight(.semibold)
-//                                    .font(.title)
-//                                    .foregroundColor(.black)
-//                                    .padding()
-//                                    .overlay(
-//                                        RoundedRectangle(cornerRadius: 15)
-//                                            .stroke(Color.black, lineWidth: 2)
-//                                    )
-//                            }
-//
-//                            Spacer()
-//
-//                            Button(action: {
-//                                //print("Hello button tapped!")
-//                            }) {
-//                                Text("Sources")
-//                                    .fontWeight(.semibold)
-//                                    .font(.title)
-//                                    .foregroundColor(.black)
-//                                    .padding()
-//                                    .overlay(
-//                                        RoundedRectangle(cornerRadius: 15)
-//                                            .stroke(Color.black, lineWidth: 2)
-//                                    )
-//                            }
+                        List{
+                            Text(mushroom.sources)
+                            Text(mushroom.resources)
+                            Text(mushroom.wiki)
+                            
+                            
+                        }.frame(height: 200).padding(.leading, -15)
+                        
+                        Spacer()
+                        
+                        
+                        // MORE IMAGES code
+//                        GeometryReader { geometry in
+//                                        ImageCarouselView(numberOfImages: 3) {
+//                                            Image("mush4")
+//                                                .resizable()
+//                                                .scaledToFill()
+//                                                .frame(width: geometry.size.width, height: geometry.size.height)
+//                                                .clipShape(RoundedRectangle(cornerRadius: 15))
+//                                            Image("reishi")
+//                                                .resizable()
+//                                                .scaledToFill()
+//                                                .frame(width: geometry.size.width, height: geometry.size.height)
+//                                                .clipShape(RoundedRectangle(cornerRadius: 15))
+//                                            Image("pinkOyster")
+//                                                .resizable()
+//                                                .scaledToFill()
+//                                                .frame(width: geometry.size.width, height: geometry.size.height)
+//                                                .clipShape(RoundedRectangle(cornerRadius: 15))
+//                                        }
+//                        }.frame(height: 300, alignment: .center).padding(.leading, 0)
 //
 //
-//                        }
-//                        HStack(spacing: 15){
-//                            Image(systemName: "chevron.left")
-//                            Image("icon1").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 90, height: 90).overlay(Circle().stroke(Color.black, lineWidth: 2))
-//                            Image("icon2").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 90, height: 90).overlay(Circle().stroke(Color.black, lineWidth: 2))
-//                            Image("icon3").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 90, height: 90).overlay(Circle().stroke(Color.black, lineWidth: 2))
-//                            Image(systemName: "chevron.right")
-//                        }
-                        
-//                        Divider().padding(.top, 15)
-                        
-//                        HStack() {
-//                            Text("Can I grow this?")
-//                            .font(.largeTitle)
-//                            .fontWeight(.bold)
-//
-//                        }
-//
-                        
-                        
-                        
                     }
 
                 }
@@ -210,12 +186,12 @@ struct MushroomIndexDetail: View {
             .offset(y: -35)
         }
         .edgesIgnoringSafeArea(.all)
-        //.background(Color.white.edgesIgnoringSafeArea(.all))
+        .background(Color.black.edgesIgnoringSafeArea(.all))
     }
 }
 
 struct MushroomIndexDetail_Previews: PreviewProvider {
     static var previews: some View {
-        MushroomIndexDetail(mushroom: indexMushroomData[0])
+        MushroomDetail(mushroom: indexMushroomData[0])
     }
 }
