@@ -27,7 +27,7 @@ let TEXT_SIGNUP_NOTE = "An account will allow you to save and access photo infor
 let TEXT_SIGNUP_PASSWORD_REQUIRED = "At least 8 characters required"
 
 let IMAGE_LOGO = "logo"
-let IMAGE_USER_PLACEHOLDER = "user-placeholder"
+let IMAGE_USER_PLACEHOLDER = "grayMUSHROOM"
 let IMAGE_PHOTO = Image("cameraView")
 
 class Ref {

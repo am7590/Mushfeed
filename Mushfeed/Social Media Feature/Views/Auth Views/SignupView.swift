@@ -41,6 +41,8 @@ struct SignupView: View {
                     print("Tapped")
                     self.signupViewModel.showImagePicker = true
             }
+            Text("Click the icon above to set an avatar photo").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, -50)
+            
             UsernameTextField(username: $signupViewModel.username)
             EmailTextField(email: $signupViewModel.email)
             VStack(alignment: .leading) {
@@ -51,7 +53,7 @@ struct SignupView: View {
                 Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
             }
             Divider()
-            Text(TEXT_SIGNUP_NOTE).font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
+            Text("Mushfeed needs your email only for account recovery purposes. ").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
             
         }.sheet(isPresented: $signupViewModel.showImagePicker) {
            // ImagePickerController()
