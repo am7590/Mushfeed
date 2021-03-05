@@ -88,15 +88,31 @@ struct MushroomDetail: View {
                         .foregroundColor(.black)
                
                     }
+                    
                     HStack() {
-                        Text("Natural Occurance")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-      
+                        VStack(alignment: .leading,spacing: 15) {
+                            Text("Natural Occurance")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+          
+                            Image("occ").resizable().aspectRatio(contentMode: .fill)
+                        }
+                        
+                        
                     }
                     
-                    HStack {
-                        Image("map").resizable().aspectRatio(contentMode: .fill)
+                    HStack() {
+                        VStack(alignment: .leading,spacing: 15) {
+                            Text("Monthly Occurances")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+          
+                            Image("occur").resizable().aspectRatio(contentMode: .fill)
+                            Text("Occurance data is from gbif.org")
+                            .font(.subheadline)
+                            
+                        }
+                        
                         
                     }
                     
@@ -174,8 +190,8 @@ struct MushroomDetail: View {
     }
 }
 
-//struct MushroomDetail_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MushroomDetail(mushroom: indexMushroomData[0])
-//    }
-//}
+struct MushroomDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        MushroomDetail(mushroom: indexMushroomData[0])
+    }
+}
