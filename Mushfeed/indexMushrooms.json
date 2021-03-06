@@ -36,7 +36,102 @@
        "wiki": "https://en.wikipedia.org/wiki/Shiitake",
        "category":"edible"
 
-   }
+   },
+   {
+       "id": 1003,
+       "name": "Shrimp of the woods",
+       "scientificName": "Entoloma abortivum",
+       "edible": "Edible",
+       "gourmet": "Choice Gourmet",
+       "family": "Entolomataceae",
+       "description": "Entoloma abortivum, commonly known as the aborted entoloma or shrimp of the woods, is an edible mushroom in the Entolomataceae family of fungi. Caution should be used in identifying the species before eating. First named Clitopilus abortivus by Miles Joseph Berkeley and Moses Ashley Curtis, it was given its current name by the Dutch mycologist Marinus Anton Donk in 1949.",
+       "appearance": "Need data",
+       "imageName": "shiitake",
+       "funFact": "It was believed that the honey mushroom, Armillaria mellea, was parasitizing the entoloma. But research has indicated that the inverse may be true—the entoloma may be parasitizing the honey mushroom. There is still some disagreement by mushroom collectors about this since it is common to see both the aborted and unaborted forms of the entoloma on wood and in leaf litter, whereas Armillaria generally only fruits on wood. Both versions of the entoloma have also been observed when there are no Armillaria fruiting.",
+       "lookalikes": "none",
+       "growable" : false,
+       "sources": "",
+       "resources": "",
+       "wiki": "https://en.wikipedia.org/wiki/Entoloma_abortivum",
+       "category":"edible"
 
+   },
+   {
+       "id": 1004,
+       "name": "Artist's Conk",
+       "scientificName": "Ganoderma Applanatum",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Ganodermataceae",
+       "description": "Ganoderma applanatum is a wood-decay fungus, causing a rot of heartwood in a variety of trees. It can also grow as a pathogen of live sapwood, particularly on older trees that are sufficiently wet. It is a common cause of decay and death of beech and poplar, and less often of several other tree genera, including alder, apple, elm, buckeye and horse chestnut, maple, oak, walnut, willow, western hemlock, Douglas fir, old or sick olive tree and spruce. A peculiarity of this fungus lies in its use as a drawing medium for artists. When the fresh white pore surface is rubbed or scratched with a sharp implement, dark brown tissue under the pores is revealed, resulting in visible lines and shading that become permanent once the fungus is dried.",
+       "appearance": "This fungus grows as a mycelium within the wood of living and dead trees. It forms fruiting bodies that are 3–30 cm wide × 5–50 cm long × 1–10 cm thick, hard as leather, woody-textured, and inedible. They are white at first but soon turn dark red-brown. Brown spores are released from the pores on the underside of the fruiting body. The tubes are 4-12 mm deep and terminate in pores that are round with 4-6 per millimetre. The fruiting bodies are perennial, and may persist for multiple years, increasing in size and forming new layers of pores as they grow.",
+       "imageName": "shiitake",
+       "funFact": "G. applanatum is a medicinal farming crop that is used as a flavor enhancer in Asian cuisine. G. applanatum is non-digestible in its raw form, but it is used for cooking, because of its rich mushroom flavor. Blending with filtration, or cold pressing in water, is a common method for creating ganoderma drinks. Hot herbal soups, or fermentation in lemon acid with onion is a common use for cooking with G. applanatum slices as an umami flavor enhancer in fermented foods.",
+       "lookalikes": "The similar Ganoderma brownii has thicker, darker flesh, often a yellow pore surface, and larger basidiospores than G. applanatum",
+       "growable" : false,
+       "sources": "",
+       "resources": "",
+       "wiki": "https://en.wikipedia.org/wiki/Ganoderma_applanatum",
+       "category":"inedible"
+
+   },
+   {
+       "id": 1005,
+       "name": "Beech Mushroom",
+       "scientificName": "Hypsizygus tessellatus",
+       "edible": "Edible",
+       "gourmet": "Not Choice",
+       "family": "Tricholomataceae",
+       "description": "Buna shimeji (Hypsizygus tessellatus) is an edible mushroom native to East Asia. It is cultivated locally in temperate climates in Europe, North America and Australia and sold fresh in super markets. Two variations are known: Buna-shimeji (Brown Beech Mushroom), Bunapi-shimeji (White Beech Mushroom).",
+       "appearance": "In nature, shimeji are gilled mushrooms that grow on wood. Most often the mushroom is found on beech trees, hence the common name, beech mushroom. They are often small and thin in appearance and popular in many nations across the world.",
+       "imageName": "shiitake",
+       "funFact": "Being tough when raw, the Shimeji should be cooked, having a bitter taste when raw which disappears completely upon cooking. The cooked mushroom has a firm, slightly crunchy texture and a nutty flavor. Preparation makes the mushroom easier to digest. It is often eaten with stir-fried foods including wild game and seafood. It is used in soups, stews and sauces. When prepared alone, Shimeji mushrooms can be sautéed as a whole, including the stem or stalk (only the very end cut off), using a higher temperature; or, they can be slow roasted on a low temperature with a small amount of butter or cooking oil. Shimeji is used in soups, nabe and takikomi gohan.",
+       "lookalikes": "",
+       "growable" : true,
+       "sources": "",
+       "resources": "",
+       "wiki": "https://en.wikipedia.org/wiki/Hypsizygus_tessellatus",
+       "category":"edible"
+
+   },
+   {
+       "id": 1006,
+       "name": "Beefsteak Mushroom",
+       "scientificName": "Fistulina hepatica",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Fistulinaceae",
+       "description": "Fistulina hepatica (beefsteak fungus, also known as beefsteak polypore, ox tongue, or tongue mushroom) is an unusual bracket fungus classified in the Agaricales, that is commonly seen in Britain, but can be found in North America, Australia, North Africa, Southern Africa and the rest of Europe. As its name suggests, it looks remarkably similar to a slab of raw meat. It has been used as a meat substitute in the past, and can still be found in some French markets. It has a sour, slightly acidic taste. For eating it must be collected young and it may be tough and need long cooking.",
+       "appearance": "The shape resembles a large tongue, and it is rough-surfaced with a reddish-brown colour. The spores are released from minute pores on the creamy-white underside of the fruit body. A younger Fistulina hepatica is a pinkish-red colour, and it darkens with age. It bleeds a dull red juice when cut, with the cut flesh further resembling meat. It is edible and considered choice.",
+       "imageName": "shiitake",
+       "funFact": "The species is fairly common, and can often be found on oaks and sweet chestnut, from August to the end of autumn, on either living or dead wood. It has a tendency to impart a reddish-brown stain to the living wood of oaks, creating a desirable timber type. In Australia, it can be found growing from wounds on Eucalyptus trees. It causes a brown rot on the trees which it infects.",
+       "lookalikes": "",
+       "growable" : false,
+       "sources": "",
+       "resources": "",
+       "wiki": "https://en.wikipedia.org/wiki/Fistulina_hepatica",
+       "category":"edible"
+
+   },
+   {
+       "id": 1007,
+       "name": "Button Mushroom",
+       "scientificName": "Agaricus bisporus",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Agaricaceae",
+       "description": "Agaricus bisporus is an edible basidiomycete mushroom native to grasslands in Europe and North America. It has two color states while immature – white and brown – both of which have various names, with additional names for the mature state. A. bisporus is cultivated in more than seventy countries, and is one of the most commonly and widely consumed mushrooms in the world. This mushroom is commonly found worldwide in fields and grassy areas following rain, from late spring through to autumn, especially in association with manure. In many parts of the world it is widely collected and eaten; however, resemblance to deadly or poisonous lookalikes should be noted.",
+       "appearance": "The pileus or cap of the original wild species is a pale grey-brown in color, with broad, flat scales on a paler background and fading toward the margins. It is first hemispherical in shape before flattening out with maturity, and 5–10 centimetres (2–4 inches) in diameter. The narrow, crowded gills are free and initially, pink, then red-brown and finally a dark brown with a whitish edge from the cheilocystidia.",
+       "imageName": "shiitake",
+       "funFact": "A. bisporus is now cultivated in at least seventy countries throughout the world. Global production in the early 1990s was reported to be more than 1.4 billion kilograms (1.5 million short tons), worth more than US$2 billion. In the U.S., the white button form of A. bisporus alone accounts for about 90% of mushrooms sold.",
+       "lookalikes": "The common mushroom could be confused with young specimens of the deadly poisonous destroying angel (Amanita sp.), but the latter may be distinguished by their volva or cup at the base of the mushroom and pure white gills (as opposed to pinkish or brown of A. bisporus). Thus it is always important to clear away debris and examine the base of such similar mushrooms, as well as cutting open young specimens to check the gills. Furthermore, the destroying angel grows in mossy woods and lives symbiotically with spruce.\n\nA more common and less dangerous mistake is to confuse A. bisporus with Agaricus xanthodermus, an inedible mushroom found worldwide in grassy areas. A. xanthodermus has an odor reminiscent of phenol; its flesh turns yellow when bruised. This fungus causes nausea and vomiting in some people.\n\nThe poisonous European species Entoloma sinuatum has a passing resemblance as well, but has yellowish gills, turning pink, and it lacks a ring.",
+       "growable" : true,
+       "sources": "",
+       "resources": "",
+       "wiki": "https://en.wikipedia.org/wiki/Agaricus_bisporus",
+       "category":"edible"
+
+   }
+   
    
 ]
