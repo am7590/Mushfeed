@@ -198,14 +198,14 @@
        "family": "Ustilaginaceae",
        "description": "Corn smut is a plant disease caused by the pathogenic fungus Ustilago maydis that causes smut on maize and teosinte. The fungus forms galls on all above-ground parts of corn species. It is edible, and is known in Mexico as the delicacy huitlacoche; which is eaten, usually as a filling, in quesadillas and other tortilla-based foods, and in soups.",
        "appearance": "The fungus infects all parts of the host plant by invading the ovaries of its host. The infection causes the corn kernels to swell up into tumor-like galls, whose tissues, texture, and developmental pattern are mushroom-like. These galls are made up of hypertrophied cells of the infected plant, along with resulting fungal threads, and blue-black spores. These dark-colored spores give the cob a burned, scorched appearance; this is the origin of the generic name Ustilago, from the Latin word ustilare (to burn).",
-       "imageName": "corn-smut1",
+       "imageName": "corn-smut2",
        "funFact": "Corn smut, while a delicacy across the world, can also have economical repercussions. Aydogdu and Boyraz found that corn exposed to corn smut resulted in a 33% yield loss. With corn being a staple crop for both animals and people, a 33% yield loss could prove disastrous to food supply. However, out of the many types of corn, sweet corn is the most affected by corn smut.",
        "lookalikes": "",
        "growable" : true,
        "sources": "",
        "resources": "",
        "wiki": "https://en.wikipedia.org/wiki/Corn_smut",
-       "category":"caution"
+       "category":"use caution"
 
    },
    {
@@ -224,7 +224,7 @@
        "sources": "",
        "resources": "",
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
-       "category":"caution"
+       "category":"use caution"
 
    }
    

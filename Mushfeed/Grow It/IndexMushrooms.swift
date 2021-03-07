@@ -34,7 +34,7 @@ struct IndexMushroom: Hashable, Codable, Identifiable {
         case poisonous = "poisonous"
         case hallucinogenic = "hallucinogenic"
         case inedible = "inedible"
-        case caution = "caution"
+        case caution = "use caution"
     }
     
 

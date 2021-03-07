@@ -21,22 +21,31 @@ struct MushroomIndexDetail: View {
                 
                 Text(mushroom.name)
                     .font(.system(size: 35, weight: .bold))
-                    .foregroundColor(.black)
+                    .foregroundColor(.primary)
                 
                 
                 Text(mushroom.scientificName)
                     .font(.title)
-                    .foregroundColor(.black)
+                    .foregroundColor(.primary)
                     .padding(.top,0)
                 
-                Divider().padding(.leading, 0).padding(.trailing, 0)
+                Divider()
+                    .padding(.leading, 0)
+                    .padding(.trailing, 0)
                 
                 
                 HStack() {
                 
-                    Image("icon1").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 35, height: 35).overlay(Circle().stroke(Color.black, lineWidth: 2))
+                    Image("icon1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .clipShape(Circle())
+                        .frame(width: 35, height: 35)
+                        .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                    
                     Text(mushroom.edible)
-                    .font(.title)
+                        .font(.title)
+                        .foregroundColor(.primary)
                 
                 }
                 
@@ -48,54 +57,87 @@ struct MushroomIndexDetail: View {
                 }
                 
                 HStack() {
-                    Image("icon3").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 35, height: 35).overlay(Circle().stroke(Color.black, lineWidth: 2))
+                    Image("icon3")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .clipShape(Circle())
+                        .frame(width: 35, height: 35)
+                        .overlay(Circle().stroke(Color.black, lineWidth: 2))
                     
                     Text(mushroom.family)
                         .font(.title)
+                        .foregroundColor(.primary)
 
                 }
                 
                 Divider()
                 
                 Text("Description")
-                .font(.largeTitle)
-                .fontWeight(.bold)
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.primary)
                 
                 Text(mushroom.description)
                     .padding(.top, 0)
-                    .foregroundColor(.black)
+                    .foregroundColor(.primary)
                                 
                 VStack(alignment: .leading,spacing: 15) {
                     
                     Spacer()
+                    
                     HStack(spacing: 15){
                         Image(systemName: "chevron.left")
-                        Image("icon1").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 90, height: 90).overlay(Circle().stroke(Color.black, lineWidth: 2))
-                        Image("icon2").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 90, height: 90).overlay(Circle().stroke(Color.black, lineWidth: 2))
-                        Image("icon3").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 90, height: 90).overlay(Circle().stroke(Color.black, lineWidth: 2))
+                        
+                        Image("icon1")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .clipShape(Circle())
+                            .frame(width: 90, height: 90)
+                            .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                        
+                        Image("icon2")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .clipShape(Circle())
+                            .frame(width: 90, height: 90)
+                            .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                        
+                        Image("icon3")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .clipShape(Circle())
+                            .frame(width: 90, height: 90)
+                            .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                        
                         Image(systemName: "chevron.right")
                     }
+                    
                     Divider()
                     
                     VStack(alignment: .leading,spacing: 15) {
                         Text("Appearance")
-                        .font(.largeTitle)
+                            .font(.largeTitle)
                             .fontWeight(.bold)
+                            .foregroundColor(.primary)
                     
                     
                     Text(mushroom.appearance)
                         .padding(.top, 0)
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                
                     }
                     
                     HStack() {
                         VStack(alignment: .leading,spacing: 15) {
                             Text("Natural Occurance")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
+                                .font(.largeTitle)
+                                .fontWeight(.bold)
+                                .foregroundColor(.primary)
           
-                            Image("occ").resizable().aspectRatio(contentMode: .fill)
+                            Image("occ")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .cornerRadius(15)
                         }
                         
                         
@@ -104,12 +146,19 @@ struct MushroomIndexDetail: View {
                     HStack() {
                         VStack(alignment: .leading,spacing: 15) {
                             Text("Monthly Occurances")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
+                                .font(.largeTitle)
+                                .fontWeight(.bold)
+                                .foregroundColor(.primary)
           
-                            Image("occur").resizable().aspectRatio(contentMode: .fill)
+                            Image("occur")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .cornerRadius(15)
+                            
                             Text("Occurance data is from gbif.org")
-                            .font(.subheadline)
+                                .font(.subheadline)
+                                .foregroundColor(.primary)
+                            
                             
                         }
                         
@@ -120,12 +169,14 @@ struct MushroomIndexDetail: View {
                     
                     HStack() {
                         Text("Fun Fact")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
                     
                     }
                     
                     Text(mushroom.funFact)
+                        .foregroundColor(.primary)
 
                     VStack(alignment: .leading,spacing: 15){
                     
@@ -133,8 +184,9 @@ struct MushroomIndexDetail: View {
                         
                         
                             Text("Sources & References")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
+                                .font(.largeTitle)
+                                .fontWeight(.bold)
+                                .foregroundColor(.primary)
 
                             
                         
@@ -176,12 +228,13 @@ struct MushroomIndexDetail: View {
                     }
 
                 }
+                 
                 
                 
             }
             .padding(.top, 25)
             .padding(.horizontal)
-            .background(Color.white)
+            .background(Color(UIColor.systemBackground))
             .cornerRadius(20)
             .offset(y: -35)
         }
@@ -192,6 +245,6 @@ struct MushroomIndexDetail: View {
 
 struct MushroomIndexDetail_Previews: PreviewProvider {
     static var previews: some View {
-        MushroomDetail(mushroom: indexMushroomData[0])
+        MushroomDetail(mushroom: indexMushroomData[10])
     }
 }

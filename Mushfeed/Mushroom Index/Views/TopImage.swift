@@ -30,7 +30,8 @@ struct TopImage: View {
 
 struct TopImage_Previews: PreviewProvider {
     static var previews: some View {
-        TopImage(image: Image("mush4"))
+        TopImage(image: Image("corn-smut1"))
     }
 }
 
+//.foregroundColor(.primary)
