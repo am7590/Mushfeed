@@ -42,7 +42,7 @@ struct SearchView: View {
                             self.postPopularViewModel.loadPostPopular()
                         }.navigationBarItems(trailing: Button(action: {}) {
                             NavigationLink(destination: CameraView()) {
-                                Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.black)
+                                Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.primary)
                             }
                    }
                 )}

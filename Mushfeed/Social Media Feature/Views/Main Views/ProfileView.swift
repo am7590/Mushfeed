@@ -64,9 +64,10 @@ struct ProfileView: View {
                             Button(action: {}) {
                                 HStack {
                                     Spacer()
-                                    Text("Edit Profile").fontWeight(.bold).foregroundColor(Color.white)
+                                    Text("Edit Profile").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground)
+                                    )
                                     Spacer()
-                                }.frame(height: 30).background(Color.black).padding(.top, 5)
+                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
                                 
                             }.cornerRadius(5)
                             
@@ -74,9 +75,9 @@ struct ProfileView: View {
                             Button(action: {}) {
                                 HStack {
                                     Spacer()
-                                    Text("Search Users").fontWeight(.bold).foregroundColor(Color.white)
+                                    Text("Search Users").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                     Spacer()
-                                }.frame(height: 30).background(Color.black).padding(.top, 5)
+                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
                                 
                             }.cornerRadius(5)
                             
@@ -84,9 +85,9 @@ struct ProfileView: View {
                             Button(action: {}) {
                                 HStack {
                                     Spacer()
-                                    Text("Log Out").fontWeight(.bold).foregroundColor(Color.white)
+                                    Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                     Spacer()
-                                }.frame(height: 30).background(Color.black).padding(.top, 5)
+                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
                                 
                             }.cornerRadius(5)
                             
@@ -106,7 +107,7 @@ struct ProfileView: View {
                      }.navigationBarTitle(Text("Profile"), displayMode: .inline).navigationBarItems(leading:
                          Button(action: {}) {
                              NavigationLink(destination: UsersView()) {
-                                 Image(systemName: "person.fill").imageScale(Image.Scale.large).foregroundColor(.black)
+                                 Image(systemName: "person.fill").imageScale(Image.Scale.large).foregroundColor(.primary)
                              }
                          },trailing:
                          Button(action: {
@@ -114,7 +115,7 @@ struct ProfileView: View {
                              
                          }) {
                              
-                             Image(systemName: "arrow.right.circle.fill").imageScale(Image.Scale.large).foregroundColor(.black)
+                             Image(systemName: "arrow.right.circle.fill").imageScale(Image.Scale.large).foregroundColor(.primary)
                              
                      } ).onAppear {
                          self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
