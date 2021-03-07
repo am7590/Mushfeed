@@ -28,6 +28,7 @@ struct MushroomIndexDetail: View {
                     .font(.title)
                     .foregroundColor(.primary)
                     .padding(.top,0)
+
                 
                 Divider()
                     .padding(.leading, 0)
@@ -46,6 +47,7 @@ struct MushroomIndexDetail: View {
                     Text(mushroom.edible)
                         .font(.title)
                         .foregroundColor(.primary)
+                    
                 
                 }
                 
@@ -80,6 +82,7 @@ struct MushroomIndexDetail: View {
                 Text(mushroom.description)
                     .padding(.top, 0)
                     .foregroundColor(.primary)
+                    .lineLimit(nil)
                                 
                 VStack(alignment: .leading,spacing: 15) {
                     
@@ -196,9 +199,16 @@ struct MushroomIndexDetail: View {
                             Text(mushroom.sources)
                             Text(mushroom.resources)
                             Text(mushroom.wiki)
+                            Text("")
+                            Text("")
+                            Text("")
+                            Text("")
+                            Text("")
+                            Text("")
+                            Text("")
                             
                             
-                        }.frame(height: 200).padding(.leading, -15)
+                        }.frame(height: 400).padding(.leading, -15)
                         
                         Spacer()
                         
@@ -240,6 +250,7 @@ struct MushroomIndexDetail: View {
         }
         .edgesIgnoringSafeArea(.all)
         .background(Color.black.edgesIgnoringSafeArea(.all))
+        
     }
 }
 
