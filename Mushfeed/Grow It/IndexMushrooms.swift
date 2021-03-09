@@ -28,6 +28,7 @@ struct IndexMushroom: Hashable, Codable, Identifiable {
     var sources: String
     var resources: String
     var wiki: String
+    var locations : [String]
     
     enum Category : String, CaseIterable, Codable, Hashable {
         case edible = "edible"
