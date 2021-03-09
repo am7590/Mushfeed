@@ -103,35 +103,35 @@ struct MushroomIndexDetail: View {
                         Image(systemName: "chevron.left")
                         
                         VStack {
-                            Image(mushroom.locations[0].isEmpty ? "" : "icon1")
+                            Image(mushroom.locations[0] == "" ? "" : "icon1")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
                                 .frame(width: 90, height: 90)
-                                .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                                .overlay(Circle().stroke(mushroom.locations[0] == "" ? Color(UIColor.systemBackground) : Color.black, lineWidth: 2))
                             
                             Text(mushroom.locations[0].isEmpty ? "" : mushroom.locations[0])
                                 .font(.caption)
                         }
                         
                         VStack {
-                            Image(mushroom.locations[1].isEmpty ? "" : "icon2")
+                            Image(mushroom.locations[1] == "" ? "" : "icon2")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
                                 .frame(width: 90, height: 90)
-                                .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                                .overlay(Circle().stroke(mushroom.locations[1] == "" ? Color(UIColor.systemBackground) : Color.black, lineWidth: 2))
                             Text(mushroom.locations[1].isEmpty ? "" : mushroom.locations[1])
                                 .font(.caption)
                         }
                         
                         VStack {
-                            Image(mushroom.locations[2].isEmpty ? "" : "icon3")
+                            Image(mushroom.locations[2] == "" ? "" : "icon3")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
                                 .frame(width: 90, height: 90)
-                                .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                                .overlay(Circle().stroke(mushroom.locations[2] == "" ? Color(UIColor.systemBackground) : Color.black, lineWidth: 2))
                             Text(mushroom.locations[2].isEmpty ? "" : mushroom.locations[2])
                                 .font(.caption)
                         }
