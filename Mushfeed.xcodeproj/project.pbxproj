@@ -96,7 +96,6 @@
 		E631D0C325EB7ED100CE8417 /* PopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CFA525EB3E7700CE8417 /* PopViewModel.swift */; };
 		E631F4E525EC879A0019757A /* MushfeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631F4E425EC879A0019757A /* MushfeedApp.swift */; };
 		E631F51925EC8B970019757A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631F51825EC8B970019757A /* SceneDelegate.swift */; };
-		E631F54825EC9AEE0019757A /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = E631F54725EC9AEE0019757A /* landmarkData.json */; };
 		E631F54E25EC9D500019757A /* MushroomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631F54D25EC9D500019757A /* MushroomList.swift */; };
 		E662977D25F2F58400A74824 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E662977C25F2F58400A74824 /* FirebaseAnalytics */; };
 		E662977F25F2F58400A74824 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E662977E25F2F58400A74824 /* FirebaseStorage */; };
@@ -196,7 +195,6 @@
 		E631D0A925EB7D2E00CE8417 /* SessionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		E631F4E425EC879A0019757A /* MushfeedApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MushfeedApp.swift; sourceTree = "<group>"; };
 		E631F51825EC8B970019757A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E631F54725EC9AEE0019757A /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		E631F54D25EC9D500019757A /* MushroomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomList.swift; sourceTree = "<group>"; };
 		E67BF74525EF5AE90062175E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +215,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E60A8F6E25F717520006BF61 /* JSON data */ = {
+			isa = PBXGroup;
+			children = (
+				E631D01C25EB3FBA00CE8417 /* growableMushrooms.json */,
+				E631D01D25EB3FBB00CE8417 /* indexMushrooms.json */,
+			);
+			path = "JSON data";
+			sourceTree = "<group>";
+		};
+		E60A8F6F25F7176C0006BF61 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E67BF74525EF5AE90062175E /* AppDelegate.swift */,
+				E631F51825EC8B970019757A /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		E631CF3925EB37C200CE8417 = {
 			isa = PBXGroup;
 			children = (
@@ -237,11 +253,8 @@
 		E631CF4425EB37C200CE8417 /* Mushfeed */ = {
 			isa = PBXGroup;
 			children = (
-				E631D01C25EB3FBA00CE8417 /* growableMushrooms.json */,
-				E631F51825EC8B970019757A /* SceneDelegate.swift */,
-				E67BF74525EF5AE90062175E /* AppDelegate.swift */,
-				E631F54725EC9AEE0019757A /* landmarkData.json */,
-				E631D01D25EB3FBB00CE8417 /* indexMushrooms.json */,
+				E60A8F6F25F7176C0006BF61 /* Delegates */,
+				E60A8F6E25F717520006BF61 /* JSON data */,
 				E631D02125EB3FC500CE8417 /* Grow It */,
 				E631D00125EB3F8F00CE8417 /* Mushroom Index */,
 				E631CF6F25EB3B3B00CE8417 /* Social Media Feature */,
@@ -448,13 +461,13 @@
 		E631D02125EB3FC500CE8417 /* Grow It */ = {
 			isa = PBXGroup;
 			children = (
+				E631D02825EB3FC500CE8417 /* Expanding List */,
 				E631D02225EB3FC500CE8417 /* GrowableMushroomRow.swift */,
 				E631D02325EB3FC500CE8417 /* Data.swift */,
 				E631D02425EB3FC500CE8417 /* MushroomIndexDetail.swift */,
 				E631D02525EB3FC500CE8417 /* IndexMushroomRow.swift */,
 				E631D02625EB3FC500CE8417 /* GrowableMushrooms.swift */,
 				E631D02725EB3FC500CE8417 /* GrowHome.swift */,
-				E631D02825EB3FC500CE8417 /* Expanding List */,
 				E631D02D25EB3FC500CE8417 /* InstructionList.swift */,
 				E631D02E25EB3FC500CE8417 /* IndexMushroomItem.swift */,
 				E631D02F25EB3FC500CE8417 /* GrowableMushroomItem.swift */,
@@ -549,7 +562,6 @@
 				E631CF5625EB390B00CE8417 /* GoogleService-Info.plist in Resources */,
 				E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */,
 				E631D01F25EB3FBB00CE8417 /* indexMushrooms.json in Resources */,
-				E631F54825EC9AEE0019757A /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
