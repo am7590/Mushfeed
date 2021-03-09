@@ -15,6 +15,12 @@ extension String {
     }
 }
 
+extension String: Identifiable {
+    public var id: String {
+        self
+    }
+}
+
 func timeAgoSinceDate(_ date:Date, currentDate:Date, numericDates:Bool) -> String {
     let calendar = Calendar.current
     let now = currentDate
