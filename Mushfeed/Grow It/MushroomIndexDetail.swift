@@ -103,7 +103,7 @@ struct MushroomIndexDetail: View {
                         Image(systemName: "chevron.left")
                         
                         VStack {
-                            Image("icon1")
+                            Image(mushroom.locations[0].isEmpty ? "" : "icon1")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
@@ -111,26 +111,29 @@ struct MushroomIndexDetail: View {
                                 .overlay(Circle().stroke(Color.black, lineWidth: 2))
                             
                             Text(mushroom.locations[0].isEmpty ? "" : mushroom.locations[0])
+                                .font(.caption)
                         }
                         
                         VStack {
-                            Image("icon2")
+                            Image(mushroom.locations[1].isEmpty ? "" : "icon2")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
                                 .frame(width: 90, height: 90)
                                 .overlay(Circle().stroke(Color.black, lineWidth: 2))
                             Text(mushroom.locations[1].isEmpty ? "" : mushroom.locations[1])
+                                .font(.caption)
                         }
                         
                         VStack {
-                            Image("icon3")
+                            Image(mushroom.locations[2].isEmpty ? "" : "icon3")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
                                 .frame(width: 90, height: 90)
                                 .overlay(Circle().stroke(Color.black, lineWidth: 2))
                             Text(mushroom.locations[2].isEmpty ? "" : mushroom.locations[2])
+                                .font(.caption)
                         }
                         
                         Image(systemName: "chevron.right")
