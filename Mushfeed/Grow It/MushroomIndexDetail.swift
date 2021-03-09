@@ -74,16 +74,27 @@ struct MushroomIndexDetail: View {
                 
                 Divider()
                 
-                Text("Description")
+                VStack(alignment: .leading,spacing: 15) {
+                    Text("Description")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(.primary)
+                    
+                    Text(mushroom.description)
+                        .padding(.top, 0)
+                        .foregroundColor(.primary)
+                        .lineLimit(nil)
+                                   
+                    
+                    
+                }
+                
+                Text("Where it grows")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
+            
                 
-                Text(mushroom.description)
-                    .padding(.top, 0)
-                    .foregroundColor(.primary)
-                    .lineLimit(nil)
-                                
                 VStack(alignment: .leading,spacing: 15) {
                     
                     Spacer()
@@ -91,26 +102,36 @@ struct MushroomIndexDetail: View {
                     HStack(spacing: 15){
                         Image(systemName: "chevron.left")
                         
-                        Image("icon1")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .clipShape(Circle())
-                            .frame(width: 90, height: 90)
-                            .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                        VStack {
+                            Image("icon1")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .clipShape(Circle())
+                                .frame(width: 90, height: 90)
+                                .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                            
+                            Text(mushroom.locations[0].isEmpty ? "" : mushroom.locations[0])
+                        }
                         
-                        Image("icon2")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .clipShape(Circle())
-                            .frame(width: 90, height: 90)
-                            .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                        VStack {
+                            Image("icon2")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .clipShape(Circle())
+                                .frame(width: 90, height: 90)
+                                .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                            Text(mushroom.locations[1].isEmpty ? "" : mushroom.locations[1])
+                        }
                         
-                        Image("icon3")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .clipShape(Circle())
-                            .frame(width: 90, height: 90)
-                            .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                        VStack {
+                            Image("icon3")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .clipShape(Circle())
+                                .frame(width: 90, height: 90)
+                                .overlay(Circle().stroke(Color.black, lineWidth: 2))
+                            Text(mushroom.locations[2].isEmpty ? "" : mushroom.locations[2])
+                        }
                         
                         Image(systemName: "chevron.right")
                     }
@@ -196,10 +217,32 @@ struct MushroomIndexDetail: View {
                         
                         
                         List{
-                            Text(mushroom.sources)
-                            Text(mushroom.resources)
-                            Text(mushroom.wiki)
-                            Text("")
+                            if(mushroom.wiki.isEmpty){
+                                    Text("")
+                            } else {
+                                Link(mushroom.wiki,
+                                     destination: URL(string: mushroom.wiki)!)
+                            }
+                            
+                            if(mushroom.resources.isEmpty){
+                                    Text("")
+                            } else {
+                                Link(mushroom.resources,
+                                     destination: URL(string: mushroom.resources)!)
+                            }
+                            
+                            if(mushroom.sources.isEmpty){
+                                    Text("")
+                            } else {
+                                Link(mushroom.sources,
+                                     destination: URL(string: mushroom.sources)!)
+                            }
+                            
+//                            Link(mushroom.resources,
+//                                  destination: URL(string: mushroom.resources)!)
+//                            Link(mushroom.sources,
+//                                  destination: URL(string: mushroom.sources)!)
+
                             Text("")
                             Text("")
                             Text("")
