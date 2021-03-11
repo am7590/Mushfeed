@@ -6,16 +6,16 @@
        "edible": "Edible",
        "gourmet": "Choice Gourmet",
        "family": "Pleurotus ostreatus",
-       "description": "Pleurotus djamor, commonly known as the pink oyster mushroom, is a species of fungus in the family Pleurotaceae. It was originally named Agaricus djamor by the German-born botanist Georg Eberhard Rumphius and sanctioned under that name by Elias Magnus Fries in 1821.",
-       "appearance": "The pink oyster mushroom, unsurprisingly has a pink color. When cooked, however, the color quickly fades. It has a curly cap which is 2 – 5 cm in diameter. The caps are also quite thin.",
-       "imageName": "pinkOyster",
-       "funFact": "The pink oyster is pink :o",
+       "description": "Pleurotus ostreatus, the oyster mushroom or oyster fungus, is a common edible mushroom. It was first cultivated in Germany as a subsistence measure during World War I and is now grown commercially around the world for food. It is related to the similarly cultivated king oyster mushroom. Oyster mushrooms can also be used industrially for mycoremediation purposes. The oyster mushroom is one of the more commonly sought wild mushrooms, though it can also be cultivated on straw and other media. It has the bittersweet aroma of benzaldehyde (which is also characteristic of bitter almonds).",
+       "appearance": "The mushroom has a broad, fan or oyster-shaped cap spanning 2–30 cm (3⁄4–11 3⁄4 in); natural specimens range from white to gray or tan to dark-brown; the margin is inrolled when young, and is smooth and often somewhat lobed or wavy. The flesh is white, firm, and varies in thickness due to stipe arrangement. The gills of the mushroom are white to cream, and descend on the stalk if present. If so, the stipe is off-center with a lateral attachment to wood. The spore print of the mushroom is white to lilac-gray, and best viewed on dark background. The mushroom's stipe is often absent. When present, it is short and thick.",
+       "imageName": "oyster1",
+       "funFact": "The oyster mushroom is one of the few known carnivorous mushrooms. Its mycelia can kill and digest nematodes, which is believed to be a way in which the mushroom obtains nitrogen.",
        "lookalikes": "none",
        "growable" : true,
-       "locations" : ["Wood", "", ""],
-       "sources": "https://gallowaywildfoods.com/oyster-mushroom-edibility-identification-distribution/",
-       "resources": "https://www.foragesf.com/blog/2019/10/25/tips-on-how-to-find-and-cook-wild-oyster-mushrooms",
-       "wiki": "https://en.wikipedia.org/wiki/Pleurotus",
+       "locations" : ["Trees", "Dead Wood", "Cultivated"],
+       "image1": "https://commons.wikimedia.org/wiki/File:Oyster_Mushroom_-_Pleurotus_ostreatus_(26433675278).jpg",
+       "image2": "https://en.wikipedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpgoyst",
+       "wiki": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus",
        "category":"edible"
 
    },
@@ -33,8 +33,8 @@
        "lookalikes": "none",
        "growable" : true,
        "locations" : ["Wood", "Cultivated", ""],
-       "sources": "http://www.polarshiitake.com/en/shiitakemushroom",
-       "resources": "https://growyourpantry.com/blogs/mushroom-guides/shiitake-mushrooms-your-complete-guide",
+       "image1": "http://www.polarshiitake.com/en/shiitakemushroom",
+       "image2": "https://growyourpantry.com/blogs/mushroom-guides/shiitake-mushrooms-your-complete-guide",
        "wiki": "https://en.wikipedia.org/wiki/Shiitake",
        "category":"edible"
 
@@ -53,8 +53,8 @@
        "lookalikes": "none",
        "growable" : false,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Entoloma_abortivum",
        "category":"edible"
 
@@ -73,8 +73,8 @@
        "lookalikes": "The similar Ganoderma brownii has thicker, darker flesh, often a yellow pore surface, and larger basidiospores than G. applanatum",
        "growable" : false,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Ganoderma_applanatum",
        "category":"inedible"
 
@@ -93,8 +93,8 @@
        "lookalikes": "",
        "growable" : true,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Hypsizygus_tessellatus",
        "category":"edible"
 
@@ -113,8 +113,8 @@
        "lookalikes": "",
        "growable" : false,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Fistulina_hepatica",
        "category":"edible"
 
@@ -133,8 +133,8 @@
        "lookalikes": "The common mushroom could be confused with young specimens of the deadly poisonous destroying angel (Amanita sp.), but the latter may be distinguished by their volva or cup at the base of the mushroom and pure white gills (as opposed to pinkish or brown of A. bisporus). Thus it is always important to clear away debris and examine the base of such similar mushrooms, as well as cutting open young specimens to check the gills. Furthermore, the destroying angel grows in mossy woods and lives symbiotically with spruce.A more common and less dangerous mistake is to confuse A. bisporus with Agaricus xanthodermus, an inedible mushroom found worldwide in grassy areas. A. xanthodermus has an odor reminiscent of phenol; its flesh turns yellow when bruised. This fungus causes nausea and vomiting in some people. The poisonous European species Entoloma sinuatum has a passing resemblance as well, but has yellowish gills, turning pink, and it lacks a ring.",
        "growable" : true,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_bisporus",
        "category":"edible"
 
@@ -153,8 +153,8 @@
        "lookalikes": "",
        "growable" : false,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Sparassis",
        "category":"edible"
 
@@ -173,8 +173,8 @@
        "lookalikes": "",
        "growable" : false,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
        "category":"edible"
 
@@ -193,8 +193,8 @@
        "lookalikes": "",
        "growable" : false,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Laetiporus_sulphureus",
        "category":"edible"
 
@@ -213,8 +213,8 @@
        "lookalikes": "",
        "growable" : true,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Corn_smut",
        "category":"use caution"
 
@@ -233,8 +233,8 @@
        "lookalikes": "",
        "growable" : true,
        "locations" : ["", "", ""],
-       "sources": "",
-       "resources": "",
+       "image1": "",
+       "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
        "category":"use caution"
 
