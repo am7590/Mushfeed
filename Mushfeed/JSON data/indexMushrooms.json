@@ -4,7 +4,7 @@
        "name": "Oyster Mushroom",
        "scientificName": "Pleurotus ostreatus",
        "edible": "Edible",
-       "gourmet": "Choice Gourmet",
+       "gourmet": "Choice",
        "family": "Pleurotus ostreatus",
        "description": "Pleurotus ostreatus, the oyster mushroom or oyster fungus, is a common edible mushroom. It was first cultivated in Germany as a subsistence measure during World War I and is now grown commercially around the world for food. It is related to the similarly cultivated king oyster mushroom. Oyster mushrooms can also be used industrially for mycoremediation purposes. The oyster mushroom is one of the more commonly sought wild mushrooms, though it can also be cultivated on straw and other media. It has the bittersweet aroma of benzaldehyde (which is also characteristic of bitter almonds).",
        "appearance": "The mushroom has a broad, fan or oyster-shaped cap spanning 2–30 cm (3⁄4–11 3⁄4 in); natural specimens range from white to gray or tan to dark-brown; the margin is inrolled when young, and is smooth and often somewhat lobed or wavy. The flesh is white, firm, and varies in thickness due to stipe arrangement. The gills of the mushroom are white to cream, and descend on the stalk if present. If so, the stipe is off-center with a lateral attachment to wood. The spore print of the mushroom is white to lilac-gray, and best viewed on dark background. The mushroom's stipe is often absent. When present, it is short and thick.",
@@ -14,9 +14,9 @@
        "growable" : true,
        "locations" : ["Trees", "Dead Wood", "Cultivated"],
        "image1": "https://commons.wikimedia.org/wiki/File:Oyster_Mushroom_-_Pleurotus_ostreatus_(26433675278).jpg",
-       "image2": "https://en.wikipedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpgoyst",
+       "image2": "https://en.wikipedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus",
-       "category":"edible"
+       "category":"choice"
 
    },
    {
@@ -24,19 +24,19 @@
        "name": "Shiitake Mushroom",
        "scientificName": "Lentinula edodes",
        "edible": "Edible",
-       "gourmet": "Choice Gourmet",
+       "gourmet": "Choice ",
        "family": "Marasmiaceae",
-       "description": "The shiitake is an edible mushroom native to East Asia, which is cultivated and consumed in many East Asian countries. It is considered a medicinal mushroom in some forms of traditional medicine.",
+       "description": "The shiitake is an edible mushroom native to East Asia, which is cultivated and consumed in many East Asian countries. It is considered a medicinal mushroom in some forms of traditional medicine. Shiitake grow in groups on the decaying wood of deciduous trees, particularly shii and other chinquapins, chestnut, oak, maple, beech, sweetgum, poplar, hornbeam, ironwood, and mulberry. Its natural distribution includes warm and moist climates in Southeast Asia.",
        "appearance": "Shiitake mushrooms are small to medium in size with caps averaging 10-20 centimeters in diameter and are attached to thin stems. The caps range in color from light to dark brown and have a wide, umbrella shape with a characteristic curled rim. Inside, the cream-colored flesh is firm, chewy, and spongy.",
-       "imageName": "shiitake",
-       "funFact": "The shiitake is brown :o",
+       "imageName": "shiitake1",
+       "funFact": "In 2015, a study with 52 adults indicated that regular consumption of shiitake can result in improved immunity.",
        "lookalikes": "none",
        "growable" : true,
        "locations" : ["Wood", "Cultivated", ""],
-       "image1": "http://www.polarshiitake.com/en/shiitakemushroom",
-       "image2": "https://growyourpantry.com/blogs/mushroom-guides/shiitake-mushrooms-your-complete-guide",
+       "image1": "https://en.wikipedia.org/wiki/File:Shiitakegrowing.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Shiitake_mushrooms_2.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Shiitake",
-       "category":"edible"
+       "category":"choice"
 
    },
    {
@@ -44,19 +44,19 @@
        "name": "Shrimp of the woods",
        "scientificName": "Entoloma abortivum",
        "edible": "Edible",
-       "gourmet": "Choice Gourmet",
+       "gourmet": "Choice",
        "family": "Entolomataceae",
        "description": "Entoloma abortivum, commonly known as the aborted entoloma or shrimp of the woods, is an edible mushroom in the Entolomataceae family of fungi. Caution should be used in identifying the species before eating. First named Clitopilus abortivus by Miles Joseph Berkeley and Moses Ashley Curtis, it was given its current name by the Dutch mycologist Marinus Anton Donk in 1949.",
        "appearance": "Need data",
-       "imageName": "grayMUSHROOM",
+       "imageName": "shrimp1",
        "funFact": "It was believed that the honey mushroom, Armillaria mellea, was parasitizing the entoloma. But research has indicated that the inverse may be true—the entoloma may be parasitizing the honey mushroom. There is still some disagreement by mushroom collectors about this since it is common to see both the aborted and unaborted forms of the entoloma on wood and in leaf litter, whereas Armillaria generally only fruits on wood. Both versions of the entoloma have also been observed when there are no Armillaria fruiting.",
        "lookalikes": "none",
        "growable" : false,
        "locations" : ["", "", ""],
-       "image1": "",
-       "image2": "",
+       "image1": "https://commons.wikimedia.org/wiki/File:2013-02-14_Entoloma_abortivum_(Berk._and_M.A._Curtis)_Donk_309718.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:2013-10-13_Entoloma_abortivum_(Berk._and_M.A._Curtis)_Donk_389693.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Entoloma_abortivum",
-       "category":"edible"
+       "category":"choice"
 
    },
    {
@@ -116,7 +116,7 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Fistulina_hepatica",
-       "category":"edible"
+       "category":"choice"
 
    },
    {
@@ -136,7 +136,7 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_bisporus",
-       "category":"edible"
+       "category":"choice"
 
    },
    {
@@ -176,7 +176,7 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
-       "category":"edible"
+       "category":"choice"
 
    },
    {
@@ -196,7 +196,7 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Laetiporus_sulphureus",
-       "category":"edible"
+       "category":"choice"
 
    },
    {
@@ -237,6 +237,66 @@
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
        "category":"use caution"
+
+   },
+   {
+       "id": 1013,
+       "name": "Enoki",
+       "scientificName": "Flammulina velutipes",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Physalacriaceae",
+       "description": "Enoki (Flammulina velutipes), also known as velvet shank, is a species of edible mushroom in the family Physalacriaceae. It is well-known for its role in Japanese cuisine, where it is also known as enokitake. There is a significant difference in appearance between the wild and cultivated types of the mushroom. Cultivated mushrooms have not been exposed to light, resulting in a white color, whereas wild mushrooms usually display a dark brown color. Cultivated mushrooms are grown in a carbon dioxide (CO2)-rich environment to nurture the development of long thin stems, whereas wild mushrooms produce a much shorter and thicker stem.",
+       "appearance": "The mushroom naturally grows on the stumps of the Chinese hackberry tree (Celtis sinensis) and on other trees, such as ash, mulberry and persimmon trees. Enoki can be sourced September- March and has been named winter fungus due to its seasonality. Wild forms differ in color, texture, and sliminess and may be called futu, seafood mushrooms, winter mushrooms or winter fungus, velvet foot, velvet stem or velvet shank.",
+       "imageName": "enoki1",
+       "funFact": "Commercially farmed enoki is a long, thin white mushroom and is a popular ingredient for soups, especially in East Asian cuisine, but can be used for salads and other dishes. The mushroom has a crisp texture and can be refrigerated for approximately one week. This shape is due to a CO2-rich atmosphere used in farming. The farmed form is also known as golden needle mushroom, futu mushroom or lily mushroom. The farmed F. velutipes is sold both fresh and canned.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Trees", "Cultivated", ""],
+       "image1": "https://en.wikipedia.org/wiki/File:Flammulina_velutipes.JPG",
+       "image2": "https://en.wikipedia.org/wiki/File:EnokitakeJapaneseMushroom.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
+       "category":"choice"
+
+   },
+   {
+       "id": 1014,
+       "name": "Fly Agaric",
+       "scientificName": "Amanita muscaria",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Physalacriaceae",
+       "description": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a basidiomycete of the genus Amanita. It is also a muscimol mushroom. Native throughout the temperate and boreal regions of the Northern Hemisphere, Amanita muscaria has been unintentionally introduced to many countries in the Southern Hemisphere, generally as a symbiont with pine and birch plantations, and is now a true cosmopolitan species. It associates with various deciduous and coniferous trees.",
+       "appearance": "Arguably the most iconic toadstool species, the fly agaric is a large white-gilled, white-spotted, usually red mushroom, and is one of the most recognizable and widely encountered in popular culture. Despite its easily distinguishable features, Amanita muscaria is a fungus with several known variations, or subspecies. These subspecies are slightly different, some have yellow or white caps, but they are all usually called fly agarics, and they are most of the time recognizable by their notable white spots.",
+       "imageName": "fly-agaric1",
+       "funFact": "Although classified as poisonous, reports of human deaths resulting from A. muscaria ingestion are extremely rare. After parboiling twice with water draining—which weakens its toxicity and breaks down the mushroom's psychoactive substances—it is eaten in parts of Europe, Asia, and North America. All Amanita muscaria varieties, but in particular A. muscaria var. muscaria, are noted for their hallucinogenic properties, with the main psychoactive constituents being the neurotoxins ibotenic acid and muscimol.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Grass", "Forest Floor", ""],
+       "image1": "https://en.wikipedia.org/wiki/Amanita_muscaria#/media/File:2006-10-25_Amanita_muscaria_crop.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Amanita_muscaria#/media/File:Amanita_muscaria_var._formosa_sensu_Thiers.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
+       "category":"poisonous"
+
+   },
+   {
+       "id": 1015,
+       "name": "Giraffe Spots",
+       "scientificName": "Peniophora albobadia",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Peniophoraceae",
+       "description": "Peniophora albobadia is a species of crust fungus in the family Peniophoraceae. It is a plant pathogen that affects stone fruits. First described scientifically by Lewis David de Schweinitz in 1822, it was transferred to the genus Peniophora by Jacques Boidin in 1961. It is most commonly found in the United States",
+       "appearance": "Need data!",
+       "imageName": "giraffe-spots1",
+       "funFact": "Need data!",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Grass", "Forest Floor", ""],
+       "image1": "https://en.wikipedia.org/wiki/File:Peniophora_albobadia_196080.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_6.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
+       "category":"inedible"
 
    }
    
