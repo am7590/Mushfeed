@@ -418,7 +418,68 @@
        "wiki": "https://en.wikipedia.org/wiki/Omphalotus_olearius",
        "category":"poisonous"
 
+   },
+   {
+       "id": 1022,
+       "name": "King Oyster Mushroom",
+       "scientificName": "Pleurotus eryngii",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Pleurotaceae",
+       "description": "Pleurotus eryngii (also known as king trumpet mushroom, French horn mushroom, king oyster mushroom, king brown mushroom, boletus of the steppes, trumpet royale, aliʻi oyster) is an edible mushroom native to Mediterranean regions of Europe, the Middle East, and North Africa, but also grown in many parts of Asia. The mushroom has a good shelf life and is cultivated widely. It has little flavor or aroma when raw. When cooked, it develops rich umami flavor and a meaty texture.",
+       "appearance": "P. eryngii is the largest species in the oyster mushroom genus, Pleurotus, which also contains the oyster mushroom Pleurotus ostreatus. It has a thick, meaty white stem and a small tan cap (in young specimens). Its natural range extends from the Atlantic Ocean through the Mediterranean Basin and Central Europe into Western Asia and India. Unlike other species of Pleurotus, which are primarily wood-decay fungi, the P. eryngii complex are also weak parasites on the roots of herbaceous plants, although they may also be cultured on organic wastes.",
+       "imageName": "king-oyster1",
+       "funFact": "Pleurotus eryngii may contain chemicals that stimulate the immune system. Dietary intake of Pleurotus eryngii may function as cholesterol-lowering dietary agent.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Forest Floor", "Wood", "Cultivated"],
+       "image1": "https://commons.wikimedia.org/wiki/File:Kr%C3%A4uter-Seitling_Pleurotus_eryngii.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Pleurotus_eryngii#/media/File:Pleurotus_eryngii.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Pleurotus_eryngii",
+       "category":"choice"
+
+   },
+   {
+       "id": 1023,
+       "name": "Lobster Mushroom",
+       "scientificName": "Hypomyces lactifluorum",
+       "edible": "Use Caution",
+       "gourmet": "Not Choice",
+       "family": "Hypocreaceae",
+       "description": "The Lobster mushroom, Hypomyces lactifluorum, contrary to its common name, is not a mushroom, but rather a parasitic ascomycete fungus that grows on certain species of mushrooms, turning them a reddish orange color that resembles the outer shell of a cooked lobster. Lobster mushrooms are widely eaten and enjoyed fresh. They are commercially marketed and sometimes found in grocery stores; they have been made available at markets in Oregon. They have a seafood-like flavor and a firm, dense texture.",
+       "appearance": "H. lactifluorum specifically attacks members of the genera Lactarius and Lactifluus (milk-caps), and Russula (brittlegills), such as Russula brevipes and Lactifluus piperatus in North America. At maturity, H. lactifluorum thoroughly covers its host, rendering it unidentifiable.",
+       "imageName": "lobster1",
+       "funFact": "While edible, field guides note the hypothetical possibility that H. lactifluorum could parasitize a toxic host and that individuals should avoid consuming lobster mushrooms with unknown hosts, although no instances of toxicity have been recorded.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Forest Floor", "Wood", "Cultivated"],
+       "image1": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum#/media/File:Lobster_mushrooms.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Lobster_Mushroom_2.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum",
+       "category":"use caution"
+
+   },
+   {
+       "id": 1024,
+       "name": "Hen of the Woods",
+       "scientificName": "Grifola frondosa",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Meripilaceae",
+       "description": "Grifola frondosa is a polypore mushroom that grows at the base of trees, particularly oaks. Also known as hen-of-the-woods, maitake (舞茸, 'dancing mushroom'), ram's head or sheep's head. It is typically found in late summer to early autumn. It is native to China, Europe, and North America. Like the sulphur shelf mushroom, G. frondosa is a perennial fungus that often grows in the same place for a number of years in succession. It occurs most prolifically in the northeastern regions of the United States, but has been found as far west as Idaho.",
+       "appearance": "G. frondosa grows from an underground tuber-like structure known as a sclerotium, about the size of a potato. The fruiting body, occurring as large as 100 centimetres (40 inches), rarely 150 cm (60 in), is a cluster consisting of multiple grayish-brown caps which are often curled or spoon-shaped, with wavy margins and 2–10 cm (1–4 in) broad. The undersurface of each cap bears about one to three pores per millimeter, with the tubes rarely deeper than 3 mm (1⁄8 in). The milky-white stipe (stalk) has a branchy structure and becomes tough as the mushroom matures.",
+       "imageName": "woods1",
+       "funFact": "In Japan, the maitake can grow to more than 45 kilograms (100 pounds), earning this giant mushroom the title 'king of mushrooms'.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Forest Floor", "Wood", "Cultivated"],
+       "image1": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum#/media/File:Lobster_mushrooms.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Hen_of_the_Woods_(Grifola_frondosa)_(5169557976).jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Grifola_frondosa",
+       "category":"choice"
+
    }
+   
    
    
 ]
