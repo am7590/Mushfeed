@@ -295,7 +295,7 @@
        "locations" : ["Grass", "Forest Floor", ""],
        "image1": "https://en.wikipedia.org/wiki/File:Peniophora_albobadia_196080.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_6.jpg",
-       "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
+       "wiki": "https://en.wikipedia.org/wiki/Peniophora_albobadia",
        "category":"inedible"
 
    },
@@ -315,7 +315,7 @@
        "locations" : ["Grass", "Forest Floor", "Rotting Wood"],
        "image1": "https://en.wikipedia.org/wiki/Calvatia_gigantea#/media/File:Giant_Puffball_Lemoine_Point.jpg",
        "image2": "https://en.wikipedia.org/wiki/Calvatia_gigantea#/media/File:Calvatia_gigantea.jpg",
-       "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
+       "wiki": "https://en.wikipedia.org/wiki/Calvatia_gigantea",
        "category":"use caution"
 
    },
@@ -335,7 +335,7 @@
        "locations" : ["Grass", "Forest Floor", "Rotting Wood"],
        "image1": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites#/media/File:Chlorophyllum_molybdites_Guadalajara.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites.jpg",
-       "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
+       "wiki": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites",
        "category":"poisonous"
 
    },
@@ -357,6 +357,66 @@
        "image2": "https://commons.wikimedia.org/wiki/File:Sarcodon_imbricatus_T64.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Sarcodon_imbricatus",
        "category":"edible"
+
+   },
+   {
+       "id": 1019,
+       "name": "Sweet Tooth",
+       "scientificName": "Hydnum repandum",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Hydnaceae",
+       "description": "Hydnum repandum, commonly known as the sweet tooth, wood hedgehog or hedgehog mushroom, is a basidiomycete fungus of the family Hydnaceae. First described by Carl Linnaeus in 1753, it is the type species of the genus Hydnum. A mycorrhizal fungus, Hydnum repandum is broadly distributed in Europe where it fruits singly or in close groups in coniferous or deciduous woodland. This is a choice edible species, although mature specimens can develop a bitter taste. It has no poisonous lookalikes. Mushrooms are collected and sold in local markets of Europe and Canada.",
+       "appearance": "The fungus produces fruit bodies (mushrooms) that are characterized by their spore-bearing structures—in the form of spines rather than gills—which hang down from the underside of the cap. The cap is dry, colored yellow to light orange to brown, and often develops an irregular shape, especially when it has grown closely crowded with adjacent fruit bodies. The mushroom tissue is white with a pleasant odor and a spicy or bitter taste. All parts of the mushroom stain orange with age or when bruised.",
+       "imageName": "sweet-tooth1",
+       "funFact": "Hydnum repandum is frequently sold with chanterelles in Italy, and in France, it is one of the officially recognized edible species sold in markets. In Europe, it is usually sold under its French name pied-de-mouton (sheep's foot). It is also collected and sold in local markets of Mexico, Spain and British Columbia, Canada. H. repandum mushrooms are also used as a food source by the red squirrel.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "Rotting Wood", "Grass"],
+       "image1": "https://en.wikipedia.org/wiki/Hydnum_repandum#/media/File:Hedgehog_fungi2.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Semmel-Stoppelpilz_Semmelgelber_Stacheling_Hydnum_repandum.JPG",
+       "wiki": "https://en.wikipedia.org/wiki/Hydnum_repandum#Ecology,_habitat_and_distribution",
+       "category":"choice"
+
+   },
+   {
+       "id": 1020,
+       "name": "Horn of Plenty",
+       "scientificName": "Craterellus cornucopioides",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Cantharellaceae",
+       "description": "Craterellus cornucopioides, or horn of plenty, is an edible mushroom. It is also known as the black chanterelle, black trumpet, trompette de la mort (French), trombetta dei morti (Italian) or trumpet of the dead. This fungus is found in woods in Europe, North America, Japan and Korea. Mainly it grows under beech, oak or other broad-leaved trees, especially in moss in moist spots on heavy calcareous soil. In Europe it is generally common but seems to be rare in some countries such as the Netherlands. It appears from June to November, and in the UK, from August to November. The mushroom is usually almost black, and it is hard to find because its dark colour easily blends in with the leaf litter on the forest floor. Hunters of this mushroom say it is like looking for black holes in the ground.",
+       "appearance": "The fruiting body does not have a separation into stalk and cap, but is shaped like a funnel expanded at the top, normally up to about 10 centimetres (4 inches) tall and 7 cm (3 in) in diameter (but said to grow exceptionally to 15 cm or 6 in). The upper and inner surface is black or dark grey, and the lower and outer fertile surface is a much lighter shade of grey. The fertile surface is more or less smooth but may be somewhat wrinkled.",
+       "imageName": "horn-of-plenty1",
+       "funFact": "A possible origin for the name 'trumpet of the dead' is that the growing mushrooms were seen as being played as trumpets by dead people under the ground.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "Grass", ""],
+       "image1": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides#/media/File:2010-08-24_Craterellus_cinereus_(Pers.)_Qu%C3%A9l_100703_cropped.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides#/media/File:Craterellus_cornucopioides_JPG1.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides",
+       "category":"choice"
+
+   },
+   {
+       "id": 1021,
+       "name": "Jack-o'-lantern Mushroom",
+       "scientificName": "Omphalotus olearius",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Marasmiaceae",
+       "description": "Omphalotus olearius, commonly known as the jack-o'-lantern mushroom, is a poisonous orange gilled mushroom that to an untrained eye appears similar to some chanterelles. It is notable for its bioluminescent properties. It is found in woodland areas in Europe, where it grows on decaying stumps, on buried roots or at the base of hardwood trees. It has also been reported from the Western Cape Province, South Africa. A similar, but phylogenetically distinct species found in eastern North America is Omphalotus illudens.",
+       "appearance": "The jack-o'-lantern mushroom is orange. Its bioluminescence, a blue-green color, can be observed in fresh specimens in low light conditions once the eye becomes dark-adapted. The whole mushroom does not glow—only the gills do so. This is due to an enzyme called luciferase, acting upon a compound called luciferin, leading to the emission of light much as fireflies do when glowing.",
+       "imageName": "jack-o-lantern1",
+       "funFact": "While not lethal, consuming this mushroom leads to very severe cramps, vomiting, and diarrhea.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "Grass", "Wood"],
+       "image1": "https://en.wikipedia.org/wiki/Omphalotus_olearius#/media/File:Omphalotus_olearius100.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Omphalotus_olearius#/media/File:Omphalotus_olearius.JPG",
+       "wiki": "https://en.wikipedia.org/wiki/Omphalotus_olearius",
+       "category":"poisonous"
 
    }
    
