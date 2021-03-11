@@ -25,8 +25,8 @@ struct IndexMushroom: Hashable, Codable, Identifiable {
     var funFact : String
     var lookalikes: String
     var growable : Bool
-    var sources: String
-    var resources: String
+    var image1: String
+    var image2: String
     var wiki: String
     var locations : [String]
     
