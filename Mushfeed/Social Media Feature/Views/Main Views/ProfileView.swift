@@ -14,6 +14,7 @@ struct ProfileView: View {
     
     @EnvironmentObject var session: SessionStore
     @ObservedObject var profileViewModel = ProfileViewModel()
+    @Environment(\.openURL) var openURL
 
     @State var selection: Selection = .grid
 
@@ -64,25 +65,27 @@ struct ProfileView: View {
                             Button(action: {}) {
                                 HStack {
                                     Spacer()
-                                    Text("Edit Profile").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground)
+                                    Text("Edit Profile Pic").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground)
                                     )
                                     Spacer()
                                 }.frame(height: 30).background(Color.primary).padding(.top, 5)
-                                
+
                             }.cornerRadius(5)
                             
                             // Search Users
                             Button(action: {}) {
                                 HStack {
+                                    NavigationLink(destination: UsersView()) {
+                                        Spacer()
+                                        Text("Search Users").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                     Spacer()
-                                    Text("Search Users").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    Spacer()
+                                    }
                                 }.frame(height: 30).background(Color.primary).padding(.top, 5)
-                                
+
                             }.cornerRadius(5)
                             
                             // Log out
-                            Button(action: {}) {
+                            Button(action: {self.session.logout()}) {
                                 HStack {
                                     Spacer()
                                     Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
@@ -92,34 +95,43 @@ struct ProfileView: View {
                             }.cornerRadius(5)
                             
                             // More
-                            Text("More")
+                            Text("Surveys")
                                 .font(.title)
                                     .fontWeight(.bold)
                                 .padding(.top, 5)
-                            Text("Coming soon...")
+
                             
+                            // Request Mushroom
+                            Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeOnTonAFPEHUVj3HOekPVGlaA7rJn3vF9r0ZuCY_rQolkHaA/viewform")!)}) {
+                                HStack {
+                                    Spacer()
+                                    Text("Request a Mushroom").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                    Spacer()
+                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
+                                
+                            }.cornerRadius(5)
+                            
+                            // User Survey
+                            Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScCkPctbaHkRNXiZRNQ8smrHlQiFgNFvibBy139LLxYp0Xssw/viewform")!)}) {
+                                HStack {
+                                    Spacer()
+                                    Text("Mushfeed User Survey").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                    Spacer()
+                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
+                                
+                            }.cornerRadius(5)
+                            
+                            
+
                         }.padding(.leading, 15).padding(.trailing, 15)
                      
 
                         
                     }.padding(.top, 20)
                                   
-                     }.navigationBarTitle(Text("Profile"), displayMode: .inline).navigationBarItems(leading:
-                         Button(action: {}) {
-                             NavigationLink(destination: UsersView()) {
-                                 Image(systemName: "person.fill").imageScale(Image.Scale.large).foregroundColor(.primary)
-                             }
-                         },trailing:
-                         Button(action: {
-                             self.session.logout()
-                             
-                         }) {
-                             
-                             Image(systemName: "arrow.right.circle.fill").imageScale(Image.Scale.large).foregroundColor(.primary)
-                             
-                     } ).onAppear {
+                     }.navigationBarTitle(Text("Profile"), displayMode: .inline).onAppear {
                          self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
-                 }
+                 } // IMPORTANT ^ loads user posts 
              }.environmentObject(self.session)
             
        
