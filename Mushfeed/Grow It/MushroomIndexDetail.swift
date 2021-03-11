@@ -227,18 +227,18 @@ struct MushroomIndexDetail: View {
                                      destination: URL(string: mushroom.wiki)!)
                             }
                             
-                            if(mushroom.resources.isEmpty){
+                            if(mushroom.image1.isEmpty){
                                     Text("")
                             } else {
-                                Link(mushroom.resources,
-                                     destination: URL(string: mushroom.resources)!)
+                                Link(mushroom.image1,
+                                     destination: URL(string: mushroom.image1)!)
                             }
                             
-                            if(mushroom.sources.isEmpty){
+                            if(mushroom.image2.isEmpty){
                                     Text("")
                             } else {
-                                Link(mushroom.sources,
-                                     destination: URL(string: mushroom.sources)!)
+                                Link(mushroom.image2,
+                                     destination: URL(string: mushroom.image2)!)
                             }
                             
 //                            Link(mushroom.resources,

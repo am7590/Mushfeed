@@ -141,9 +141,10 @@ struct MushroomDetail: View {
                         
                         
                         List{
-                            Text(mushroom.sources)
-                            Text(mushroom.resources)
                             Text(mushroom.wiki)
+                            Text(mushroom.image1)
+                            Text(mushroom.image2)
+                            
                             
                             
                         }.frame(height: 200).padding(.leading, -15)
