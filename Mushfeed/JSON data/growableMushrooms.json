@@ -11,7 +11,7 @@
         "id":2,
         "name":"Shiitake",
         "imageName":"shiitake",
-        "description":"Espresso is both a coffee beverage and a brewing method. It is not a sprecific bean, bean blendm or roast level. Any bean or roasting level can be used to produce authentic espresso. For example, in southrn Italy, a darker roast is generally preferred. Farther north, the trend moves toward slightly lighter roasts, while out sidde Italy a wide range is popular.",
+        "description":"Introduction/description",
         "category":"beginner",
         "instructions":["Shiitake", "Step 1 Shiitake", "Step 2 Shiitake", "Step 3 Shiitake", "Step 4 Shiitake"]
     },
@@ -19,7 +19,7 @@
         "id":3,
         "name":"Lion's Mane",
         "imageName":"Lions Mane",
-        "description":"In Italy, caffe latte is almost always prepared at home, for breakfast only. The coffe is brewed with a stovetop moka pot and poured into a cup containing heated milk. (Unlike the 'international' latte drink, the milk in th Italian original is generally not foamed, and sugar is added by the drinker, if at all).",
+        "description":"Introduction/description",
         "category":"beginner",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -27,7 +27,7 @@
         "id":4,
         "name":"Reishi",
         "imageName":"reishi",
-        "description":"In Italy, caffe latte is almost always prepared at home, for breakfast only. The coffe is brewed with a stovetop moka pot and poured into a cup containing heated milk. (Unlike the 'international' latte drink, the milk in th Italian original is generally not foamed, and sugar is added by the drinker, if at all).",
+        "description":"Introduction/description",
         "category":"beginner",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -35,7 +35,7 @@
         "id":5,
         "name":"Enoki",
         "imageName":"enoki",
-        "description":"In Italy, caffe latte is almost always prepared at home, for breakfast only. The coffe is brewed with a stovetop moka pot and poured into a cup containing heated milk. (Unlike the 'international' latte drink, the milk in th Italian original is generally not foamed, and sugar is added by the drinker, if at all).",
+        "description":"Introduction/description",
         "category":"beginner",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -43,7 +43,7 @@
         "id":6,
         "name":"Chicken of the woods",
         "imageName":"Chicken",
-        "description":"Iced coffee is a type of caffee beverage servaed cilled, brewed variously with the fundamental division veing cold brew - brewed the coffee cold, yielding a different flavour, and not requiring cooling - or brewing normaly (hot) and the cooling, generally by simply pouring over ice or into ice cold milk. In hot brewing, sweeteners and flavourings are often mixed into the hot coffee before cooling, due to faster dissolution in hot warter. Alternatively, syrup (sugar pre-dissolved in water) may be used, paticularly gum syrup.",
+        "description":"Introduction/description",
         "category":"difficult",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -51,7 +51,7 @@
         "id":7,
         "name":"King Stropharia",
         "imageName":"king",
-        "description":"Could brewing, also caled cold water extracgtion or cold pressing, is the process of steeping coffee grounds in water at cool temperatures for an extenperatures for an extended preiod. Coarse-ground beans are seaked in water for a prolonged period of time, for 12 to 24 hours. The water is normally kept at room temparature, but cchilled water is also used. The grounds are filtered out of the water after thay jave been steeped using a paper coffee filter, a fine metal sieve, a French press, or felt, in the case of the Toddy brewing system.",
+        "description":"Introduction/description",
         "category":"difficult",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -59,7 +59,7 @@
         "id":8,
         "name":"Hen of the Woods/Maitake",
         "imageName":"hen",
-        "description":"In Italy, caffe latte is almost always prepared at home, for breakfast only. The coffe is brewed with a stovetop moka pot and poured into a cup containing heated milk. (Unlike the 'international' latte drink, the milk in th Italian original is generally not foamed, and sugar is added by the drinker, if at all).",
+        "description":"Introduction/description",
         "category":"difficult",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -67,7 +67,7 @@
         "id":9,
         "name":"Porcini",
         "imageName":"Porcini",
-        "description":"In Italy, caffe latte is almost always prepared at home, for breakfast only. The coffe is brewed with a stovetop moka pot and poured into a cup containing heated milk. (Unlike the 'international' latte drink, the milk in th Italian original is generally not foamed, and sugar is added by the drinker, if at all).",
+        "description":"Introduction/description",
         "category":"beginner",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -75,7 +75,7 @@
         "id":10,
         "name":"Grow Bag #1",
         "imageName":"grow 1",
-        "description":"Could brewing, also caled cold water extracgtion or cold pressing, is the process of steeping coffee grounds in water at cool temperatures for an extenperatures for an extended preiod. Coarse-ground beans are seaked in water for a prolonged period of time, for 12 to 24 hours. The water is normally kept at room temparature, but cchilled water is also used. The grounds are filtered out of the water after thay jave been steeped using a paper coffee filter, a fine metal sieve, a French press, or felt, in the case of the Toddy brewing system.",
+        "description":"Introduction/description",
         "category":"grow bags",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -83,7 +83,7 @@
         "id":11,
         "name":"Grow Bag #2",
         "imageName":"griw 2",
-        "description":"Could brewing, also caled cold water extracgtion or cold pressing, is the process of steeping coffee grounds in water at cool temperatures for an extenperatures for an extended preiod. Coarse-ground beans are seaked in water for a prolonged period of time, for 12 to 24 hours. The water is normally kept at room temparature, but cchilled water is also used. The grounds are filtered out of the water after thay jave been steeped using a paper coffee filter, a fine metal sieve, a French press, or felt, in the case of the Toddy brewing system.",
+        "description":"Introduction/description",
         "category":"grow bags",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
     },
@@ -91,8 +91,8 @@
         "id":12,
         "name":"Grow Bag #3",
         "imageName":"grow 3",
-        "description":"Could brewing, also caled cold water extracgtion or cold pressing, is the process of steeping coffee grounds in water at cool temperatures for an extenperatures for an extended preiod. Coarse-ground beans are seaked in water for a prolonged period of time, for 12 to 24 hours. The water is normally kept at room temparature, but cchilled water is also used. The grounds are filtered out of the water after thay jave been steeped using a paper coffee filter, a fine metal sieve, a French press, or felt, in the case of the Toddy brewing system.",
+        "description":"Introduction/description",
         "category":"grow bags",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
-    },
+    }
 ]
