@@ -53,8 +53,7 @@ struct GrowableDetail: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 
-                ExpandingListView(lists: ExpandingList.growableMushroomSteps(mush: drink)).offset(x: -20)
-                
+                ExpandingListView(lists: ExpandingList.growableMushroomSteps(mush: drink)).offset(x: -20)                
                 Text("References")
                 .font(.largeTitle)
                 .fontWeight(.bold)

@@ -28,7 +28,7 @@ struct ListView: View {
             if isExpanded {
                 
                 VStack(alignment: .leading) {
-                    Text(expanded.text)
+                    Text(expanded.text).padding(.trailing, 10)
                     //Text(growableMushroomData[id].instructions[id])
 
                 }
