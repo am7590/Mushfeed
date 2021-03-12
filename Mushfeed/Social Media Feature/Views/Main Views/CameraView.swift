@@ -35,6 +35,10 @@ struct CameraView: View {
         NavigationView {
             
             VStack() {
+                Text("New Post")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.primary)
                 
                
                 HStack(alignment: .top) {
@@ -46,10 +50,10 @@ struct CameraView: View {
                     
                }.padding()
                 
-                
+                Spacer()
                 HStack {
-                    TextField("Write a caption...", text: $cameraViewModel.caption).padding(.top, 5)
-                    Spacer()
+                    TextField("Write a short title...", text: $cameraViewModel.caption).padding(.top, 5)
+                    
                     
                     NavigationLink(destination: HomeView()) {
                         ZStack{
@@ -67,7 +71,7 @@ struct CameraView: View {
                     
                     
                     
-                }.padding(.leading, 45).padding(.trailing, 45)
+                }.padding(.leading, 50).padding(.trailing, 50)
                 
                 
                 
@@ -77,7 +81,7 @@ struct CameraView: View {
                // ImagePickerController()
                 ImagePicker(showImagePicker: self.$cameraViewModel.showImagePicker, pickedImage: self.$cameraViewModel.image, imageData: self.$cameraViewModel.imageData)
             }.foregroundColor(.black)
-        }
+        }//.padding(.leading, 15)
         
        
     }
