@@ -1,11 +1,15 @@
 [
     {
         "id":1,
-        "name":"Pink Oyster",
+        "name":"Oyster Mushroom",
         "imageName":"pinkOyster",
-        "description":"As well as being a stunning color, these are one of the fastest growing mushrooms, producing fruits in as little as three or four weeks. They are a tropical mushroom and need a warmer temperature – something between 18 and 27 0C. If you have a warm house you may be able to grow them in winter.",
+        "description":"Oyster Mushrooms are easy to grow on a variety of substrates, from straw, sawdust, and coffee grounds to logs or grow bags. The method outlined below involves using 5-gallon buckets to grow the Oyster Mushrooms, which works well for beginners and small operations. Tap on the steps below to expand them and look at the references for more in depth instructions.",
         "category":"beginner",
-        "instructions":["Cardboard, water, grain spawn", "Prepare your cardboard. Egg trays need no further preparation (see video); but if you are using cardboard boxes you’ll want to either cut the card into similar sized squares (layer the mushroom spawn between the squares) or tear into strips.", "Once completely cool, drain as much of the water off as you can – squeeze the cardboard to remove the excess. Your media is now ready for inoculation with the spawn. Once completely cool, drain as much of the water off as you can – squeeze the cardboard to remove the excess. Your media is now ready for inoculation with the spawn.", "In this step the mushrooms are left in a warm place for a few weeks to colonise the cardboard. Close the bag up again and put it back in a warm place for 3 – 4 weeks (pink oysters) and 4 – 6 weeks (blue-grey).", "Open the outer plastic bag so that air can reach the egg trays or the bag containing the cardboard strips. The oxygen will stimulate the mushroom to fruit. After a few days, you will begin to see baby ‘pin mushrooms’ of the ‘first flush’ form. These will grow fast into full sized mushrooms in just a few days."]
+        "instructions":["Straw, 5-gallon bucket, drill, large pot/pressure cooker, grain/sawdust oyster spawn", "Fill a large pot or pressure cooker about 2/3rds full with water. Bring the temperature between 150-185 degrees fahrenheit, then fill the pot with straw so that it is not overflowing with water (you can put the straw in a breathable bag beforehand or strain the straw out later). Place the lid on and let it cook for an hour.", "Take the straw out of the pot and let it drain and dry for a few hours, or preferably overnight. The straw should be damp and moist. Then drill ¼ -½ inch holes around the whole bucket. This is where the mushrooms will grow from, so make sure you have plenty.", "Fill the bucket with layers of straw and oyster spawn. Put a few inches of straw for every layer of oyster spawn, and fit as much as you can into the bucket. Place the lid on top and let it sit in a cool place to colonize for 2-3 weeks, making sure it doesn't dry out and that the mycelium is spreading throughout the bucket.", "Once you see the mushrooms start to pin, move them outside, to a grow room, or somewhere that has good airflow and high humidity. This depends on where you live, so do your own research. Keep the mushrooms moist while they grow and harvest when they are the desirable size. This method should produce multiple flushes."],
+        "link1":"https://grocycle.com/how-to-set-up-a-low-tech-mushroom-farm/",
+        "link2":"https://www.youtube.com/watch?v=r10GqUKmSbc",
+        "link3":"https://learn.freshcap.com/growing/bucket-grow/",
+        "link4":"https://www.youtube.com/watch?v=8Zi9GnE1HRA"
     },
     {
         "id":2,
@@ -13,7 +17,11 @@
         "imageName":"shiitake",
         "description":"Introduction/description",
         "category":"beginner",
-        "instructions":["Shiitake", "Step 1 Shiitake", "Step 2 Shiitake", "Step 3 Shiitake", "Step 4 Shiitake"]
+        "instructions":["Shiitake", "Step 1 Shiitake", "Step 2 Shiitake", "Step 3 Shiitake", "Step 4 Shiitake"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":3,
@@ -21,7 +29,11 @@
         "imageName":"Lions Mane",
         "description":"Introduction/description",
         "category":"beginner",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":4,
@@ -29,7 +41,11 @@
         "imageName":"reishi",
         "description":"Introduction/description",
         "category":"beginner",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":5,
@@ -37,7 +53,11 @@
         "imageName":"enoki",
         "description":"Introduction/description",
         "category":"beginner",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":6,
@@ -45,7 +65,11 @@
         "imageName":"Chicken",
         "description":"Introduction/description",
         "category":"difficult",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":7,
@@ -53,7 +77,11 @@
         "imageName":"king",
         "description":"Introduction/description",
         "category":"difficult",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":8,
@@ -61,7 +89,11 @@
         "imageName":"hen",
         "description":"Introduction/description",
         "category":"difficult",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":9,
@@ -69,7 +101,11 @@
         "imageName":"Porcini",
         "description":"Introduction/description",
         "category":"beginner",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":10,
@@ -77,7 +113,11 @@
         "imageName":"grow 1",
         "description":"Introduction/description",
         "category":"grow bags",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":11,
@@ -85,7 +125,11 @@
         "imageName":"griw 2",
         "description":"Introduction/description",
         "category":"grow bags",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     },
     {
         "id":12,
@@ -93,6 +137,10 @@
         "imageName":"grow 3",
         "description":"Introduction/description",
         "category":"grow bags",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"]
+        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "link1":"",
+        "link2":"",
+        "link3":"",
+        "link4":""
     }
 ]
