@@ -538,6 +538,66 @@
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_campestris",
        "category":"choice"
 
+   },
+   {
+       "id": 1028,
+       "name": "Morel Mushroom",
+       "scientificName": "Morchella",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Morchellaceae",
+       "description": "Morchella, the true morels, is a genus of edible sac fungi closely related to anatomically simpler cup fungi in the order Pezizales (division Ascomycota). These distinctive fungi have a honeycomb appearance due to the network of ridges with pits composing their caps. Morels are prized by gourmet cooks, particularly in French cuisine. Due to difficulties in cultivation, commercial harvesting of wild morels has become a multimillion-dollar industry in the temperate Northern Hemisphere, in particular North America, Turkey, China, the Himalayas, India, and Pakistan and Kashmir where these highly prized fungi are found in abundance.",
+       "appearance": "The fruit bodies of Morchella species are highly polymorphic, varying in shape, color and size, while in many cases they do not exhibit clear-cut distinguishing features microscopically; this has historically contributed to uncertainties in taxonomy. Discriminating between the various taxa described, is further hindered by uncertainty over which of these are truly biologically distinct. Remarkably, some authors in the past had suggested that the genus contains as few as 3 to 6 species, while others recognised as many as 34. Many species appear to form symbiotic or endophytic relationships with trees, while others appear to act as saprotrophs. Yellow morels (Morchella esculenta and related species) are more commonly found under deciduous trees rather than conifers, while black morels (Morchella elata and related species) are mostly found in coniferous forests, disturbed ground and recently burned areas. Morchella galilaea, and occasionally Morchella rufobrunnea, appear to fruit in the autumn or winter months rather than spring, which is the typical fruiting season for morels.",
+       "imageName": "morel1",
+       "funFact": "Certain Morchella species (M. eximia, M. importuna, M. tomentosa and others) exhibit a pyrophilic behaviour and may grow abundantly in forests which have been recently burned by a fire. Moderate-intensity fires are reported to produce higher abundances of morels than low- or high-intensity fires. This is caused by the soil becoming more alkaline as the result of wood ash combining with water and being absorbed into the soil which triggers the morels to fruit.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Grass", "Forest Floor", ""],
+       "image1": "https://en.wikipedia.org/wiki/Morchella#/media/File:White_Morel_IMG_0399.JPG",
+       "image2": "https://commons.wikimedia.org/wiki/File:Morchella_esculenta_84915.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Morchella",
+       "category":"choice"
+
+   },
+   {
+       "id": 1029,
+       "name": "Pig's Ears",
+       "scientificName": "Gomphus clavatus",
+       "edible": "Use Caution",
+       "gourmet": "Not Choice",
+       "family": "Gomphaceae",
+       "description": "Gomphus clavatus, commonly known as pig's ears or the violet chanterelle, is an edible species of fungus in the genus Gomphus native to Eurasia and North America. Described by Jacob Christian Schäffer in 1774, G. clavatus has had several name changes and many alternative scientific names, having been classified in the genus Cantharellus (also called chanterelles), though it is not closely related to them. Typically found in coniferous forests, G. clavatus is mycorrhizal, and is associated with tree species in a variety of coniferous genera, particularly spruces and firs. It is more common at elevations of greater than 2,000 ft (600 m), in moist, shady areas with plenty of leaf litter. ",
+       "appearance": "The fruit body is vase- or fan-shaped with wavy edges to its rim, and grows up to 15–16 cm (6–6 1⁄4 in) wide and 17 cm (6 3⁄4 in) tall. The upper surface or cap is orangish-brown to lilac, while the lower spore-bearing surface, the hymenium, is covered in wrinkles and ridges rather than gills or pores, and is a distinctive purple color.",
+       "imageName": "Pigs-ears1",
+       "funFact": "In Europe, Gomphus clavatus appears on the national Red Lists of threatened fungi in 17 countries and is one of 33 species of fungi proposed for international conservation under the Bern Convention.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Grass", "Forest Floor", "Dead Wood"],
+       "image1": "https://en.wikipedia.org/wiki/Gomphus_clavatus#/media/File:Gomphus_clavatus_II_Totes_Gebirge.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Gomphus_clavatus#/media/File:Gomphus_clavatus_Fairy_ring.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Gomphus_clavatus",
+       "category":"use caution"
+
+   },
+   {
+       "id": 1030,
+       "name": "Porcini",
+       "scientificName": "Boletus edulis",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Boletaceae",
+       "description": "Boletus edulis (English: cep, penny bun, porcino or porcini) is a basidiomycete fungus, and the type species of the genus Boletus. Widely distributed in the Northern Hemisphere across Europe, Asia, and North America, it does not occur naturally in the Southern Hemisphere, although it has been introduced to southern Africa, Australia, New Zealand, and Brazil. Several closely related European mushrooms formerly thought to be varieties or forms of B. edulis have been shown using molecular phylogenetic analysis to be distinct species, and others previously classed as separate species are conspecific with this species. The western North American species commonly known as the California king bolete (Boletus edulis var. grandedulis) is a large, darker-coloured variant first formally identified in 2007.",
+       "appearance": "The fungus grows in deciduous and coniferous forests and tree plantations, forming symbiotic ectomycorrhizal associations with living trees by enveloping the tree's underground roots with sheaths of fungal tissue. The fungus produces spore-bearing fruit bodies above ground in summer and autumn. The fruit body has a large brown cap which on occasion can reach 35 cm (14 in) in diameter and 3 kg (6 lb 10 oz) in weight. Like other boletes, it has tubes extending downward from the underside of the cap, rather than gills; spores escape at maturity through the tube openings, or pores. The pore surface of the B. edulis fruit body is whitish when young, but ages to a greenish-yellow. The stout stipe, or stem, is white or yellowish in colour, up to 25 cm (10 in) tall and 10 cm (4 in) thick, and partially covered with a raised network pattern, or reticulations.",
+       "imageName": "porcini1",
+       "funFact": "Prized as an ingredient in various culinary dishes, B. edulis is an edible mushroom held in high regard in many cuisines, and is commonly prepared and eaten in soups, pasta, or risotto. The mushroom is low in fat and digestible carbohydrates, and high in protein, vitamins, minerals and dietary fibre. Although it is sold commercially, it is very difficult to cultivate.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Grass", "Forest Floor", ""],
+       "image1": "https://en.wikipedia.org/wiki/Boletus_edulis#/media/File:Boletus_edulis_EtgHollande_041031_091.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Boletus_edulis#/media/File:Boletus_edulis_var._grandedulis_27911.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
+       "category":"choice"
+
    }
    
    
