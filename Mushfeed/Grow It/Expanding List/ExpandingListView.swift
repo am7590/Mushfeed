@@ -22,6 +22,7 @@ struct ExpandingListView: View {
             ListView(expanded: xlist, isExpanded: self.selection.contains(xlist))
                 .onTapGesture { self.selectDeselect(xlist) }
                 .animation(.linear(duration: 0.3))
+                
         }
     }
     
