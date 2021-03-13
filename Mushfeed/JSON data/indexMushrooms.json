@@ -478,6 +478,66 @@
        "wiki": "https://en.wikipedia.org/wiki/Grifola_frondosa",
        "category":"choice"
 
+   },
+   {
+       "id": 1025,
+       "name": "Milk Caps",
+       "scientificName": "Lactarius",
+       "edible": "Edible",
+       "gourmet": "Not Choice",
+       "family": "Russulaceae",
+       "description": "Lactarius is a genus of mushroom-producing, ectomycorrhizal fungi, containing several edible species. The species of the genus, commonly known as milk-caps, are characterized by the milky fluid ('latex') they exude when cut or damaged. Like the closely related genus Russula, their flesh has a distinctive brittle consistency. It is a large genus with over 500 known species,[1] mainly distributed in the Northern hemisphere. Recently, the genus Lactifluus has been separated from Lactarius based on molecular phylogenetic evidence.",
+       "appearance": "Distinguishing Lactarius from Lactifluus based on morphology alone is difficult; there are no synapomorphic characters known so far that define both genera unequivocally but tendencies exist. Characters important for identification of milk-caps (Lactarius and Lactifluus) are: initial colour of the latex and color change, texture of cap surface, taste (mild, peppery, or bitter) of latex and flesh, odor, and microscopical features of the spores and the cap curticle (pileipellis). The habitat and especially the type of host tree can also be critical. While there are some easily recognizable species, other species can be quite hard to determine without microscopical examination.",
+       "imageName": "milk-caps1",
+       "funFact": "Several Lactarius species are edible. L. deliciosus notably ranks among the most highly valued mushrooms in the Northern hemisphere, while opinions vary on the taste of other species, such as L. indigo or L. deterrimus. Several species are reported to be regularly collected for food in Russia, Tanzania and Hunan, China. Some Lactarius are considered toxic, for example L. turpis, which contains a mutagenic compound, or L. helvus. There are, however, no deadly poisonous mushrooms in the genus.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Lactarius#/media/File:Lactarius_vietus041031w.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Lactarius#/media/File:Lactarius_pyrogallus.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Lactarius",
+       "category":"use caution"
+
+   },
+   {
+       "id": 1026,
+       "name": "Pine Mushroom",
+       "scientificName": "Tricholoma matsutake",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Tricholomataceae",
+       "description": "Matsutake (Japanese: 松茸), Tricholoma matsutake, is a highly sought species of choice edible mycorrhizal mushroom that grows in Asia, Europe, and North America. It is prized in Japanese, Korean, and Chinese cuisines for its distinct spicy-aromatic odor. ",
+       "appearance": "Matsutake mushrooms grow under trees and are usually concealed under litter on the forest floor, forming a symbiotic relationship with roots of various tree species. Matsutake mushrooms grow in eastern Asia in China, Japan, Korea, Bhutan and Laos; in Europe, in Estonia, Finland, Norway, Poland and Sweden; and on the Pacific coasts of Canada and the United States.",
+       "imageName": "pine-mushroom1",
+       "funFact": "Domestic production of matsutake in Japan has been sharply reduced over the last 50 years due to the pine-killing nematode Bursaphelenchus xylophilus, which has influenced the price a great deal. The price for matsutake in the Japanese market is highly dependent on quality, availability, and origin. The Japanese matsutake at the beginning of the season, which is the highest grade, can go up to $1,000 per kilogram.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Matsutake#/media/File:Matsutake.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Tricholoma_matsutake_(9627995451).jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Matsutake",
+       "category":"choice"
+
+   },
+   {
+       "id": 1027,
+       "name": "Meadow Mushroom",
+       "scientificName": "Agaricus campestris",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Agaricaceae",
+       "description": "Agaricus campestris is a widely eaten gilled mushroom closely related to the cultivated button mushroom Agaricus bisporus. It is commonly known as the field mushroom or, in North America, meadow mushroom. Agaricus campestris is found in fields and grassy areas after rain from late summer onwards worldwide. It is often found on lawns in suburban areas. Appearing in small groups, in fairy rings, or solitary. Owing to the demise of horse-drawn vehicles, and the subsequent decrease in the number of horses on pasture, the old 'white outs' of years gone by are becoming rare events. This species is rarely found in woodland.",
+       "appearance": "The cap is white, may have fine scales, and is 5 to 10 centimetres (2.0 to 3.9 in) in diameter; it is first hemispherical in shape before flattening out with maturity. The gills are initially pink, then red-brown and finally a dark brown, as is the spore print. The 3 to 10 centimetres (1.2 to 3.9 in) tall stipe is predominantly white and bears a single thin ring. The taste is mild. The white flesh bruises a dingy reddish brown, as opposed to yellow in the inedible (and somewhat toxic) Agaricus xanthodermus and similar species. The thick-walled, elliptical spores measure 5.5–8.0 μm by 4–5 μm. Cheilocystidia are absent.",
+       "imageName": "meadow-mushroom1",
+       "funFact": "Several species may be confused with Agaricus campestris. The most dangerous confusion may be with Amanita virosa, which is morbidly toxic, or with the deadly Amanita hygroscopica or 'Pink-Gilled Destroying Angel'.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Grass", "Forest Floor", ""],
+       "image1": "https://en.wikipedia.org/wiki/Agaricus_campestris#/media/File:Agaricus_campestris.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:2012-02-13_Agaricus_campestris_L_199587.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Agaricus_campestris",
+       "category":"choice"
+
    }
    
    
