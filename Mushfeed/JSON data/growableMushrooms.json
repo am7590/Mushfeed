@@ -15,13 +15,13 @@
         "id":2,
         "name":"Shiitake",
         "imageName":"shiitake",
-        "description":"Introduction/description",
+        "description":"Similar to the Oyster Mushroom, Shiitake Mushrooms can grow on many substrates, but in this overview we will be going over how to grow them on logs. It will take a few months before they start fruiting, but once they start you will get multiple flushes per year for multiple years. The logs are stored outside and sealed with wax after being inoculated.",
         "category":"beginner",
-        "instructions":["Shiitake", "Step 1 Shiitake", "Step 2 Shiitake", "Step 3 Shiitake", "Step 4 Shiitake"],
-        "link1":"",
-        "link2":"",
-        "link3":"",
-        "link4":""
+        "instructions":["Logs, shiitake spawn plugs, drill, wax/paraffin", "Cut logs 3-9 inches thick and several feet long when they are dormant, so around February to around May. Try to use hardwood trees, preferably oak, but maple, birch, poplar, aspen, and beech have been used. Remember that thicker the log the longer it will take to colonize. After you cut the logs, let them sit for a few weeks or the spawn plugs will have difficulty due to tannic acid levels.", "Drill holes all around the log using a drill bit. A 3-4 foot log should require 50-60 spawn plugs if you drill every three inches in multiple rows. The holes must be large enough so that most of the spawn plug can fit inside, so drill roughly ½ an inch deep with the appropriate drill bit. Hammer the plugs in fully and seal the hole with wax to keep other fungi from contaminating your log. You can also seal the ends of the log to be extra careful.", "Place the log where it gets minimal direct sunlight. It is important for your location to be humid and have fresh air flow. You can stack the logs or lean them against each other. Some people put tarps over the logs while the mycelium first begins to spread, as the early fungal growth can be affected by direct sun, too much wind, or low humidity. Feel free to water the logs if they start to dry out.", "After at least 8 months (it may take up to two years) you will see mushrooms pinning from the logs. Expect 1-2 flushes a year unless you shock the logs to increase production. For shocks, soak the logs in cold water for a day to see mushrooms pinning within a week. Shocking growth only works after the log is fully colonized."],
+        "link1":"https://www.youtube.com/watch?v=v9L9lqzI64M",
+        "link2":"https://pss.uvm.edu/ppp/articles/shiitake.html#:~:text=Unlike%20many%20mushrooms%20which%20grow,lengths%20for%20the%20thicker%20logs",
+        "link3":"https://web.archive.org/web/20071225055034/http://www.thefarm.org/etc/shiitake.html",
+        "link4":"https://www.youtube.com/watch?v=eDmm52FXfZ4"
     },
     {
         "id":3,
