@@ -18,6 +18,10 @@ struct GrowableMushroom: Hashable, Codable, Identifiable {
     //var featured : Bool
     var description : String
     var instructions : [String]
+    var link1 : String
+    var link2 : String
+    var link3 : String
+    var link4 : String
     
     enum Category : String, CaseIterable, Codable, Hashable {
         case beginner = "beginner"

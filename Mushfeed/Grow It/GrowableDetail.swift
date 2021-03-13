@@ -58,10 +58,36 @@ struct GrowableDetail: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 
-                Text("www.wikipedia.com")
-                Text("www.mushrooms.com")
-                Text("www.youtube.com/tutorial")
-            
+                
+                // Links
+                if(drink.link1.isEmpty){
+                        Text("")
+                } else {
+                    Link(drink.link1,
+                         destination: URL(string: drink.link1)!)
+                }
+                
+                if(drink.link2.isEmpty){
+                        Text("")
+                } else {
+                    Link(drink.link2,
+                         destination: URL(string: drink.link2)!)
+                }
+                
+                if(drink.link3.isEmpty){
+                        Text("")
+                } else {
+                    Link(drink.link3,
+                         destination: URL(string: drink.link3)!)
+                }
+                
+                if(drink.link4.isEmpty){
+                        Text("")
+                } else {
+                    Link(drink.link4,
+                         destination: URL(string: drink.link4)!)
+                }
+
             
             }
             
