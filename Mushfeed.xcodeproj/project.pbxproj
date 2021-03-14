@@ -10,7 +10,6 @@
 		E631CF4825EB37C200CE8417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF4725EB37C200CE8417 /* ContentView.swift */; };
 		E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4925EB37C400CE8417 /* Assets.xcassets */; };
 		E631CF4D25EB37C400CE8417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4C25EB37C400CE8417 /* Preview Assets.xcassets */; };
-		E631CF5625EB390B00CE8417 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E631CF5525EB390B00CE8417 /* GoogleService-Info.plist */; };
 		E631CF8125EB3B9800CE8417 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7225EB3B9800CE8417 /* FooterCell.swift */; };
 		E631CF8225EB3B9800CE8417 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7325EB3B9800CE8417 /* HeaderCell.swift */; };
 		E631CF8325EB3B9800CE8417 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF7425EB3B9800CE8417 /* Story.swift */; };
@@ -102,6 +101,7 @@
 		E662978125F2F58400A74824 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E662978025F2F58400A74824 /* FirebaseAuth */; };
 		E662978325F2F58400A74824 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E662978225F2F58400A74824 /* FirebaseFirestore */; };
 		E67BF74625EF5AE90062175E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BF74525EF5AE90062175E /* AppDelegate.swift */; };
+		E6C5B85525FDB7ED00696BC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E631CF5525EB390B00CE8417 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -233,12 +233,20 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
+		E61802D025FD51CA00C87AAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E631CF3925EB37C200CE8417 = {
 			isa = PBXGroup;
 			children = (
 				E631F4E425EC879A0019757A /* MushfeedApp.swift */,
 				E631CF4425EB37C200CE8417 /* Mushfeed */,
 				E631CF4325EB37C200CE8417 /* Products */,
+				E61802D025FD51CA00C87AAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -557,9 +565,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C5B85525FDB7ED00696BC8 /* GoogleService-Info.plist in Resources */,
 				E631CF4D25EB37C400CE8417 /* Preview Assets.xcassets in Resources */,
 				E631D01E25EB3FBB00CE8417 /* growableMushrooms.json in Resources */,
-				E631CF5625EB390B00CE8417 /* GoogleService-Info.plist in Resources */,
 				E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */,
 				E631D01F25EB3FBB00CE8417 /* indexMushrooms.json in Resources */,
 			);
@@ -785,9 +793,11 @@
 		E631CF5225EB37C400CE8417 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Mushfeed/Preview Content\"";
 				DEVELOPMENT_TEAM = 7W5ZSCHZ2W;
 				ENABLE_PREVIEWS = YES;
@@ -798,7 +808,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aleksandermichelson.Mushfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -809,9 +819,11 @@
 		E631CF5325EB37C400CE8417 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Mushfeed/Preview Content\"";
 				DEVELOPMENT_TEAM = 7W5ZSCHZ2W;
 				ENABLE_PREVIEWS = YES;
@@ -822,7 +834,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aleksandermichelson.Mushfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

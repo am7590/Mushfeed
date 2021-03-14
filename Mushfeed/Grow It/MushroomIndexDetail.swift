@@ -80,10 +80,12 @@ struct MushroomIndexDetail: View {
                         .fontWeight(.bold)
                         .foregroundColor(.primary)
                     
+                    
                     Text(mushroom.description)
                         .padding(.top, 0)
                         .foregroundColor(.primary)
                         .lineLimit(nil)
+                        .fixedSize(horizontal: false, vertical: true)
                                    
                     
                     
@@ -151,6 +153,7 @@ struct MushroomIndexDetail: View {
                     Text(mushroom.appearance)
                         .padding(.top, 0)
                         .foregroundColor(.primary)
+                        .fixedSize(horizontal: false, vertical: true)
                
                     }
                     
@@ -199,11 +202,13 @@ struct MushroomIndexDetail: View {
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundColor(.primary)
+                        
                     
                     }
                     
                     Text(mushroom.funFact)
                         .foregroundColor(.primary)
+                        .fixedSize(horizontal: false, vertical: true)
 
                     VStack(alignment: .leading,spacing: 15){
                     
@@ -252,6 +257,9 @@ struct MushroomIndexDetail: View {
                             Text("")
                             Text("")
                             Text("")
+                            Text("")
+  
+                            
                             
                             
                         }.frame(height: 400).padding(.leading, -15)
