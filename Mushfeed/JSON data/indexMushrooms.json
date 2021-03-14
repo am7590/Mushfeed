@@ -598,6 +598,66 @@
        "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
        "category":"choice"
 
+   },
+   {
+       "id": 1031,
+       "name": "Reishi",
+       "scientificName": "Ganoderma lingzhi",
+       "edible": "Edible",
+       "gourmet": "Not Choice",
+       "family": "Ganodermataceae",
+       "description": "Lingzhi, Ganoderma lingzhi, also known as reishi, is a polypore fungus ('bracket fungus') belonging to the genus Ganoderma. The lingzhi mushroom is used in traditional Chinese medicine. There is insufficient evidence that consuming lingzhi mushrooms or their extracts has an effect on cancer, metabolic diseases or cardiovascular diseases. In nature, it grows at the base and stumps of deciduous trees, especially that of the maple. Only two or three out of 10,000 such aged trees will have lingzhi growth, and therefore its wild form is rare. Lingzhi may be cultivated on hardwood logs, sawdust or woodchips.",
+       "appearance": "Its red-varnished, kidney-shaped cap and peripherally inserted stem gives it a distinct fan-like appearance. When fresh, the lingzhi is soft, cork-like, and flat. It lacks gills on its underside, and instead releases its spores via fine pores. Depending on the age, the pores on its underside may be white or brown.",
+       "imageName": "reishi1",
+       "funFact": "Lingzhi, also known as reishi, is the ancient 'mushroom of immortality', revered for over 2,000 years. Uncertainty exists about which Ganoderma species was most widely utilized as lingzhi mushroom in ancient times, and likely a few different common species were considered interchangeable.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Wood", "Forest Floor", "Cultivated"],
+       "image1": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)#/media/File:Ganoderma_lucidum_01.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)#/media/File:Jreishi2.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)",
+       "category":"choice"
+
+   },
+   {
+       "id": 1032,
+       "name": "The Sickener",
+       "scientificName": "Russula emetica",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Russulaceae",
+       "description": "Russula emetica, commonly known as the sickener, emetic russula, or vomiting russula, is a basidiomycete mushroom, and the type species of the genus Russula. The mushroom's common names refer to the gastrointestinal distress they cause when consumed raw. The flesh is extremely peppery, but this offensive taste, along with its toxicity, can be removed by parboiling or pickling. Although it used to be widely eaten in Russia and eastern European countries, it is generally not recommended for consumption.",
+       "appearance": " It has a red, convex to flat cap up to 8.5 cm (3.3 in) in diameter, with a cuticle that can be peeled off almost to the centre. The gills are white to pale cream, and closely spaced. A smooth white stem measures up to 10.5 cm (4.1 in) long and 2.4 cm (0.9 in) thick. First described in 1774, the mushroom has a wide distribution in the Northern Hemisphere, where it grows on the ground in damp woodlands in a mycorrhizal association with conifers, especially pine.",
+       "imageName": "the-sickener1",
+       "funFact": "There are many similar Russula species that have a red cap with white stem and gills, some of which can be reliably distinguished from R. emetica only by microscopic characteristics.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Grass", "Forest Floor", ""],
+       "image1": "https://en.wikipedia.org/wiki/Russula_emetica#/media/File:Russula_emetica_in_Poland.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Russula_emetica#/media/File:Tiny_Russula_paludosa_(Appelrussula)_at_Rozendaal_castle_park_-_panoramio.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Russula_emetica",
+       "category":"poisonous"
+
+   },
+   {
+       "id": 1033,
+       "name": "Shaggy Mane",
+       "scientificName": "Coprinus comatus",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Agaricaceae",
+       "description": "Coprinus comatus, the shaggy ink cap, lawyer's wig, or shaggy mane, is a common fungus often seen growing on lawns, along gravel roads and waste areas. When young it is an excellent edible mushroom provided that it is eaten soon after being collected (it keeps very badly because of the autodigestion of its gills and cap). If long-term storage is desired, microwaving, sauteing or simmering until limp will allow the mushrooms to be stored in a refrigerator for several days or frozen. Also, placing the mushrooms in a glass of ice water will delay the decomposition for a day or two so that one has time to incorporate them into a meal. Processing or icing must be done whether for eating or storage within four to six hours of harvest to prevent undesirable changes to the mushroom. The species is cultivated in China as food.",
+       "appearance": "The young fruit bodies first appear as white cylinders emerging from the ground, then the bell-shaped caps open out. The caps are white, and covered with scales—this is the origin of the common names of the fungus. The gills beneath the cap are white, then pink, then turn black and secrete a black liquid filled with spores (hence the 'ink cap' name). This mushroom is unusual because it will turn black and dissolve itself in a matter of hours after being picked or depositing spores.",
+       "imageName": "shaggy-mane1",
+       "funFact": "The mushroom can sometimes be confused with the magpie fungus which is poisonous. In America, the 'vomiter' mushroom Chlorophyllum molybdites is responsible for most cases of mushroom poisoning due to its similarity with shaggy mane and other edible mushrooms.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Grass", "Forest Floor", ""],
+       "image1": "https://en.wikipedia.org/wiki/Coprinus_comatus#/media/File:Coprinus_comatus_G4.JPG",
+       "image2": "https://en.wikipedia.org/wiki/Coprinus_comatus#/media/File:Coprinus_comatus-2_hg.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Coprinus_comatus",
+       "category":"choice"
+
    }
    
    

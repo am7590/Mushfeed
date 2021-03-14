@@ -27,13 +27,13 @@
         "id":3,
         "name":"Lion's Mane",
         "imageName":"Lions Mane",
-        "description":"Introduction/description",
+        "description":"The Lion's Mane mushroom can be grown on several different kinds of substrates and is slightly more difficult to grow when compared to Oyster or Shiitake mushrooms. In this example we will be using fruiting blocks to grow them indoors. This method produces multiple flushes and relatively quick grow times.",
         "category":"beginner",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
-        "link1":"",
-        "link2":"",
-        "link3":"",
-        "link4":""
+        "instructions":["Grain/sawdust Lions Mane spawn, mushroom grow bags, mushrooms, pressure cooker, water", "Historically successful Lion’s Mane substrates are 50/50 mixes of hardwood sawdust/soybean hulls or hardwood fuel pellets/wheat bran (although some people add more ingredients) mixed with water. It is strongly advised to follow a step-by-step tutorial when it comes to making your fruiting blocks to avoid contamination. Check out the first link in the references.", "After your fruiting block is made, with the substrate in the fruiting bag, it is time to sterilize it before mixing in the spawn. This can be done by pressure cooking it for 2.5 hours.", "In a sterile location (preferably under a flow hood) mix your spawn thoroughly in with the substrate. Seal the grow bag and place it somewhere dark for a few weeks while the mycelium spreads.", "When you see the mycelium begin to fruit behind the plastic, place the grow bag in a fruiting room and cut the plastic where the Lion’s Mane mushrooms are beginning to grow. Do not wait until the bag is completely colonized. Be ready to harvest in about a week, and expect multiple flushes."],
+        "link1":"https://www.yonathanreches.com/how-to-make-supplemented-sawdust-blocks/",
+        "link2":"https://morningchores.com/growing-lions-mane-mushrooms/",
+        "link3":"https://www.youtube.com/watch?v=S4GODFy3Vcg",
+        "link4":"https://www.youtube.com/watch?v=KTLr50RlhT0"
     },
     {
         "id":4,
