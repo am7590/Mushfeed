@@ -17,13 +17,13 @@ struct UserProfileView: View {
         return
             
                 ScrollView {
-                   VStack(alignment: .leading, spacing: 15) {
+                   VStack(alignment: .center, spacing: 15) {
                     ProfileHeader(user: user)
                     ProfileInformation(user: user)
-                    HStack(spacing: 5) {
-                        FollowButton()
-                        MessageButton()
-                    }.padding(.leading, 20).padding(.trailing, 20)
+//                    HStack(spacing: 5) {
+//                        FollowButton()
+//                        MessageButton()
+//                    }.padding(.leading, 20).padding(.trailing, 20)
                          
                          Picker(selection: $selection, label: Text("Grid or Table")) {
                                     ForEach(Selection.allCases) { selection in

@@ -58,7 +58,7 @@ struct CameraView: View {
                     NavigationLink(destination: HomeView()) {
                         ZStack{
                             Button(action: sharePost) {
-                                Image(systemName: "arrow.turn.up.right").imageScale(Image.Scale.large)
+                                Image(systemName: "arrow.turn.up.right").imageScale(Image.Scale.large).foregroundColor(.gray)
                             }.alert(isPresented: $cameraViewModel.showAlert) {
                                 Alert(title: Text("Error"), message: Text(self.cameraViewModel.errorString), dismissButton: .default(Text("OK")))
                             }

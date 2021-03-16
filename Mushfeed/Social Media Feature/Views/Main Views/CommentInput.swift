@@ -45,7 +45,7 @@ struct CommentInput: View {
                  HStack {
                      TextField("Add a comment", text: $composedMessage).padding(30)
                      Button(action: commentAction) {
-                         Image(systemName: "paperplane").imageScale(.large).foregroundColor(.black).padding(30)
+                         Image(systemName: "paperplane").imageScale(.large).foregroundColor(.gray).padding(30)
                      }
                  }
 
