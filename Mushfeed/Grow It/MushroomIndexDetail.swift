@@ -36,8 +36,7 @@ struct MushroomIndexDetail: View {
                 
                 
                 HStack() {
-                
-                    Image("icon1")
+                    Image("edible 2")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
@@ -52,7 +51,7 @@ struct MushroomIndexDetail: View {
                 }
                 
                 HStack() {
-                    Image("icon2").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 35, height: 35).overlay(Circle().stroke(Color.black, lineWidth: 2))
+                    Image("choice").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 35, height: 35).overlay(Circle().stroke(Color.black, lineWidth: 2))
                     
                     Text(mushroom.gourmet)
                         .font(.title)
