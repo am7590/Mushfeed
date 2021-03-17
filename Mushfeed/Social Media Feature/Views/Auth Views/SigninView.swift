@@ -40,9 +40,9 @@ struct SigninView: View {
             Spacer()
                 Group {
                     HStack {
-                        Image("icon2").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
-                        Image("icon3").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
-                        Image("icon1").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
+                        Image("icon2").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80).clipShape(Circle())
+                        Image("icon3").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80).clipShape(Circle())
+                        Image("icon1").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80).clipShape(Circle())
                     }
     
                     Text(TEXT_SIGNIN_HEADLINE).font(Font.title).padding(.bottom)
