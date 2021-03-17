@@ -14,7 +14,7 @@ struct EmailTextField: View {
     
     var body: some View {
         HStack {
-            Image(systemName: "envelope.fill").foregroundColor(Color(red: 0, green: 0, blue: 0, opacity: 0.3))
+            Image(systemName: "envelope.fill").foregroundColor(Color.gray)
             TextField(TEXT_EMAIL, text: $email)
         }.modifier(TextFieldModifier())
     }
