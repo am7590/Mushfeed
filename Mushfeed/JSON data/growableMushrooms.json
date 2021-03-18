@@ -9,7 +9,8 @@
         "link1":"https://grocycle.com/how-to-set-up-a-low-tech-mushroom-farm/",
         "link2":"https://www.youtube.com/watch?v=r10GqUKmSbc",
         "link3":"https://learn.freshcap.com/growing/bucket-grow/",
-        "link4":"https://www.youtube.com/watch?v=8Zi9GnE1HRA"
+        "link4":"https://www.youtube.com/watch?v=8Zi9GnE1HRA",
+        "storeLink":""
     },
     {
         "id":2,
@@ -21,31 +22,34 @@
         "link1":"https://www.youtube.com/watch?v=v9L9lqzI64M",
         "link2":"https://pss.uvm.edu/ppp/articles/shiitake.html#:~:text=Unlike%20many%20mushrooms%20which%20grow,lengths%20for%20the%20thicker%20logs",
         "link3":"https://web.archive.org/web/20071225055034/http://www.thefarm.org/etc/shiitake.html",
-        "link4":"https://www.youtube.com/watch?v=eDmm52FXfZ4"
+        "link4":"https://www.youtube.com/watch?v=eDmm52FXfZ4",
+        "storeLink":""
     },
     {
         "id":3,
         "name":"Lion's Mane",
         "imageName":"Lions Mane",
         "description":"The Lion's Mane mushroom can be grown on several different kinds of substrates and is slightly more difficult to grow when compared to Oyster or Shiitake mushrooms. In this example we will be using fruiting blocks to grow them indoors. This method produces multiple flushes and relatively quick grow times.",
-        "category":"beginner",
+        "category":"difficult",
         "instructions":["Grain/sawdust Lions Mane spawn, mushroom grow bags, mushrooms, pressure cooker, water", "Historically successful Lion’s Mane substrates are 50/50 mixes of hardwood sawdust/soybean hulls or hardwood fuel pellets/wheat bran (although some people add more ingredients) mixed with water. It is strongly advised to follow a step-by-step tutorial when it comes to making your fruiting blocks to avoid contamination. Check out the first link in the references.", "After your fruiting block is made, with the substrate in the fruiting bag, it is time to sterilize it before mixing in the spawn. This can be done by pressure cooking it for 2.5 hours.", "In a sterile location (preferably under a flow hood) mix your spawn thoroughly in with the substrate. Seal the grow bag and place it somewhere dark for a few weeks while the mycelium spreads.", "When you see the mycelium begin to fruit behind the plastic, place the grow bag in a fruiting room and cut the plastic where the Lion’s Mane mushrooms are beginning to grow. Do not wait until the bag is completely colonized. Be ready to harvest in about a week, and expect multiple flushes."],
         "link1":"https://www.yonathanreches.com/how-to-make-supplemented-sawdust-blocks/",
         "link2":"https://morningchores.com/growing-lions-mane-mushrooms/",
         "link3":"https://www.youtube.com/watch?v=S4GODFy3Vcg",
-        "link4":"https://www.youtube.com/watch?v=KTLr50RlhT0"
+        "link4":"https://www.youtube.com/watch?v=KTLr50RlhT0",
+        "storeLink":""
     },
     {
         "id":4,
         "name":"Reishi",
         "imageName":"reishi",
         "description":"Introduction/description",
-        "category":"beginner",
+        "category":"difficult",
         "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
         "link1":"",
         "link2":"",
         "link3":"",
-        "link4":""
+        "link4":"",
+        "storeLink":""
     },
     {
         "id":5,
@@ -57,7 +61,8 @@
         "link1":"",
         "link2":"",
         "link3":"",
-        "link4":""
+        "link4":"",
+        "storeLink":""
     },
     {
         "id":6,
@@ -69,78 +74,46 @@
         "link1":"",
         "link2":"",
         "link3":"",
-        "link4":""
+        "link4":"",
+        "storeLink":""
     },
     {
         "id":7,
-        "name":"King Stropharia",
-        "imageName":"king",
-        "description":"Introduction/description",
-        "category":"difficult",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "name":"Oyster Mushroom Grow Kit",
+        "imageName":"growkit",
+        "description":"The Back to the Roots Organic Mushroom Grow Kit is the easiest way to grow your own organic and gourmet mushrooms at home! Just open, spray daily with the included mister, and in 10 days you'll be harvesting your own mushrooms right out of the box. The best part is you can grow a crop of mushrooms indoors all-year round right by your windowsill, and it'll keep growing fresh in any season. Each crop of mushrooms from our growing kit can produce 3 to 4 servings, and each box can grow up to two crops. Cook them however you like whether sauteed or grilled, or you can just add them into your favorite dishes like pasta.",
+        "category":"grow bags",
+        "instructions":["", "", "", "", ""],
         "link1":"",
         "link2":"",
         "link3":"",
-        "link4":""
+        "link4":"",
+        "storeLink":"https://www.amazon.com/Back-Roots-Mushroom-Mushrooms-Gardening/dp/B00CD0KZ78"
     },
     {
         "id":8,
-        "name":"Hen of the Woods/Maitake",
-        "imageName":"hen",
-        "description":"Introduction/description",
-        "category":"difficult",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "name":"Field & Forest Products Grow Kits",
+        "imageName":"growkit2",
+        "description":"Field & Forest Products offers grow kits for the following mushrooms: Chestnut, Shiitake, Oyster, Lion's Mane, Comb Tooth, Reishi, and Black Pearl Oyster.",
+        "category":"grow bags",
+        "instructions":["", "", "", "", ""],
         "link1":"",
         "link2":"",
         "link3":"",
-        "link4":""
+        "link4":"",
+        "storeLink":"https://www.fieldforest.net/category/ready-to-fruit-kits"
     },
     {
         "id":9,
-        "name":"Porcini",
-        "imageName":"Porcini",
-        "description":"Introduction/description",
-        "category":"beginner",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
-        "link1":"",
-        "link2":"",
-        "link3":"",
-        "link4":""
-    },
-    {
-        "id":10,
-        "name":"Grow Bag #1",
-        "imageName":"grow 1",
-        "description":"Introduction/description",
+        "name":"North Spore Grow Kits",
+        "imageName":"growkit3",
+        "description":"North Spore offers grow kits for the following mushrooms: Lion's Mane, Blue Oyster, Pink Oyster, and Golden Oyster.",
         "category":"grow bags",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
+        "instructions":["", "", "", "", ""],
         "link1":"",
         "link2":"",
         "link3":"",
-        "link4":""
-    },
-    {
-        "id":11,
-        "name":"Grow Bag #2",
-        "imageName":"griw 2",
-        "description":"Introduction/description",
-        "category":"grow bags",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
-        "link1":"",
-        "link2":"",
-        "link3":"",
-        "link4":""
-    },
-    {
-        "id":12,
-        "name":"Grow Bag #3",
-        "imageName":"grow 3",
-        "description":"Introduction/description",
-        "category":"grow bags",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
-        "link1":"",
-        "link2":"",
-        "link3":"",
-        "link4":""
+        "link4":"",
+        "storeLink":"https://northspore.com/pages/growkits"
     }
 ]

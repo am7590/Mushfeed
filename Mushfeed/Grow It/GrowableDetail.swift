@@ -7,10 +7,12 @@
 //
 
 import SwiftUI
+import URLImage
 
 struct GrowableDetail: View {
     
     var drink : GrowableMushroom
+    @Environment(\.openURL) var openURL
     
     var body: some View {
         List {
@@ -50,53 +52,82 @@ struct GrowableDetail: View {
                     .lineSpacing(8)
                     .fixedSize(horizontal: false, vertical: true)
                     
+                if(drink.category.rawValue != "grow bags"){
+                    
+                    
+                    
+                    VStack(alignment: .leading) {
+                        Text("How to Grow")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        
+                        ExpandingListView(lists: ExpandingList.growableMushroomSteps(mush: drink)).offset(x: -20)//.frame(height: 500)
+                    }.frame(height: 500)
                 
-                VStack(alignment: .leading) {
-                    Text("How to Grow")
+                
+                
+                
+                    
+                    Text("References")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     
-                    ExpandingListView(lists: ExpandingList.growableMushroomSteps(mush: drink)).offset(x: -20)//.frame(height: 500)
-                }.frame(height: 500)
+                    
+                    List {
+                        // Links
+                        if(drink.link1.isEmpty){
+                                Text("")
+                        } else {
+                            Link(drink.link1,
+                                 destination: URL(string: drink.link1)!)
+                        }
+                        
+                        if(drink.link2.isEmpty){
+                                Text("")
+                        } else {
+                            Link(drink.link2,
+                                 destination: URL(string: drink.link2)!)
+                        }
+                        
+                        if(drink.link3.isEmpty){
+                                Text("")
+                        } else {
+                            Link(drink.link3,
+                                 destination: URL(string: drink.link3)!)
+                        }
+                        
+                        if(drink.link4.isEmpty){
+                                Text("")
+                        } else {
+                            Link(drink.link4,
+                                 destination: URL(string: drink.link4)!)
+                        }
+                    }.frame(height: 200)
+                    
+                    
+                } else {
+                    VStack(alignment:.center){
+                        
+                        
+                        Button(action: {openURL(URL(string: drink.storeLink)!)}) {
+                            HStack {
+                                Spacer()
+                                Text("Check it out").font(.largeTitle).fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                Spacer()
+                            }.frame(height: 30).background(Color.primary).padding(.top, 5)
+                            
+                        }.cornerRadius(5)
+                        
+                    Text("\nMushfeed does not use affiliate links, and we only reccomend reputable products.").font(.caption)
+                    }
+                        
+                }
                 
                 
                 
-                
-                Text("References")
-                .font(.largeTitle)
-                .fontWeight(.bold)
                     
                 
-                List {
-                    // Links
-                    if(drink.link1.isEmpty){
-                            Text("")
-                    } else {
-                        Link(drink.link1,
-                             destination: URL(string: drink.link1)!)
-                    }
-                    
-                    if(drink.link2.isEmpty){
-                            Text("")
-                    } else {
-                        Link(drink.link2,
-                             destination: URL(string: drink.link2)!)
-                    }
-                    
-                    if(drink.link3.isEmpty){
-                            Text("")
-                    } else {
-                        Link(drink.link3,
-                             destination: URL(string: drink.link3)!)
-                    }
-                    
-                    if(drink.link4.isEmpty){
-                            Text("")
-                    } else {
-                        Link(drink.link4,
-                             destination: URL(string: drink.link4)!)
-                    }
-                }.frame(height: 200)
+                
 
             
             }
