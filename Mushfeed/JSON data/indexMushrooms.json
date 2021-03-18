@@ -658,6 +658,66 @@
        "wiki": "https://en.wikipedia.org/wiki/Coprinus_comatus",
        "category":"choice"
 
+   },
+   {
+       "id": 1034,
+       "name": "Slippery Jack",
+       "scientificName": "Suillus luteus",
+       "edible": "Edible",
+       "gourmet": "Not Choice",
+       "family": "Suillaceae",
+       "description": "Suillus luteus is a bolete fungus, and the type species of the genus Suillus. A common fungus native to Eurasia, from the British Isles to Korea, it has been introduced widely elsewhere, including North and South America, southern Africa, Australia and New Zealand. Commonly referred to as slippery jack or sticky bun in English-speaking countries, its names refer to the brown cap, which is characteristically slimy in wet conditions. The fungus, initially described as Boletus luteus by Carl Linnaeus in 1753, is now classified in a different family as well as genus. Suillus luteus is edible, though not as highly regarded as other bolete mushrooms, and is commonly prepared and eaten in soups, stews or fried dishes. The slime coating, however, may cause indigestion if not removed before eating.",
+       "appearance": "The fungus produces spore-bearing fruit bodies, often in large numbers, above ground in summer and autumn. The fruit body cap often has a distinctive conical shape before flattening with age, reaching up to 13 cm (5 in) in diameter. Like other boletes, it has tubes extending downward from the underside of the cap, rather than gills; spores escape at maturity through the tube openings, or pores. The pore surface is yellow, and covered by a membranous partial veil when young. The pale stipe, or stem, measures up to 10 cm (4 in) tall and 3 cm (1.2 in) thick and bears small dots near the top. Unlike most other boletes, it bears a distinctive membranous ring that is tinged brown to violet on the underside.",
+       "imageName": "slippery-jack1",
+       "funFact": "The fungus grows in coniferous forests in its native range, and pine plantations in countries where it has become naturalized. It forms symbiotic ectomycorrhizal associations with living trees by enveloping the tree's underground roots with sheaths of fungal tissue.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Suillus_luteus#/media/File:Suillus_luteus_475376.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Suillus_luteus#/media/File:2012-10-12_Suillus_luteus_(L.)_Roussel_271431.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Suillus_luteus",
+       "category":"edible"
+
+   },
+   {
+       "id": 1035,
+       "name": "Snow Fungus",
+       "scientificName": "Tremella fuciformis",
+       "edible": "Use Caution",
+       "gourmet": "Not Choice",
+       "family": "Tremellaceae",
+       "description": "Tremella fuciformis is a species of fungus; it produces white, frond-like, gelatinous basidiocarps (fruiting bodies). It is widespread, especially in the tropics, where it can be found on the dead branches of broadleaf trees. This fungus is commercially cultivated and is one of the most popular fungi in the cuisine and medicine of China.[1] Tremella fuciformis is commonly known as snow fungus, snow ear, silver ear fungus, and white jelly mushroom.",
+       "appearance": "Tremella fuciformis is a parasitic yeast, and grows as a slimy, mucous-like film until it encounters its preferred hosts, various species of Annulohypoxylon (or possibly Hypoxylon) fungi, whereupon it then invades, triggering the aggressive mycelial growth required to form the fruiting bodies. Fruit bodies are gelatinous, watery white, up to 7.5 centimetres (3 inches) across (larger in cultivated specimens), and composed of thin but erect, seaweed-like, branching fronds, often crisped at the edges.",
+       "imageName": "snow-fungus1",
+       "funFact": "In Chinese cuisine, Tremella fuciformis is traditionally used in sweet dishes. While tasteless, it is valued for its gelatinous texture as well as its supposed medicinal benefits.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Trees", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Tremella_fuciformis_337510.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Eunibeoseot_(Tremella_fuciformis)_silver_ear_mushroom.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Tremella_fuciformis",
+       "category":"use caution"
+
+   },
+   {
+       "id": 1036,
+       "name": "Paddy Straw Mushrooms",
+       "scientificName": "Volvariella volvacea",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Pluteaceae",
+       "description": "Volvariella volvacea (also known as paddy straw mushroom or straw mushroom) is a species of edible mushroom cultivated throughout East and Southeast Asia and used extensively in Asian cuisines. They are often available fresh in regions they are cultivated, but elsewhere are more frequently found canned or dried. Worldwide, straw mushrooms are the third most consumed mushroom.",
+       "appearance": "In their button stage, straw mushrooms resemble poisonous death caps, but can be distinguished by several mycological features, including their pink spore print (spore prints of death caps are white). The two mushrooms have different distributions, with the death cap generally not found where the straw mushroom grows natively, but immigrants, particularly those from Southeast Asia to California and Australia, have been poisoned due to misidentification.",
+       "imageName": "paddy-straw1",
+       "funFact": "Straw mushrooms are grown on rice straw beds and are most commonly picked when immature (often labeled "unpeeled"), during their button or egg phase and before the veil ruptures",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Tremella_fuciformis_337510.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Eunibeoseot_(Tremella_fuciformis)_silver_ear_mushroom.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Volvariella_volvacea",
+       "category":"use caution"
+
    }
    
 
