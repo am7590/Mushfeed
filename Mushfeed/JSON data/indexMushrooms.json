@@ -752,11 +752,71 @@
        "funFact": "This genus is a popular seasonal delicacy in the Indian state of Goa. For about two weeks at the beginning of August every year, clusters of villagers dot the Goan roadside hawking the handpicked mushrooms. A spicy gravy known as 'Tonak' is a popular method of preparation. Since Termitomyces mushrooms are difficult to mass produce, they command a high price.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Termites", ""],
+       "locations" : ["Grass", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Termitomyces#/media/File:Termitomyces_reticulatus_37340.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Termitomyces_titanicus.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Termitomyces",
        "category":"edible"
+
+   },
+   {
+       "id": 1039,
+       "name": "Turkey Tail",
+       "scientificName": "Trametes versicolor",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Polyporaceae",
+       "description": "Trametes versicolor – also known as Coriolus versicolor and Polyporus versicolor – is a common polypore mushroom found throughout the world. Meaning 'of several colors', versicolor reliably describes this fungus that displays different colors. For example, because its shape and multiple colors are similar to those of a wild turkey, T. versicolor is commonly called turkey tail. A similar looking mushroom, commonly called false turkey tail, which is from a different order, may sometimes be confused with the turkey tail mushroom due to appearance. Another lookalike is the multicolor gill polypore.",
+       "appearance": "The top surface of the cap shows typical concentric zones of different colors, and the margin is always the lightest. The flesh is 1–3 mm thick and has leathery texture. Older specimens, such as the one pictured, can have zones with green algae growing on them, thus appearing green. It commonly grows in tiled layers on in groups or rows on logs and stumps of deciduous trees, and is very common in North America. The mushroom is stalkless and the cap is rust-brown or darker brown, sometimes with blackish zones. The cap is flat, up to 8 × 5 x 0.5–1 cm in area. It is often triangular or round, with zones of fine hairs. The pore surface is whitish to light brown, with pores round and with age twisted and labyrinthine. 3–8 pores per millimeter.",
+       "imageName": "turkey-tail1",
+       "funFact": "It may be eaten by caterpillars of the fungus moth Nemaxera betulinella and by maggots of the Platypezid fly Polyporivora picta. and the fungus gnat Mycetophila luctuosa, but is considered inedible to humans.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Trees", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Trametes_versicolor#/media/File:Trametes_versicolor_G4_(1).JPG",
+       "image2": "https://en.wikipedia.org/wiki/Trametes_versicolor#/media/File:Schmetterlingstramete_Trametes_versicolor_001.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Trametes_versicolor",
+       "category":"inedible"
+
+   },
+   {
+       "id": 1040,
+       "name": "Garden Giant",
+       "scientificName": "Stropharia rugosoannulata",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Strophariaceae",
+       "description": "Stropharia rugosoannulata, commonly known as the wine cap stropharia, 'garden giant', burgundy mushroom or king stropharia, is an agaric of the family Strophariaceae found in Europe and North America, and introduced to Australia and New Zealand. Unlike many other members of the genus Stropharia, it is regarded as a choice edible and is commercially cultivated.",
+       "appearance": "The king stropharia can grow to 20 cm high with a reddish-brown convex to flattening cap up to 30 cm across, the size leading to another colloquial name godzilla mushroom. The gills are initially pale, then grey, and finally dark purple-brown in colour. The firm flesh is white, as is the tall stem which bears a wrinkled ring. This is the origin of the specific epithet which means 'wrinkled-ringed'.",
+       "imageName": "garden-giant1",
+       "funFact": "It is found on wood chips across North America in summer and autumn. Described as very tasty by some authors, king stropharia is easily cultivated on a medium similar to that on which it grows naturally. Antonio Carluccio recommends sautéeing them in butter or grilling them.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Forest Floor", "Cultivated", ""],
+       "image1": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata#/media/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpghttps://en.wikipedia.org/wiki/Stropharia_rugosoannulata#/media/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Kulturtr%C3%A4uschling_Stropharia_rugosoannulata.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata",
+       "category":"choice"
+
+   },
+   {
+       "id": 1041,
+       "name": "Wood Blewit",
+       "scientificName": "Clitocybe nuda",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Tricholomataceae",
+       "description": "Clitocybe nuda, commonly known as the wood blewit and alternately described as Lepista nuda, is an edible mushroom native to Europe and North America. Described by Pierre Bulliard in 1790, it was also known as Tricholoma nudum for many years. It is found in both coniferous and deciduous woodlands. It is a fairly distinctive mushroom that is widely eaten, though there is some caution about edibility. Nevertheless, it has been cultivated in Britain, the Netherlands and France.",
+       "appearance": "This mushroom can range from lilac to purple-pink. Some North American specimens are duller and tend toward tan, but usually have purplish tones on the stem and gills. The gills are attached to the short, stout stem. Mature specimens have a darker color and flatter cap; younger ones are lighter with more convex caps. Wood blewits have a very distinctive odor, which has been likened by one author to that of frozen orange juice.",
+       "imageName": "wood-blewit1",
+       "funFact": "The wood blewit has been cultivated in Britain, the Netherlands and France. Cultivated wood blewits are said not to taste as good as wild wood blewits.",
+       "lookalikes": "",
+       "growable" : true,
+       "locations" : ["Forest Floor", "Cultivated", ""],
+       "image1": "https://en.wikipedia.org/wiki/Clitocybe_nuda#/media/File:Lepista_nuda_LC0372.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Clitocybe_nuda#/media/File:Lepista_nuda_Paarse_schijnridderzwam.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Clitocybe_nuda",
+       "category":"choice"
 
    }
    
