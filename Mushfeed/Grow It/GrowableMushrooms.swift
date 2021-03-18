@@ -27,7 +27,7 @@ struct GrowableMushroom: Hashable, Codable, Identifiable {
     enum Category : String, CaseIterable, Codable, Hashable {
         case beginner = "beginner"
         case difficult = "difficult"
-        case bags = "grow bags"
+        case bags = "grow kits"
     }
     
     

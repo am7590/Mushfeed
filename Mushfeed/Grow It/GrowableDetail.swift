@@ -52,7 +52,7 @@ struct GrowableDetail: View {
                     .lineSpacing(8)
                     .fixedSize(horizontal: false, vertical: true)
                     
-                if(drink.category.rawValue != "grow bags"){
+                if(drink.category.rawValue != "grow kits"){
                     
                     
                     
@@ -137,7 +137,7 @@ struct GrowableDetail: View {
     //        }
             //.listStyle(SidebarListStyle())
     }.edgesIgnoringSafeArea(.top)
-        .navigationTitle("Instructions")
+        .navigationTitle(drink.category.rawValue == "grow kits" ? "Grow Kits" : "Instructions")
     }
 }
 
