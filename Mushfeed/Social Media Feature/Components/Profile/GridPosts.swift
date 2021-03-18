@@ -12,13 +12,14 @@ import URLImage
 struct GridPosts: View {
     
     var user: User?
-    var splitted: [[Post]] = []
+    @State var splitted: [[Post]] = []
     var body: some View {
         VStack(alignment: .leading, spacing: 1) {
             // rows
-            if user != nil {
+            
                 ForEach(0..<self.splitted.count) { index in
                     HStack(spacing: 1) {
+                        
                         ForEach(self.splitted[index], id: \.postId) { post in
                             
                             URLImage(url: URL(string: post.mediaUrl)!,
@@ -39,4 +40,4 @@ struct GridPosts: View {
             }
         }
     }
-}
+

@@ -44,6 +44,7 @@ struct ProfileView: View {
                             if !profileViewModel.isLoading {
                                 if selection == .grid {
                                     GridPosts(splitted: self.profileViewModel.splitted)
+                                    
                                 } else {
                                     ForEach(self.profileViewModel.posts, id: \.postId) { post in
                                         VStack {
@@ -87,9 +88,11 @@ struct ProfileView: View {
                             // Log out
                             Button(action: {self.session.logout()}) {
                                 HStack {
-                                    Spacer()
-                                    Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    Spacer()
+                                        
+                                        Spacer()
+                                        Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                        Spacer()
+                                    
                                 }.frame(height: 30).background(Color.primary).padding(.top, 5)
                                 
                             }.cornerRadius(5)
