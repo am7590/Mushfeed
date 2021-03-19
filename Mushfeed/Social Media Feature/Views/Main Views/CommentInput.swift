@@ -31,27 +31,32 @@ struct CommentInput: View {
     
     var body: some View {
         HStack(spacing: 0) {
-            HStack {
-                URLImage(url: URL(string: session.userSession!.profileImageUrl)!,
-            content: { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .clipShape(Circle())
-            }).frame(width: 50, height: 50
-            ).padding(.leading, 15)
-            ZStack {
-                 RoundedRectangle(cornerRadius: 20).stroke(Color.gray, lineWidth: 1).padding()
-                 HStack {
-                     TextField("Add a comment", text: $composedMessage).padding(30)
-                     Button(action: commentAction) {
-                         Image(systemName: "paperplane").imageScale(.large).foregroundColor(.gray).padding(30)
+            
+            if(session.userSession!.profileImageUrl != ""){
+                HStack {
+                    URLImage(url: URL(string: session.userSession!.profileImageUrl)!,
+                content: { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .clipShape(Circle())
+                }).frame(width: 50, height: 50
+                ).padding(.leading, 15)
+                ZStack {
+                     RoundedRectangle(cornerRadius: 20).stroke(Color.gray, lineWidth: 1).padding()
+                     HStack {
+                         TextField("Add a comment", text: $composedMessage).padding(30)
+                         Button(action: commentAction) {
+                             Image(systemName: "paperplane").imageScale(.large).foregroundColor(.gray).padding(30)
+                         }
                      }
-                 }
 
-             }.frame(height: 70)
-        }
- 
+                 }.frame(height: 70)
+            }
+            } else {
+                Text("ERROR- Please go back and reload this page")
+            }
+                
      
     }
 }
