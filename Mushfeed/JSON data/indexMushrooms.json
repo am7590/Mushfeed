@@ -958,6 +958,86 @@
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_violaceus",
        "category":"inedible"
 
+   },
+   {
+       "id": 1049,
+       "name": "Carrot-footed Lepidella",
+       "scientificName": "Amanita daucipes",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Amanitaceae",
+       "description": "Amanita daucipes is a species of fungus in the family Amanitaceae of the mushroom order Agaricales. Found exclusively in North America, the mushroom may be recognized in the field by the medium to large white caps with pale orange tints, and the dense covering of pale orange or reddish-brown powdery conical warts on the cap surface. The mushroom also has a characteristic large bulb at the base of its stem with a blunt short rooting base, whose shape is suggestive of the common names carrot-footed lepidella, carrot-foot amanita, or turnip-foot amanita. The mushroom has a strong odor that has been described variously as 'sweet and nauseous', or compared to an old ham bone, or soap. Edibility is unknown for the species, but consumption is generally not recommended due its position in the Amanita subgroup Lepidella, which contains some poisonous members.",
+       "appearance": "The caps of the fruit bodies initially have a convex shape before flattening out in maturity, and measure 6 to 25 cm (2.4 to 9.8 in) in diameter. The cap surface is dry to shiny, and white with a pale orange hue. It is densely covered with white to pale orange or reddish-brown conical warts. The warts, remnants of the universal veil, are randomly distributed on the cap surface and become fluffier and cotton-like (flocculent) near the edge (or margin) of the cap. Drier specimens may have the cap surface completely cracked around the bases of the individual warts.",
+       "imageName": "carrot-footed1",
+       "funFact": "The edibility of A. daucipes is unknown, but the mushroom is not recommended for consumption because the Lepidella section of Amanita also contains several poisonous species.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Amanita_daucipes#/media/File:Amanita_daucipes_56224.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Amanita_daucipes#/media/File:Amanita_daucipes_18186.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Amanita_daucipes",
+       "category":"inedible"
+
+   },
+   {
+       "id": 1050,
+       "name": "Pinecone Mushroom",
+       "scientificName": "Auriscalpium vulgare",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Auriscalpiaceae",
+       "description": "Auriscalpium vulgare, commonly known as the pinecone mushroom, the cone tooth, or the ear-pick fungus, is a species of fungus in the family Auriscalpiaceae of the order Russulales. It was first described in 1753 by Carl Linnaeus, who included it as a member of the tooth fungi genus Hydnum, but British mycologist Samuel Frederick Gray recognized its uniqueness and in 1821 transferred it to the genus Auriscalpium that he created to contain it. The fungus is widely distributed in Europe, Central America, North America, and temperate Asia. Although common, its small size and nondescript colors lead it to be easily overlooked in the pine woods where it grows. A. vulgare is not generally considered edible because of its tough texture, but some historical literature says it used to be consumed in France and Italy.",
+       "appearance": "The fruit body of A. vulgare is fibrous when fresh and becomes stiff when dry. It is a small species rarely exceeding 55 mm (2.2 in) in height, with a cap usually smaller than an adult's fingernails: 0.5 to 2 cm (0.2 to 0.8 in)—although it has been known to reach up to 4 cm (1.6 in). Auriscalpium vulgare usually has a single stem, but occasionally several stems arise from a thick common base. It attaches to the side of the cap and is cylindrical or slightly flattened with a bulbous base. Its surface is covered with hairy fibers (especially near the base), and its mature color is a dark chestnut brown. The cap is semicircular or kidney-shaped, flat on the lower surface and rounded on the top.",
+       "imageName": "pinecone1",
+       "funFact": "The fruit bodies (mushrooms) grow on conifer litter or on conifer cones that may be partially or completely buried in soil. The dark brown cap of the small, spoon-shaped mushroom is covered with fine brown hairs, and reaches a diameter of up to 2 cm (0.8 in)",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare#/media/File:Auriscalpium_vulgare_82813.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare#/media/File:Auriscalpium_vulgare_129877.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare",
+       "category":"inedible"
+
+   },
+   {
+       "id": 1051,
+       "name": "Yellow Fairy Cups",
+       "scientificName": "Bisporella citrina",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Helotiaceae",
+       "description": "Bisporella citrina, commonly known as yellow fairy cups or lemon discos, is a species of fungus in the family Helotiaceae. The fungus produces tiny yellow cups up to 3 mm (0.12 in) in diameter, often without stalks, that fruit in groups or dense clusters on decaying deciduous wood that has lost its bark. The widely distributed species is found in North Africa, Asia, Europe, North America, and Central and South America. Found in late summer and autumn, the fungus is fairly common, but is easily overlooked owing to its small size. There are several similar species that can in most cases be distinguished by differences in color, morphology, or substrate. Microscopically, B. citrina can be distinguished from these lookalikes by its elliptical spores, which have a central partition, and an oil drop at each end.",
+       "appearance": "Fruit bodies begin as spherical, closed globules, before expanding. The smooth, bright yellow fruit bodies are small—typically less than 3 mm (0.12 in) in diameter and up to 1 mm (0.04 in) high—and shallowly cup- or disc-shaped. The inner surface is smooth, and bright yellow, while the outer surface is a paler yellow. In mass, the spore color is white. The stalk is broad, pale yellow in color, and short to nearly absent; when present it is rarely more than 1 mm. The fruit bodies may be so numerous that their shapes are distorted by overcrowding. Fruit bodies that have dried are wrinkled and have a dull orangish-brown color. The fruit bodies have no distinctive taste nor odor, and are not edible.",
+       "imageName": "yellow-fairy-cups1",
+       "funFact": "Bisporella citrina is saprobic, and so obtains nutrients by breaking down complex organic molecules into simpler ones. Fruit bodies are typically encountered growing in dense clusters on the surface of rotten wood (especially deciduous trees), particularly beech.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Wood", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Bisporella_citrina#/media/File:Dacrymyces_stillatus_Nees_63238.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Bisporella_citrina#/media/File:Lachnellula_arida_46999.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Bisporella_citrina",
+       "category":"inedible"
+
+   },
+   {
+       "id": 1052,
+       "name": "Tinder Fungus",
+       "scientificName": "Fomes fomentarius",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Polyporaceae",
+       "description": "Fomes fomentarius (commonly known as the tinder fungus, false tinder fungus, hoof fungus, tinder conk, tinder polypore or ice man fungus) is a species of fungal plant pathogen found in Europe, Asia, Africa and North America. The species produces very large polypore fruit bodies which are shaped like a horse's hoof and vary in colour from a silvery grey to almost black, though they are normally brown. It grows on the side of various species of tree, which it infects through broken bark, causing rot. The species typically continues to live on trees long after they have died, changing from a parasite to a decomposer.",
+       "appearance": "Fomes fomentarius has a fruit body of between 5 and 45 centimetres (2.0 and 17.7 in) across, 3 and 25 cm (1.2 and 9.8 in) wide and 2 and 25 cm (0.8 and 9.8 in) thick, which attaches broadly to the tree on which the fungus is growing. While typically shaped like a horse's hoof, it can also be more bracket-like with an umbonate attachment to the substrate. The species typically has broad, concentric ridges, with a blunt and rounded margin. The flesh is hard and fibrous, and a cinnamon brown colour. The upper surface is tough, bumpy, hard and woody, varying in colour, usually a light brown or grey. The margin is whitish during periods of growth.",
+       "imageName": "tinder-fungus1",
+       "funFact": "The species' mycelium penetrates the wood of trees through damaged bark or broken branches, causing rot in the host. It can grow on the bark wound, or even directly onto the bark of older or dead trees.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Wood", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Fomes_fomentarius#/media/File:Fomes_fomentarius_2010_G2.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Fomes_fomentarius#/media/File:Fomes_fomentarius_25616.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Fomes_fomentarius",
+       "category":"inedible"
+
    }
    
 
