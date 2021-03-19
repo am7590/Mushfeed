@@ -868,7 +868,7 @@
        "family": "Bolbitiaceae",
        "description": "Pholiotina rugosa is a common lawn mushroom which is widely distributed and especially common in the Pacific Northwest. It also grows on woodchips, rich soil and compost. It has been found in Europe, Asia and North America. It contains the same mycotoxins as the death cap. It is more commonly known as Conocybe filaris as this is the name it is likely to appear under in field guides. This species is deadly poisonous. They have been shown to contain amatoxins, which are highly toxic to the liver and are responsible for many deaths by poisoning from mushrooms in the genera Amanita and Lepiota.",
        "appearance": "Pholiotina rugosa has a cap which is conical, expanding to flat, usually with an umbo. It is less than 3 cm across, has a smooth brown top, and the margin is often striate. The gills are rusty brown, close, and adnexed. The stalk is 2 mm thick and 1 to 6 cm long, smooth, and brown, with a prominent and movable ring. The spore print is rusty brown.",
-       "imageName": "conocybe-filaris1",
+       "imageName": "conocybe-filaris2",
        "funFact": "Pholiotina rugosa is sometimes mistaken for Psilocybe, especially Psilocybe cyanescens and Psilocybe subaeruginosa species due to their similar looking pileus (cap).",
        "lookalikes": "",
        "growable" : false,
@@ -897,6 +897,66 @@
        "image2": "https://commons.wikimedia.org/wiki/File:Cortinarius_rubellus_02.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_rubellus",
        "category":"poisonous"
+
+   },
+   {
+       "id": 1046,
+       "name": "Deadly Skullcap",
+       "scientificName": "Galerina marginata",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Hymenogastraceae",
+       "description": "Galerina marginata is widespread in the Northern Hemisphere, including Europe, North America, and Asia, and has also been found in Australia. It is a wood-rotting fungus that grows predominantly on decaying conifer wood. An extremely poisonous species, it contains the same deadly amatoxins found in the death cap (Amanita phalloides). Ingestion in toxic amounts causes severe liver damage with vomiting, diarrhea, hypothermia, and eventual death if not treated rapidly. About ten poisonings have been attributed to the species now grouped as G. marginata over the last century.",
+       "appearance": "The fruit bodies of this fungus have brown to yellow-brown caps that fade in color when drying. The gills are brownish and give a rusty spore print. A well-defined membranous ring is typically seen on the stems of young specimens but often disappears with age. In older fruit bodies, the caps are flatter and the gills and stems browner. The species is a classic 'little brown mushroom'—a catchall category that includes all small to medium-sized, hard-to-identify brownish mushrooms, and may be easily confused with several edible species. The cap reaches 1.7 to 4 cm (0.67 to 1.57 in) in diameter. It starts convex, sometimes broadly conical, and has edges (margins) that are curved in against the gills. As the cap grows and expands, it becomes broadly convex and then flattened, sometimes developing a central elevation, or umbo, which may project prominently from the cap surface. ",
+       "imageName": "deadly-skullcap1",
+       "funFact": "The toxins found in Galerina marginata are known as amatoxins. Amatoxins belong to a family of bicyclic octapeptide derivatives composed of an amino acid ring bridged by a sulfur atom and characterized by differences in their side groups; these compounds are responsible for more than 90% of fatal mushroom poisonings in humans. ",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "Trees", ""],
+       "image1": "https://en.wikipedia.org/wiki/Galerina_marginata#/media/File:Galerina_marginata_Point_Reyes.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Galerina_marginata#/media/File:Galerina_marginata_63678.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Galerina_marginata",
+       "category":"poisonous"
+
+   },
+   {
+       "id": 1047,
+       "name": "Destroying Angel",
+       "scientificName": "Galerina marginata",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Amanitaceae",
+       "description": "The name destroying angel applies to several similar, closely related species of deadly all-white mushrooms in the genus Amanita. They are Amanita bisporigera and A. ocreata in eastern and western North America, and A. virosa in Europe. Another very similar species, A. verna or fool's mushroom, was first described in France. Young specimens like this are sometimes confused with puffballs or other non-deadly mushrooms. Destroying angels are among the most toxic known mushrooms; both they and the closely related death caps (A. phalloides) contain amatoxins.",
+       "appearance": "The cap is usually about 5–12 centimetres (2–4 1⁄2 inches) across; the stipe is usually 7.5–20 cm (3–8 in) long and about 0.5–2 cm (1⁄4–3⁄4 in) thick. They are found singly or in small groups. Destroying angels are characterized by having a white stalk and gills. The cap can be pure white, or white at the edge and yellowish, pinkish, or tan at the center. It has a partial veil, or ring (annulus) circling the upper stalk, and the gills are 'free', not attached to the stalk. Perhaps the most telltale of the features is the presence of a volva, or universal veil, so called because it is a membrane that encapsulates the entire mushroom, rather like an egg, when it is very young. This structure breaks as the young mushroom expands, leaving parts that can be found at the base of the stalk as a boot or cuplike structure, and there may be patches of removable material on the cap surface. This combination of features, all found together in the same mushroom, is the hallmark of the family.",
+       "imageName": "destroying-angel1",
+       "funFact": "The destroying angel (Amanita bisporigera) and the death cap (Amanita phalloides) account for the overwhelming majority of deaths due to mushroom poisoning. Symptoms do not appear for 5 to 24 hours, by which time the toxins may already be absorbed and the damage (destruction of liver and kidney tissues) is irreversible. As little as half a mushroom cap can be fatal if the victim is not treated quickly enough.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "Trees", ""],
+       "image1": "https://en.wikipedia.org/wiki/Destroying_angel#/media/File:Destroying_Angel.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Destroying_angel#/media/File:Destroying_Angel_02.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Destroying_angel",
+       "category":"poisonous"
+
+   },
+   {
+       "id": 1048,
+       "name": "Violet Webcap",
+       "scientificName": "Cortinarius violaceus",
+       "edible": "Not Edible",
+       "gourmet": "Not Choice",
+       "family": "Cortinariaceae",
+       "description": "Cortinarius violaceus, commonly known as the violet webcap or violet cort, is a fungus in the webcap genus Cortinarius native across the Northern Hemisphere. Forming symbiotic (ectomycorrhizal) relationships with the roots of various plant species, C. violaceus is found predominantly in conifer forests in North America and deciduous forests in Europe. Though they are sometimes described as edible, the appearance of these mushrooms is more distinctive than their taste.",
+       "appearance": "The fruit bodies are dark purple mushrooms with caps up to 15 cm (6 in) across, sporting gills underneath. The stalk measures 6 to 12 centimetres (2 1⁄3 to 4 2⁄3 in) by 1 to 2 centimetres (3⁄8 to 3⁄4 in), sometimes with a thicker base. The dark flesh has a smell reminiscent of cedar wood.",
+       "imageName": "violet-webcap1",
+       "funFact": "The destroying angel (Amanita bisporigera) and the death cap (Amanita phalloides) account for the overwhelming majority of deaths due to mushroom poisoning. Symptoms do not appear for 5 to 24 hours, by which time the toxins may already be absorbed and the damage (destruction of liver and kidney tissues) is irreversible. As little as half a mushroom cap can be fatal if the victim is not treated quickly enough.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "Trees", ""],
+       "image1": "https://en.wikipedia.org/wiki/Cortinarius_violaceus#/media/File:2008-08-22_Cortinarius_violaceus_(L.)_Gray_18241.jpg",
+       "image2": "https://en.wikipedia.org/wiki/Cortinarius_violaceus#/media/File:Cortinarius_violaceus_G6.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Cortinarius_violaceus",
+       "category":"inedible"
 
    }
    
