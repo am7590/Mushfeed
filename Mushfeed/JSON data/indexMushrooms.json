@@ -818,6 +818,86 @@
        "wiki": "https://en.wikipedia.org/wiki/Clitocybe_nuda",
        "category":"choice"
 
+   },
+   {
+       "id": 1042,
+       "name": "Wood Ear",
+       "scientificName": "Auricularia auricula-judae",
+       "edible": "Edible",
+       "gourmet": "Choice",
+       "family": "Auriculariaceae",
+       "description": "Auricularia auricula-judae, known most commonly as Jew's ear or (black) wood ear (alternatively, black fungus, jelly ear, or by a number of other common names), is a species of edible Auriculariales fungus found worldwide. The fruiting body is distinguished by its noticeably ear-like shape and brown colouration; it grows upon wood, especially elder. Its specific epithet is derived from the belief that Judas Iscariot hanged himself from an elder tree; the common name 'Judas's ear' was largely eclipsed by the corruption 'Jew's ear', while today 'wood ear', 'jelly ear' and other names are sometimes used.",
+       "appearance": "The fungus can be found throughout the year in temperate regions worldwide, where it grows upon both dead and living wood. The fruit body of A. auricula-judae is normally 3 to 8 centimetres (1 to 3 inches) across, but can be as much as 12 centimetres (4 1⁄2 inches). It is distinctively shaped, typically being reminiscent of a floppy ear, though the fruit bodies can also be cup-shaped. It is normally attached to the substrate laterally and sometimes by a very short stalk. The species has a tough, gelatinous, elastic texture when fresh, but it dries hard and brittle.",
+       "imageName": "wood-ear1",
+       "funFact": "Auricularia auricula-judae grows upon the wood of deciduous trees and shrubs, favouring elder. In up to 90% of cases, the mushroom is found on elder, but it is often incorrectly assumed to grow exclusively on elder.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "Trees", ""],
+       "image1": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae#/media/File:Auricularia_auricula-judae_64485.JPG",
+       "image2": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae#/media/File:Auricularia_auricula-judae_(xndr).jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae",
+       "category":"choice"
+
+   },
+   {
+       "id": 1043,
+       "name": "Death Cap",
+       "scientificName": "Amanita phalloides",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Amanitaceae",
+       "description": "Amanita phalloides, commonly known as the death cap, is a deadly poisonous basidiomycete fungus, one of many in the genus Amanita. Widely distributed across Europe, but now sprouting in other parts of the world, A. phalloides forms ectomycorrhizas with various broadleaved trees. In some cases, the death cap has been introduced to new regions with the cultivation of non-native species of oak, chestnut, and pine. The large fruiting bodies (mushrooms) appear in summer and autumn; the caps are generally greenish in colour with a white stipe and gills. ",
+       "appearance": "The death cap has a large and imposing epigeous (aboveground) fruiting body (basidiocarp), usually with a pileus (cap) from 5 to 15 cm (2 to 6 in) across, initially rounded and hemispherical, but flattening with age. The color of the cap can be pale-, yellowish-, or olive-green, often paler toward the margins and often paler after rain. The cap surface is sticky when wet and easily peeled, a troublesome feature, as that is allegedly a feature of edible fungi. The remains of the partial veil are seen as a skirtlike, floppy annulus usually about 1.0 to 1.5 cm (0.39 to 0.59 in) below the cap. The crowded white lamellae (gills) are free. The stipe is white with a scattering of grayish-olive scales and is 8 to 15 cm (3 to 6 in) long and 1 to 2 centimetres (3⁄8 to 3⁄4 in) thick, with a swollen, ragged, sac-like white volva (base). As the volva, which may be hidden by leaf litter, is a distinctive and diagnostic feature, it is important to remove some debris to check for it.",
+       "imageName": "death-cap1",
+       "funFact": "As the common name suggests, the fungus is highly toxic, and is responsible for the majority of fatal mushroom poisonings worldwide. Its biochemistry has been researched intensively for decades, and 30 grams (1.1 ounces), or half a cap, of this mushroom is estimated to be enough to kill a human.",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Amanita_phalloides#/media/File:Amanita_phalloides_1.JPG",
+       "image2": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_Kiev3.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Amanita_phalloides",
+       "category":"poisonous"
+
+   },
+   {
+       "id": 1044,
+       "name": "Conocybe filaris",
+       "scientificName": "Pholiotina rugosa",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Bolbitiaceae",
+       "description": "Pholiotina rugosa is a common lawn mushroom which is widely distributed and especially common in the Pacific Northwest. It also grows on woodchips, rich soil and compost. It has been found in Europe, Asia and North America. It contains the same mycotoxins as the death cap. It is more commonly known as Conocybe filaris as this is the name it is likely to appear under in field guides. This species is deadly poisonous. They have been shown to contain amatoxins, which are highly toxic to the liver and are responsible for many deaths by poisoning from mushrooms in the genera Amanita and Lepiota.",
+       "appearance": "Pholiotina rugosa has a cap which is conical, expanding to flat, usually with an umbo. It is less than 3 cm across, has a smooth brown top, and the margin is often striate. The gills are rusty brown, close, and adnexed. The stalk is 2 mm thick and 1 to 6 cm long, smooth, and brown, with a prominent and movable ring. The spore print is rusty brown.",
+       "imageName": "conocybe-filaris1",
+       "funFact": "Pholiotina rugosa is sometimes mistaken for Psilocybe, especially Psilocybe cyanescens and Psilocybe subaeruginosa species due to their similar looking pileus (cap).",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://en.wikipedia.org/wiki/Pholiotina_rugosa#/media/File:Pholiotina_rugosa_62373.jpg",
+       "image2": "https://commons.m.wikimedia.org/wiki/File:Conocybe_rugosa_(Peck)_Watling_944497.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Pholiotina_rugosa",
+       "category":"poisonous"
+
+   },
+   {
+       "id": 1045,
+       "name": "Deadly Webcap",
+       "scientificName": "Cortinarius rubellus",
+       "edible": "Poisonous",
+       "gourmet": "Not Choice",
+       "family": "Cortinariaceae",
+       "description": "Cortinarius rubellus, commonly known as the deadly webcap, is a species of fungus in the family Cortinariaceae, native to high-latitude temperate to subalpine forests of Eurasia and North America. Within the genus it belongs to a group known as the Orellani, all of which are highly toxic—eating them results in kidney failure, which is often irreversible.",
+       "appearance": "Cortinarius rubellus has a conical to convex (partly flattening to umbonate with maturity) cap of 2.5 to 8 centimetres (1 to 3 1⁄4 in) diameter. In colour, it is a tawny to date brown with paler margins, and is covered in fine, fibrous scales. The gills are ochre- or caramel-coloured, changing to a deeper brown with age as the spores mature. They have an adnate connection to the stipe. The stipe is 5.5 to 11 centimetres (2 1⁄4 to 4 1⁄4 in) tall, and 0.5 to 1.5 centimetres (1⁄4 to 5⁄8 in) thick with a bulbous base. It is the same colour or slightly paler than the cap, and can have yellow fragments of the veil (cortina) attached to its lower half. The flesh is cream or pale yellow, but more tan below the pileipellis and in the stem base. It smells slightly of radishes and has no strong taste.",
+       "imageName": "deadly-webcap1",
+       "funFact": "C. rubellus has been recorded in high-latitude temperate to subalpine forests throughout the northern hemisphere, including subalpine conifer forest in the Yatsugatake Mountains in Yamanashi Prefecture, central Japan. In North America, it is found in British Columbia and western Washington, particularly Mount Rainier National Park",
+       "lookalikes": "",
+       "growable" : false,
+       "locations" : ["Forest Floor", "", ""],
+       "image1": "https://commons.wikimedia.org/wiki/File:2006-07-12_Cortinarius_rubellus_2.jpg",
+       "image2": "https://commons.wikimedia.org/wiki/File:Cortinarius_rubellus_02.jpg",
+       "wiki": "https://en.wikipedia.org/wiki/Cortinarius_rubellus",
+       "category":"poisonous"
+
    }
    
 
