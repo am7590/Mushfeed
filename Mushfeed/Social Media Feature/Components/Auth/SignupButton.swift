@@ -14,10 +14,8 @@ struct SignupButton: View {
     var body: some View {
         Button(action: action) {
             HStack {
-                Spacer()
                 Text(label).fontWeight(.bold).foregroundColor(Color.white)
-                Spacer()
-            }
+            }.frame(maxWidth: .infinity)
             
         }.modifier(SigninButtonModifier())
     }

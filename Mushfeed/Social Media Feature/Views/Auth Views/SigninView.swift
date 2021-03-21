@@ -65,7 +65,7 @@ struct SigninView: View {
             
             
                 }
-        }.accentColor(Color.black)
+        }.accentColor(Color.primary)
         }
     }
 

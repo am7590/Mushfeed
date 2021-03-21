@@ -156,7 +156,7 @@ struct ProfileView: View {
                      }.navigationBarTitle(Text("Profile"), displayMode: .inline).onAppear {
                          self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
                  } // IMPORTANT ^ loads user posts 
-             }.environmentObject(self.session)
+             }.environmentObject(self.session).foregroundColor(.primary)
             
        
          

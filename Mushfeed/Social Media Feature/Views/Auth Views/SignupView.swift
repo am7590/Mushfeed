@@ -59,7 +59,7 @@ struct SignupView: View {
            // ImagePickerController()
             ImagePicker(showImagePicker: self.$signupViewModel.showImagePicker, pickedImage: self.$signupViewModel.image, imageData: self.$signupViewModel.imageData)
         }
-        .navigationBarTitle("Register", displayMode: .inline)
+        .navigationBarTitle("Register", displayMode: .inline).foregroundColor(.primary)
     }
 }
 
