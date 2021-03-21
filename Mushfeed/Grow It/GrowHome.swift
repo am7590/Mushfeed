@@ -19,15 +19,19 @@ struct GrowHome: View {
     
     
     var body: some View {
-        NavigationView{
-            List(categories.keys.sorted(), id: \String.self) { key in
-                GrowableMushroomRow(categoryName: "\(key)".uppercased(), growableMushrooms: self.categories[key]!)
-                    .frame(height: 320)
-                    .padding(.top)
-                    .padding(.bottom)
-            }
-            .navigationTitle(Text("Grow Mushrooms"))
-        }
+        return
+            NavigationView{
+                List(categories.keys.sorted(), id: \String.self) { key in
+                    GrowableMushroomRow(categoryName: "\(key)".uppercased(), growableMushrooms: self.categories[key]!)
+                        .frame(height: 320)
+                        .padding(.top)
+                        .padding(.bottom)
+                }
+                .navigationTitle(Text("Grow Mushrooms"))
+                
+            }.navigationViewStyle(DefaultNavigationViewStyle())
+            .padding(0)
+        
     }
 }
 

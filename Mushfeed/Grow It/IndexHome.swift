@@ -19,6 +19,7 @@ struct IndexHome: View {
     
     
     var body: some View {
+        
         NavigationView{
             
                 List(categories.keys.sorted(), id: \String.self) { key in
@@ -32,7 +33,8 @@ struct IndexHome: View {
                 
         
             
-        }
+        }.navigationViewStyle(DoubleColumnNavigationViewStyle())
+        .padding()
     }
 }
 
