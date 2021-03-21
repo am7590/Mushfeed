@@ -14,9 +14,9 @@ struct ProfileView: View {
     
     @EnvironmentObject var session: SessionStore
     @ObservedObject var profileViewModel = ProfileViewModel()
-    @Environment(\.openURL) var openURL
 
     @State var selection: Selection = .grid
+    @Environment(\.openURL) var openURL
 
        var body: some View {
          
@@ -60,69 +60,90 @@ struct ProfileView: View {
                             
                             Text("Options")
                                 .font(.title)
-                                    .fontWeight(.bold)
+                                .fontWeight(.bold)
+                                .padding(.top, 5)
                             
-                            // Edit Profile
-                            Button(action: {}) {
-                                HStack {
-                                    Spacer()
-                                    Text("Edit Profile Pic").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground)
-                                    )
-                                    Spacer()
-                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
-
-                            }.cornerRadius(5)
+                            // Edit, Search, Log out button stack
                             
-                            // Search Users
-                            Button(action: {}) {
-                                HStack {
-                                    NavigationLink(destination: UsersView()) {
-                                        Spacer()
-                                        Text("Search Users").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    Spacer()
-                                    }
-                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
-
-                            }.cornerRadius(5)
-                            
-                            // Log out
-                            Button(action: {self.session.logout()}) {
-                                HStack {
-                                        
-                                        Spacer()
-                                        Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                        Spacer()
-                                    
-                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
+                            VStack(spacing: 5) {
                                 
-                            }.cornerRadius(5)
+                                // Edit Profile
+                                Button(action: {}) {
+                                    HStack {
+                                        Text("Edit Profile Pic").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                    }.frame(maxWidth: .infinity)
+                                        .frame(height: 30)
+                                        .background(Color.primary)
+                                
+                                    
+
+                                }.cornerRadius(5)
+                                
+                                // Search Users button
+                                Button(action: {}) {
+                                    HStack {
+                                        NavigationLink(destination: UsersView()) {
+                                            Text("Search Users")
+                                                .fontWeight(.bold)
+                                                .foregroundColor(Color(UIColor.systemBackground))
+                                        }
+                                    }.frame(height: 30)
+                                        .frame(maxWidth: .infinity)
+                                        .background(Color.primary)
+                                        
+                                }.cornerRadius(5)
+                                
+                                
+                                
+                                // Log out
+                                Button(action: {self.session.logout()}) {
+                                    HStack {
+                                            Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                    }.frame(maxWidth: .infinity)
+                                        .frame(height: 30)
+                                        .background(Color.primary)
+                                    
+                                }.cornerRadius(5)
+                            }.padding(.top, 5)
+                            
                             
                             // More
                             Text("Surveys")
                                 .font(.title)
-                                    .fontWeight(.bold)
+                                .fontWeight(.bold)
                                 .padding(.top, 5)
 
-                            
-                            // Request Mushroom
-                            Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeOnTonAFPEHUVj3HOekPVGlaA7rJn3vF9r0ZuCY_rQolkHaA/viewform")!)}) {
-                                HStack {
-                                    Spacer()
-                                    Text("Request a Mushroom").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    Spacer()
-                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
                                 
-                            }.cornerRadius(5)
-                            
-                            // User Survey
-                            Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScCkPctbaHkRNXiZRNQ8smrHlQiFgNFvibBy139LLxYp0Xssw/viewform")!)}) {
-                                HStack {
-                                    Spacer()
-                                    Text("Mushfeed User Survey").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    Spacer()
-                                }.frame(height: 30).background(Color.primary).padding(.top, 5)
+                            // Survey Button stack
+                            VStack(spacing: 5) {
                                 
-                            }.cornerRadius(5)
+                                // Request Mushroom
+                                Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeOnTonAFPEHUVj3HOekPVGlaA7rJn3vF9r0ZuCY_rQolkHaA/viewform")!)}) {
+                                    HStack {
+                                        Text("Request a Mushroom").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                    }
+                                    .frame(maxWidth: .infinity)
+                                    .frame(height: 30)
+                                    .background(Color.primary)
+                                    
+                                    
+                                }.cornerRadius(5).padding(.top, 5)
+                                
+                                // User Survey
+                                Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScCkPctbaHkRNXiZRNQ8smrHlQiFgNFvibBy139LLxYp0Xssw/viewform")!)}) {
+                                    HStack {
+                                        Text("Mushfeed User Survey").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                    }
+                                    .frame(maxWidth: .infinity)
+                                    .frame(height: 30)
+                                    .background(Color.primary)
+                                    
+                                    
+                                }
+                                    
+                                    
+                            }.padding(.top, 5)
+                        
                             
                             
 

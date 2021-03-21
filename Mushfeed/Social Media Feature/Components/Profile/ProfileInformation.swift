@@ -17,8 +17,6 @@ struct ProfileInformation: View {
                 Text(user!.username).font(.largeTitle)
                     .fontWeight(.bold)
                 
-                
-                //Text("IOS Developer")
             }
             
         }

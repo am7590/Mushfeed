@@ -32,7 +32,7 @@ struct MainView: View {
                 ProfileView().tabItem({
                     Image(systemName: "ellipsis.circle")
                 }).tag(2)
-            }.accentColor(.black)
+            }.accentColor(.primary)
                 
         //        Group {
         //            Text((session.userSession == nil) ? "Loading..." : session.userSession!.email)

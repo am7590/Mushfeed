@@ -24,21 +24,6 @@ struct ProfileHeader: View {
                         
                 }).frame(width: 160, height: 160)
                     
-                        
-//                    Spacer()
-//                    VStack {
-//                        Text("50").font(.headline)
-//                        Text("Posts").font(.subheadline)
-//                    }.padding(10)
-//                    VStack {
-//                        Text("100").font(.headline)
-//                        Text("Followers").font(.subheadline)
-//                    }.padding(10)
-//                    VStack {
-//                        Text("200").font(.headline)
-//                        Text("Following").font(.subheadline)
-//                    }.padding(10)
-//                    Spacer()
             }
         }
     }

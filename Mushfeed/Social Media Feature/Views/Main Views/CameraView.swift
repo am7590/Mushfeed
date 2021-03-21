@@ -50,15 +50,18 @@ struct CameraView: View {
                     
                }.padding()
                 
+                //Text("Crop your image to a square for best results.").foregroundColor(.primary).font(.caption)
+                
+                
                 Spacer()
                 HStack {
-                    TextField("Write a short title...", text: $cameraViewModel.caption).padding(.top, 5)
+                    TextField("Write a short title...", text: $cameraViewModel.caption).padding(.top, 5).foregroundColor(.primary)
                     
                     
                     NavigationLink(destination: HomeView()) {
                         ZStack{
                             Button(action: sharePost) {
-                                Image(systemName: "arrow.turn.up.right").imageScale(Image.Scale.large).foregroundColor(.gray)
+                                Image(systemName: "arrow.turn.up.right").imageScale(Image.Scale.large).foregroundColor(.primary)
                             }.alert(isPresented: $cameraViewModel.showAlert) {
                                 Alert(title: Text("Error"), message: Text(self.cameraViewModel.errorString), dismissButton: .default(Text("OK")))
                             }

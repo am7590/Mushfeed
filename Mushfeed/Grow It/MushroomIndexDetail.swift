@@ -163,7 +163,7 @@ struct MushroomIndexDetail: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(.primary)
           
-                            Image("occ")
+                            Image("map-1")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .cornerRadius(15)
