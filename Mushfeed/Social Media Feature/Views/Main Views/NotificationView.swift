@@ -26,7 +26,7 @@ struct NotificationView: View {
                   }
            
             }.navigationBarTitle(Text("Activity"), displayMode: .inline)
-        }
+        }.foregroundColor(.primary)
       
     }
 }

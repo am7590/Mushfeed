@@ -84,7 +84,7 @@ struct CameraView: View {
                // ImagePickerController()
                 ImagePicker(showImagePicker: self.$cameraViewModel.showImagePicker, pickedImage: self.$cameraViewModel.image, imageData: self.$cameraViewModel.imageData)
             }.foregroundColor(.black)
-        }//.padding(.leading, 15)
+        }.foregroundColor(.primary)//.padding(.leading, 15)
         
        
     }

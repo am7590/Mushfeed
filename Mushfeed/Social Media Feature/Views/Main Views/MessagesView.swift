@@ -31,7 +31,7 @@ struct MessagesView: View {
                      }
               
                }.navigationBarTitle(Text("Messages"), displayMode: .inline)
-           }
+           }.foregroundColor(.primary)
     }
 }
 

@@ -37,7 +37,7 @@ struct HomeView: View {
                 }
              }
            
-       }
+       }.foregroundColor(.primary)
     }
 }
 

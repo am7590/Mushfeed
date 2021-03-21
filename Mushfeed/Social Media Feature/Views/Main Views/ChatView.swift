@@ -47,7 +47,7 @@ struct ChatView: View {
                 }
             }.navigationBarTitle(Text("Chat"), displayMode: .inline)
             
-        }
+        }.foregroundColor(.primary)
     }
 }
 
