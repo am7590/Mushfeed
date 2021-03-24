@@ -33,8 +33,7 @@ struct IndexHome: View {
                 
         
             
-        }
-        .padding()
+        }//.padding()
     }
 }
 

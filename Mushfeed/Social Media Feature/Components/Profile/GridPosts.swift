@@ -29,7 +29,7 @@ struct GridPosts: View {
                                             .aspectRatio(contentMode: .fill)
                                             
                                         
-                            }).frame(width: UIScreen.main.bounds.width / 3, height: UIScreen.main.bounds.width / 3).clipped().cornerRadius(10)
+                                     }).frame(width: UIScreen.main.bounds.width / 3.1, height: UIScreen.main.bounds.width / 3.1).clipped().cornerRadius(10)
                             
                             
                             

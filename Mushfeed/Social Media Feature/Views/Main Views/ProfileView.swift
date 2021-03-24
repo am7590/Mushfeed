@@ -147,13 +147,13 @@ struct ProfileView: View {
                             
                             
 
-                        }.padding(.leading, 15).padding(.trailing, 15)
+                        }
                      
 
                         
                     }.padding(.top, 20)
                                   
-                     }.navigationBarTitle(Text("Profile"), displayMode: .inline).onAppear {
+                     }.padding(.leading, 15).padding(.trailing, 15).navigationBarTitle(Text("Profile"), displayMode: .inline).onAppear {
                          self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
                  } // IMPORTANT ^ loads user posts
              }.navigationViewStyle(StackNavigationViewStyle())
