@@ -16,10 +16,10 @@ struct ContentView: View {
 //                GrowHome().tabItem({
 //                    Image(systemName: "doc.text.magnifyingglass")
 //                }).tag(1)
-               IndexHome().tabItem({
+               IndexHome().navigationViewStyle(DoubleColumnNavigationViewStyle()).tabItem({
                    Image(systemName: "list.bullet.below.rectangle")
                }).tag(1)
-               GrowHome().tabItem({
+               GrowHome().navigationViewStyle(DoubleColumnNavigationViewStyle()).tabItem({
                    Image(systemName: "doc.text.magnifyingglass")
                }).tag(3)
                ProfileView().tabItem({

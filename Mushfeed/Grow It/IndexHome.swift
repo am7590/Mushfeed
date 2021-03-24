@@ -33,7 +33,7 @@ struct IndexHome: View {
                 
         
             
-        }.navigationViewStyle(DoubleColumnNavigationViewStyle())
+        }
         .padding()
     }
 }

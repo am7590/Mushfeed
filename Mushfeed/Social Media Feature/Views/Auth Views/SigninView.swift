@@ -60,7 +60,7 @@ struct SigninView: View {
                 }
                 Divider()
                 NavigationLink(destination: SignupView()) {
-                  SignUpText()
+                  SignUpText().navigationViewStyle(StackNavigationViewStyle())
                 }
             
             

@@ -20,9 +20,9 @@ struct InitialView: View {
     var body: some View {
         Group {
             if session.isLoggedIn {
-                MainView()
+                MainView().navigationViewStyle(StackNavigationViewStyle())
             } else {
-                SigninView()
+                SigninView().navigationViewStyle(StackNavigationViewStyle())
             }
 
         }.onAppear(perform: listen)

@@ -28,7 +28,7 @@ struct HomeView: View {
            }.navigationBarTitle(Text("Mushfeed"), displayMode: .inline).onAppear {
                  self.homeViewModel.loadTimeline()
              }.navigationBarItems(trailing: Button(action: {}) {
-                      NavigationLink(destination: CameraView()) {
+                      NavigationLink(destination: CameraView().navigationViewStyle(StackNavigationViewStyle())) {
                           Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.black)
                       }
              }).onDisappear {
@@ -37,7 +37,8 @@ struct HomeView: View {
                 }
              }
            
-       }.foregroundColor(.primary)
+       }.navigationViewStyle(StackNavigationViewStyle())
+        .foregroundColor(.primary)
     }
 }
 

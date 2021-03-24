@@ -29,7 +29,7 @@ struct GrowHome: View {
                 }
                 .navigationTitle(Text("Grow Mushrooms"))
                 
-            }.navigationViewStyle(DefaultNavigationViewStyle())
+            }
             .padding(0)
         
     }

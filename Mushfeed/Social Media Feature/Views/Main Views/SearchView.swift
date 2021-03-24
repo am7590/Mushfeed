@@ -41,7 +41,7 @@ struct SearchView: View {
                         }.navigationBarTitle(Text("Mushfeed"), displayMode: .inline).onAppear {
                             self.postPopularViewModel.loadPostPopular()
                         }.navigationBarItems(trailing: Button(action: {}) {
-                            NavigationLink(destination: CameraView()) {
+                            NavigationLink(destination: CameraView().navigationViewStyle(StackNavigationViewStyle())) {
                                 Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.primary)
                             }
                    }
