@@ -23,9 +23,9 @@ struct IndexMushroomRow: View {
                 HStack(alignment: .top) {
                     ForEach (indexMushrooms, id: \.name) { drink in
                         NavigationLink(destination: MushroomIndexDetail(mushroom: drink)){
-                        IndexMushroomItem(indexMushroom: drink)
-                            .frame(width: 300)
-                            .padding(.trailing, 30)
+                            IndexMushroomItem(indexMushroom: drink)
+                                .frame(width: 300)
+                                .padding(.trailing, 30)
                         }
                         
                         

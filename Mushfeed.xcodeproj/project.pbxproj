@@ -101,6 +101,8 @@
 		E662978325F2F58400A74824 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E662978225F2F58400A74824 /* FirebaseFirestore */; };
 		E67BF74625EF5AE90062175E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BF74525EF5AE90062175E /* AppDelegate.swift */; };
 		E6C5B85525FDB7ED00696BC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E631CF5525EB390B00CE8417 /* GoogleService-Info.plist */; };
+		E6DF8BFD260FBC27001E17A5 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */; };
+		E6DF8C00260FC1AA001E17A5 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8BFF260FC1AA001E17A5 /* ResetPasswordViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -195,6 +197,8 @@
 		E631F51825EC8B970019757A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E631F54D25EC9D500019757A /* MushroomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomList.swift; sourceTree = "<group>"; };
 		E67BF74525EF5AE90062175E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		E6DF8BFF260FC1AA001E17A5 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				E631CF9725EB3C2D00CE8417 /* SigninView.swift */,
+				E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */,
 				E631CF9825EB3C2E00CE8417 /* SignupView.swift */,
 			);
 			path = "Auth Views";
@@ -404,6 +409,7 @@
 			children = (
 				E631CFCB25EB3ED100CE8417 /* SignupViewModel.swift */,
 				E631CFCC25EB3ED100CE8417 /* SignInViewModel.swift */,
+				E6DF8BFF260FC1AA001E17A5 /* ResetPasswordViewModel.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -610,6 +616,7 @@
 				E631CF8125EB3B9800CE8417 /* FooterCell.swift in Sources */,
 				E631CF9125EB3BF100CE8417 /* Constants.swift in Sources */,
 				E631CFBF25EB3E7700CE8417 /* CommentView.swift in Sources */,
+				E6DF8C00260FC1AA001E17A5 /* ResetPasswordViewModel.swift in Sources */,
 				E631CFD425EB3ED100CE8417 /* HomeViewModel.swift in Sources */,
 				E631CFDC25EB3ED100CE8417 /* CommentInputViewModel.swift in Sources */,
 				E631CFB925EB3E7700CE8417 /* CameraView.swift in Sources */,
@@ -644,6 +651,7 @@
 				E631CFBA25EB3E7700CE8417 /* NotificationView.swift in Sources */,
 				E631D03B25EB3FC500CE8417 /* ExpandingListTest.swift in Sources */,
 				E631D03325EB3FC500CE8417 /* GrowableMushroomRow.swift in Sources */,
+				E6DF8BFD260FBC27001E17A5 /* ResetPasswordView.swift in Sources */,
 				E631CF8C25EB3B9800CE8417 /* GridPosts.swift in Sources */,
 				E631D03A25EB3FC500CE8417 /* ExpandingList.swift in Sources */,
 				E631CFDD25EB3ED100CE8417 /* ProfileViewModel.swift in Sources */,

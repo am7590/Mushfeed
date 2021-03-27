@@ -22,7 +22,7 @@ class SignupViewModel: ObservableObject {
      var errorString = ""
      @Published var showImagePicker: Bool = false
      @Published var showAlert: Bool = false
-//
+
     func signup(username: String, email: String, password: String, imageData: Data, completed: @escaping(_ user: User) -> Void,  onError: @escaping(_ errorMessage: String) -> Void) {
         if !username.isEmpty && !email.isEmpty && !password.isEmpty && !imageData.isEmpty {
            AuthService.signupUser(username: username, email: email, password: password, imageData: imageData, onSuccess: completed, onError: onError)

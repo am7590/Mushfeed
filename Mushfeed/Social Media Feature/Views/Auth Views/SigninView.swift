@@ -55,6 +55,17 @@ struct SigninView: View {
             Divider()
             EmailTextField(email: $signinViewModel.email)
             PasswordTextField(password: $signinViewModel.password)
+                
+            HStack{
+                Button(action: {}) {
+                    NavigationLink(destination: ResetPasswordView()){
+                        Text("Forgot Password?").foregroundColor(.primary)
+            
+                    }
+                }
+                Spacer()
+            }.padding(.leading)
+                
             SignInButton(action: signIn, label: "Sign in").alert(isPresented: $signinViewModel.showAlert){
                 Alert(title: Text("Error"), message: Text(self.signinViewModel.errorString), dismissButton: .default(Text("OK")))
                 }
