@@ -15,8 +15,12 @@ struct ResetPasswordView: View {
     
     var body: some View {
         NavigationView{
-            VStack{
-                TextField("Enter Email", text:$email)
+            VStack(alignment: .leading){
+                Text("Reset Password")
+                    .font(.system(size: 35, weight: .bold))
+                    .foregroundColor(.primary)
+                    .padding()
+                TextField("Enter Email", text:$email).modifier(TextFieldModifier())
                 Button(action: {
                     ResetPasswordViewModel.resetPassword(email: email) { (result) in
                         switch result {
@@ -29,10 +33,14 @@ struct ResetPasswordView: View {
                     }
                 }) {
                     Text("Reset Password")
-                }
+                }.padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10).padding()
+                
+                Spacer()
+                
             }
+            
             .alert(isPresented: $showAlert){
-                Alert(title: Text("Password Reset"), message: Text(self.errorString ?? "Success. Check your email and spam folder."), dismissButton: .default(Text("OK")) {
+                Alert(title: Text("Password Reset"), message: Text(self.errorString ?? "Success. Check your email."), dismissButton: .default(Text("OK")) {
                     self.presentationMode.wrappedValue.dismiss()
                 })
             }
