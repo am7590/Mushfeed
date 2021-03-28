@@ -9,7 +9,6 @@
 
 import SwiftUI
 
-
 class PostPopularViewModel: ObservableObject {
     @Published var posts: [Post] = []
     @Published var isLoading = false
