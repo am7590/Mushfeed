@@ -35,13 +35,14 @@ struct SignupView: View {
     
     var body: some View {
         VStack {
+            //SelectPFPView()
             signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
                 .clipShape(Circle()).padding(.bottom, 80)
                 .onTapGesture {
                     print("Tapped")
                     self.signupViewModel.showImagePicker = true
             }
-            Text("Click the icon above to set an avatar photo").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, -50)
+            Text("Select a profile picture").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, 0)
             
             UsernameTextField(username: $signupViewModel.username)
             EmailTextField(email: $signupViewModel.email)

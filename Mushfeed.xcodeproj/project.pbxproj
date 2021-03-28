@@ -103,6 +103,7 @@
 		E6C5B85525FDB7ED00696BC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E631CF5525EB390B00CE8417 /* GoogleService-Info.plist */; };
 		E6DF8BFD260FBC27001E17A5 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */; };
 		E6DF8C00260FC1AA001E17A5 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8BFF260FC1AA001E17A5 /* ResetPasswordViewModel.swift */; };
+		E6DF8C04260FCD3D001E17A5 /* SelectPFPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8C03260FCD3D001E17A5 /* SelectPFPView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -199,6 +200,7 @@
 		E67BF74525EF5AE90062175E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		E6DF8BFF260FC1AA001E17A5 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		E6DF8C03260FCD3D001E17A5 /* SelectPFPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPFPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				E631CF9725EB3C2D00CE8417 /* SigninView.swift */,
+				E6DF8C03260FCD3D001E17A5 /* SelectPFPView.swift */,
 				E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */,
 				E631CF9825EB3C2E00CE8417 /* SignupView.swift */,
 			);
@@ -620,6 +623,7 @@
 				E631CFD425EB3ED100CE8417 /* HomeViewModel.swift in Sources */,
 				E631CFDC25EB3ED100CE8417 /* CommentInputViewModel.swift in Sources */,
 				E631CFB925EB3E7700CE8417 /* CameraView.swift in Sources */,
+				E6DF8C04260FCD3D001E17A5 /* SelectPFPView.swift in Sources */,
 				E631CFDA25EB3ED100CE8417 /* PostPopularViewModel.swift in Sources */,
 				E631CFBB25EB3E7700CE8417 /* CommentInput.swift in Sources */,
 				E631CFD625EB3ED100CE8417 /* SignInViewModel.swift in Sources */,
