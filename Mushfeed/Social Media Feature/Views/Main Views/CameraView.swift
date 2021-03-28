@@ -11,12 +11,14 @@ import SwiftUI
 
 struct CameraView: View {
     @ObservedObject var cameraViewModel = CameraViewModel()
+    @Environment(\.presentationMode) var presentationMode
 
     func sharePost() {
        // cameraViewModel.uploadPost
         cameraViewModel.sharePost(completed: {
            print("done")
            self.clean()
+           self.presentationMode.wrappedValue.dismiss()
         }) { (errorMessage) in
             print("Error: \(errorMessage)")
            self.cameraViewModel.showAlert = true
@@ -61,10 +63,11 @@ struct CameraView: View {
                     NavigationLink(destination: HomeView()) {
                         ZStack{
                             Button(action: sharePost) {
-                                Image(systemName: "arrow.turn.up.right").imageScale(Image.Scale.large).foregroundColor(.primary)
+                                Text("Post").padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10).padding()
                             }.alert(isPresented: $cameraViewModel.showAlert) {
-                                Alert(title: Text("Error"), message: Text(self.cameraViewModel.errorString), dismissButton: .default(Text("OK")))
+                                Alert(title: Text("Error. Please try again."), message: Text(self.cameraViewModel.errorString), dismissButton: .default(Text("OK")))
                             }
+                            
                         }
                     
                     }
@@ -79,7 +82,9 @@ struct CameraView: View {
                 
                 
                 Spacer()
-            }.padding(.top, -50)
+            }
+            
+            .padding(.top, -50)
             .sheet(isPresented: $cameraViewModel.showImagePicker) {
                // ImagePickerController()
                 ImagePicker(showImagePicker: self.$cameraViewModel.showImagePicker, pickedImage: self.$cameraViewModel.image, imageData: self.$cameraViewModel.imageData)

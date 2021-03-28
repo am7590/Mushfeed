@@ -33,7 +33,7 @@ struct ResetPasswordView: View {
                     }
                 }) {
                     Text("Reset Password")
-                }.padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10).padding()
+                }
                 
                 Spacer()
                 

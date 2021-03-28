@@ -65,18 +65,29 @@ struct ProfileView: View {
                             
                             // Edit, Search, Log out button stack
                             
-                            VStack(spacing: 5) {
+                            VStack() {
                                 
-                                // Edit Profile
+                                // New Post
                                 Button(action: {}) {
-                                    HStack {
-                                        Text("Edit Profile Pic").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    }.frame(maxWidth: .infinity)
-                                        .frame(height: 30)
-                                        .background(Color.primary)
-                                
-                                    
+                                    NavigationLink(destination: CameraView()) {
+                                        HStack {
+                                            Text("Create New Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                        }.frame(maxWidth: .infinity)
+                                            .frame(height: 15)
+                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                    }
 
+                                }.cornerRadius(5)
+                                
+                                // Delete Post
+                                Button(action: {}) {
+                                    NavigationLink(destination: DeletePostView()) {
+                                        HStack {
+                                            Text("Delete Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                        }.frame(maxWidth: .infinity)
+                                            .frame(height: 15)
+                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                    }
                                 }.cornerRadius(5)
                                 
                                 // Search Users button
@@ -87,9 +98,9 @@ struct ProfileView: View {
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color(UIColor.systemBackground))
                                         }
-                                    }.frame(height: 30)
+                                    }.frame(height: 15)
                                         .frame(maxWidth: .infinity)
-                                        .background(Color.primary)
+                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                         
                                 }.cornerRadius(5)
                                 
@@ -100,8 +111,8 @@ struct ProfileView: View {
                                     HStack {
                                             Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                     }.frame(maxWidth: .infinity)
-                                        .frame(height: 30)
-                                        .background(Color.primary)
+                                        .frame(height: 15)
+                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                     
                                 }.cornerRadius(5)
                             }.padding(.top, 5)
@@ -123,8 +134,8 @@ struct ProfileView: View {
                                         Text("Request a Mushroom").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                     }
                                     .frame(maxWidth: .infinity)
-                                    .frame(height: 30)
-                                    .background(Color.primary)
+                                    .frame(height: 15)
+                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                     
                                     
                                 }.cornerRadius(5).padding(.top, 5)
@@ -135,8 +146,8 @@ struct ProfileView: View {
                                         Text("Mushfeed User Survey").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                     }
                                     .frame(maxWidth: .infinity)
-                                    .frame(height: 30)
-                                    .background(Color.primary)
+                                    .frame(height: 15)
+                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                     
                                     
                                 }

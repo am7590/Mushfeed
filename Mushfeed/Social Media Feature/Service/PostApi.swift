@@ -17,7 +17,7 @@ class PostApi {
     }
     
     func loadPosts(onSuccess: @escaping(_ posts: [Post]) -> Void) {
-        Ref.FIRESTORE_COLLECTION_ALL_POSTS.order(by: "likeCount", descending: true).getDocuments { (snapshot, error) in
+        Ref.FIRESTORE_COLLECTION_ALL_POSTS.order(by: "date", descending: true).getDocuments { (snapshot, error) in //changed "likeCount" to "date"
             guard let snap = snapshot else {
                 print("Error fetching data")
                 return
