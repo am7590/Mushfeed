@@ -8,11 +8,14 @@
 
 import SwiftUI
 import URLImage
+import FirebaseFirestore
+import FirebaseAuth
 
 struct FooterCell: View {
     @State private var showingImagePicker = false
     @EnvironmentObject var session: SessionStore
     @ObservedObject var footerCellViewModel = FooterCellViewModel()
+    @State var showActionSheet = false
     
     init(post: Post) {
         self.footerCellViewModel.post = post
@@ -39,7 +42,40 @@ struct FooterCell: View {
                         HStack() {
                             
                             if footerCellViewModel.post.username == session.userSession?.username {
-                                Image(systemName: "trash").imageScale(.large).foregroundColor(Color.primary).padding(.top, -10)
+                                Button(action :{
+                                    self.showActionSheet = true
+                                }) {
+                                    Image(systemName: "trash").imageScale(.large).foregroundColor(Color.primary).padding(.top, -10)
+                                }.actionSheet(isPresented: $showActionSheet){
+                                    ActionSheet(title:Text("Delete Post"), message: Text("Are you sure you want to delete this post?"), buttons: [.default(Text("Yes"), action: {
+                                                                                                                                                            guard let userId = Auth.auth().currentUser?.uid else {
+                                                                                                                                                                return
+                                                                                                                                                            }
+                                                                                                                                                            let postId = Ref.FIRESTORE_MY_POSTS_DOCUMENT_USERID(userId: userId).collection("userPosts").document().documentID
+                                                                                                                                                            
+                                        Firestore.firestore().collection("all_posts").document(postId).delete() { err in
+                                            if let err = err {
+                                                print("Error Deleting Document: \(err)")
+                                            } else {
+                                                print("Document Deleted Successfully!")
+                                            }
+                                        
+                                        }
+                                                                                                                                                            
+                                                                                                                                                            Firestore.firestore().collection("timeline").document(userId).collection("timelinePosts").document(postId).delete() { err in
+                                            if let err = err {
+                                                print("Error Deleting Document: \(err)")
+                                            } else {
+                                                print("Document Deleted Successfully!")
+                                            }
+                                        }
+                                                                                                                                                            
+                                                                                                                                                            print("Delete successful")}
+                                    ), .cancel()
+                                    ])
+                                
+                                    
+                                }
                             }
                             
                             VStack {
