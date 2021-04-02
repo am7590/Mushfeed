@@ -10,6 +10,7 @@ import SwiftUI
 import URLImage
 import FirebaseFirestore
 import FirebaseAuth
+import FirebaseStorage
 
 struct FooterCell: View {
     @State private var showingImagePicker = false
@@ -48,29 +49,48 @@ struct FooterCell: View {
                                     Image(systemName: "trash").imageScale(.large).foregroundColor(Color.primary).padding(.top, -10)
                                 }.actionSheet(isPresented: $showActionSheet){
                                     ActionSheet(title:Text("Delete Post"), message: Text("Are you sure you want to delete this post?"), buttons: [.default(Text("Yes"), action: {
-                                                                                                                                                            guard let userId = Auth.auth().currentUser?.uid else {
-                                                                                                                                                                return
-                                                                                                                                                            }
-                                                                                                                                                            let postId = Ref.FIRESTORE_MY_POSTS_DOCUMENT_USERID(userId: userId).collection("userPosts").document().documentID
-                                                                                                                                                            
-                                        Firestore.firestore().collection("all_posts").document(postId).delete() { err in
+                                                guard let userId = Auth.auth().currentUser?.uid else {
+                                                    return
+                                                }
+                                                var postId = Ref.FIRESTORE_MY_POSTS_DOCUMENT_USERID(userId: userId).collection("userPosts").document().documentID
+                                                
+                                                                                                                                                            Ref.FIRESTORE_COLLECTION_ALL_POSTS.document(self.footerCellViewModel.post.postId).delete() { err in
                                             if let err = err {
                                                 print("Error Deleting Document: \(err)")
                                             } else {
-                                                print("Document Deleted Successfully!")
+                                                print("User ID: " + userId + "Post ID: " + self.footerCellViewModel.post.postId)
                                             }
                                         
                                         }
+                                                                                                                                                            postId = Ref.FIRESTORE_TIMELINE_DOCUMENT_USERID(userId: userId).collection("timelinePosts").document(postId).documentID
                                                                                                                                                             
-                                                                                                                                                            Firestore.firestore().collection("timeline").document(userId).collection("timelinePosts").document(postId).delete() { err in
+                                                                                                                                                            Ref.FIRESTORE_TIMELINE_DOCUMENT_USERID(userId: userId).collection("timelinePosts").document(self.footerCellViewModel.post.postId).delete() { err in
                                             if let err = err {
                                                 print("Error Deleting Document: \(err)")
                                             } else {
-                                                print("Document Deleted Successfully!")
+                                                print("User ID: " + userId + "Post ID: " + self.footerCellViewModel.post.postId)
                                             }
+    
+                                                                                                                                                                Ref.FIRESTORE_MY_POSTS_DOCUMENT_USERID(userId: userId).collection("userPosts").document(self.footerCellViewModel.post.postId).delete() { err in
+                                            if let err = err {
+                                                print("Error Deleting Document: \(err)")
+                                            } else {
+                                                print("User ID: " + userId + "Post ID: " + self.footerCellViewModel.post.postId)
+                                            }
+                                        
+                                        }
+                                                                                                                    
+                                                                                                                                                                
+//                                            Ref.STORAGE_POST_ID(postId: postId).delete() { error in
+//                                                if error != nil {
+//                                                    print("Storage error")
+//                                                } else {
+//                                                    print("Storage error")
+//                                                }
+//                                        }
                                         }
                                                                                                                                                             
-                                                                                                                                                            print("Delete successful")}
+                                        print("Delete successful")}
                                     ), .cancel()
                                     ])
                                 
