@@ -35,12 +35,12 @@ struct SignupView: View {
     
     var body: some View {
         VStack {
-            //SelectPFPView()
-            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
-                .clipShape(Circle()).padding(.bottom, 80)
-                .onTapGesture {
-                    print("Tapped")
-                    self.signupViewModel.showImagePicker = true
+            SelectPFPView(imageData: <#Binding<Data>#>)
+//            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
+//                .clipShape(Circle()).padding(.bottom, 80)
+//                .onTapGesture {
+//                    print("Tapped")
+//                    self.signupViewModel.showImagePicker = true
             }
             Text("Select a profile picture").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, 0)
             
@@ -56,12 +56,12 @@ struct SignupView: View {
             Divider()
             Text("Mushfeed needs your email only for account recovery purposes. ").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
             
-        }.sheet(isPresented: $signupViewModel.showImagePicker) {
+        }//.sheet(isPresented: $signupViewModel.showImagePicker) {
            // ImagePickerController()
-            ImagePicker(showImagePicker: self.$signupViewModel.showImagePicker, pickedImage: self.$signupViewModel.image, imageData: self.$signupViewModel.imageData)
-        }
-        .navigationBarTitle("Register", displayMode: .inline).foregroundColor(.primary)
-    }
+//            ImagePicker(showImagePicker: self.$signupViewModel.showImagePicker, pickedImage: self.$signupViewModel.image, imageData: self.$signupViewModel.imageData)
+        //}
+        //.navigationBarTitle("Register", displayMode: .inline).foregroundColor(.primary)
+    //}
 }
 
 struct SignupView_Previews: PreviewProvider {
