@@ -13,7 +13,8 @@ import FirebaseStorage
 import SwiftUI
 
 class SignupViewModel: ObservableObject {
-    
+    @EnvironmentObject var session: SessionStore
+
      var username: String = ""
      var email: String = ""
      var password: String = ""
@@ -25,7 +26,10 @@ class SignupViewModel: ObservableObject {
 
     func signup(username: String, email: String, password: String, imageData: Data, completed: @escaping(_ user: User) -> Void,  onError: @escaping(_ errorMessage: String) -> Void) {
         if !username.isEmpty && !email.isEmpty && !password.isEmpty && !imageData.isEmpty {
-           AuthService.signupUser(username: username, email: email, password: password, imageData: imageData, onSuccess: completed, onError: onError)
+            AuthService.signupUser(username: username, email: email, password: password, imageData: imageData, onSuccess: completed, onError: onError)
+            
+            
+            
         } else if imageData.isEmpty {
             showAlert = true
             errorString = "Please select a profile picture"

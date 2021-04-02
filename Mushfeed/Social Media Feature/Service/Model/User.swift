@@ -15,6 +15,8 @@ struct User: Encodable, Decodable {
     var username: String
     var bio: String
     var keywords: [String]
+    
+    
 //
 //    static func convertDictToUserStruct(dict: [String: Any]) -> User {
 //        let bio = dict["bio"] as! String

@@ -17,7 +17,7 @@ struct ProfileView: View {
 
     @State var selection: Selection = .grid
     @Environment(\.openURL) var openURL
-
+    
        var body: some View {
          
          return

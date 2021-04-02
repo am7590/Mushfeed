@@ -11,7 +11,7 @@ import URLImage
 
 struct FooterCell: View {
     @State private var showingImagePicker = false
-
+    @EnvironmentObject var session: SessionStore
     @ObservedObject var footerCellViewModel = FooterCellViewModel()
     
     init(post: Post) {
@@ -38,6 +38,10 @@ struct FooterCell: View {
                         
                         HStack() {
                             
+                            if footerCellViewModel.post.username == session.userSession?.username {
+                                Image(systemName: "trash").imageScale(.large).foregroundColor(Color.primary).padding(.top, -10)
+                            }
+                            
                             VStack {
                                 ZStack {
                                     Image(systemName: (self.footerCellViewModel.isLiked) ? "heart.fill" : "heart").onTapGesture {
@@ -62,6 +66,9 @@ struct FooterCell: View {
                                     
                                 }
                             }.padding(.top, -10)
+                            
+                            
+                            
                             
                             
             
