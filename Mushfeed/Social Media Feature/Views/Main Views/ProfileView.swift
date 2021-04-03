@@ -79,17 +79,6 @@ struct ProfileView: View {
 
                                 }.cornerRadius(5)
                                 
-                                // Delete Post
-                                Button(action: {}) {
-                                    NavigationLink(destination: DeletePostView()) {
-                                        HStack {
-                                            Text("Delete Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                        }.frame(maxWidth: .infinity)
-                                            .frame(height: 15)
-                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
-                                    }
-                                }.cornerRadius(5)
-                                
                                 // Search Users button
                                 Button(action: {}) {
                                     HStack {

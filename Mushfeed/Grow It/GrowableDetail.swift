@@ -112,9 +112,13 @@ struct GrowableDetail: View {
                         Button(action: {openURL(URL(string: drink.storeLink)!)}) {
                             HStack {
                                 Spacer()
-                                Text("Check it out").font(.largeTitle).fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                Text("Check it out").frame(height: 15)
+                                    .frame(maxWidth: .infinity)
+                                .padding().background(Color.gray).cornerRadius(5)
+                                
+                                
                                 Spacer()
-                            }.frame(height: 30).background(Color.primary).padding(.top, 5)
+                            }.padding(.top, 5)//.shadow(radius: 10, x: 0, y: 10)
                             
                         }.cornerRadius(5)
                         
