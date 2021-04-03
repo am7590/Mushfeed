@@ -35,12 +35,15 @@ struct SignupView: View {
     
     var body: some View {
         VStack {
-            SelectPFPView(imageData: <#Binding<Data>#>)
+            SelectPFPView()
+            // Old image picker code
 //            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
 //                .clipShape(Circle()).padding(.bottom, 80)
 //                .onTapGesture {
 //                    print("Tapped")
 //                    self.signupViewModel.showImagePicker = true
+            
+            
             }
             Text("Select a profile picture").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, 0)
             

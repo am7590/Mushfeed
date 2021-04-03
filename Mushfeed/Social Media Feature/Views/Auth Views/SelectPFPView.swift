@@ -10,7 +10,7 @@ import SwiftUI
 struct SelectPFPView: View {
     @ObservedObject var signupViewModel = SignupViewModel()
     @State private var selected: String?
-    @Binding var imageData: Data
+    //@Binding var imageData: Data
     @State private var images = ["pfp1", "pfp2", "pfp3","pfp4", "pfp5", "pfp6"]
     var body: some View {
         ScrollView(.horizontal){
@@ -20,8 +20,8 @@ struct SelectPFPView: View {
                         Circle().stroke(selected == image ? Color.primary : Color.clear, lineWidth: 4)
                     ).onTapGesture {
                         self.selected = image
-                        let data = UIImage(named:image)
-                        imageData = (data?.pngData())!
+                        let data = UIImage(named:self.selected!)
+                        signupViewModel.imageData = (data?.pngData())!
 
                     }
                 }

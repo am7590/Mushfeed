@@ -24,8 +24,8 @@ struct CommentRow: View {
             }).frame(width: 35, height: 35)
              
              VStack(alignment: .leading) {
-                Text(comment.username).font(.subheadline).bold()
-                Text(comment.comment).font(.caption).padding(.top, 5)
+                Text(comment.username).font(.caption)//.bold()
+                Text(comment.comment).font(.subheadline)
              }
              Spacer()
             Text(timeAgoSinceDate(Date(timeIntervalSince1970: comment.date), currentDate: Date(), numericDates: true)).font(.caption).foregroundColor(.gray)

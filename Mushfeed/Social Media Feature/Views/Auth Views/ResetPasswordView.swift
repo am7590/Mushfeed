@@ -32,7 +32,7 @@ struct ResetPasswordView: View {
                         self.showAlert = true
                     }
                 }) {
-                    Text("Reset Password")
+                    Text("Reset Password").padding()
                 }
                 
                 Spacer()

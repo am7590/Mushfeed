@@ -104,7 +104,7 @@ struct MushroomIndexDetail: View {
                         Image(systemName: "chevron.left")
                         
                         VStack {
-                            Image(mushroom.locations[0] == "" ? "" : "icon1")
+                            Image(mushroom.locations[0] == "" ? "" : "tree-icon")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
@@ -116,7 +116,7 @@ struct MushroomIndexDetail: View {
                         }
                         
                         VStack {
-                            Image(mushroom.locations[1] == "" ? "" : "icon2")
+                            Image(mushroom.locations[1] == "" ? "" : "dead-wood-icon")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
@@ -127,7 +127,7 @@ struct MushroomIndexDetail: View {
                         }
                         
                         VStack {
-                            Image(mushroom.locations[2] == "" ? "" : "icon3")
+                            Image(mushroom.locations[2] == "" ? "" : "cultivated-icon")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
