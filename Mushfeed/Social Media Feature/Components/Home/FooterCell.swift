@@ -48,7 +48,7 @@ struct FooterCell: View {
                                 }) {
                                     Image(systemName: "trash").imageScale(.large).foregroundColor(Color.primary).padding(.top, -10)
                                 }.actionSheet(isPresented: $showActionSheet){
-                                    ActionSheet(title:Text("Delete Post"), message: Text("Are you sure you want to delete this post?"), buttons: [.default(Text("Yes"), action: {
+                                    ActionSheet(title:Text("Delete Post"), message: Text("Your post will be deleted momentarily."), buttons: [.default(Text("Yes"), action: {
                                                 guard let userId = Auth.auth().currentUser?.uid else {
                                                     return
                                                 }
