@@ -18,13 +18,15 @@ struct UserProfileView: View {
             
                 ScrollView {
                    VStack(alignment: .center, spacing: 15) {
+                    // Profile image
                     ProfileHeader(user: user)
+                    
+                    // Username
                     ProfileInformation(user: user)
-//                    HStack(spacing: 5) {
-//                        FollowButton()
-//                        MessageButton()
-//                    }.padding(.leading, 20).padding(.trailing, 20)
-                         
+
+
+                    
+                    // FollowButton() MessageButton()
                          Picker(selection: $selection, label: Text("Grid or Table")) {
                                     ForEach(Selection.allCases) { selection in
                                         selection.image.tag(selection)

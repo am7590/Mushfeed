@@ -13,11 +13,15 @@ import SwiftUI
 struct SignupView: View {
 
     @ObservedObject var signupViewModel = SignupViewModel()
+    @EnvironmentObject var session: SessionStore
     
     func signUp() {
         signupViewModel.signup(username: signupViewModel.username, email: signupViewModel.email, password: signupViewModel.password, imageData: signupViewModel.imageData, completed: { (user) in
             print(user.email)
             self.clean()
+            //self.session.logout()
+            
+            
             // Switch to the Main App
         }) { (errorMessage) in
             print("Error: \(errorMessage)")

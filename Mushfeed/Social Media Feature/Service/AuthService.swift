@@ -50,6 +50,8 @@ class AuthService {
                     metadata.contentType = "image/jpg"
                     
                     StorageService.saveAvatar(userId: userId, username: username, email: email, imageData: imageData, metadata: metadata, storageAvatarRef: storageAvatarUserId, onSuccess: onSuccess, onError: onError)
+                    
+                    
  
                 }
     }

@@ -23,138 +23,158 @@ struct ProfileView: View {
          return
              NavigationView {
                  ScrollView {
-                    VStack(alignment: .center) {
-                     ProfileHeader(user: self.session.userSession)
-                     ProfileInformation(user: self.session.userSession)
-                     Divider().padding(.leading, 15).padding(.trailing, 15)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Posts")
-                                .font(.title)
-                                    .fontWeight(.bold)
+                    if(self.session.userSession != nil) {
+                        VStack(alignment: .center) {
+                            ProfileHeader(user: self.session.userSession)
+                         ProfileInformation(user: self.session.userSession)
+                         Divider().padding(.leading, 15).padding(.trailing, 15)
+                            
+                            VStack(alignment: .leading) {
+                                Text("Posts")
+                                    .font(.title)
+                                        .fontWeight(.bold)
 
-                               
-                               
-                                 Picker(selection: $selection, label: Text("Grid or Table")) {
-                                    ForEach(Selection.allCases) { selection in
-                                        selection.image.tag(selection)
-                                                
-                                    }
-                                 }.pickerStyle(SegmentedPickerStyle()).padding(.trailing, 15)
-                            if !profileViewModel.isLoading {
-                                if selection == .grid {
-                                    GridPosts(splitted: self.profileViewModel.splitted)
-                                    
-                                } else {
-                                    ForEach(self.profileViewModel.posts, id: \.postId) { post in
-                                        VStack {
-                                            HeaderCell(post: post)
-                                            FooterCell(post: post)
-                                        }
-                                    }
                                    
-                                }
+                                   
+                                     Picker(selection: $selection, label: Text("Grid or Table")) {
+                                        ForEach(Selection.allCases) { selection in
+                                            selection.image.tag(selection)
+                                                    
+                                        }
+                                     }.pickerStyle(SegmentedPickerStyle()).padding(.trailing, 15)
+                                if !profileViewModel.isLoading {
+                                    if selection == .grid {
+                                        GridPosts(splitted: self.profileViewModel.splitted)
+                                        
+                                    } else {
+                                        ForEach(self.profileViewModel.posts, id: \.postId) { post in
+                                            VStack {
+                                                HeaderCell(post: post)
+                                                FooterCell(post: post)
+                                            }
+                                        }
+                                       
+                                    }
 
+                                    
+                                }
                                 
-                            }
-                            
-                            Text("Options")
-                                .font(.title)
-                                .fontWeight(.bold)
-                                .padding(.top, 5)
-                            
-                            // Edit, Search, Log out button stack
-                            
-                            VStack() {
+                                Text("Options")
+                                    .font(.title)
+                                    .fontWeight(.bold)
+                                    .padding(.top, 5)
                                 
-                                // New Post
-                                Button(action: {}) {
-                                    NavigationLink(destination: CameraView()) {
+                                // Edit, Search, Log out button stack
+                                
+                                VStack() {
+                                    
+                                    // New Post
+                                    Button(action: {}) {
+                                        NavigationLink(destination: CameraView()) {
+                                            HStack {
+                                                Text("Create New Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                            }.frame(maxWidth: .infinity)
+                                                .frame(height: 15)
+                                            .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        }
+
+                                    }.cornerRadius(5)
+                                    
+                                    // Search Users button
+                                    Button(action: {}) {
                                         HStack {
-                                            Text("Create New Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                            NavigationLink(destination: UsersView()) {
+                                                Text("Search Users")
+                                                    .fontWeight(.bold)
+                                                    .foregroundColor(Color(UIColor.systemBackground))
+                                            }
+                                        }.frame(height: 15)
+                                            .frame(maxWidth: .infinity)
+                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                            
+                                    }.cornerRadius(5)
+                                    
+                                    
+                                    
+                                    // Log out
+                                    Button(action: {self.session.logout()}) {
+                                        HStack {
+                                                Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                         }.frame(maxWidth: .infinity)
                                             .frame(height: 15)
                                         .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
-                                    }
-
-                                }.cornerRadius(5)
-                                
-                                // Search Users button
-                                Button(action: {}) {
-                                    HStack {
-                                        NavigationLink(destination: UsersView()) {
-                                            Text("Search Users")
-                                                .fontWeight(.bold)
-                                                .foregroundColor(Color(UIColor.systemBackground))
-                                        }
-                                    }.frame(height: 15)
-                                        .frame(maxWidth: .infinity)
-                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                         
-                                }.cornerRadius(5)
+                                    }.cornerRadius(5)
+                                }.padding(.top, 5)
                                 
                                 
-                                
-                                // Log out
-                                Button(action: {self.session.logout()}) {
-                                    HStack {
-                                            Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    }.frame(maxWidth: .infinity)
+                                // More
+                                Text("Surveys")
+                                    .font(.title)
+                                    .fontWeight(.bold)
+                                    .padding(.top, 5)
+
+                                    
+                                // Survey Button stack
+                                VStack(spacing: 5) {
+                                    
+                                    // Request Mushroom
+                                    Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeOnTonAFPEHUVj3HOekPVGlaA7rJn3vF9r0ZuCY_rQolkHaA/viewform")!)}) {
+                                        HStack {
+                                            Text("Request a Mushroom").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                        }
+                                        .frame(maxWidth: .infinity)
                                         .frame(height: 15)
-                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        
+                                        
+                                    }.cornerRadius(5).padding(.top, 5)
                                     
-                                }.cornerRadius(5)
-                            }.padding(.top, 5)
+                                    // User Survey
+                                    Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScCkPctbaHkRNXiZRNQ8smrHlQiFgNFvibBy139LLxYp0Xssw/viewform")!)}) {
+                                        HStack {
+                                            Text("Mushfeed User Survey").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                        }
+                                        .frame(maxWidth: .infinity)
+                                        .frame(height: 15)
+                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        
+                                        
+                                    }
+                                        
+                                        
+                                }.padding(.top, 5)
                             
+                                
+                                
+
+                            }
+                         
+
                             
-                            // More
-                            Text("Surveys")
-                                .font(.title)
+                        }.padding(.top, 20)
+                    } else {
+                            VStack {
+                            Text("Please log in to verify your account.").font(.title)
                                 .fontWeight(.bold)
-                                .padding(.top, 5)
-
                                 
-                            // Survey Button stack
-                            VStack(spacing: 5) {
+                                                    
+                            // Log out
+                            Button(action: {self.session.logout()}) {
+                                HStack {
+                                        Text("Log in").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                                }.frame(maxWidth: .infinity)
+                                .frame(height: 15).padding()
+                                .background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                 
-                                // Request Mushroom
-                                Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeOnTonAFPEHUVj3HOekPVGlaA7rJn3vF9r0ZuCY_rQolkHaA/viewform")!)}) {
-                                    HStack {
-                                        Text("Request a Mushroom").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    }
-                                    .frame(maxWidth: .infinity)
-                                    .frame(height: 15)
-                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
-                                    
-                                    
-                                }.cornerRadius(5).padding(.top, 5)
-                                
-                                // User Survey
-                                Button(action: {openURL(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScCkPctbaHkRNXiZRNQ8smrHlQiFgNFvibBy139LLxYp0Xssw/viewform")!)}) {
-                                    HStack {
-                                        Text("Mushfeed User Survey").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                    }
-                                    .frame(maxWidth: .infinity)
-                                    .frame(height: 15)
-                                    .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
-                                    
-                                    
-                                }
-                                    
-                                    
-                            }.padding(.top, 5)
-                        
+                            }.cornerRadius(5).padding(.top, 10)
                             
-                            
-
-                        }
-                     
-
-                        
-                    }.padding(.top, 20)
-                                  
+                                Text("Thank you for making an account on Mushfeed. Please log in to securely access your profile.").padding(.top, 10)
+                            }.padding(.leading, 15).padding(.trailing, 15).padding(.top, 10)
+                    }
                      }.padding(.leading, 15).padding(.trailing, 15).navigationBarTitle(Text("Profile"), displayMode: .inline).onAppear {
                          self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
+                       
                  } // IMPORTANT ^ loads user posts
              }.navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(self.session)

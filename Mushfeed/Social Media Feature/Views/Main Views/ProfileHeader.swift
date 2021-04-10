@@ -8,10 +8,14 @@
 
 import SwiftUI
 import URLImage
+import FirebaseAuth
+
 struct ProfileHeader: View {
     var user: User?
     var body: some View {
+        
         VStack(alignment: .center) {
+            
             if user != nil {
 
                 URLImage(url: URL(string: user!.profileImageUrl)!,
@@ -25,6 +29,9 @@ struct ProfileHeader: View {
                 }).frame(width: 160, height: 160)
                     
             }
+                
+            
+        
         }
     }
 }

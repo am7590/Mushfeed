@@ -24,7 +24,7 @@ struct CommentRow: View {
             }).frame(width: 35, height: 35)
              
              VStack(alignment: .leading) {
-                Text(comment.username).font(.caption)//.bold()
+                Text(comment.username).font(.caption).bold()
                 Text(comment.comment).font(.subheadline)
              }
              Spacer()
