@@ -14,10 +14,13 @@ struct SignupView: View {
 
     @ObservedObject var signupViewModel = SignupViewModel()
     @EnvironmentObject var session: SessionStore
+    @State var imageData: Data = Data()
     
     func signUp() {
+        print("Sign up imageData: ", self.signupViewModel.imageData)
         signupViewModel.signup(username: signupViewModel.username, email: signupViewModel.email, password: signupViewModel.password, imageData: signupViewModel.imageData, completed: { (user) in
             print(user.email)
+            print(imageData)
             self.clean()
             //self.session.logout()
             
@@ -49,7 +52,7 @@ struct SignupView: View {
             
             
             }
-            Text("Select a profile picture").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, 0)
+        Text("Tap on a mushroom to set your profile picture").font(.headline).fontWeight(.bold).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, 0)
             
             UsernameTextField(username: $signupViewModel.username)
             EmailTextField(email: $signupViewModel.email)
@@ -61,7 +64,7 @@ struct SignupView: View {
                 Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
             }
             Divider()
-            Text("Mushfeed needs your email only for account recovery purposes. ").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
+            Text("Mushfeed needs your email only for account recovery purposes.").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
             
         }//.sheet(isPresented: $signupViewModel.showImagePicker) {
            // ImagePickerController()

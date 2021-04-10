@@ -8,20 +8,27 @@
 import SwiftUI
 
 struct SelectPFPView: View {
-    @ObservedObject var signupViewModel = SignupViewModel()
     @State private var selected: String?
-    //@Binding var imageData: Data
-    @State private var images = ["pfp1", "pfp2", "pfp3","pfp4", "pfp5", "pfp6"]
+    @State var imageData: Data = Data()
+    @ObservedObject var signupViewModel = SignupViewModel()
+    private var images = ["pfp1", "pfp2", "pfp3","icon5", "icon6", "icon7"]
     var body: some View {
         ScrollView(.horizontal){
             HStack{
                 ForEach(images, id: \.self) { image in
-                    Image(image).resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80).overlay(
-                        Circle().stroke(selected == image ? Color.primary : Color.clear, lineWidth: 4)
+                    Image(image).resizable().padding(.leading, 5).aspectRatio(contentMode: .fill).frame(width: 80, height: 80).overlay(
+                        Circle().stroke(selected == image ? Color.primary : Color.clear, lineWidth: 4).frame(width: 90, height:90)
                     ).onTapGesture {
                         self.selected = image
-                        let data = UIImage(named:self.selected!)
-                        signupViewModel.imageData = (data?.pngData())!
+                        let uiImage = UIImage(named: image)
+                        let data = uiImage?.jpegData(compressionQuality: 0.5)
+                        
+                        if (data) != nil {
+                            self.imageData = data!
+                            self.signupViewModel.setImage(imageD: data!)
+                           // print("State var imageData: ", imageData)
+                            print("signupViewModel imageData: ", self.signupViewModel.imageData)
+                        }
 
                     }
                 }
