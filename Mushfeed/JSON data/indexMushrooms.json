@@ -41,7 +41,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Shiitake",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"shiitake-chart",
        "gbif":""
 
    },
@@ -64,7 +64,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Entoloma_abortivum",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"shrimp-of-the-woods-chart",
        "gbif":""
 
    },
@@ -87,7 +87,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Ganoderma_applanatum",
        "category":"inedible",
        "map":"",
-       "chart":"",
+       "chart":"artists-conk-chart",
        "gbif":""
 
    },
@@ -110,7 +110,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Hypsizygus_tessellatus",
        "category":"edible",
        "map":"",
-       "chart":"",
+       "chart":"beech-chart",
        "gbif":""
 
    },
@@ -133,7 +133,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Fistulina_hepatica",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"beefsteak-chart",
        "gbif":""
 
    },
@@ -156,7 +156,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_bisporus",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"button-chart",
        "gbif":""
 
    },
@@ -179,7 +179,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Sparassis",
        "category":"edible",
        "map":"",
-       "chart":"",
+       "chart":"cauliflower-chart",
        "gbif":""
 
    },
@@ -202,7 +202,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"chanterelle-chart",
        "gbif":""
 
    },
@@ -225,7 +225,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Laetiporus_sulphureus",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"chicken-of-the-woods-chart",
        "gbif":""
 
    },
