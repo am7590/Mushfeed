@@ -163,7 +163,7 @@ struct MushroomIndexDetail: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(.primary)
           
-                            Image("map-1")
+                            Image(mushroom.map)
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .cornerRadius(15)
@@ -174,7 +174,7 @@ struct MushroomIndexDetail: View {
                     
                     HStack() {
                         VStack(alignment: .leading,spacing: 15) {
-                            Text("Monthly Occurances")
+                            Text(mushroom.chart)
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
                                 .foregroundColor(.primary)

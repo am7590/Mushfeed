@@ -17,8 +17,8 @@
        "image2": "https://en.wikipedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus",
        "category":"choice",
-       "map":"",
-       "chart":""
+       "map":"oyster-map",
+       "chart":"oyster-chart"
 
    },
    {
