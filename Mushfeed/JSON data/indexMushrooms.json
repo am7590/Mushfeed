@@ -248,7 +248,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Corn_smut",
        "category":"use caution",
        "map":"",
-       "chart":"",
+       "chart":"corn-smut-chart",
        "gbif":""
 
    },
@@ -271,7 +271,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
        "category":"use caution",
        "map":"",
-       "chart":"",
+       "chart":"cordyceps-chart",
        "gbif":""
 
    },
@@ -294,7 +294,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"enoki-chart",
        "gbif":""
 
    },
@@ -304,7 +304,7 @@
        "scientificName": "Amanita muscaria",
        "edible": "Poisonous",
        "gourmet": "Not Choice",
-       "family": "Physalacriaceae",
+       "family": "Amanitaceae",
        "description": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a basidiomycete of the genus Amanita. It is also a muscimol mushroom. Native throughout the temperate and boreal regions of the Northern Hemisphere, Amanita muscaria has been unintentionally introduced to many countries in the Southern Hemisphere, generally as a symbiont with pine and birch plantations, and is now a true cosmopolitan species. It associates with various deciduous and coniferous trees.",
        "appearance": "Arguably the most iconic toadstool species, the fly agaric is a large white-gilled, white-spotted, usually red mushroom, and is one of the most recognizable and widely encountered in popular culture. Despite its easily distinguishable features, Amanita muscaria is a fungus with several known variations, or subspecies. These subspecies are slightly different, some have yellow or white caps, but they are all usually called fly agarics, and they are most of the time recognizable by their notable white spots.",
        "imageName": "fly-agaric1",
@@ -317,7 +317,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
        "category":"poisonous",
        "map":"",
-       "chart":"",
+       "chart":"fly-agaric-chart",
        "gbif":""
 
    },
@@ -340,7 +340,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Peniophora_albobadia",
        "category":"inedible",
        "map":"",
-       "chart":"",
+       "chart":"giraffe-spots-chart",
        "gbif":""
 
    },
@@ -363,7 +363,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Calvatia_gigantea",
        "category":"use caution",
        "map":"",
-       "chart":"",
+       "chart":"giant-puffball-chart",
        "gbif":""
 
    },
@@ -386,7 +386,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites",
        "category":"poisonous",
        "map":"",
-       "chart":"",
+       "chart":"green-spored-lepiota-chart",
        "gbif":""
 
    },
@@ -409,7 +409,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Sarcodon_imbricatus",
        "category":"edible",
        "map":"",
-       "chart":"",
+       "chart":"shingled-hedgehog-chart",
        "gbif":""
 
    },
@@ -432,7 +432,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Hydnum_repandum#Ecology,_habitat_and_distribution",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"sweet-tooth-chart",
        "gbif":""
 
    },
@@ -455,7 +455,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"horn-of-plenty-chart",
        "gbif":""
 
    },
@@ -478,7 +478,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Omphalotus_olearius",
        "category":"poisonous",
        "map":"",
-       "chart":"",
+       "chart":"jack-o-latern-chart",
        "gbif":""
 
    },
