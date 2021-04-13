@@ -16,7 +16,9 @@
        "image1": "https://commons.wikimedia.org/wiki/File:Oyster_Mushroom_-_Pleurotus_ostreatus_(26433675278).jpg",
        "image2": "https://en.wikipedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -36,7 +38,9 @@
        "image1": "https://en.wikipedia.org/wiki/File:Shiitakegrowing.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Shiitake_mushrooms_2.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Shiitake",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -56,7 +60,9 @@
        "image1": "https://commons.wikimedia.org/wiki/File:2013-02-14_Entoloma_abortivum_(Berk._and_M.A._Curtis)_Donk_309718.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:2013-10-13_Entoloma_abortivum_(Berk._and_M.A._Curtis)_Donk_389693.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Entoloma_abortivum",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -76,7 +82,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Ganoderma_applanatum",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -96,7 +104,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Hypsizygus_tessellatus",
-       "category":"edible"
+       "category":"edible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -116,7 +126,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Fistulina_hepatica",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -136,7 +148,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_bisporus",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -156,7 +170,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Sparassis",
-       "category":"edible"
+       "category":"edible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -176,7 +192,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -196,7 +214,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Laetiporus_sulphureus",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -216,7 +236,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Corn_smut",
-       "category":"use caution"
+       "category":"use caution",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -236,7 +258,9 @@
        "image1": "",
        "image2": "",
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
-       "category":"use caution"
+       "category":"use caution",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -256,7 +280,9 @@
        "image1": "https://en.wikipedia.org/wiki/File:Flammulina_velutipes.JPG",
        "image2": "https://en.wikipedia.org/wiki/File:EnokitakeJapaneseMushroom.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -276,7 +302,9 @@
        "image1": "https://en.wikipedia.org/wiki/Amanita_muscaria#/media/File:2006-10-25_Amanita_muscaria_crop.jpg",
        "image2": "https://en.wikipedia.org/wiki/Amanita_muscaria#/media/File:Amanita_muscaria_var._formosa_sensu_Thiers.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -296,7 +324,9 @@
        "image1": "https://en.wikipedia.org/wiki/File:Peniophora_albobadia_196080.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_6.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Peniophora_albobadia",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -316,7 +346,9 @@
        "image1": "https://en.wikipedia.org/wiki/Calvatia_gigantea#/media/File:Giant_Puffball_Lemoine_Point.jpg",
        "image2": "https://en.wikipedia.org/wiki/Calvatia_gigantea#/media/File:Calvatia_gigantea.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Calvatia_gigantea",
-       "category":"use caution"
+       "category":"use caution",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -336,7 +368,9 @@
        "image1": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites#/media/File:Chlorophyllum_molybdites_Guadalajara.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -356,7 +390,9 @@
        "image1": "https://en.wikipedia.org/wiki/Sarcodon_imbricatus#/media/File:Habichtspilz-Sarcodon-imbricatus.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Sarcodon_imbricatus_T64.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Sarcodon_imbricatus",
-       "category":"edible"
+       "category":"edible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -376,7 +412,9 @@
        "image1": "https://en.wikipedia.org/wiki/Hydnum_repandum#/media/File:Hedgehog_fungi2.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Semmel-Stoppelpilz_Semmelgelber_Stacheling_Hydnum_repandum.JPG",
        "wiki": "https://en.wikipedia.org/wiki/Hydnum_repandum#Ecology,_habitat_and_distribution",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -396,7 +434,9 @@
        "image1": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides#/media/File:2010-08-24_Craterellus_cinereus_(Pers.)_Qu%C3%A9l_100703_cropped.jpg",
        "image2": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides#/media/File:Craterellus_cornucopioides_JPG1.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -416,7 +456,9 @@
        "image1": "https://en.wikipedia.org/wiki/Omphalotus_olearius#/media/File:Omphalotus_olearius100.jpg",
        "image2": "https://en.wikipedia.org/wiki/Omphalotus_olearius#/media/File:Omphalotus_olearius.JPG",
        "wiki": "https://en.wikipedia.org/wiki/Omphalotus_olearius",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -436,7 +478,9 @@
        "image1": "https://commons.wikimedia.org/wiki/File:Kr%C3%A4uter-Seitling_Pleurotus_eryngii.jpg",
        "image2": "https://en.wikipedia.org/wiki/Pleurotus_eryngii#/media/File:Pleurotus_eryngii.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_eryngii",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -456,7 +500,9 @@
        "image1": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum#/media/File:Lobster_mushrooms.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Lobster_Mushroom_2.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum",
-       "category":"use caution"
+       "category":"use caution",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -476,7 +522,9 @@
        "image1": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum#/media/File:Lobster_mushrooms.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Hen_of_the_Woods_(Grifola_frondosa)_(5169557976).jpg",
        "wiki": "https://en.wikipedia.org/wiki/Grifola_frondosa",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -496,7 +544,9 @@
        "image1": "https://en.wikipedia.org/wiki/Lactarius#/media/File:Lactarius_vietus041031w.jpg",
        "image2": "https://en.wikipedia.org/wiki/Lactarius#/media/File:Lactarius_pyrogallus.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Lactarius",
-       "category":"use caution"
+       "category":"use caution",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -516,7 +566,9 @@
        "image1": "https://en.wikipedia.org/wiki/Matsutake#/media/File:Matsutake.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Tricholoma_matsutake_(9627995451).jpg",
        "wiki": "https://en.wikipedia.org/wiki/Matsutake",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -536,7 +588,9 @@
        "image1": "https://en.wikipedia.org/wiki/Agaricus_campestris#/media/File:Agaricus_campestris.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:2012-02-13_Agaricus_campestris_L_199587.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_campestris",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -556,7 +610,9 @@
        "image1": "https://en.wikipedia.org/wiki/Morchella#/media/File:White_Morel_IMG_0399.JPG",
        "image2": "https://commons.wikimedia.org/wiki/File:Morchella_esculenta_84915.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Morchella",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -576,7 +632,9 @@
        "image1": "https://en.wikipedia.org/wiki/Gomphus_clavatus#/media/File:Gomphus_clavatus_II_Totes_Gebirge.jpg",
        "image2": "https://en.wikipedia.org/wiki/Gomphus_clavatus#/media/File:Gomphus_clavatus_Fairy_ring.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Gomphus_clavatus",
-       "category":"use caution"
+       "category":"use caution",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -596,7 +654,9 @@
        "image1": "https://en.wikipedia.org/wiki/Boletus_edulis#/media/File:Boletus_edulis_EtgHollande_041031_091.jpg",
        "image2": "https://en.wikipedia.org/wiki/Boletus_edulis#/media/File:Boletus_edulis_var._grandedulis_27911.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -616,7 +676,9 @@
        "image1": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)#/media/File:Ganoderma_lucidum_01.jpg",
        "image2": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)#/media/File:Jreishi2.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -636,7 +698,9 @@
        "image1": "https://en.wikipedia.org/wiki/Russula_emetica#/media/File:Russula_emetica_in_Poland.jpg",
        "image2": "https://en.wikipedia.org/wiki/Russula_emetica#/media/File:Tiny_Russula_paludosa_(Appelrussula)_at_Rozendaal_castle_park_-_panoramio.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Russula_emetica",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -656,7 +720,9 @@
        "image1": "https://en.wikipedia.org/wiki/Coprinus_comatus#/media/File:Coprinus_comatus_G4.JPG",
        "image2": "https://en.wikipedia.org/wiki/Coprinus_comatus#/media/File:Coprinus_comatus-2_hg.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Coprinus_comatus",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -676,7 +742,9 @@
        "image1": "https://en.wikipedia.org/wiki/Suillus_luteus#/media/File:Suillus_luteus_475376.jpg",
        "image2": "https://en.wikipedia.org/wiki/Suillus_luteus#/media/File:2012-10-12_Suillus_luteus_(L.)_Roussel_271431.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Suillus_luteus",
-       "category":"edible"
+       "category":"edible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -696,7 +764,9 @@
        "image1": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Tremella_fuciformis_337510.jpg",
        "image2": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Eunibeoseot_(Tremella_fuciformis)_silver_ear_mushroom.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Tremella_fuciformis",
-       "category":"use caution"
+       "category":"use caution",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -716,7 +786,9 @@
        "image1": "https://en.wikipedia.org/wiki/Volvariella_volvacea#/media/File:StrawMushroom.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:HK_food_%E8%8D%89%E8%8F%87_Volvariella_volvacea_Straw_Mushroom_May-2012.JPG",
        "wiki": "https://en.wikipedia.org/wiki/Volvariella_volvacea",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -736,7 +808,9 @@
        "image1": "https://en.wikipedia.org/wiki/Clavariadelphus_truncatus#/media/File:Clavariadelphus_truncatus_69586.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Clavariadelphus_truncatus.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Clavariadelphus_truncatus",
-       "category":"edible"
+       "category":"edible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -756,7 +830,9 @@
        "image1": "https://en.wikipedia.org/wiki/Termitomyces#/media/File:Termitomyces_reticulatus_37340.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Termitomyces_titanicus.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Termitomyces",
-       "category":"edible"
+       "category":"edible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -776,7 +852,9 @@
        "image1": "https://en.wikipedia.org/wiki/Trametes_versicolor#/media/File:Trametes_versicolor_G4_(1).JPG",
        "image2": "https://en.wikipedia.org/wiki/Trametes_versicolor#/media/File:Schmetterlingstramete_Trametes_versicolor_001.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Trametes_versicolor",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -796,7 +874,9 @@
        "image1": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata#/media/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpghttps://en.wikipedia.org/wiki/Stropharia_rugosoannulata#/media/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Kulturtr%C3%A4uschling_Stropharia_rugosoannulata.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -816,7 +896,9 @@
        "image1": "https://en.wikipedia.org/wiki/Clitocybe_nuda#/media/File:Lepista_nuda_LC0372.jpg",
        "image2": "https://en.wikipedia.org/wiki/Clitocybe_nuda#/media/File:Lepista_nuda_Paarse_schijnridderzwam.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Clitocybe_nuda",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -836,7 +918,9 @@
        "image1": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae#/media/File:Auricularia_auricula-judae_64485.JPG",
        "image2": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae#/media/File:Auricularia_auricula-judae_(xndr).jpg",
        "wiki": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae",
-       "category":"choice"
+       "category":"choice",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -856,7 +940,9 @@
        "image1": "https://en.wikipedia.org/wiki/Amanita_phalloides#/media/File:Amanita_phalloides_1.JPG",
        "image2": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_Kiev3.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Amanita_phalloides",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -876,7 +962,9 @@
        "image1": "https://en.wikipedia.org/wiki/Pholiotina_rugosa#/media/File:Pholiotina_rugosa_62373.jpg",
        "image2": "https://commons.m.wikimedia.org/wiki/File:Conocybe_rugosa_(Peck)_Watling_944497.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Pholiotina_rugosa",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -896,7 +984,9 @@
        "image1": "https://commons.wikimedia.org/wiki/File:2006-07-12_Cortinarius_rubellus_2.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Cortinarius_rubellus_02.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_rubellus",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -916,7 +1006,9 @@
        "image1": "https://en.wikipedia.org/wiki/Galerina_marginata#/media/File:Galerina_marginata_Point_Reyes.jpg",
        "image2": "https://en.wikipedia.org/wiki/Galerina_marginata#/media/File:Galerina_marginata_63678.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Galerina_marginata",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -936,7 +1028,9 @@
        "image1": "https://en.wikipedia.org/wiki/Destroying_angel#/media/File:Destroying_Angel.jpg",
        "image2": "https://en.wikipedia.org/wiki/Destroying_angel#/media/File:Destroying_Angel_02.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Destroying_angel",
-       "category":"poisonous"
+       "category":"poisonous",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -956,7 +1050,9 @@
        "image1": "https://en.wikipedia.org/wiki/Cortinarius_violaceus#/media/File:2008-08-22_Cortinarius_violaceus_(L.)_Gray_18241.jpg",
        "image2": "https://en.wikipedia.org/wiki/Cortinarius_violaceus#/media/File:Cortinarius_violaceus_G6.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_violaceus",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -976,7 +1072,9 @@
        "image1": "https://en.wikipedia.org/wiki/Amanita_daucipes#/media/File:Amanita_daucipes_56224.jpg",
        "image2": "https://en.wikipedia.org/wiki/Amanita_daucipes#/media/File:Amanita_daucipes_18186.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Amanita_daucipes",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -996,7 +1094,9 @@
        "image1": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare#/media/File:Auriscalpium_vulgare_82813.jpg",
        "image2": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare#/media/File:Auriscalpium_vulgare_129877.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -1016,7 +1116,9 @@
        "image1": "https://en.wikipedia.org/wiki/Bisporella_citrina#/media/File:Dacrymyces_stillatus_Nees_63238.jpg",
        "image2": "https://en.wikipedia.org/wiki/Bisporella_citrina#/media/File:Lachnellula_arida_46999.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Bisporella_citrina",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    },
    {
@@ -1036,7 +1138,9 @@
        "image1": "https://en.wikipedia.org/wiki/Fomes_fomentarius#/media/File:Fomes_fomentarius_2010_G2.jpg",
        "image2": "https://en.wikipedia.org/wiki/Fomes_fomentarius#/media/File:Fomes_fomentarius_25616.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Fomes_fomentarius",
-       "category":"inedible"
+       "category":"inedible",
+       "map":"",
+       "chart":""
 
    }
    

@@ -52,7 +52,7 @@ struct SignupView: View {
             
             
             }
-        Text("Tap on a mushroom to set your profile picture").font(.headline).fontWeight(.bold).foregroundColor(.gray).padding().lineLimit(nil).padding(.top, 0)
+        Text("Tap on a mushroom to set your profile picture").font(.headline).fontWeight(.bold).foregroundColor(.gray).multilineTextAlignment(.center).padding().fixedSize(horizontal: false, vertical: true)
             
             UsernameTextField(username: $signupViewModel.username)
             EmailTextField(email: $signupViewModel.email)

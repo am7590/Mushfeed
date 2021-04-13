@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E88284B1-2A1F-4A57-8B19-6CBB9277D835"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mushfeed/Social Media Feature/Views/View Models/Auth/SignupViewModel.swift"
