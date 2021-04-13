@@ -18,7 +18,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus",
        "category":"choice",
        "map":"oyster-map",
-       "chart":"oyster-chart"
+       "chart":"oyster-chart",
+       "gbif":""
 
    },
    {
@@ -40,7 +41,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Shiitake",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -62,7 +64,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Entoloma_abortivum",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -84,7 +87,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Ganoderma_applanatum",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -106,7 +110,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Hypsizygus_tessellatus",
        "category":"edible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -128,7 +133,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Fistulina_hepatica",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -150,7 +156,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_bisporus",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -172,7 +179,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Sparassis",
        "category":"edible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -194,7 +202,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Chanterelle",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -216,7 +225,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Laetiporus_sulphureus",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -238,7 +248,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Corn_smut",
        "category":"use caution",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -260,7 +271,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
        "category":"use caution",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -282,7 +294,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -304,7 +317,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -326,7 +340,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Peniophora_albobadia",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -348,7 +363,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Calvatia_gigantea",
        "category":"use caution",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -370,7 +386,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -392,7 +409,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Sarcodon_imbricatus",
        "category":"edible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -414,7 +432,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Hydnum_repandum#Ecology,_habitat_and_distribution",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -436,7 +455,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -458,7 +478,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Omphalotus_olearius",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -480,7 +501,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_eryngii",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -502,7 +524,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum",
        "category":"use caution",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -524,7 +547,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Grifola_frondosa",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -546,7 +570,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Lactarius",
        "category":"use caution",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -568,7 +593,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Matsutake",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -590,7 +616,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_campestris",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -612,7 +639,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Morchella",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -634,7 +662,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Gomphus_clavatus",
        "category":"use caution",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -656,7 +685,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -678,7 +708,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -700,7 +731,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Russula_emetica",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -722,7 +754,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Coprinus_comatus",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -744,7 +777,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Suillus_luteus",
        "category":"edible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -766,7 +800,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Tremella_fuciformis",
        "category":"use caution",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -788,7 +823,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Volvariella_volvacea",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -810,7 +846,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Clavariadelphus_truncatus",
        "category":"edible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -832,7 +869,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Termitomyces",
        "category":"edible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -854,7 +892,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Trametes_versicolor",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -876,7 +915,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -898,7 +938,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Clitocybe_nuda",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -920,7 +961,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae",
        "category":"choice",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -942,7 +984,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Amanita_phalloides",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -964,7 +1007,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Pholiotina_rugosa",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -986,7 +1030,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_rubellus",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -1008,7 +1053,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Galerina_marginata",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -1030,7 +1076,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Destroying_angel",
        "category":"poisonous",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -1052,7 +1099,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_violaceus",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -1074,7 +1122,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Amanita_daucipes",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -1096,7 +1145,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -1118,7 +1168,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Bisporella_citrina",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    },
    {
@@ -1140,7 +1191,8 @@
        "wiki": "https://en.wikipedia.org/wiki/Fomes_fomentarius",
        "category":"inedible",
        "map":"",
-       "chart":""
+       "chart":"",
+       "gbif":""
 
    }
    
