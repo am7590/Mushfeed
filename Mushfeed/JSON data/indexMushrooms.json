@@ -983,9 +983,9 @@
        "image2": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_Kiev3.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Amanita_phalloides",
        "category":"poisonous",
-       "map":"",
+       "map":"death-cap-map",
        "chart":"death-cap-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5240325"
 
    },
    {
@@ -1006,9 +1006,9 @@
        "image2": "https://commons.m.wikimedia.org/wiki/File:Conocybe_rugosa_(Peck)_Watling_944497.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Pholiotina_rugosa",
        "category":"poisonous",
-       "map":"",
+       "map":"conocybe-filaris-map",
        "chart":"conocybe-filaris-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2529908"
 
    },
    {
@@ -1029,9 +1029,9 @@
        "image2": "https://commons.wikimedia.org/wiki/File:Cortinarius_rubellus_02.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_rubellus",
        "category":"poisonous",
-       "map":"",
+       "map":"deadly-webcap-map",
        "chart":"deadly-webcap-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2528663"
 
    },
    {
@@ -1052,15 +1052,15 @@
        "image2": "https://en.wikipedia.org/wiki/Galerina_marginata#/media/File:Galerina_marginata_63678.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Galerina_marginata",
        "category":"poisonous",
-       "map":"",
+       "map":"deadly-skullcap-map",
        "chart":"deadly-skullcap-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/8118872"
 
    },
    {
        "id": 1047,
        "name": "Destroying Angel",
-       "scientificName": "Galerina marginata",
+       "scientificName": "Amanita bisporigera",
        "edible": "Poisonous",
        "gourmet": "Not Choice",
        "family": "Amanitaceae",
@@ -1070,14 +1070,14 @@
        "funFact": "The destroying angel (Amanita bisporigera) and the death cap (Amanita phalloides) account for the overwhelming majority of deaths due to mushroom poisoning. Symptoms do not appear for 5 to 24 hours, by which time the toxins may already be absorbed and the damage (destruction of liver and kidney tissues) is irreversible. As little as half a mushroom cap can be fatal if the victim is not treated quickly enough.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "Trees", ""],
+       "locations" : ["Forest Floor", "Dead Wood", ""],
        "image1": "https://en.wikipedia.org/wiki/Destroying_angel#/media/File:Destroying_Angel.jpg",
        "image2": "https://en.wikipedia.org/wiki/Destroying_angel#/media/File:Destroying_Angel_02.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Destroying_angel",
        "category":"poisonous",
-       "map":"",
+       "map":"destroying-angel-map",
        "chart":"destroying-angel-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5452051"
 
    },
    {
@@ -1093,14 +1093,14 @@
        "funFact": "The destroying angel (Amanita bisporigera) and the death cap (Amanita phalloides) account for the overwhelming majority of deaths due to mushroom poisoning. Symptoms do not appear for 5 to 24 hours, by which time the toxins may already be absorbed and the damage (destruction of liver and kidney tissues) is irreversible. As little as half a mushroom cap can be fatal if the victim is not treated quickly enough.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "Trees", ""],
+       "locations" : ["Forest Floor", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Cortinarius_violaceus#/media/File:2008-08-22_Cortinarius_violaceus_(L.)_Gray_18241.jpg",
        "image2": "https://en.wikipedia.org/wiki/Cortinarius_violaceus#/media/File:Cortinarius_violaceus_G6.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Cortinarius_violaceus",
        "category":"inedible",
-       "map":"",
+       "map":"violet-webcap-map",
        "chart":"violet-webcap-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2529040"
 
    },
    {
@@ -1121,9 +1121,9 @@
        "image2": "https://en.wikipedia.org/wiki/Amanita_daucipes#/media/File:Amanita_daucipes_18186.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Amanita_daucipes",
        "category":"inedible",
-       "map":"",
+       "map":"carrot-footed-lepidella-map",
        "chart":"carrot-footed-lepidella-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/8121028"
 
    },
    {
@@ -1139,14 +1139,14 @@
        "funFact": "The fruit bodies (mushrooms) grow on conifer litter or on conifer cones that may be partially or completely buried in soil. The dark brown cap of the small, spoon-shaped mushroom is covered with fine brown hairs, and reaches a diameter of up to 2 cm (0.8 in)",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "", ""],
+       "locations" : ["Forest Floor", "Dead Wood", ""],
        "image1": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare#/media/File:Auriscalpium_vulgare_82813.jpg",
        "image2": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare#/media/File:Auriscalpium_vulgare_129877.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Auriscalpium_vulgare",
        "category":"inedible",
-       "map":"",
+       "map":"pinecone-mushroom-map",
        "chart":"pinecone-mushroom-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5248458"
 
    },
    {
@@ -1162,14 +1162,14 @@
        "funFact": "Bisporella citrina is saprobic, and so obtains nutrients by breaking down complex organic molecules into simpler ones. Fruit bodies are typically encountered growing in dense clusters on the surface of rotten wood (especially deciduous trees), particularly beech.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Wood", "", ""],
+       "locations" : ["Dead Wood", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Bisporella_citrina#/media/File:Dacrymyces_stillatus_Nees_63238.jpg",
        "image2": "https://en.wikipedia.org/wiki/Bisporella_citrina#/media/File:Lachnellula_arida_46999.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Bisporella_citrina",
        "category":"inedible",
-       "map":"",
+       "map":"yellow-fairy-cups-map",
        "chart":"yellow-fairy-cups-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2584306"
 
    },
    {
@@ -1185,14 +1185,14 @@
        "funFact": "The species' mycelium penetrates the wood of trees through damaged bark or broken branches, causing rot in the host. It can grow on the bark wound, or even directly onto the bark of older or dead trees.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Wood", "", ""],
+       "locations" : ["Trees", "Dead Wood", ""],
        "image1": "https://en.wikipedia.org/wiki/Fomes_fomentarius#/media/File:Fomes_fomentarius_2010_G2.jpg",
        "image2": "https://en.wikipedia.org/wiki/Fomes_fomentarius#/media/File:Fomes_fomentarius_25616.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Fomes_fomentarius",
        "category":"inedible",
-       "map":"",
-       "chart":"",
-       "gbif":""
+       "map":"tinder-fungus-map",
+       "chart":"tinder-fungus-chart",
+       "gbif":"https://www.gbif.org/species/2549323"
 
    }
    
