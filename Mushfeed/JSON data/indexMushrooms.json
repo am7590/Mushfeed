@@ -731,7 +731,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Russula_emetica",
        "category":"poisonous",
        "map":"",
-       "chart":"",
+       "chart":"the-sickener-chart",
        "gbif":""
 
    },
@@ -754,7 +754,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Coprinus_comatus",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"shaggy-mane-chart",
        "gbif":""
 
    },
@@ -777,7 +777,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Suillus_luteus",
        "category":"edible",
        "map":"",
-       "chart":"",
+       "chart":"slippery-jack-chart",
        "gbif":""
 
    },
@@ -800,7 +800,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Tremella_fuciformis",
        "category":"use caution",
        "map":"",
-       "chart":"",
+       "chart":"snow-fungus-chart",
        "gbif":""
 
    },
@@ -823,7 +823,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Volvariella_volvacea",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"paddy-straw-mushroom-chart",
        "gbif":""
 
    },
@@ -869,7 +869,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Termitomyces",
        "category":"edible",
        "map":"",
-       "chart":"",
+       "chart":"termitomyces-chart",
        "gbif":""
 
    },
@@ -892,7 +892,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Trametes_versicolor",
        "category":"inedible",
        "map":"",
-       "chart":"",
+       "chart":"turkey-tail-chart",
        "gbif":""
 
    },
@@ -915,7 +915,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"garden-giant-chart",
        "gbif":""
 
    },
