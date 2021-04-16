@@ -501,7 +501,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_eryngii",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"king-oyster-chart",
        "gbif":""
 
    },
@@ -524,7 +524,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum",
        "category":"use caution",
        "map":"",
-       "chart":"",
+       "chart":"lobster-chart",
        "gbif":""
 
    },
@@ -547,7 +547,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Grifola_frondosa",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"hen-of-the-woods-chart",
        "gbif":""
 
    },
@@ -570,7 +570,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Lactarius",
        "category":"use caution",
        "map":"",
-       "chart":"",
+       "chart":"milk-caps-chart",
        "gbif":""
 
    },
@@ -593,7 +593,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Matsutake",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"pine-mushroom-chart",
        "gbif":""
 
    },
@@ -616,7 +616,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_campestris",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"meadow-mushroom-chart",
        "gbif":""
 
    },
@@ -639,7 +639,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Morchella",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"morel-mushroom-chart",
        "gbif":""
 
    },
@@ -662,7 +662,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Gomphus_clavatus",
        "category":"use caution",
        "map":"",
-       "chart":"",
+       "chart":"pigs-ear-chart",
        "gbif":""
 
    },
@@ -685,7 +685,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"porcini-chart",
        "gbif":""
 
    },
@@ -708,7 +708,7 @@
        "wiki": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)",
        "category":"choice",
        "map":"",
-       "chart":"",
+       "chart":"reishi-chart",
        "gbif":""
 
    },
