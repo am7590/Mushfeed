@@ -753,9 +753,9 @@
        "image2": "https://en.wikipedia.org/wiki/Coprinus_comatus#/media/File:Coprinus_comatus-2_hg.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Coprinus_comatus",
        "category":"choice",
-       "map":"",
+       "map":"shaggy-mane-map",
        "chart":"shaggy-mane-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/7987658"
 
    },
    {
@@ -776,9 +776,9 @@
        "image2": "https://en.wikipedia.org/wiki/Suillus_luteus#/media/File:2012-10-12_Suillus_luteus_(L.)_Roussel_271431.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Suillus_luteus",
        "category":"edible",
-       "map":"",
+       "map":"slippery-jack-map",
        "chart":"slippery-jack-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/7777157"
 
    },
    {
@@ -794,14 +794,14 @@
        "funFact": "In Chinese cuisine, Tremella fuciformis is traditionally used in sweet dishes. While tasteless, it is valued for its gelatinous texture as well as its supposed medicinal benefits.",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Trees", "Cultivated", ""],
+       "locations" : ["Trees", "Dead Wood", "Cultivated"],
        "image1": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Tremella_fuciformis_337510.jpg",
        "image2": "https://en.wikipedia.org/wiki/Tremella_fuciformis#/media/File:Eunibeoseot_(Tremella_fuciformis)_silver_ear_mushroom.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Tremella_fuciformis",
        "category":"use caution",
-       "map":"",
+       "map":"snow-fungus-map",
        "chart":"snow-fungus-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5237434"
 
    },
    {
@@ -817,14 +817,14 @@
        "funFact": "Straw mushrooms are grown on rice straw beds and are most commonly picked when immature (often labeled 'unpeeled'), during their button or egg phase and before the veil ruptures",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Forest Floor", "Cultivated", ""],
+       "locations" : ["Forest Floor", "Dead Wood", "Cultivated"],
        "image1": "https://en.wikipedia.org/wiki/Volvariella_volvacea#/media/File:StrawMushroom.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:HK_food_%E8%8D%89%E8%8F%87_Volvariella_volvacea_Straw_Mushroom_May-2012.JPG",
        "wiki": "https://en.wikipedia.org/wiki/Volvariella_volvacea",
        "category":"choice",
-       "map":"",
+       "map":"paddy-straw-map",
        "chart":"paddy-straw-mushroom-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5241445"
 
    },
    {
@@ -840,14 +840,14 @@
        "funFact": "The mushroom contains clavaric acid, which has been shown to reduce the rate of tumor development when given to mice. Clavaric acid interferes with farnesyltransferase, an enzyme implicated in tumorigenesis, which suggests that clavaric acid may have therapeutic value in the treatment of certain cancers.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", ""],
+       "locations" : ["Forest Floor", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Clavariadelphus_truncatus#/media/File:Clavariadelphus_truncatus_69586.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Clavariadelphus_truncatus.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Clavariadelphus_truncatus",
        "category":"edible",
-       "map":"",
-       "chart":"",
-       "gbif":""
+       "map":"club-coral-map",
+       "chart":"club-coral-chart",
+       "gbif":"https://www.gbif.org/species/2521401"
 
    },
    {
@@ -863,14 +863,14 @@
        "funFact": "This genus is a popular seasonal delicacy in the Indian state of Goa. For about two weeks at the beginning of August every year, clusters of villagers dot the Goan roadside hawking the handpicked mushrooms. A spicy gravy known as 'Tonak' is a popular method of preparation. Since Termitomyces mushrooms are difficult to mass produce, they command a high price.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "", ""],
+       "locations" : ["Fields", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Termitomyces#/media/File:Termitomyces_reticulatus_37340.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Termitomyces_titanicus.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Termitomyces",
        "category":"edible",
-       "map":"",
+       "map":"termitomyces-map",
        "chart":"termitomyces-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2530595"
 
    },
    {
@@ -886,14 +886,14 @@
        "funFact": "It may be eaten by caterpillars of the fungus moth Nemaxera betulinella and by maggots of the Platypezid fly Polyporivora picta. and the fungus gnat Mycetophila luctuosa, but is considered inedible to humans.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Trees", "", ""],
+       "locations" : ["Trees", "Dead Wood", ""],
        "image1": "https://en.wikipedia.org/wiki/Trametes_versicolor#/media/File:Trametes_versicolor_G4_(1).JPG",
        "image2": "https://en.wikipedia.org/wiki/Trametes_versicolor#/media/File:Schmetterlingstramete_Trametes_versicolor_001.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Trametes_versicolor",
        "category":"inedible",
        "map":"",
        "chart":"turkey-tail-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2548311"
 
    },
    {
@@ -909,14 +909,14 @@
        "funFact": "It is found on wood chips across North America in summer and autumn. Described as very tasty by some authors, king stropharia is easily cultivated on a medium similar to that on which it grows naturally. Antonio Carluccio recommends sautéeing them in butter or grilling them.",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Forest Floor", "Cultivated", ""],
+       "locations" : ["Forest Floor", "Dead Wood", "Cultivated"],
        "image1": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata#/media/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpghttps://en.wikipedia.org/wiki/Stropharia_rugosoannulata#/media/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Kulturtr%C3%A4uschling_Stropharia_rugosoannulata.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Stropharia_rugosoannulata",
        "category":"choice",
-       "map":"",
+       "map":"garden-giant-map",
        "chart":"garden-giant-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2533347"
 
    },
    {
@@ -937,9 +937,9 @@
        "image2": "https://en.wikipedia.org/wiki/Clitocybe_nuda#/media/File:Lepista_nuda_Paarse_schijnridderzwam.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Clitocybe_nuda",
        "category":"choice",
-       "map":"",
+       "map":"wood-blewit-map",
        "chart":"wood-blewit-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5242048"
 
    },
    {
@@ -955,14 +955,14 @@
        "funFact": "Auricularia auricula-judae grows upon the wood of deciduous trees and shrubs, favouring elder. In up to 90% of cases, the mushroom is found on elder, but it is often incorrectly assumed to grow exclusively on elder.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "Trees", ""],
+       "locations" : ["Forest Floor", "Dead Wood", ""],
        "image1": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae#/media/File:Auricularia_auricula-judae_64485.JPG",
        "image2": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae#/media/File:Auricularia_auricula-judae_(xndr).jpg",
        "wiki": "https://en.wikipedia.org/wiki/Auricularia_auricula-judae",
        "category":"choice",
-       "map":"",
+       "map":"wood-ear-map",
        "chart":"wood-ear-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5249271"
 
    },
    {
