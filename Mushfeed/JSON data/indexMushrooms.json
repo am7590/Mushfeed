@@ -288,14 +288,14 @@
        "funFact": "Commercially farmed enoki is a long, thin white mushroom and is a popular ingredient for soups, especially in East Asian cuisine, but can be used for salads and other dishes. The mushroom has a crisp texture and can be refrigerated for approximately one week. This shape is due to a CO2-rich atmosphere used in farming. The farmed form is also known as golden needle mushroom, futu mushroom or lily mushroom. The farmed F. velutipes is sold both fresh and canned.",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Trees", "Cultivated", ""],
+       "locations" : ["Trees", "Dead Wood", "Cultivated"],
        "image1": "https://en.wikipedia.org/wiki/File:Flammulina_velutipes.JPG",
        "image2": "https://en.wikipedia.org/wiki/File:EnokitakeJapaneseMushroom.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Cordyceps_militaris",
        "category":"choice",
-       "map":"",
+       "map":"enoki-map",
        "chart":"enoki-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/3341441"
 
    },
    {
@@ -316,9 +316,9 @@
        "image2": "https://en.wikipedia.org/wiki/Amanita_muscaria#/media/File:Amanita_muscaria_var._formosa_sensu_Thiers.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Amanita_muscaria",
        "category":"poisonous",
-       "map":"",
+       "map":"fly-agaric-map",
        "chart":"fly-agaric-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/8168319"
 
    },
    {
@@ -334,14 +334,14 @@
        "funFact": "Need data!",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", ""],
+       "locations" : ["Dead Wood", "", ""],
        "image1": "https://en.wikipedia.org/wiki/File:Peniophora_albobadia_196080.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Peniophora_albobadia_6.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Peniophora_albobadia",
        "category":"inedible",
-       "map":"",
+       "map":"giraffe-spots-map",
        "chart":"giraffe-spots-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2552247"
 
    },
    {
@@ -357,14 +357,14 @@
        "funFact": "The fruiting body of a puffball mushroom will develop within the period of a few weeks and soon begin to decompose and rot, at which point it is dangerous to eat. Unlike most mushrooms, all the spores of the giant puffball are created inside the fruiting body; large specimens can easily contain several trillion spores.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", "Rotting Wood"],
+       "locations" : ["Grass", "Forest Floor", ""],
        "image1": "https://en.wikipedia.org/wiki/Calvatia_gigantea#/media/File:Giant_Puffball_Lemoine_Point.jpg",
        "image2": "https://en.wikipedia.org/wiki/Calvatia_gigantea#/media/File:Calvatia_gigantea.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Calvatia_gigantea",
        "category":"use caution",
-       "map":"",
+       "map":"giant-puffball-map",
        "chart":"giant-puffball-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2536058"
 
    },
    {
@@ -380,14 +380,14 @@
        "funFact": "Chlorophyllum molybdites is the most frequently eaten poisonous mushroom in North America. The symptoms are predominantly gastrointestinal in nature, with vomiting, diarrhea and colic, often severe, occurring 1–3 hours after consumption. Although these poisonings can be severe, none has yet resulted in death.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", "Rotting Wood"],
+       "locations" : ["Fields", "Forest Floor", ""],
        "image1": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites#/media/File:Chlorophyllum_molybdites_Guadalajara.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Chlorophyllum_molybdites",
        "category":"poisonous",
-       "map":"",
+       "map":"green-spored-lepiota-map",
        "chart":"green-spored-lepiota-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5243168"
 
    },
    {
@@ -403,14 +403,14 @@
        "funFact": "The fungus can be bitter, although this is less apparent in younger specimens. Submerging the mushrooms in boiling water will remove this. It can be pickled or dried and used as flavouring. In Bulgaria it is collected, dried and finely ground to be used as an aromatic mushroom flour. It is reported as edible but of poor quality in the United States by some sources but as deliciously edible by others.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "Rotting Wood", ""],
+       "locations" : ["Forest Floor", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Sarcodon_imbricatus#/media/File:Habichtspilz-Sarcodon-imbricatus.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Sarcodon_imbricatus_T64.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Sarcodon_imbricatus",
        "category":"edible",
-       "map":"",
+       "map":"shingled-hedgehog-map",
        "chart":"shingled-hedgehog-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5238865"
 
    },
    {
@@ -426,14 +426,14 @@
        "funFact": "Hydnum repandum is frequently sold with chanterelles in Italy, and in France, it is one of the officially recognized edible species sold in markets. In Europe, it is usually sold under its French name pied-de-mouton (sheep's foot). It is also collected and sold in local markets of Mexico, Spain and British Columbia, Canada. H. repandum mushrooms are also used as a food source by the red squirrel.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "Rotting Wood", "Grass"],
+       "locations" : ["Forest Floor", "Dead Wood", ""],
        "image1": "https://en.wikipedia.org/wiki/Hydnum_repandum#/media/File:Hedgehog_fungi2.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Semmel-Stoppelpilz_Semmelgelber_Stacheling_Hydnum_repandum.JPG",
        "wiki": "https://en.wikipedia.org/wiki/Hydnum_repandum#Ecology,_habitat_and_distribution",
        "category":"choice",
-       "map":"",
+       "map":"sweet-tooth-map",
        "chart":"sweet-tooth-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2554716"
 
    },
    {
@@ -449,14 +449,14 @@
        "funFact": "A possible origin for the name 'trumpet of the dead' is that the growing mushrooms were seen as being played as trumpets by dead people under the ground.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "Grass", ""],
+       "locations" : ["Forest Floor", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides#/media/File:2010-08-24_Craterellus_cinereus_(Pers.)_Qu%C3%A9l_100703_cropped.jpg",
        "image2": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides#/media/File:Craterellus_cornucopioides_JPG1.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Craterellus_cornucopioides",
        "category":"choice",
-       "map":"",
+       "map":"horn-of-plenty-map",
        "chart":"horn-of-plenty-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2554662"
 
    },
    {
@@ -472,14 +472,14 @@
        "funFact": "While not lethal, consuming this mushroom leads to very severe cramps, vomiting, and diarrhea.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "Grass", "Wood"],
+       "locations" : ["Forest Floor", "Dead Wood", "Trees"],
        "image1": "https://en.wikipedia.org/wiki/Omphalotus_olearius#/media/File:Omphalotus_olearius100.jpg",
        "image2": "https://en.wikipedia.org/wiki/Omphalotus_olearius#/media/File:Omphalotus_olearius.JPG",
        "wiki": "https://en.wikipedia.org/wiki/Omphalotus_olearius",
        "category":"poisonous",
-       "map":"",
+       "map":"jack-o-lantern-map",
        "chart":"jack-o-latern-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2538088"
 
    },
    {
@@ -495,14 +495,14 @@
        "funFact": "Pleurotus eryngii may contain chemicals that stimulate the immune system. Dietary intake of Pleurotus eryngii may function as cholesterol-lowering dietary agent.",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Forest Floor", "Wood", "Cultivated"],
+       "locations" : ["Forest Floor", "Fields", "Cultivated"],
        "image1": "https://commons.wikimedia.org/wiki/File:Kr%C3%A4uter-Seitling_Pleurotus_eryngii.jpg",
        "image2": "https://en.wikipedia.org/wiki/Pleurotus_eryngii#/media/File:Pleurotus_eryngii.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Pleurotus_eryngii",
        "category":"choice",
-       "map":"",
+       "map":"king-oyster-map",
        "chart":"king-oyster-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/9075265"
 
    },
    {
