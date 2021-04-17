@@ -518,14 +518,14 @@
        "funFact": "While edible, field guides note the hypothetical possibility that H. lactifluorum could parasitize a toxic host and that individuals should avoid consuming lobster mushrooms with unknown hosts, although no instances of toxicity have been recorded.",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Forest Floor", "Wood", "Cultivated"],
+       "locations" : ["Forest Floor", "Dead Wood", "Cultivated"],
        "image1": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum#/media/File:Lobster_mushrooms.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Lobster_Mushroom_2.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum",
        "category":"use caution",
-       "map":"",
+       "map":"lobster-mushroom-map",
        "chart":"lobster-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2561802"
 
    },
    {
@@ -541,14 +541,14 @@
        "funFact": "In Japan, the maitake can grow to more than 45 kilograms (100 pounds), earning this giant mushroom the title 'king of mushrooms'.",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Forest Floor", "Wood", "Cultivated"],
+       "locations" : ["Forest Floor", "Dead Wood", "Cultivated"],
        "image1": "https://en.wikipedia.org/wiki/Hypomyces_lactifluorum#/media/File:Lobster_mushrooms.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:Hen_of_the_Woods_(Grifola_frondosa)_(5169557976).jpg",
        "wiki": "https://en.wikipedia.org/wiki/Grifola_frondosa",
        "category":"choice",
-       "map":"",
+       "map":"hen-of-the-woods-map",
        "chart":"hen-of-the-woods-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2540800"
 
    },
    {
@@ -564,14 +564,14 @@
        "funFact": "Several Lactarius species are edible. L. deliciosus notably ranks among the most highly valued mushrooms in the Northern hemisphere, while opinions vary on the taste of other species, such as L. indigo or L. deterrimus. Several species are reported to be regularly collected for food in Russia, Tanzania and Hunan, China. Some Lactarius are considered toxic, for example L. turpis, which contains a mutagenic compound, or L. helvus. There are, however, no deadly poisonous mushrooms in the genus.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Forest Floor", "", ""],
+       "locations" : ["Forest Floor", "Dead Wood", ""],
        "image1": "https://en.wikipedia.org/wiki/Lactarius#/media/File:Lactarius_vietus041031w.jpg",
        "image2": "https://en.wikipedia.org/wiki/Lactarius#/media/File:Lactarius_pyrogallus.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Lactarius",
        "category":"use caution",
-       "map":"",
+       "map":"milk-caps-map",
        "chart":"milk-caps-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2532156"
 
    },
    {
@@ -592,9 +592,9 @@
        "image2": "https://commons.wikimedia.org/wiki/File:Tricholoma_matsutake_(9627995451).jpg",
        "wiki": "https://en.wikipedia.org/wiki/Matsutake",
        "category":"choice",
-       "map":"",
+       "map":"pine-mushroom-map",
        "chart":"pine-mushroom-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5241820"
 
    },
    {
@@ -610,14 +610,14 @@
        "funFact": "Several species may be confused with Agaricus campestris. The most dangerous confusion may be with Amanita virosa, which is morbidly toxic, or with the deadly Amanita hygroscopica or 'Pink-Gilled Destroying Angel'.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", ""],
+       "locations" : ["Fields", "Forest Floor", ""],
        "image1": "https://en.wikipedia.org/wiki/Agaricus_campestris#/media/File:Agaricus_campestris.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:2012-02-13_Agaricus_campestris_L_199587.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Agaricus_campestris",
        "category":"choice",
-       "map":"",
+       "map":"meadow-mushroom-map",
        "chart":"meadow-mushroom-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5243458"
 
    },
    {
@@ -633,14 +633,14 @@
        "funFact": "Certain Morchella species (M. eximia, M. importuna, M. tomentosa and others) exhibit a pyrophilic behaviour and may grow abundantly in forests which have been recently burned by a fire. Moderate-intensity fires are reported to produce higher abundances of morels than low- or high-intensity fires. This is caused by the soil becoming more alkaline as the result of wood ash combining with water and being absorbed into the soil which triggers the morels to fruit.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", ""],
+       "locations" : ["Fields", "Forest Floor", ""],
        "image1": "https://en.wikipedia.org/wiki/Morchella#/media/File:White_Morel_IMG_0399.JPG",
        "image2": "https://commons.wikimedia.org/wiki/File:Morchella_esculenta_84915.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Morchella",
        "category":"choice",
-       "map":"",
+       "map":"morel-mushroom-map",
        "chart":"morel-mushroom-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2594601"
 
    },
    {
@@ -656,14 +656,14 @@
        "funFact": "In Europe, Gomphus clavatus appears on the national Red Lists of threatened fungi in 17 countries and is one of 33 species of fungi proposed for international conservation under the Bern Convention.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", "Dead Wood"],
+       "locations" : ["Forest Floor", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Gomphus_clavatus#/media/File:Gomphus_clavatus_II_Totes_Gebirge.jpg",
        "image2": "https://en.wikipedia.org/wiki/Gomphus_clavatus#/media/File:Gomphus_clavatus_Fairy_ring.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Gomphus_clavatus",
        "category":"use caution",
-       "map":"",
+       "map":"pigs-ears-map",
        "chart":"pigs-ear-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5238786"
 
    },
    {
@@ -679,14 +679,14 @@
        "funFact": "Prized as an ingredient in various culinary dishes, B. edulis is an edible mushroom held in high regard in many cuisines, and is commonly prepared and eaten in soups, pasta, or risotto. The mushroom is low in fat and digestible carbohydrates, and high in protein, vitamins, minerals and dietary fibre. Although it is sold commercially, it is very difficult to cultivate.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", ""],
+       "locations" : ["Fields", "Forest Floor", ""],
        "image1": "https://en.wikipedia.org/wiki/Boletus_edulis#/media/File:Boletus_edulis_EtgHollande_041031_091.jpg",
        "image2": "https://en.wikipedia.org/wiki/Boletus_edulis#/media/File:Boletus_edulis_var._grandedulis_27911.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Boletus_edulis",
        "category":"choice",
-       "map":"",
+       "map":"porcini-map",
        "chart":"porcini-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/5954958"
 
    },
    {
@@ -702,14 +702,14 @@
        "funFact": "Lingzhi, also known as reishi, is the ancient 'mushroom of immortality', revered for over 2,000 years. Uncertainty exists about which Ganoderma species was most widely utilized as lingzhi mushroom in ancient times, and likely a few different common species were considered interchangeable.",
        "lookalikes": "",
        "growable" : true,
-       "locations" : ["Wood", "Forest Floor", "Cultivated"],
+       "locations" : ["Trees", "Dead Wood", "Cultivated"],
        "image1": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)#/media/File:Ganoderma_lucidum_01.jpg",
        "image2": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)#/media/File:Jreishi2.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)",
        "category":"choice",
-       "map":"",
+       "map":"reishi-map",
        "chart":"reishi-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2519220"
 
    },
    {
@@ -725,14 +725,14 @@
        "funFact": "There are many similar Russula species that have a red cap with white stem and gills, some of which can be reliably distinguished from R. emetica only by microscopic characteristics.",
        "lookalikes": "",
        "growable" : false,
-       "locations" : ["Grass", "Forest Floor", ""],
+       "locations" : ["Forest Floor", "", ""],
        "image1": "https://en.wikipedia.org/wiki/Russula_emetica#/media/File:Russula_emetica_in_Poland.jpg",
        "image2": "https://en.wikipedia.org/wiki/Russula_emetica#/media/File:Tiny_Russula_paludosa_(Appelrussula)_at_Rozendaal_castle_park_-_panoramio.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Russula_emetica",
        "category":"poisonous",
-       "map":"",
+       "map":"the-sickener-map",
        "chart":"the-sickener-chart",
-       "gbif":""
+       "gbif":"https://www.gbif.org/species/2551213"
 
    },
    {
