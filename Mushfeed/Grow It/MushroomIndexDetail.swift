@@ -101,7 +101,7 @@ struct MushroomIndexDetail: View {
                     Spacer()
                     
                     HStack(spacing: 15){
-                        Image(systemName: "chevron.left")
+                        Image(systemName: "chevron.left").opacity(0.0).imageScale(.small)
                         
                         VStack {
                             Image(mushroom.locations[0] == "" ? "" : "tree-icon")
@@ -137,7 +137,8 @@ struct MushroomIndexDetail: View {
                                 .font(.caption)
                         }
                         
-                        Image(systemName: "chevron.right")
+                        Image(systemName: "chevron.right").opacity(0.0).imageScale(.small)
+            
                     }
                     
                     Divider()
