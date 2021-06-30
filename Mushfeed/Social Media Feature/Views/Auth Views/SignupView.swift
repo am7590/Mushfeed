@@ -17,7 +17,7 @@ struct SignupView: View {
     @State var imageData: Data = Data()
     
     func signUp() {
-        print("Sign up imageData: ", self.signupViewModel.imageData)
+        //print("Sign up imageData: ", self.signupViewModel.imageData)
         signupViewModel.signup(username: signupViewModel.username, email: signupViewModel.email, password: signupViewModel.password, imageData: signupViewModel.imageData, completed: { (user) in
             print(user.email)
             print(imageData)
@@ -42,7 +42,7 @@ struct SignupView: View {
     
     var body: some View {
         VStack {
-            SelectPFPView()
+            SelectPFPView(imageName: $signupViewModel.imageName)
             // Old image picker code
 //            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
 //                .clipShape(Circle()).padding(.bottom, 80)

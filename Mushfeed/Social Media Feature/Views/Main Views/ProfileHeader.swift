@@ -16,23 +16,21 @@ struct ProfileHeader: View {
         
         VStack(alignment: .center) {
             
-            if user != nil {
-
-                URLImage(url: URL(string: user!.profileImageUrl)!,
-                content: { image in
-                    image
+            if (user != nil){
+                Image(user?.bio ?? "")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
                         .shadow(radius: 15)
+               
+                
                         
-                }).frame(width: 160, height: 160)
                     
             }
                 
             
         
-        }
+        }.frame(width: 160, height: 160).padding()
     }
 }
 

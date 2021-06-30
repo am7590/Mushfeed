@@ -21,23 +21,28 @@ class SignupViewModel: ObservableObject {
      var image: Image = Image(IMAGE_USER_PLACEHOLDER)
      var imageData: Data = Data()
      var errorString = ""
+     var imageName: String = ""
      @Published var showImagePicker: Bool = false
      @Published var showAlert: Bool = false
     
-    func setImage(imageD: Data){
-        self.imageData = imageD
+    func setImage(imageN: String){
+        self.imageName = imageN
+        //print(self.imageName)
     }
 
     func signup(username: String, email: String, password: String, imageData: Data, completed: @escaping(_ user: User) -> Void,  onError: @escaping(_ errorMessage: String) -> Void) {
-        if !username.isEmpty && !email.isEmpty && !password.isEmpty && !imageData.isEmpty {
-            AuthService.signupUser(username: username, email: email, password: password, imageData: imageData, onSuccess: completed, onError: onError)
-                    
-        } else if self.imageData.isEmpty {
+        if !username.isEmpty && !email.isEmpty && !password.isEmpty && (self.imageName != "") {
+            AuthService.signupUser(username: username, email: email, password: password, imageName: imageName, onSuccess: completed, onError: onError)
+        } else if self.imageName=="" {
             showAlert = true
             errorString = "Please select a profile picture"
         } else {
             showAlert = true
             errorString = "Please fill in all fields"
+            print(self.username)
+            print(self.email)
+            print(self.password)
+            print(self.imageName)
         }
     }
 }

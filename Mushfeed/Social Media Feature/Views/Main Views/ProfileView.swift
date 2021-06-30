@@ -23,7 +23,6 @@ struct ProfileView: View {
          return
              NavigationView {
                  ScrollView {
-                    if(self.session.userSession != nil) {
                         VStack(alignment: .center) {
                             ProfileHeader(user: self.session.userSession)
                          ProfileInformation(user: self.session.userSession)
@@ -153,30 +152,30 @@ struct ProfileView: View {
 
                             
                         }.padding(.top, 20)
-                    } else {
-                            VStack {
-                            Text("Please log in to verify your account.").font(.title)
-                                .fontWeight(.bold)
-                                
-                                                    
-                            // Log out
-                            Button(action: {self.session.logout()}) {
-                                HStack {
-                                        Text("Log in").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                }.frame(maxWidth: .infinity)
-                                .frame(height: 15).padding()
-                                .background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
-                                
-                            }.cornerRadius(5).padding(.top, 10)
-                            
-                                Text("Thank you for making an account on Mushfeed. Please log in to securely access your profile.").padding(.top, 10)
-                            }.padding(.leading, 15).padding(.trailing, 15).padding(.top, 10)
-                    }
-                     }.padding(.leading, 15).padding(.trailing, 15).navigationBarTitle(Text("Profile"), displayMode: .inline).onAppear {
-                         self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
-                       
-                 } // IMPORTANT ^ loads user posts
-             }.navigationViewStyle(StackNavigationViewStyle())
+//                            VStack {
+//                            Text("Please log in to verify your account.").font(.title)
+//                                .fontWeight(.bold)
+//
+//
+//                            // Log out
+//                            Button(action: {self.session.logout()}) {
+//                                HStack {
+//                                        Text("Log in").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+//                                }.frame(maxWidth: .infinity)
+//                                .frame(height: 15).padding()
+//                                .background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+//
+//                            }.cornerRadius(5).padding(.top, 10)
+//
+//                                Text("Thank you for making an account on Mushfeed. Please log in to securely access your profile.").padding(.top, 10)
+//                            }.padding(.leading, 15).padding(.trailing, 15).padding(.top, 10)
+//                    }
+//                     }.padding(.leading, 15).padding(.trailing, 15).navigationBarTitle(Text("Profile"), displayMode: .inline).onAppear {
+//                         self.profileViewModel.loadUserPosts(userId: Auth.auth().currentUser!.uid)
+//
+//                 } // IMPORTANT ^ loads user posts
+                 }
+             }//.navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(self.session)
             
        
