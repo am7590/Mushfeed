@@ -26,7 +26,7 @@ struct SelectPFPView: View {
                         if (data) != nil {
                             self.imageData = data!
                             self.signupViewModel.setImage(imageD: data!)
-                           // print("State var imageData: ", imageData)
+                            print("State var imageData: ", imageData)
                             print("signupViewModel imageData: ", self.signupViewModel.imageData)
                         }
 
