@@ -104,6 +104,7 @@
 		E6DF8BFD260FBC27001E17A5 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */; };
 		E6DF8C00260FC1AA001E17A5 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8BFF260FC1AA001E17A5 /* ResetPasswordViewModel.swift */; };
 		E6DF8C04260FCD3D001E17A5 /* SelectPFPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DF8C03260FCD3D001E17A5 /* SelectPFPView.swift */; };
+		E6E1F32D268E3D8C0078A289 /* PFPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1F32C268E3D8C0078A289 /* PFPView.swift */; };
 		E6E86B4826110AFE008068B8 /* DeletePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E86B4726110AFE008068B8 /* DeletePostView.swift */; };
 /* End PBXBuildFile section */
 
@@ -202,6 +203,7 @@
 		E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		E6DF8BFF260FC1AA001E17A5 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
 		E6DF8C03260FCD3D001E17A5 /* SelectPFPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPFPView.swift; sourceTree = "<group>"; };
+		E6E1F32C268E3D8C0078A289 /* PFPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFPView.swift; sourceTree = "<group>"; };
 		E6E86B4726110AFE008068B8 /* DeletePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -379,6 +381,7 @@
 				E631CFA325EB3E7700CE8417 /* UsersView.swift */,
 				E631CFA425EB3E7700CE8417 /* ProfileView.swift */,
 				E6E86B4726110AFE008068B8 /* DeletePostView.swift */,
+				E6E1F32C268E3D8C0078A289 /* PFPView.swift */,
 				E631CFA525EB3E7700CE8417 /* PopViewModel.swift */,
 				E631CFA625EB3E7700CE8417 /* ProfileHeader.swift */,
 				E631CFA725EB3E7700CE8417 /* UserProfileView.swift */,
@@ -599,6 +602,7 @@
 				E631CFD925EB3ED100CE8417 /* FooterCellViewModel.swift in Sources */,
 				E631CF8D25EB3B9800CE8417 /* EditProfileButton.swift in Sources */,
 				E631CF8225EB3B9800CE8417 /* HeaderCell.swift in Sources */,
+				E6E1F32D268E3D8C0078A289 /* PFPView.swift in Sources */,
 				E631D01925EB3F8F00CE8417 /* imageSlider.swift in Sources */,
 				E631CFBE25EB3E7700CE8417 /* ChatView.swift in Sources */,
 				E631D03F25EB3FC500CE8417 /* GrowableMushroomItem.swift in Sources */,

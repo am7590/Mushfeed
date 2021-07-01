@@ -43,22 +43,46 @@ class AuthService {
                     }
                     
                     
+                    
+                    
+                    
                     guard let userId = authData?.user.uid else { return }
-                    let firestoreUserId = Ref.FIRESTORE_DOCUMENT_USERID(userId: userId)
-                    let user = User.init(uid: userId, email: email, profileImageUrl: "", username: username, bio: imageName, keywords: username.splitStringToArray())
                     
-                    guard let dict = try? user.toDictionary() else {return}
-//
-//                        guard let decoderUser = try? User.init(fromDictionary: dict) else {return}
-//                        print(decoderUser.username)
                     
-                    firestoreUserId.setData(dict) { (error) in
-                        if error != nil {
-                            onError(error!.localizedDescription)
-                            return
+                            if let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest() {
+                                //changeRequest.photoURL = url
+                                changeRequest.displayName = username
+                                changeRequest.commitChanges { (error) in
+                                    if error != nil {
+                                       onError(error!.localizedDescription)
+                                       return
+                                    }
+                                }
+                            
+                    
+                    
+                        
+                        let firestoreUserId = Ref.FIRESTORE_DOCUMENT_USERID(userId: userId)
+                        let user = User.init(uid: userId, email: email, profileImageUrl: "", username: username, bio: imageName, keywords: username.splitStringToArray())
+                        
+                        guard let dict = try? user.toDictionary() else {return}
+    //
+    //                        guard let decoderUser = try? User.init(fromDictionary: dict) else {return}
+    //                        print(decoderUser.username)
+                        
+                        firestoreUserId.setData(dict) { (error) in
+                            if error != nil {
+                                onError(error!.localizedDescription)
+                                return
+                            }
+                            onSuccess(user)
                         }
-                        onSuccess(user)
                     }
+                    
+                    
+                    
+                    
+                    
 //                    let storageAvatarUserId = Ref.STORAGE_AVATAR_USERID(userId: userId)
 //                    let metadata = StorageMetadata()
 //                    metadata.contentType = "image/jpg"

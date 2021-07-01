@@ -14,6 +14,7 @@ struct HeaderCell: View {
     @ObservedObject var footerCellViewModel = FooterCellViewModel()
 
     var post: Post
+    @EnvironmentObject var session: SessionStore
     var body: some View {
         
         
@@ -22,9 +23,9 @@ struct HeaderCell: View {
 //                RoundedRectangle(cornerRadius: 25, style: .continuous).stroke(Color.black, lineWidth: 1)
 //                .frame(width: 340, height: 45.0).padding(.leading, 15).padding(.trailing, 15)
             HStack {
-
+                
                 Image(post.avatar).resizable().aspectRatio(contentMode: .fill).clipShape(Circle())
-                }
+                
                 .frame(width: 35, height: 35)
                 .padding(.leading, 20)
 
@@ -49,7 +50,7 @@ struct HeaderCell: View {
         }
     
     }
-
+}
 
 
 struct HeaderCell_Previews: PreviewProvider {

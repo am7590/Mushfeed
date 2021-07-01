@@ -4,7 +4,7 @@ import FirebaseStorage
 import Firebase
 
 class PostApi {
-    func uploadPost(caption: String, imageData: Data, onSuccess: @escaping() -> Void, onError: @escaping(_ errorMessage: String) -> Void) {
+    func uploadPost(caption: String, imageData: Data, avatar: String, onSuccess: @escaping() -> Void, onError: @escaping(_ errorMessage: String) -> Void) {
         guard let userId = Auth.auth().currentUser?.uid else {
             return
         }
@@ -12,7 +12,7 @@ class PostApi {
         let storagePostRef = Ref.STORAGE_POST_ID(postId: postId)
         let metadata = StorageMetadata()
         metadata.contentType = "image/jpg"
-        StorageService.savePostPhoto(userId: userId, caption: caption, postId: postId, imageData: imageData, metadata: metadata, storagePostRef: storagePostRef, onSuccess: onSuccess, onError: onError)
+        StorageService.savePostPhoto(userId: userId, caption: caption, avatar: avatar, postId: postId, imageData: imageData, metadata: metadata, storagePostRef: storagePostRef, onSuccess: onSuccess, onError: onError)
         
     }
     

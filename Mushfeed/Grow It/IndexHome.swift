@@ -17,23 +17,19 @@ struct IndexHome: View {
         )
     }
     
-    
     var body: some View {
         
         NavigationView{
-            
-                List(categories.keys.sorted(), id: \String.self) { key in
-                    IndexMushroomRow(categoryName: "\(key)".uppercased(), indexMushrooms: self.categories[key]!)
-                        .frame(height: 320)
-                        .padding(.top)
-                        .padding(.bottom)
-                }
+            List(categories.keys.sorted(), id: \String.self) { key in
+                IndexMushroomRow(categoryName: "\(key)".uppercased(), indexMushrooms: self.categories[key]!)
+                    .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
+            }
+            .navigationTitle(Text("Mushroom Index"))
 
-                .navigationTitle(Text("Mushroom Index"))
-                
+        }
         
-            
-        }//.padding()
     }
 }
 

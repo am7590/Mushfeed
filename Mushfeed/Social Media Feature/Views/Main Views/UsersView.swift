@@ -27,7 +27,7 @@ struct UsersView: View {
                                             Image(user.bio)//URLImage(url: URL(string: user.profileImageUrl)!,
                                                 .resizable()
                                                 .aspectRatio(contentMode: .fill)
-                                                .clipShape(Circle())
+                                                //.clipShape(Circle())
                                         }.frame(width: 50, height: 50)
                                             VStack(alignment: .leading, spacing: 5) {
                                              Text(user.username).font(.headline).bold()

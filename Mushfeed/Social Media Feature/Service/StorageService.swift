@@ -11,7 +11,7 @@ import Firebase
 
 class StorageService {
     
-    static func savePostPhoto(userId: String, caption: String, postId: String, imageData: Data, metadata: StorageMetadata, storagePostRef: StorageReference, onSuccess: @escaping() -> Void, onError: @escaping(_ errorMessage: String) -> Void) {
+    static func savePostPhoto(userId: String, caption: String, avatar: String, postId: String, imageData: Data, metadata: StorageMetadata, storagePostRef: StorageReference, onSuccess: @escaping() -> Void, onError: @escaping(_ errorMessage: String) -> Void) {
                
         storagePostRef.putData(imageData, metadata: metadata) { (storageMetadata, error) in
               if error != nil {
@@ -21,7 +21,9 @@ class StorageService {
             storagePostRef.downloadURL { (url, error) in
                 if let metaImageUrl = url?.absoluteString {
                     let firestorePostRef = Ref.FIRESTORE_MY_POSTS_DOCUMENT_USERID(userId: userId).collection("userPosts").document(postId)
-                    let post = Post.init(caption: caption, likes: [:], location: "", ownerId: userId, postId: postId, username: Auth.auth().currentUser!.displayName!, avatar: Auth.auth().currentUser!.photoURL!.absoluteString, mediaUrl: metaImageUrl, date: Date().timeIntervalSince1970, likeCount: 0)
+                    let post = Post.init(caption: caption, likes: [:], location: "", ownerId: userId, postId: postId, username: Auth.auth().currentUser!.displayName!, avatar: avatar, mediaUrl: metaImageUrl, date: Date().timeIntervalSince1970, likeCount: 0)
+                    //Auth.auth().currentUser!.displayName!
+                    //Auth.auth().currentUser!.photoURL!.absoluteString
                     guard let dict = try? post.toDictionary() else {return}
                     
                     firestorePostRef.setData(dict) { (error) in
@@ -61,13 +63,10 @@ class StorageService {
                         }
                                                     
                         let firestoreUserId = Ref.FIRESTORE_DOCUMENT_USERID(userId: userId)
-//                        let userInfor = ["username": self.username, "email": self.email, "profileImageUrl": metaImageUrl]
+
                         let user = User.init(uid: userId, email: email, profileImageUrl: metaImageUrl, username: username, bio: "", keywords: username.splitStringToArray())
 
                         guard let dict = try? user.toDictionary() else {return}
-//
-//                        guard let decoderUser = try? User.init(fromDictionary: dict) else {return}
-//                        print(decoderUser.username)
                         
                         firestoreUserId.setData(dict) { (error) in
                             if error != nil {

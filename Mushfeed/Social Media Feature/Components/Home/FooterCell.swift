@@ -36,7 +36,7 @@ struct FooterCell: View {
                     HStack {
                         HStack {
                         //Text(self.footerCellViewModel.post.username).font(.headline).bold()
-                            Text(self.footerCellViewModel.post.caption).font(.system(size: 25, weight: .bold, design: .default))
+                            Text(self.footerCellViewModel.post.caption).font(.system(size: 20, weight: .bold, design: .default))
                         }.padding(.top, -5)
                         Spacer()
                         

@@ -12,11 +12,12 @@ import SwiftUI
 struct CameraView: View {
     @ObservedObject var cameraViewModel = CameraViewModel()
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var session: SessionStore
 
     func sharePost() {
+        cameraViewModel.setProfilePic(pfp: session.userSession!.bio)
        // cameraViewModel.uploadPost
         cameraViewModel.sharePost(completed: {
-            //self.cameraViewModel.profilePic = user.bio
             print("done")
            self.clean()
            self.presentationMode.wrappedValue.dismiss()

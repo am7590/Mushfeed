@@ -17,18 +17,22 @@ class CameraViewModel: ObservableObject {
     
     @Published var caption: String = ""
     @Published var image: Image = Image("cameraView")
+    var profilePic: String = ""
     var imageData: Data = Data()
     var errorString = ""
     
+    func setProfilePic(pfp: String){
+        profilePic = pfp
+    }
+    
     @Published var showAlert: Bool = false
     @Published var showImagePicker: Bool = false
-   
     
     func sharePost(completed: @escaping() -> Void,  onError: @escaping(_ errorMessage: String) -> Void) {
           if !caption.isEmpty && !imageData.isEmpty {
-             //AuthService.signupUser(username: username, email: email, password: password, imageData: imageData, onSuccess: completed, onError: onError)
-            Api.Post.uploadPost(caption: caption, imageData: imageData, onSuccess: completed, onError: onError)
-            
+            Api.Post.uploadPost(caption: caption, imageData: imageData, avatar: profilePic, onSuccess: completed, onError: onError)
+            print("PROFILE PIC:" + profilePic)
+            //Auth.auth().currentUser.bio
           } else {
               showAlert = true
               errorString = "Please fill in all fields"
