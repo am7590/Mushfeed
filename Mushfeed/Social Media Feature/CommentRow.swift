@@ -15,13 +15,13 @@ struct CommentRow: View {
     
     var body: some View {
         HStack {
-            URLImage(url: URL(string: comment.avatarUrl)!,
-            content: { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .clipShape(Circle())
-            }).frame(width: 35, height: 35)
+            HStack {
+                Image(comment.avatarUrl)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .clipShape(Circle())
+            }.frame(width: 35, height: 35)
+        
              
              VStack(alignment: .leading) {
                 Text(comment.username).font(.caption).bold()
@@ -29,8 +29,13 @@ struct CommentRow: View {
              }
              Spacer()
             Text(timeAgoSinceDate(Date(timeIntervalSince1970: comment.date), currentDate: Date(), numericDates: true)).font(.caption).foregroundColor(.gray)
-         }.padding(.trailing, 15).padding(.leading, 15)
+         }.padding()
+    
     }
+    
+    
+    //.padding(.trailing, 15).padding(.leading, 15)
+    
 }
 
 //struct CommentRow_Previews: PreviewProvider {
