@@ -23,9 +23,8 @@ struct HeaderCell: View {
 //                .frame(width: 340, height: 45.0).padding(.leading, 15).padding(.trailing, 15)
             HStack {
 
-                URLImage(url: URL(string: post.avatar)!, content: { image in
-                    image.resizable().aspectRatio(contentMode: .fill).clipShape(Circle())
-                })
+                Image(post.avatar).resizable().aspectRatio(contentMode: .fill).clipShape(Circle())
+                }
                 .frame(width: 35, height: 35)
                 .padding(.leading, 20)
 
@@ -50,7 +49,7 @@ struct HeaderCell: View {
         }
     
     }
-}
+
 
 
 struct HeaderCell_Previews: PreviewProvider {

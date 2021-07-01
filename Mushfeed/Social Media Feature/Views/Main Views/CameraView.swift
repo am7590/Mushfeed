@@ -16,7 +16,8 @@ struct CameraView: View {
     func sharePost() {
        // cameraViewModel.uploadPost
         cameraViewModel.sharePost(completed: {
-           print("done")
+            //self.cameraViewModel.profilePic = user.bio
+            print("done")
            self.clean()
            self.presentationMode.wrappedValue.dismiss()
         }) { (errorMessage) in

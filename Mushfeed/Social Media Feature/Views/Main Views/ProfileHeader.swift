@@ -15,20 +15,13 @@ struct ProfileHeader: View {
     var body: some View {
         
         VStack(alignment: .center) {
-            
             if (user != nil){
                 Image(user?.bio ?? "")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
                         .shadow(radius: 15)
-               
-                
-                        
-                    
             }
-                
-            
         
         }.frame(width: 160, height: 160).padding()
     }
