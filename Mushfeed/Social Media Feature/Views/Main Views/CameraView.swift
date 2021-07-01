@@ -46,8 +46,7 @@ struct CameraView: View {
                 
                
                 HStack(alignment: .top) {
-                
-                    cameraViewModel.image.resizable().scaledToFill().frame(width: 300, height: 160).clipped().foregroundColor(.gray).cornerRadius(25).onTapGesture {
+                    cameraViewModel.image.resizable().scaledToFill().frame(width: UIScreen.main.bounds.size.width - 30, height: 300).clipped().foregroundColor(.gray).cornerRadius(10).onTapGesture {
                             print("Tapped")
                             self.cameraViewModel.showImagePicker = true
                     }

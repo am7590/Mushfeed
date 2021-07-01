@@ -24,7 +24,7 @@ struct ProfileView: View {
              NavigationView {
                  ScrollView {
                         VStack(alignment: .center) {
-                            ProfileHeader(user: self.session.userSession)
+                        ProfileHeader(user: self.session.userSession)
                          ProfileInformation(user: self.session.userSession)
                          Divider().padding(.leading, 15).padding(.trailing, 15)
                             
@@ -175,12 +175,12 @@ struct ProfileView: View {
 //
 //                 } // IMPORTANT ^ loads user posts
                  }
-             }//.navigationViewStyle(StackNavigationViewStyle())
-            .environmentObject(self.session)
+             }.padding()//.navigationViewStyle(StackNavigationViewStyle())
+            //.environmentObject(self.session)
             
        
          
-     }
+       }
 
 }
 
