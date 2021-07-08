@@ -29,6 +29,12 @@ struct ProfileView: View {
                          Divider().padding(.leading, 15).padding(.trailing, 15)
                             
                             VStack(alignment: .leading) {
+                                if(self.profileViewModel.posts.count == 0){
+                                    Text("No Posts to Display")
+                                        .font(.title)
+                                        .fontWeight(.bold)
+                                        .padding(.top, 10)
+                                } else {
                                 Text("Posts")
                                     .font(.title)
                                         .fontWeight(.bold)
@@ -54,10 +60,16 @@ struct ProfileView: View {
                                         }
                                        
                                     }
-
+                                        
+                                    
+                                    
+                                    
+                                
+                                    
+                                    
                                     
                                 }
-                                
+                                }
                                 Text("Options")
                                     .font(.title)
                                     .fontWeight(.bold)
@@ -151,7 +163,7 @@ struct ProfileView: View {
                          
 
                             
-                        }.padding(.top, 20)
+                        }.padding()
 //                            VStack {
 //                            Text("Please log in to verify your account.").font(.title)
 //                                .fontWeight(.bold)
@@ -175,7 +187,7 @@ struct ProfileView: View {
 //
 //                 } // IMPORTANT ^ loads user posts
                  }
-             }.padding()//.navigationViewStyle(StackNavigationViewStyle())
+             }//.navigationViewStyle(StackNavigationViewStyle())
             //.environmentObject(self.session)
             
        
