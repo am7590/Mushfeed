@@ -11,6 +11,7 @@ import SwiftUI
 struct SigninView: View {
     
     @ObservedObject var signinViewModel = SigninViewModel()
+    @Environment(\.colorScheme) var colorScheme
     
     func signIn() {
         
@@ -40,13 +41,13 @@ struct SigninView: View {
             Spacer()
                 Group {
                     HStack {
-                        Image("icon2").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80).clipShape(Circle())
-                        Image("icon3").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80).clipShape(Circle())
-                        Image("icon1").resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80).clipShape(Circle())
+                        Image(colorScheme == .dark ? "pfp4b" : "pfp4w").resizable().aspectRatio(contentMode: .fill).frame(width: 120, height: 120).clipShape(Circle())
+                        Image(colorScheme == .dark ? "pfp3b" : "pfp3w").resizable().aspectRatio(contentMode: .fill).frame(width: 120, height: 120).clipShape(Circle())
+                        Image(colorScheme == .dark ? "pfp5b" : "pfp5w").resizable().aspectRatio(contentMode: .fill).frame(width: 120, height: 120).clipShape(Circle())
                     }
     
                     Text(TEXT_SIGNIN_HEADLINE).font(Font.title).padding(.bottom)
-                    Text("Create an account or sign in below")
+                    Text("The ultimate app for gourmet mushroom lovers")
                         .font(Font.subheadline)
                         .foregroundColor(.gray)
                         .multilineTextAlignment(TextAlignment.center)
