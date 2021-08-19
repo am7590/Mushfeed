@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import AuthenticationServices
 
 
 
@@ -15,6 +16,17 @@ struct SignupView: View {
     @ObservedObject var signupViewModel = SignupViewModel()
     @EnvironmentObject var session: SessionStore
     @State var imageData: Data = Data()
+    @Environment(\.colorScheme) var colorScheme  
+    
+    func configure(_ request: ASAuthorizationAppleIDRequest){
+        
+    }
+    
+    
+    func handle(_ authRequest: Result<ASAuthorization, Error>){
+        
+    }
+    
     
     func signUp() {
         //print("Sign up imageData: ", self.signupViewModel.imageData)
@@ -41,37 +53,44 @@ struct SignupView: View {
     }
     
     var body: some View {
-        VStack {
-            SelectPFPView(imageName: $signupViewModel.imageName)
-            // Old image picker code
-//            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
-//                .clipShape(Circle()).padding(.bottom, 80)
-//                .onTapGesture {
-//                    print("Tapped")
-//                    self.signupViewModel.showImagePicker = true
+        ScrollView{
+            
+            VStack {
+                SelectPFPView(imageName: $signupViewModel.imageName)
+                // Old image picker code
+    //            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
+    //                .clipShape(Circle()).padding(.bottom, 80)
+    //                .onTapGesture {
+    //                    print("Tapped")
+    //                    self.signupViewModel.showImagePicker = true
+                
+                
+                }
+            Text("Tap on a mushroom to set your profile picture").font(.headline).fontWeight(.bold).foregroundColor(.gray).multilineTextAlignment(.center).padding().fixedSize(horizontal: false, vertical: true)
+                
+                UsernameTextField(username: $signupViewModel.username)
+                EmailTextField(email: $signupViewModel.email)
+                VStack(alignment: .leading) {
+                    PasswordTextField(password: $signupViewModel.password)
+                    Text(TEXT_SIGNUP_PASSWORD_REQUIRED).font(.footnote).foregroundColor(.gray).padding([.leading])
+                }
+                SignupButton(action: signUp, label: TEXT_SIGN_UP).alert(isPresented: $signupViewModel.showAlert) {
+                    Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
+                }
+            
+            SignInWithAppleButton(.signUp, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
             
             
-            }
-        Text("Tap on a mushroom to set your profile picture").font(.headline).fontWeight(.bold).foregroundColor(.gray).multilineTextAlignment(.center).padding().fixedSize(horizontal: false, vertical: true)
-            
-            UsernameTextField(username: $signupViewModel.username)
-            EmailTextField(email: $signupViewModel.email)
-            VStack(alignment: .leading) {
-                PasswordTextField(password: $signupViewModel.password)
-                Text(TEXT_SIGNUP_PASSWORD_REQUIRED).font(.footnote).foregroundColor(.gray).padding([.leading])
-            }
-            SignupButton(action: signUp, label: TEXT_SIGN_UP).alert(isPresented: $signupViewModel.showAlert) {
-                Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
-            }
-            Divider()
-            Text("Mushfeed needs your email only for account recovery purposes.").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
-            
-        }//.sheet(isPresented: $signupViewModel.showImagePicker) {
-           // ImagePickerController()
-//            ImagePicker(showImagePicker: self.$signupViewModel.showImagePicker, pickedImage: self.$signupViewModel.image, imageData: self.$signupViewModel.imageData)
+                //Divider()
+                Text("Mushfeed needs your email only for account recovery purposes.").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
+                
+            }//.sheet(isPresented: $signupViewModel.showImagePicker) {
+               // ImagePickerController()
+    //            ImagePicker(showImagePicker: self.$signupViewModel.showImagePicker, pickedImage: self.$signupViewModel.image, imageData: self.$signupViewModel.imageData)
+            //}
+            //.navigationBarTitle("Register", displayMode: .inline).foregroundColor(.primary)
         //}
-        //.navigationBarTitle("Register", displayMode: .inline).foregroundColor(.primary)
-    //}
+    }
 }
 
 struct SignupView_Previews: PreviewProvider {

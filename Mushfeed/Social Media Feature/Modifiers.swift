@@ -12,7 +12,7 @@ struct TextFieldModifier: ViewModifier {
     func body(content: Content) -> some View {
         content.padding()
             .border(Color.gray, width: 1)
-            .padding([.top, .leading, .trailing])
+                        .padding([.top, .leading, .trailing])
     }
 }
 
