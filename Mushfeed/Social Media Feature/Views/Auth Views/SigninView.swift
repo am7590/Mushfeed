@@ -11,16 +11,42 @@ import AuthenticationServices
 
 struct SigninView: View {
     
+    @AppStorage("email") var storageEmail: String = ""
+    @AppStorage("username") var storageUsername: String = ""
+    @AppStorage("userId") var storageUserId: String = ""
+    
+
+    
     @ObservedObject var signinViewModel = SigninViewModel()
     @Environment(\.colorScheme) var colorScheme
     
     func configure(_ request: ASAuthorizationAppleIDRequest){
-        
+        request.requestedScopes = [.email, .fullName]
     }
     
     
-    func handle(_ authRequest: Result<ASAuthorization, Error>){
-        
+    func handle(_ authResult: Result<ASAuthorization, Error>){
+        switch authResult {
+        case .success(let auth):
+            print(auth)
+            switch auth.credential {
+            case let credential as ASAuthorizationAppleIDCredential:
+                let userId = credential.user
+                let email = credential.email
+                let username = credential.fullName?.givenName
+                //let lastname = credential.fullName?.familyName
+                self.storageEmail = email ?? ""
+                self.storageUserId = userId
+                self.storageUsername = username ?? ""
+                
+                break
+            default:
+                break
+            }
+            break
+        case .failure(let error):
+            print(error)
+        }
     }
     
     
@@ -83,10 +109,10 @@ struct SigninView: View {
                     Alert(title: Text("Error"), message: Text(self.signinViewModel.errorString), dismissButton: .default(Text("OK")))
                     }
                     
-                    SignInWithAppleButton(.signIn, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
-                        //.border(Color.gray, width: 1)
-                                    //.padding([.top, .leading, .trailing])
-                    
+                SignInWithAppleButton(.signIn, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+                    //.border(Color.gray, width: 1)
+                                //.padding([.top, .leading, .trailing])
+                
                     
                     
                     //Divider()
