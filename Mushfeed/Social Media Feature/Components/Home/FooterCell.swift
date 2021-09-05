@@ -17,13 +17,16 @@ struct FooterCell: View {
     @EnvironmentObject var session: SessionStore
     @ObservedObject var footerCellViewModel = FooterCellViewModel()
     @State var showActionSheet = false
+    @State private var showDialog = false
+    @State var showingAlert: Bool = false
+    
     
     init(post: Post) {
         self.footerCellViewModel.post = post
         self.footerCellViewModel.checkPostIsLiked()
     }
     
-
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
 
@@ -34,14 +37,14 @@ struct FooterCell: View {
                 
                 VStack{
                     HStack {
-                        HStack {
-                        //Text(self.footerCellViewModel.post.username).font(.headline).bold()
-                            Text(self.footerCellViewModel.post.caption).font(.system(size: 20, weight: .bold, design: .default))
-                        }.padding(.top, -5)
+                        
                         Spacer()
                         
                         HStack() {
                             
+                            
+                            
+                            // DELETE POST FEATURE
                             if footerCellViewModel.post.username == session.userSession?.username {
                                 Button(action :{
                                     self.showActionSheet = true
@@ -98,7 +101,33 @@ struct FooterCell: View {
                                 }
                             }
                             
+                            Text(timeAgoSinceDate(Date(timeIntervalSince1970: self.footerCellViewModel.post.date), currentDate: Date(), numericDates: true)).font(.caption).foregroundColor(.gray).padding(.top, -5)
+
+                                
+                            
+                            Spacer()
+                            
+                            
+                            // REPORT POST
+                            Image(systemName: "exclamationmark.triangle").imageScale(.large).foregroundColor(Color.primary)}.onTapGesture {
+                                    print("Hello Print")
+                                    self.showingAlert = true
+                            } .alert(isPresented: $showingAlert, content: {
+                                Alert(title: Text("Report Post"), message: Text("Click Report to report this post"), primaryButton: Alert.Button.default(Text("Dismiss"), action: {
+                                    print("Dismiss")
+                                }),
+                                secondaryButton: Alert.Button.cancel(Text("Report"), action: {
+                                    print("Report")
+                                }))
+                            }).padding(.top, -10)//.padding(.trailing, 10)
+                            
                             VStack {
+                                
+                                
+                            
+                                
+                                
+                                // LIKE POST
                                 ZStack {
                                     Image(systemName: (self.footerCellViewModel.isLiked) ? "heart.fill" : "heart").onTapGesture {
                                     if self.footerCellViewModel.isLiked {
@@ -109,13 +138,20 @@ struct FooterCell: View {
                                     }.imageScale(.large)
                                     
                                 }
+                                
                                 if footerCellViewModel.post.likeCount > 0 {
                                     Text("\(footerCellViewModel.post.likeCount) \(self.footerCellViewModel.post.likeCount > 1 ? "likes" : "like")").font(.caption).foregroundColor(.gray)
                                 } else {
                                     Text("0 likes").font(.caption).foregroundColor(.gray)
                                 }
+                                
+                                
+                                
+                                
+                                
                             }
                             
+                            // VIEW COMMENTS
                             ZStack {
                                 NavigationLink(destination: CommentView(post: self.footerCellViewModel.post)) {
                                     Image(systemName: "bubble.left").imageScale(.large).foregroundColor(Color.primary)
@@ -124,23 +160,36 @@ struct FooterCell: View {
                             }.padding(.top, -10)
                             
                             
-                            
-                            
-                            
-            
-                        }
+                           
+                        
+                       
+                        
                         
                         
                     }.padding(.trailing, 15).padding(.leading, 15)
             
                 }
             }
-            Text(timeAgoSinceDate(Date(timeIntervalSince1970: self.footerCellViewModel.post.date), currentDate: Date(), numericDates: true)).font(.caption).foregroundColor(.gray).padding(.leading, 15).padding(.top, -5)
-
-            Divider().padding(.leading, 15).padding(.trailing, 15)
-            Spacer()
+            
+            
+            VStack(alignment: .leading){
+                Text(self.footerCellViewModel.post.caption).fixedSize(horizontal: false, vertical: true).font(.system(size: 20, weight: .bold, design: .default)).padding(.leading, 15)
+                
+                
+           
+                Divider().padding(.leading, 15).padding(.trailing, 15)
+                
+                Spacer()
+                    
+                
+                
+            }.padding(.top, -5)
+            
+            
             }
+            
         
-    
     }
 }
+
+

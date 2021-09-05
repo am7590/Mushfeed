@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B415E126E5410C001B22A6 /* ReportAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E026E5410C001B22A6 /* ReportAPI.swift */; };
+		29B415E326E541B8001B22A6 /* ReportInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E226E541B8001B22A6 /* ReportInput.swift */; };
+		29B415E726E54290001B22A6 /* ReportInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E626E54290001B22A6 /* ReportInputViewModel.swift */; };
+		29B415ED26E552E2001B22A6 /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415EC26E552E2001B22A6 /* TextAlert.swift */; };
 		E631CF4825EB37C200CE8417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631CF4725EB37C200CE8417 /* ContentView.swift */; };
 		E631CF4A25EB37C400CE8417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4925EB37C400CE8417 /* Assets.xcassets */; };
 		E631CF4D25EB37C400CE8417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631CF4C25EB37C400CE8417 /* Preview Assets.xcassets */; };
@@ -109,6 +113,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29B415E026E5410C001B22A6 /* ReportAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAPI.swift; sourceTree = "<group>"; };
+		29B415E226E541B8001B22A6 /* ReportInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInput.swift; sourceTree = "<group>"; };
+		29B415E626E54290001B22A6 /* ReportInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInputViewModel.swift; sourceTree = "<group>"; };
+		29B415EC26E552E2001B22A6 /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
 		29E60EC626CEB3A3004B0320 /* Mushfeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mushfeed.entitlements; sourceTree = "<group>"; };
 		E631CF4225EB37C200CE8417 /* Mushfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mushfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E631CF4725EB37C200CE8417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -325,6 +333,7 @@
 				E631CF7225EB3B9800CE8417 /* FooterCell.swift */,
 				E631CF7325EB3B9800CE8417 /* HeaderCell.swift */,
 				E631CF7425EB3B9800CE8417 /* Story.swift */,
+				29B415EC26E552E2001B22A6 /* TextAlert.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -391,6 +400,7 @@
 				E631CFAA25EB3E7700CE8417 /* CameraView.swift */,
 				E631CFAB25EB3E7700CE8417 /* NotificationView.swift */,
 				E631CFAC25EB3E7700CE8417 /* CommentInput.swift */,
+				29B415E226E541B8001B22A6 /* ReportInput.swift */,
 				E631CFAD25EB3E7700CE8417 /* MessagesView.swift */,
 				E631CFAE25EB3E7700CE8417 /* MainView.swift */,
 				E631CFAF25EB3E7700CE8417 /* ChatView.swift */,
@@ -410,6 +420,7 @@
 				E631CFD025EB3ED100CE8417 /* PostPopularViewModel.swift */,
 				E631CFD125EB3ED100CE8417 /* CommentViewModel.swift */,
 				E631CFD225EB3ED100CE8417 /* CommentInputViewModel.swift */,
+				29B415E626E54290001B22A6 /* ReportInputViewModel.swift */,
 				E631CFD325EB3ED100CE8417 /* ProfileViewModel.swift */,
 			);
 			path = "View Models";
@@ -439,6 +450,7 @@
 			children = (
 				E631CFE925EB3F2B00CE8417 /* UserApi.swift */,
 				E631CFEA25EB3F2B00CE8417 /* CommentApi.swift */,
+				29B415E026E5410C001B22A6 /* ReportAPI.swift */,
 				E631CFEB25EB3F2B00CE8417 /* StorageService.swift */,
 				E631CFEC25EB3F2B00CE8417 /* AuthService.swift */,
 				E631CFED25EB3F2B00CE8417 /* Model */,
@@ -607,6 +619,7 @@
 				E6E1F32D268E3D8C0078A289 /* PFPView.swift in Sources */,
 				E631D01925EB3F8F00CE8417 /* imageSlider.swift in Sources */,
 				E631CFBE25EB3E7700CE8417 /* ChatView.swift in Sources */,
+				29B415E726E54290001B22A6 /* ReportInputViewModel.swift in Sources */,
 				E631D03F25EB3FC500CE8417 /* GrowableMushroomItem.swift in Sources */,
 				E631D03825EB3FC500CE8417 /* GrowHome.swift in Sources */,
 				E631CF9925EB3C2E00CE8417 /* SigninView.swift in Sources */,
@@ -647,6 +660,7 @@
 				E631CF8325EB3B9800CE8417 /* Story.swift in Sources */,
 				E631CF8825EB3B9800CE8417 /* SignupButton.swift in Sources */,
 				E631CFF325EB3F2B00CE8417 /* UserApi.swift in Sources */,
+				29B415E326E541B8001B22A6 /* ReportInput.swift in Sources */,
 				E631CFF525EB3F2B00CE8417 /* StorageService.swift in Sources */,
 				E631F54E25EC9D500019757A /* MushroomList.swift in Sources */,
 				E631CF8A25EB3B9800CE8417 /* EmailTextField.swift in Sources */,
@@ -664,9 +678,11 @@
 				E631CF8925EB3B9800CE8417 /* SignInHeaderView.swift in Sources */,
 				E631CFBA25EB3E7700CE8417 /* NotificationView.swift in Sources */,
 				E631D03B25EB3FC500CE8417 /* ExpandingListTest.swift in Sources */,
+				29B415E126E5410C001B22A6 /* ReportAPI.swift in Sources */,
 				E631D03325EB3FC500CE8417 /* GrowableMushroomRow.swift in Sources */,
 				E6DF8BFD260FBC27001E17A5 /* ResetPasswordView.swift in Sources */,
 				E631CF8C25EB3B9800CE8417 /* GridPosts.swift in Sources */,
+				29B415ED26E552E2001B22A6 /* TextAlert.swift in Sources */,
 				E631D03A25EB3FC500CE8417 /* ExpandingList.swift in Sources */,
 				E631CFDD25EB3ED100CE8417 /* ProfileViewModel.swift in Sources */,
 				E631CFDB25EB3ED100CE8417 /* CommentViewModel.swift in Sources */,

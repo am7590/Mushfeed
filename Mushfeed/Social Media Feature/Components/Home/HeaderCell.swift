@@ -35,7 +35,8 @@ struct HeaderCell: View {
 //
 //                        Text("location").font(.caption)
 //                    }
-                    Text(post.username).font(.subheadline).bold().padding(.leading, 5)
+                Text(post.username).font(.subheadline).bold().padding(.leading, 5)
+    
                     //Text(self.footerCellViewModel.post.caption).font(.subheadline)
                     Spacer()
             }

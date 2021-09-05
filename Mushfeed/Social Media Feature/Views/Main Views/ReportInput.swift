@@ -1,15 +1,14 @@
 //
-//  CommentInput.swift
-//  instagram
+//  ReportInput.swift
+//  Mushfeed
 //
-//  Created by Alek Michelson on 8/5/20.
-//  Copyright © 2020 Alek Michelson. All rights reserved.
+//  Created by Alek Michelson on 9/5/21.
 //
 
 import SwiftUI
 import URLImage
 
-struct CommentInput: View {
+struct ReportInput: View {
     
     @EnvironmentObject var session: SessionStore
     
@@ -23,7 +22,7 @@ struct CommentInput: View {
     
     func commentAction() {
         if !composedMessage.isEmpty {
-            commentInputViewModel.setProfilePic(pfp: session.userSession!.bio)
+           // commentInputViewModel.setProfilePic(pfp: session.userSession!.bio)
             commentInputViewModel.addReport(text: composedMessage) {
                 self.composedMessage = ""
             }
