@@ -35,13 +35,14 @@ struct FooterCell: View {
 //                    .frame(height: 40.0).padding(.leading, 15).padding(.trailing, 15)
 //
                 
-                VStack{
+                VStack {
                     HStack {
-                        
                         Spacer()
-                        
                         HStack() {
-                            
+                 
+                            Text(timeAgoSinceDate(Date(timeIntervalSince1970: self.footerCellViewModel.post.date), currentDate: Date(), numericDates: true)).font(.caption).foregroundColor(.gray).padding(.top, -5)
+
+                            Spacer()
                             
                             
                             // DELETE POST FEATURE
@@ -56,7 +57,6 @@ struct FooterCell: View {
                                                     return
                                                 }
                                                 var postId = Ref.FIRESTORE_MY_POSTS_DOCUMENT_USERID(userId: userId).collection("userPosts").document().documentID
-                                                
                                                                                                                                                             Ref.FIRESTORE_COLLECTION_ALL_POSTS.document(self.footerCellViewModel.post.postId).delete() { err in
                                             if let err = err {
                                                 print("Error Deleting Document: \(err)")
@@ -65,7 +65,7 @@ struct FooterCell: View {
                                             }
                                         
                                         }
-                                                                                                                                                            postId = Ref.FIRESTORE_TIMELINE_DOCUMENT_USERID(userId: userId).collection("timelinePosts").document(postId).documentID
+                                                                                                                                                        postId = Ref.FIRESTORE_TIMELINE_DOCUMENT_USERID(userId: userId).collection("timelinePosts").document(postId).documentID
                                                                                                                                                             
                                                                                                                                                             Ref.FIRESTORE_TIMELINE_DOCUMENT_USERID(userId: userId).collection("timelinePosts").document(self.footerCellViewModel.post.postId).delete() { err in
                                             if let err = err {
@@ -82,15 +82,6 @@ struct FooterCell: View {
                                             }
                                         
                                         }
-                                                                                                                    
-                                                                                                                                                                
-//                                            Ref.STORAGE_POST_ID(postId: postId).delete() { error in
-//                                                if error != nil {
-//                                                    print("Storage error")
-//                                                } else {
-//                                                    print("Storage error")
-//                                                }
-//                                        }
                                         }
                                                                                                                                                             
                                         print("Delete successful")}
@@ -98,16 +89,12 @@ struct FooterCell: View {
                                     ])
                                 
                                     
-                                }
+                                }.padding(.top, 10)
                             }
-                            
-                            Text(timeAgoSinceDate(Date(timeIntervalSince1970: self.footerCellViewModel.post.date), currentDate: Date(), numericDates: true)).font(.caption).foregroundColor(.gray).padding(.top, -5)
 
-                                
-                            
-                            Spacer()
                             
                             
+                        
                             // REPORT POST
                             Image(systemName: "exclamationmark.triangle").imageScale(.large).foregroundColor(Color.primary)}.onTapGesture {
                                     print("Hello Print")
