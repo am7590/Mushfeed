@@ -65,19 +65,6 @@
         "storeLink":""
     },
     {
-        "id":6,
-        "name":"Chicken of the woods",
-        "imageName":"Chicken",
-        "description":"Introduction/description",
-        "category":"difficult",
-        "instructions":["Mushroom grow bag", "Step 1 test", "Step 2 test", "Step 3 test", "Step 4 test"],
-        "link1":"",
-        "link2":"",
-        "link3":"",
-        "link4":"",
-        "storeLink":""
-    },
-    {
         "id":7,
         "name":"Oyster Mushroom Grow Kit",
         "imageName":"growkit",

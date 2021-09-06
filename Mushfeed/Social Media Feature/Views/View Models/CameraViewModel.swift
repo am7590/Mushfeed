@@ -16,7 +16,7 @@ import SwiftUI
 class CameraViewModel: ObservableObject {
     
     @Published var caption: String = ""
-    @Published var image: Image = Image("cameraView")
+    @Published var image: Image = Image("upload-icon")
     var profilePic: String = ""
     var imageData: Data = Data()
     var errorString = ""

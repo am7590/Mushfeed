@@ -31,7 +31,7 @@ struct CameraView: View {
     
     func clean() {
         self.cameraViewModel.caption = ""
-        self.cameraViewModel.image = Image("cameraView")
+        self.cameraViewModel.image = Image("upload-icon")
         self.cameraViewModel.imageData = Data()
     }
     
@@ -39,11 +39,11 @@ struct CameraView: View {
         NavigationView {
             
             VStack() {
-                Text("New Post")
+                Text("Tap to Upload Photo")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
-                
+                    
                
                 HStack(alignment: .top) {
                     cameraViewModel.image.resizable().scaledToFill().frame(width: UIScreen.main.bounds.size.width - 30, height: 300).clipped().foregroundColor(.gray).cornerRadius(10).onTapGesture {
