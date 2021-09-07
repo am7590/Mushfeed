@@ -60,12 +60,6 @@ struct ProfileView: View {
                                         }
                                        
                                     }
-                                        
-                                    
-                                    
-                                    
-                                
-                                    
                                     
                                     
                                 }
