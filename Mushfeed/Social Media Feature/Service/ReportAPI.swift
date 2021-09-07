@@ -15,7 +15,7 @@ class ReportApi {
         let comment = Comment(comment: text, avatarUrl: avatarUrl, ownerId: ownerId, postId: postId, username: username, date: Date().timeIntervalSince1970)
         guard let dict = try? comment.toDictionary() else {return}
         
-        Ref.FIRESTORE_COMMENTS_DOCUMENT_POSTID(postId: postId).collection("reportedPosts").addDocument(data: dict) { (error) in
+        Ref.FIRESTORE_REPORTED_POSTS_DOCUMENT_POSTID(postId: postId).collection("reportedPosts").addDocument(data: dict) { (error) in
             if let error = error {
                 onError(error.localizedDescription)
                 return

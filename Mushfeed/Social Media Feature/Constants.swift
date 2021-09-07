@@ -72,4 +72,9 @@ class Ref {
        static func FIRESTORE_COMMENTS_DOCUMENT_POSTID(postId: String) -> DocumentReference {
               return FIRESTORE_COLLECTION_COMMENTS.document(postId)
         }
+    
+        static var FIRESTORE_COLLECTION_REPORTED_POSTS = FIRESTORE_ROOT.collection("reportedPosts")
+        static func FIRESTORE_REPORTED_POSTS_DOCUMENT_POSTID(postId: String) -> DocumentReference {
+               return FIRESTORE_COLLECTION_REPORTED_POSTS.document(postId)
+         }
 }

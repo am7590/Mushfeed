@@ -104,7 +104,16 @@ struct FooterCell: View {
                                     print("Dismiss")
                                 }),
                                 secondaryButton: Alert.Button.cancel(Text("Report"), action: {
-                                    print("Report")
+                                    guard let currentUserId = Auth.auth().currentUser?.uid else { return }
+                                    guard let username = Auth.auth().currentUser?.displayName else { return }
+                                    //guard let avatarUrl = Auth.auth().currentUser?.photoURL?.absoluteString else { return }
+                                    
+                                    
+                                    Api.Report.sendReport(text: "POST REPORTED", username: username, avatarUrl: "", ownerId: currentUserId, postId: self.footerCellViewModel.post.postId, onSuccess: {
+                                        print("success")
+                                    }) { (errorMessage) in
+                                        print(errorMessage)
+                                    }
                                 }))
                             }).padding(.top, -10)//.padding(.trailing, 10)
                             
