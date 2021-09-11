@@ -11,8 +11,8 @@ import SwiftUI
 struct UserProfileView: View {
     var user: User
     @ObservedObject var profileViewModel = ProfileViewModel()
-    @State var selection: Selection = .grid
-    
+    @State var selection: Selection = .table
+    var posts = 0
     var body: some View {
         return
             
@@ -23,18 +23,29 @@ struct UserProfileView: View {
                     
                     // Username
                     ProfileInformation(user: user)
-
+                    Divider().padding(.leading, 15).padding(.trailing, 15)
 
                     
                     // FollowButton() MessageButton()
-                         Picker(selection: $selection, label: Text("Grid or Table")) {
-                                    ForEach(Selection.allCases) { selection in
-                                        selection.image.tag(selection)
-                                                
-                                    }
-                         }.pickerStyle(SegmentedPickerStyle()).padding(.leading, 20).padding(.trailing, 20)
+                    if(self.profileViewModel.posts.count > 0){
+                        Picker(selection: $selection, label: Text("Grid or Table")) {
+                                   ForEach(Selection.allCases) { selection in
+                                       selection.image.tag(selection)
+                                               
+                                   }
+                        }.pickerStyle(SegmentedPickerStyle()).padding(.leading, 20).padding(.trailing, 20)
+                   
+                   
+            
+                    } else {
+                        Text("No Posts")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .padding(.top, 5)
+                    }
+                      
                     if !profileViewModel.isLoading {
-                                  if selection == .grid {
+                        if selection == .grid {
                                       GridPosts(splitted: self.profileViewModel.splitted)
                                   } else {
                                       ForEach(self.profileViewModel.posts, id: \.postId) { post in

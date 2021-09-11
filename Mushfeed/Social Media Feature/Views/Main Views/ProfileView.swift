@@ -24,46 +24,15 @@ struct ProfileView: View {
              NavigationView {
                  ScrollView {
                         VStack(alignment: .center) {
-                        ProfileHeader(user: self.session.userSession)
-                         ProfileInformation(user: self.session.userSession)
-                         Divider().padding(.leading, 15).padding(.trailing, 15)
-                            
+//                        ProfileHeader(user: self.session.userSession)
+//                         ProfileInformation(user: self.session.userSession)
+//                         Divider().padding(.leading, 15).padding(.trailing, 15)
                             VStack(alignment: .leading) {
-                                if(self.profileViewModel.posts.count == 0){
-                                    Text("No Posts to Display")
-                                        .font(.title)
-                                        .fontWeight(.bold)
-                                        .padding(.top, 10)
-                                } else {
-                                Text("Posts")
-                                    .font(.title)
-                                        .fontWeight(.bold)
-
-                                   
-                                   
-                                     Picker(selection: $selection, label: Text("Grid or Table")) {
-                                        ForEach(Selection.allCases) { selection in
-                                            selection.image.tag(selection)
-                                                    
-                                        }
-                                     }.pickerStyle(SegmentedPickerStyle()).padding(.trailing, 15)
-                                if !profileViewModel.isLoading {
-                                    if selection == .grid {
-                                        GridPosts(splitted: self.profileViewModel.splitted)
-                                        
-                                    } else {
-                                        ForEach(self.profileViewModel.posts, id: \.postId) { post in
-                                            VStack {
-                                                HeaderCell(post: post)
-                                                FooterCell(post: post)
-                                            }
-                                        }
-                                       
-                                    }
-                                    
-                                    
-                                }
-                                }
+                                
+                                UserProfileView(user: self.session.userSession!)
+                                
+                                
+                                
                                 Text("Options")
                                     .font(.title)
                                     .fontWeight(.bold)
@@ -182,7 +151,7 @@ struct ProfileView: View {
 //                 } // IMPORTANT ^ loads user posts
                  }
              }//.navigationViewStyle(StackNavigationViewStyle())
-            //.environmentObject(self.session)
+            .environmentObject(self.session)
             
        
          

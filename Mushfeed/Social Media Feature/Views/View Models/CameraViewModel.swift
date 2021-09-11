@@ -31,7 +31,7 @@ class CameraViewModel: ObservableObject {
     func sharePost(completed: @escaping() -> Void,  onError: @escaping(_ errorMessage: String) -> Void) {
           if !caption.isEmpty && !imageData.isEmpty {
             Api.Post.uploadPost(caption: caption, imageData: imageData, avatar: profilePic, onSuccess: completed, onError: onError)
-            print("PROFILE PIC:" + profilePic)
+            //print("PROFILE PIC:" + profilePic)
             //Auth.auth().currentUser.bio
           } else {
               showAlert = true
