@@ -14,8 +14,9 @@ struct CommentInput: View {
     @EnvironmentObject var session: SessionStore
     
     @ObservedObject var commentInputViewModel = ReportInputViewModel()
-    
+    @Environment(\.colorScheme) var colorScheme
     @State var composedMessage: String = ""
+    
     
     init(post: Post) {
         commentInputViewModel.post = post
@@ -23,19 +24,21 @@ struct CommentInput: View {
     
     func commentAction() {
         if !composedMessage.isEmpty {
-            commentInputViewModel.setProfilePic(pfp: session.userSession!.bio)
+            commentInputViewModel.setProfilePic(pfp: session.userSession!.bio[0])
             commentInputViewModel.addReport(text: composedMessage) {
                 self.composedMessage = ""
             }
         }
     }
     
+    
     var body: some View {
         HStack(spacing: 0) {
             
-            if(session.userSession!.bio != ""){
+            if(session.userSession!.bio[0] != ""){
                 HStack {
-                    Image(session.userSession!.bio)
+                    //var pfp = colorScheme == .dark ? (session.userSession.bio[1] ?? ""): (session.userSession.bio[0] ?? "")
+                    Image(colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0])
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
@@ -55,6 +58,7 @@ struct CommentInput: View {
             
             } else {
                 Text("ERROR- Please go back and reload this page")
+                
             }
                 
      

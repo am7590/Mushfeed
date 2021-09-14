@@ -13,7 +13,7 @@ struct ReportInput: View {
     @EnvironmentObject var session: SessionStore
     
     @ObservedObject var commentInputViewModel = ReportInputViewModel()
-    
+    @Environment(\.colorScheme) var colorScheme
     @State var composedMessage: String = ""
     
     init(post: Post) {
@@ -32,9 +32,9 @@ struct ReportInput: View {
     var body: some View {
         HStack(spacing: 0) {
             
-            if(session.userSession!.bio != ""){
+            if(session.userSession!.bio[0] != ""){
                 HStack {
-                    Image(session.userSession!.bio)
+                    Image(colorScheme == .dark ? session.userSession!.bio[1]: session.userSession!.bio[0])
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())

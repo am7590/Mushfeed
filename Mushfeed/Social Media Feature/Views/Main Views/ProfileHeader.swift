@@ -12,11 +12,26 @@ import FirebaseAuth
 
 struct ProfileHeader: View {
     var user: User?
+
+    func replace(myString: String, _ index: Int, _ newChar: Character) -> String {
+        var chars = Array(myString)    // gets an array of characters
+        chars[index] = newChar
+        let modifiedString = String(chars)
+        return modifiedString
+    }
+    
+    
+    //var u = user?.bio ?? ""
+   
+    
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         
         VStack(alignment: .center) {
             if (user != nil){
-                Image(user?.bio ?? "")
+
+                Image(colorScheme == .dark ? user?.bio[0] ?? "" : user?.bio[1] ?? "")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())

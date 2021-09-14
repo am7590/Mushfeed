@@ -11,10 +11,12 @@ import FirebaseAuth
 
 struct PFPView: View {
     var user: User?
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         
             if (user != nil){
-                Image(user?.bio ?? "")
+                Image(colorScheme == .dark ? user?.bio[0] ?? "" : user?.bio[1] ?? "")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .clipShape(Circle())

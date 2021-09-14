@@ -24,7 +24,20 @@ struct SelectPFPView: View {
                     ).onTapGesture {
                         self.selected = image
                         imageName = image
-                        signupViewModel.setImage(imageN: image)
+                        var pfp = image
+                        pfp.removeLast()
+                        signupViewModel.setImage(imageN: pfp.appending("w"), imageB: pfp.appending("b"))
+                        print("W image: " + pfp.appending("w") + "  B Image: " + pfp.appending("b"))
+                        
+                        
+                        
+                        
+//
+//
+//                        secondImageName = image
+//                        secondImageName.removeLast()
+//                        secondImageName.append(colorScheme == .dark ? "b" : "w")
+//                        signupViewModel.setImage(imageN: image, imageB: secondImageName)
                         
                         
                         

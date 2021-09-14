@@ -13,9 +13,10 @@ struct CameraView: View {
     @ObservedObject var cameraViewModel = CameraViewModel()
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var session: SessionStore
-
+    @Environment(\.colorScheme) var colorScheme
+    
     func sharePost() {
-        cameraViewModel.setProfilePic(pfp: session.userSession!.bio)
+        cameraViewModel.setProfilePic(pfp: colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0])
        // cameraViewModel.uploadPost
         cameraViewModel.sharePost(completed: {
             print("done")
