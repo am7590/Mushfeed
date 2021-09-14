@@ -23,7 +23,7 @@ struct UserProfileView: View {
                     
                     // Username
                     ProfileInformation(user: user)
-                    Divider().padding(.leading, 15).padding(.trailing, 15)
+                    Divider().padding(.leading, 15).padding(.trailing, 15).background(Color.secondary)
 
                     
                     // FollowButton() MessageButton()

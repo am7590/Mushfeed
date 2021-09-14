@@ -35,7 +35,7 @@ struct ProfileHeader: View {
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
-                        .shadow(radius: 15)
+                    .shadow(color: .secondary, radius: 15)
             }
         
         }.frame(width: 160, height: 160).padding()

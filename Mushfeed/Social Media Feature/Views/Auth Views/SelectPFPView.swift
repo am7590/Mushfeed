@@ -23,7 +23,6 @@ struct SelectPFPView: View {
                         Circle().stroke(selected == image ? Color.primary : Color.clear, lineWidth: 4).frame(width: 110, height:110)
                     ).onTapGesture {
                         self.selected = image
-                        //imageName = image
                         var pfp = image
                         var pfp2 = image
                         pfp.removeLast()
@@ -33,34 +32,6 @@ struct SelectPFPView: View {
                         pfp2 = pfp2.appending("w")
                         imageName[1] = pfp2
                         
-                        //print("W image: " + pfp.appending("w") + "  B Image: " + pfp2.appending("b"))
-                       
-                        self.signupViewModel.setImage(imageN: pfp, imageB: pfp2)
-                       // print("W model image: " + signupViewModel.imageName[0] + "  B model Image: " + signupViewModel.imageName[1])
-                        
-                        
-                        
-
-
-//                        secondImageName = image
-//                        secondImageName.removeLast()
-//                        secondImageName.append(colorScheme == .dark ? "b" : "w")
-//                        signupViewModel.setImage(imageN: image, imageB: secondImageName)
-//
-                  
-                        
-                        
-                        
-//                        let uiImage = UIImage(named: image)
-//                        let data = uiImage?.jpegData(compressionQuality: 0.5)
-//
-//                        if (data) != nil {
-//                            self.imageData = data!
-//                            self.signupViewModel.setImage(imageD: data!)
-//                            print("State var imageData: ", imageData)
-//                            print("signupViewModel imageData: ", self.signupViewModel.imageData)
-//                        }
-
                     }
                 }
             }.frame(height: 100).padding()
@@ -69,10 +40,4 @@ struct SelectPFPView: View {
     }
     
 }
-
-//struct SelectPFPView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SelectPFPView()
-//    }
-//}
 
