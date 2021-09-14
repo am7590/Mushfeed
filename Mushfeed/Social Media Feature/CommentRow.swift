@@ -12,11 +12,25 @@ import URLImage
 struct CommentRow: View {
     
     var comment: Comment
+    @Environment(\.colorScheme) var colorScheme
+    
+    func correctPFP(image: String) -> String {
+        var imageI = image
+        imageI.removeLast()
+
+        if(colorScheme == .dark){
+            imageI.append("b")
+        } else {
+            imageI.append("w")
+        }
+        return imageI
+    }
+    
     
     var body: some View {
         HStack {
             HStack {
-                Image(comment.avatarUrl)
+                Image(correctPFP(image: comment.avatarUrl))
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())

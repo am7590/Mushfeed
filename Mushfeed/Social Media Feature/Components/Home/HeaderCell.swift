@@ -15,6 +15,22 @@ struct HeaderCell: View {
 
     var post: Post
     @EnvironmentObject var session: SessionStore
+    @Environment(\.colorScheme) var colorScheme
+    
+    
+    func correctPFP(image: String) -> String {
+        var imageI = image
+        imageI.removeLast()
+
+        if(colorScheme == .dark){
+            imageI.append("b")
+        } else {
+            imageI.append("w")
+        }
+        return imageI
+    }
+    
+    
     var body: some View {
         
         
@@ -24,7 +40,7 @@ struct HeaderCell: View {
 //                .frame(width: 340, height: 45.0).padding(.leading, 15).padding(.trailing, 15)
             HStack {
                 
-                Image(post.avatar).resizable().aspectRatio(contentMode: .fill).clipShape(Circle())
+                Image(correctPFP(image: post.avatar)).resizable().aspectRatio(contentMode: .fill).clipShape(Circle())
                 
                 .frame(width: 35, height: 35)
                 .padding(.leading, 20)

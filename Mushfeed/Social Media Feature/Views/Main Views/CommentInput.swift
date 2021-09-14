@@ -38,7 +38,7 @@ struct CommentInput: View {
             if(session.userSession!.bio[0] != ""){
                 HStack {
                     //var pfp = colorScheme == .dark ? (session.userSession.bio[1] ?? ""): (session.userSession.bio[0] ?? "")
-                    Image(colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0])
+                    Image(colorScheme == .dark ? session.userSession!.bio[0] : session.userSession!.bio[1])
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())

@@ -38,7 +38,7 @@ struct UsersView: View {
 //
                                     NavigationLink(destination: UserProfileView(user: user).padding(10), label: {
                                         HStack {
-                                                Image(colorScheme == .dark ? user.bio[1] : user.bio[0])//URLImage(url: URL(string: user.profileImageUrl)!,
+                                                Image(colorScheme == .dark ? user.bio[0] : user.bio[1])//URLImage(url: URL(string: user.profileImageUrl)!,
                                                     .resizable()
                                                     .aspectRatio(contentMode: .fill)
                                                 //.clipShape(Circle())
