@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SelectPFPView: View {
-    @Binding var imageName: String
+    @Binding var imageName: [String]
     @State private var selected: String?
     @State var imageData: Data = Data()
     @ObservedObject var signupViewModel = SignupViewModel()
@@ -23,29 +23,37 @@ struct SelectPFPView: View {
                         Circle().stroke(selected == image ? Color.primary : Color.clear, lineWidth: 4).frame(width: 110, height:110)
                     ).onTapGesture {
                         self.selected = image
-                        imageName = image
+                        //imageName = image
                         var pfp = image
+                        var pfp2 = image
                         pfp.removeLast()
-                        signupViewModel.setImage(imageN: pfp.appending("w"), imageB: pfp.appending("b"))
-                        print("W image: " + pfp.appending("w") + "  B Image: " + pfp.appending("b"))
+                        pfp2.removeLast()
+                        pfp = pfp.appending("b")
+                        imageName[0] = pfp
+                        pfp2 = pfp2.appending("w")
+                        imageName[1] = pfp2
+                        
+                        //print("W image: " + pfp.appending("w") + "  B Image: " + pfp2.appending("b"))
+                       
+                        self.signupViewModel.setImage(imageN: pfp, imageB: pfp2)
+                       // print("W model image: " + signupViewModel.imageName[0] + "  B model Image: " + signupViewModel.imageName[1])
                         
                         
                         
-                        
-//
-//
+
+
 //                        secondImageName = image
 //                        secondImageName.removeLast()
 //                        secondImageName.append(colorScheme == .dark ? "b" : "w")
 //                        signupViewModel.setImage(imageN: image, imageB: secondImageName)
-                        
-                        
+//
+                  
                         
                         
                         
 //                        let uiImage = UIImage(named: image)
 //                        let data = uiImage?.jpegData(compressionQuality: 0.5)
-//                        
+//
 //                        if (data) != nil {
 //                            self.imageData = data!
 //                            self.signupViewModel.setImage(imageD: data!)

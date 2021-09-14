@@ -28,13 +28,14 @@ class SignupViewModel: ObservableObject {
     func setImage(imageN: String, imageB: String){
         self.imageName[0] = imageN
         self.imageName[1] = imageB
+        print("Set image\nself.imageName[0]: "+self.imageName[0]+"\nself.imageName[1]: "+self.imageName[1])
         //print(self.imageName)
     }
 
     func signup(username: String, email: String, password: String, imageData: Data, completed: @escaping(_ user: User) -> Void,  onError: @escaping(_ errorMessage: String) -> Void) {
-        if !username.isEmpty && !email.isEmpty && !password.isEmpty && (self.imageName[1] != "") {
+        if !username.isEmpty && !email.isEmpty && !password.isEmpty && !imageName.isEmpty { 
             AuthService.signupUser(username: username, email: email, password: password, imageName: imageName, onSuccess: completed, onError: onError)
-        } else if self.imageName[1]=="" {
+        } else if self.imageName[0]=="" || self.imageName[1] == "" {
             showAlert = true
             errorString = "Please select a profile picture"
         } else {

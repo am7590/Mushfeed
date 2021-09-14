@@ -56,7 +56,7 @@ struct SignupView: View {
         ScrollView{
             
             VStack { //colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0]
-                SelectPFPView(imageName: colorScheme == .dark ? $signupViewModel.imageName[0] : $signupViewModel.imageName[1])
+                SelectPFPView(imageName: colorScheme == .dark ? $signupViewModel.imageName : $signupViewModel.imageName)
                 // Old image picker code
     //            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
     //                .clipShape(Circle()).padding(.bottom, 80)
