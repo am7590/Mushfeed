@@ -10,6 +10,7 @@ import SwiftUI
 import URLImage
 import FirebaseAuth
 
+
 struct ProfileView: View {
     
     @EnvironmentObject var session: SessionStore
@@ -80,21 +81,42 @@ struct ProfileView: View {
                                     }.cornerRadius(5)
                                     
                                     // Search Users button
-                                    Button(action: {}) {
-                                        HStack {
-                                            NavigationLink(destination: UsersView()) {
+//                                    Button(action: {}) {
+//
+//                                            .frame(maxWidth: .infinity)
+//                                        .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+//
+//                                    }.cornerRadius(5)
+//                                    NavigationLink (destination: UsersView()){
+//                                        HStack {
+//                                            Text("Search Users")
+//                                                .fontWeight(.bold)
+//                                                .foregroundColor(Color(UIColor.systemBackground))
+//                                        }
+//                                    } //frame(height: 15)
+                                    
+                                    Button(action: {
+                                        print("Floating Button Click")
+                                    }, label: {
+                                        NavigationLink(destination: UsersView()) {
+                                            HStack{
                                                 Text("Search Users")
                                                     .fontWeight(.bold)
                                                     .foregroundColor(Color(UIColor.systemBackground))
-                                            }
-                                        }.frame(height: 15)
-                                            .frame(maxWidth: .infinity)
+                                            }.frame(maxWidth: .infinity)
+                                            .frame(height: 15)
                                         .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
-                                            
-                                    }.cornerRadius(5)
+                                         }
+                                    }).cornerRadius(5)
                                     
-                                    
-                                    
+//                                    Button(action: print("Search Users Button Clicked"), label: {
+//                                            NavigationLink (destination: UsersView()){
+//                                                HStack {
+//                                                    Text("Search Users")
+//                                                        .fontWeight(.bold)
+//                                                        .foregroundColor(Color(UIColor.systemBackground))
+//                                                }
+//                                    }})
                                     // Log out
                                     Button(action: {self.session.logout()}) {
                                         HStack {

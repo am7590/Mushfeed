@@ -22,26 +22,13 @@ struct UsersView: View {
                           if !usersViewModel.isLoading {
 
                                   ForEach(usersViewModel.users, id: \.uid) { user in
-//                                    NavigationLink({
-//                                            HStack {
-//                                                Image(colorScheme == .dark ? user.bio[1] : user.bio[0])//URLImage(url: URL(string: user.profileImageUrl)!,
-//                                                    .resizable()
-//                                                    .aspectRatio(contentMode: .fill)
-//                                                //.clipShape(Circle())
-//                                            }.frame(width: 50, height: 50)
-//                                            VStack(alignment: .leading, spacing: 5) {
-//                                                Text(user.username).font(.headline).bold()
-//                                                Text("Mushfeed User").font(.subheadline)
-//                                            }
-////
-//                                    }, destination: UserProfileView(user: user).padding(10))
-//
+
                                     NavigationLink(destination: UserProfileView(user: user).padding(10), label: {
                                         HStack {
                                                 Image(colorScheme == .dark ? user.bio[0] : user.bio[1])//URLImage(url: URL(string: user.profileImageUrl)!,
                                                     .resizable()
                                                     .aspectRatio(contentMode: .fill)
-                                                //.clipShape(Circle())
+                                                    .clipShape(Circle())
                                             }.frame(width: 50, height: 50)
                                             VStack(alignment: .leading, spacing: 5) {
                                                 Text(user.username).font(.headline).bold()
