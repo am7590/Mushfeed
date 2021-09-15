@@ -33,11 +33,14 @@ struct CameraView: View {
     func clean() {
         self.cameraViewModel.caption = ""
         self.cameraViewModel.image = Image("upload-icon")
+        self.cameraViewModel.imagew = Image("upload-iconw")
         self.cameraViewModel.imageData = Data()
     }
     
     var body: some View {
+        let uploadPic = colorScheme == .dark ? cameraViewModel.imagew : cameraViewModel.image
         NavigationView {
+            ScrollView {
             
             VStack() {
                 Text("Tap to Upload Photo")
@@ -47,7 +50,7 @@ struct CameraView: View {
                     
                
                 HStack(alignment: .top) {
-                    cameraViewModel.image.resizable().scaledToFill().frame(width: UIScreen.main.bounds.size.width - 30, height: 300).clipped().foregroundColor(.gray).cornerRadius(10).onTapGesture {
+                    uploadPic.resizable().scaledToFill().frame(width: UIScreen.main.bounds.size.width - 30, height: 350).clipped().foregroundColor(.gray).cornerRadius(10).onTapGesture {
                             print("Tapped")
                             self.cameraViewModel.showImagePicker = true
                     }
@@ -93,7 +96,7 @@ struct CameraView: View {
             }.foregroundColor(.black)
         }.foregroundColor(.primary)//.padding(.leading, 15)
         
-       
+        }
     }
 }
 

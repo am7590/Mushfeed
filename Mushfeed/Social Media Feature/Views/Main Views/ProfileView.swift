@@ -74,7 +74,7 @@ struct ProfileView: View {
                                                 Text("Create New Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                             }.frame(maxWidth: .infinity)
                                                 .frame(height: 15)
-                                            .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                            .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                         }
 
                                     }.cornerRadius(5)
@@ -89,7 +89,7 @@ struct ProfileView: View {
                                             }
                                         }.frame(height: 15)
                                             .frame(maxWidth: .infinity)
-                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                             
                                     }.cornerRadius(5)
                                     
@@ -101,7 +101,7 @@ struct ProfileView: View {
                                                 Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
                                         }.frame(maxWidth: .infinity)
                                             .frame(height: 15)
-                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                         
                                     }.cornerRadius(5)
                                 }.padding(.top, 5)
@@ -124,7 +124,7 @@ struct ProfileView: View {
                                         }
                                         .frame(maxWidth: .infinity)
                                         .frame(height: 15)
-                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                         
                                         
                                     }.cornerRadius(5).padding(.top, 5)
@@ -136,7 +136,7 @@ struct ProfileView: View {
                                         }
                                         .frame(maxWidth: .infinity)
                                         .frame(height: 15)
-                                        .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                                        .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
                                         
                                         
                                     }
