@@ -23,13 +23,38 @@ struct ProfileView: View {
          return
              NavigationView {
                  ScrollView {
+                    
+                    if(self.session.userSession == nil){
+                        
+                        Text("Account not recognized.")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .padding(.top, 5)
+                        
+                        Text("Please log in again.")
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .padding(.top, 5)
+                        
+                        // Log out
+                        Button(action: {self.session.logout()}) {
+                            HStack {
+                                    Text("Log Out").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+                            }.frame(maxWidth: .infinity)
+                                .frame(height: 15)
+                            .padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+                            
+                        }.cornerRadius(5)
+                    } else {
                         VStack(alignment: .center) {
 //                        ProfileHeader(user: self.session.userSession)
 //                         ProfileInformation(user: self.session.userSession)
 //                         Divider().padding(.leading, 15).padding(.trailing, 15)
                             VStack(alignment: .leading) {
                                 
-                                UserProfileView(user: self.session.userSession!)
+                                    UserProfileView(user: self.session.userSession!)
+                                
+                                
                                 
                                 
                                 
@@ -154,7 +179,7 @@ struct ProfileView: View {
             .environmentObject(self.session)
             
        
-         
+             }
        }
 
 }
