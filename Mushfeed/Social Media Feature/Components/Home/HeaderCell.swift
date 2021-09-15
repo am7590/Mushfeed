@@ -42,7 +42,7 @@ struct HeaderCell: View {
                 
                 Image(correctPFP(image: post.avatar)).resizable().aspectRatio(contentMode: .fill).clipShape(Circle())
                 
-                .frame(width: 35, height: 35)
+                .frame(width: 55, height: 55)
                 .padding(.leading, 20)
 
                 

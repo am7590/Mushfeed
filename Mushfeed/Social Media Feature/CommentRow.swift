@@ -34,7 +34,7 @@ struct CommentRow: View {
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
-            }.frame(width: 35, height: 35)
+            }.frame(width: 60, height: 60)
         
              
              VStack(alignment: .leading) {
