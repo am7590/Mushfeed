@@ -13,7 +13,7 @@ struct CommentInput: View {
     
     @EnvironmentObject var session: SessionStore
     
-    @ObservedObject var commentInputViewModel = ReportInputViewModel()
+    @ObservedObject var commentInputViewModel = CommentInputViewModel()
     @Environment(\.colorScheme) var colorScheme
     @State var composedMessage: String = ""
     
@@ -25,7 +25,7 @@ struct CommentInput: View {
     func commentAction() {
         if !composedMessage.isEmpty {
             commentInputViewModel.setProfilePic(pfp: session.userSession!.bio[0])
-            commentInputViewModel.addReport(text: composedMessage) {
+            commentInputViewModel.addComments(text: composedMessage) {
                 self.composedMessage = ""
             }
         }
