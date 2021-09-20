@@ -15,7 +15,7 @@ struct ProfileView: View {
     
     @EnvironmentObject var session: SessionStore
     @ObservedObject var profileViewModel = ProfileViewModel()
-
+    @ObservedObject var signupViewModel = SignupViewModel()
     @State var selection: Selection = .grid
     @Environment(\.openURL) var openURL
     
@@ -41,15 +41,15 @@ struct ProfileView: View {
                     
                     
                     
-                    if(profileViewModel.seeLoginInfo() == true){
+                    if(self.session.userSession == nil && profileViewModel.seeLoginInfo() == true){
                         
-                        
+                        SignUpForApple()
                         
                         
                         
                         
                     
-                    } else if(self.session.userSession == nil && self.session.isLoggedIn == true){
+                    } else if(self.session.userSession == nil){
                         
                         Text("Account not recognized.")
                             .font(.title)
@@ -237,9 +237,9 @@ struct ProfileView: View {
 
 }
 
-struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
-    }
-}
+//struct ProfileView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ProfileView()
+//    }
+//}
 
