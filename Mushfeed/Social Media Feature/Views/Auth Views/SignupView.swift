@@ -32,7 +32,7 @@ struct SignupView: View {
         //print("Sign up imageData: ", self.signupViewModel.imageData)
         signupViewModel.signup(username: signupViewModel.username, email: signupViewModel.email, password: signupViewModel.password, imageData: signupViewModel.imageData, completed: { (user) in
             print(user.email)
-            print(imageData)
+            //print(imageData)
             self.clean()
             //self.session.logout()
             

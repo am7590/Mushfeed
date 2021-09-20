@@ -25,5 +25,24 @@ class ProfileViewModel: ObservableObject {
             
         }
     }
+    
+    
+    func seeLoginInfo() -> Bool {
+        if let providerData = Auth.auth().currentUser?.providerData {
+            for userInfo in providerData {
+                switch userInfo.providerID {
+                      case "apple.com":
+                          print("Apple Login")
+                        return true
+                          //isVerifiededUser = true
+                      default:
+                          print("provider is \(userInfo.providerID)")
+                      }
+            }
+        }
+        return false
+    }
+    
+    
 
 }

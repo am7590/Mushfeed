@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A414CF26F5B352008C3097 /* SignUpForApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A414CE26F5B352008C3097 /* SignUpForApple.swift */; };
 		29B415E126E5410C001B22A6 /* ReportAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E026E5410C001B22A6 /* ReportAPI.swift */; };
 		29B415E326E541B8001B22A6 /* ReportInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E226E541B8001B22A6 /* ReportInput.swift */; };
 		29B415E726E54290001B22A6 /* ReportInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E626E54290001B22A6 /* ReportInputViewModel.swift */; };
@@ -113,6 +114,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29A414CE26F5B352008C3097 /* SignUpForApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForApple.swift; sourceTree = "<group>"; };
 		29B415E026E5410C001B22A6 /* ReportAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAPI.swift; sourceTree = "<group>"; };
 		29B415E226E541B8001B22A6 /* ReportInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInput.swift; sourceTree = "<group>"; };
 		29B415E626E54290001B22A6 /* ReportInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInputViewModel.swift; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 			isa = PBXGroup;
 			children = (
 				E631CF9725EB3C2D00CE8417 /* SigninView.swift */,
+				29A414CE26F5B352008C3097 /* SignUpForApple.swift */,
 				E6DF8C03260FCD3D001E17A5 /* SelectPFPView.swift */,
 				E6DF8BFC260FBC27001E17A5 /* ResetPasswordView.swift */,
 				E631CF9825EB3C2E00CE8417 /* SignupView.swift */,
@@ -614,6 +617,7 @@
 				E631CF9A25EB3C2E00CE8417 /* SignupView.swift in Sources */,
 				E631D0C325EB7ED100CE8417 /* PopViewModel.swift in Sources */,
 				E631CFD925EB3ED100CE8417 /* FooterCellViewModel.swift in Sources */,
+				29A414CF26F5B352008C3097 /* SignUpForApple.swift in Sources */,
 				E631CF8D25EB3B9800CE8417 /* EditProfileButton.swift in Sources */,
 				E631CF8225EB3B9800CE8417 /* HeaderCell.swift in Sources */,
 				E6E1F32D268E3D8C0078A289 /* PFPView.swift in Sources */,

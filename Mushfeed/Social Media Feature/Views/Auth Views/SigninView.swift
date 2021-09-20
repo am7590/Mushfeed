@@ -54,8 +54,14 @@ struct SigninView: View {
                                       return
                                   }
                                   print("signed in")
+                                  
+                                
+                                
+                                
                               }
                       
+                        
+                        
                           print("\(String(describing: Auth.auth().currentUser?.uid))")
                   default:
                       break
@@ -140,7 +146,6 @@ struct SigninView: View {
         NavigationView{
             ScrollView{
                 VStack {
-                Spacer()
                     Group {
                         HStack {
                             Image(colorScheme == .dark ? "pfp4b" : "pfp4w").resizable().aspectRatio(contentMode: .fill).frame(width: 120, height: 120).clipShape(Circle())
@@ -173,7 +178,10 @@ struct SigninView: View {
                     Alert(title: Text("Error"), message: Text(self.signinViewModel.errorString), dismissButton: .default(Text("OK")))
                     }
                     
-                SignInWithAppleButton(.signIn, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+                    //NavigationLink(destination: SignUpForApple()){
+                        SignInWithAppleButton(.signIn, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+                   // }
+                
                     //.border(Color.gray, width: 1)
                                 //.padding([.top, .leading, .trailing])
                 
@@ -184,13 +192,12 @@ struct SigninView: View {
                       SignUpText().navigationViewStyle(StackNavigationViewStyle())
                     }.padding(.top, 10)
                 
-                
                     }
             }.accentColor(Color.primary).foregroundColor(.primary)
             
         
         }
-        
+        Spacer()
             }
     }
 
@@ -206,7 +213,30 @@ struct SigninView_Previews: PreviewProvider {
 
 
 
+extension View {
+    /// Navigate to a new view.
+    /// - Parameters:
+    ///   - view: View to navigate to.
+    ///   - binding: Only navigates when this condition is `true`.
+    func navigate<NewView: View>(to view: NewView, when binding: Binding<Bool>) -> some View {
+        NavigationView {
+            ZStack {
+                self
+                    .navigationBarTitle("")
+                    .navigationBarHidden(true)
 
+                NavigationLink(
+                    destination: view
+                        .navigationBarTitle("")
+                        .navigationBarHidden(true),
+                    isActive: binding
+                ) {
+                    EmptyView()
+                }
+            }
+        }
+    }
+}
 
 
 

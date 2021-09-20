@@ -25,18 +25,48 @@ struct ProfileView: View {
              NavigationView {
                  ScrollView {
                     
-                    if(self.session.userSession == nil){
+                    
+                    
+//                    if let providerData = Auth.auth().currentUser?.providerData {
+//                        for userInfo in providerData {
+//                            switch userInfo.providerID {
+//                            case "facebook.com":
+//                                print("Facebook Login")
+//                                //isVerifiededUser = true
+//                            default:
+//                                print("provider is \(userInfo.providerID)")
+//                            }
+//                        }
+//                    }
+                    
+                    
+                    
+                    if(profileViewModel.seeLoginInfo() == true){
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                    } else if(self.session.userSession == nil && self.session.isLoggedIn == true){
                         
                         Text("Account not recognized.")
                             .font(.title)
                             .fontWeight(.bold)
                             .padding(.top, 5)
                         
-                        Text("Please log in again.")
+                        Text("If you were a beta tester, your account was deleted.")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .padding(.top, 5)
+
+                        
+                        Text("Please log in again or make a new account.")
                             .font(.subheadline)
                             .fontWeight(.bold)
                             .padding(.top, 5)
-                        
+                 
                         // Log out
                         Button(action: {self.session.logout()}) {
                             HStack {
@@ -53,7 +83,7 @@ struct ProfileView: View {
 //                         Divider().padding(.leading, 15).padding(.trailing, 15)
                             VStack(alignment: .leading) {
                                 
-                                    UserProfileView(user: self.session.userSession!)
+                                UserProfileView(user: self.session.userSession!)
                                 
                                 
                                 
@@ -203,6 +233,7 @@ struct ProfileView: View {
        
              }
        }
+
 
 }
 
