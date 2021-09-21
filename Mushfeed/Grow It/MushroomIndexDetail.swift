@@ -8,9 +8,48 @@
 
 import SwiftUI
 
+func getLocationIcon(input: String) -> String {
+    
+    switch input {
+    case "Forest Floor":
+        return "forest-floor-iconW"
+    case "Dead Wood":
+        return "dead-wood-iconW"
+    case "Trees":
+        return "tree-iconW"
+    case "Grass":
+        return "grass-iconW"
+    case "Cultivated":
+        return "cultivated-iconW"
+    default:
+        return ""
+    }
+    
+}
+
+func getLocationString(input: String) -> String {
+    
+    switch input {
+    case "Forest Floor":
+        return "Forest Floor"
+    case "Dead Wood":
+        return "Dead Wood"
+    case "Trees":
+        return "Trees"
+    case "Grass":
+        return "Grass"
+    case "Cultivated":
+        return "Cultivated"
+    default:
+        return ""
+    }
+    
+}
+
+
 struct MushroomIndexDetail: View {
     var mushroom: IndexMushroom
-    
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
         
         ScrollView {
@@ -36,7 +75,7 @@ struct MushroomIndexDetail: View {
                 
                 
                 HStack() {
-                    Image("edible 2")
+                    Image((mushroom.edible == "Poisonous" ? (colorScheme == .dark ? "edible 2": "edible 2") : "edible 2"))
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
@@ -104,7 +143,7 @@ struct MushroomIndexDetail: View {
                         Image(systemName: "chevron.left").opacity(0.0).imageScale(.small)
                         
                         VStack {
-                            Image(mushroom.locations[0] == "" ? "" : "tree-icon")
+                            Image(getLocationIcon(input: mushroom.locations[0]))
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
@@ -116,7 +155,7 @@ struct MushroomIndexDetail: View {
                         }
                         
                         VStack {
-                            Image(mushroom.locations[1] == "" ? "" : "dead-wood-icon")
+                            Image(getLocationIcon(input: mushroom.locations[1]))
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())
@@ -127,7 +166,7 @@ struct MushroomIndexDetail: View {
                         }
                         
                         VStack {
-                            Image(mushroom.locations[2] == "" ? "" : "cultivated-icon")
+                            Image(getLocationIcon(input: mushroom.locations[2]))
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(Circle())

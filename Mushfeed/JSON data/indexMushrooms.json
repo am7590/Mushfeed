@@ -58,7 +58,7 @@
        "funFact": "It was believed that the honey mushroom, Armillaria mellea, was parasitizing the entoloma. But research has indicated that the inverse may be true—the entoloma may be parasitizing the honey mushroom. There is still some disagreement by mushroom collectors about this since it is common to see both the aborted and unaborted forms of the entoloma on wood and in leaf litter, whereas Armillaria generally only fruits on wood. Both versions of the entoloma have also been observed when there are no Armillaria fruiting.",
        "lookalikes": "none",
        "growable" : false,
-       "locations" : ["Dead Wood", "Foreset Floor", ""],
+       "locations" : ["Dead Wood", "Forest Floor", ""],
        "image1": "https://commons.wikimedia.org/wiki/File:2013-02-14_Entoloma_abortivum_(Berk._and_M.A._Curtis)_Donk_309718.jpg",
        "image2": "https://commons.wikimedia.org/wiki/File:2013-10-13_Entoloma_abortivum_(Berk._and_M.A._Curtis)_Donk_389693.jpg",
        "wiki": "https://en.wikipedia.org/wiki/Entoloma_abortivum",
