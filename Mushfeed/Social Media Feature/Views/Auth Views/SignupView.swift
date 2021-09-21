@@ -52,19 +52,14 @@ struct SignupView: View {
         self.signupViewModel.password = ""
     }
     
+    
+    
     var body: some View {
         ScrollView{
             
-            VStack { //colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0]
+            VStack {
                 SelectPFPView(imageName: colorScheme == .dark ? $signupViewModel.imageName : $signupViewModel.imageName)
-                // Old image picker code
-    //            signupViewModel.image.resizable().aspectRatio(contentMode: .fill).frame(width: 80, height: 80)
-    //                .clipShape(Circle()).padding(.bottom, 80)
-    //                .onTapGesture {
-    //                    print("Tapped")
-    //                    self.signupViewModel.showImagePicker = true
-                
-                
+
                 }
             Text("Tap on a mushroom to set your profile picture").font(.headline).fontWeight(.bold).foregroundColor(.gray).multilineTextAlignment(.center).padding().fixedSize(horizontal: false, vertical: true)
                 
@@ -84,12 +79,7 @@ struct SignupView: View {
                 //Divider()
                 Text("Mushfeed needs your email only for account recovery purposes.").font(.footnote).foregroundColor(.gray).padding().lineLimit(nil)
                 
-            }//.sheet(isPresented: $signupViewModel.showImagePicker) {
-               // ImagePickerController()
-    //            ImagePicker(showImagePicker: self.$signupViewModel.showImagePicker, pickedImage: self.$signupViewModel.image, imageData: self.$signupViewModel.imageData)
-            //}
-            //.navigationBarTitle("Register", displayMode: .inline).foregroundColor(.primary)
-        //}
+            }
     }
 }
 

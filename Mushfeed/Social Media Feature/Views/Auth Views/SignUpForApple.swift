@@ -16,8 +16,12 @@ struct SignUpForApple: View {
     @EnvironmentObject var session: SessionStore
     @State var imageData: Data = Data()
     @Environment(\.colorScheme) var colorScheme
+    @State var areYouGoingToSecondView: Bool // Step 2
     //@Binding var imageName: [String]
     
+    func listen() {
+        session.listenAuthenticationState()
+    }
     
     func signUp() {
         let username: String = signupViewModel.username
@@ -47,12 +51,12 @@ struct SignUpForApple: View {
                             let firestoreUserId = Ref.FIRESTORE_DOCUMENT_USERID(userId: userId)
                                     let user = User.init(uid: userId, email: Auth.auth().currentUser?.email ?? "", profileImageUrl: "", username: username, bio: signupViewModel.imageName, keywords: username.splitStringToArray())
                             print("\n\n\n It WORKED \n\n\n")
-                            
+                            //self.areYouGoingToSecondView = true
                             guard let dict = try? user.toDictionary() else {return}
         //
         //                        guard let decoderUser = try? User.init(fromDictionary: dict) else {return}
         //                        print(decoderUser.username)
-                            
+                                    
                             firestoreUserId.setData(dict) { (error) in
                                 if error != nil {
                                     //onError(error!.localizedDescription)
@@ -62,6 +66,7 @@ struct SignUpForApple: View {
                             }
                         }
             
+            listen()
             
             // Switch to the Main App
         
@@ -73,6 +78,7 @@ struct SignUpForApple: View {
         self.signupViewModel.password = ""
     }
     
+    //NavigationLink(destination: YourSecondView(), isActive: $areYouGoingToSecondView) { EmptyView() }
     
     var body: some View {
         VStack { //colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0]
@@ -94,12 +100,19 @@ struct SignUpForApple: View {
 //                PasswordTextField(password: $signupViewModel.password)
 //                Text(TEXT_SIGNUP_PASSWORD_REQUIRED).font(.footnote).foregroundColor(.gray).padding([.leading])
 //            }
+        //NavigationView{
             
-        SignupButton(action: signUp, label: "Continue").alert(isPresented: $signupViewModel.showAlert) {
-                Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
-            }
-        
-        
+            //NavigationLink(destination: InitialView(), isActive: $areYouGoingToSecondView) { EmptyView() }
+            
+        SignupButton(action: {
+                        signUp()
+                        listen()
+        }, label: "Save").alert(isPresented: $signupViewModel.showAlert) {
+                    Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
+                }
+            
+            
+        //}
     }
 }
 
