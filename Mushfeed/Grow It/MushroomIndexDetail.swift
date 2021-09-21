@@ -21,6 +21,8 @@ func getLocationIcon(input: String) -> String {
         return "grass-iconW"
     case "Cultivated":
         return "cultivated-iconW"
+    case "Corn":
+        return "corn-smut2"
     default:
         return ""
     }
@@ -40,6 +42,23 @@ func getLocationString(input: String) -> String {
         return "Grass"
     case "Cultivated":
         return "Cultivated"
+    default:
+        return ""
+    }
+    
+}
+
+func getEdibilityStatus(input: String) -> String {
+    
+    switch input {
+    case "Edible":
+        return "edible 2"
+    case "Poisonous":
+        return "poisonousW"
+    case "Not Edible":
+        return "notEdibleW"
+    case "Use Caution":
+        return "useCautionW"
     default:
         return ""
     }
@@ -75,7 +94,7 @@ struct MushroomIndexDetail: View {
                 
                 
                 HStack() {
-                    Image((mushroom.edible == "Poisonous" ? (colorScheme == .dark ? "edible 2": "edible 2") : "edible 2"))
+                    Image(getEdibilityStatus(input: mushroom.edible))
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
@@ -90,14 +109,14 @@ struct MushroomIndexDetail: View {
                 }
                 
                 HStack() {
-                    Image("choice").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 35, height: 35).overlay(Circle().stroke(Color.black, lineWidth: 2))
+                    Image(mushroom.gourmet == "Choice" ? "choiceW" : "notChoiceW").resizable().aspectRatio(contentMode: .fill).clipShape(Circle()).frame(width: 35, height: 35).overlay(Circle().stroke(Color.black, lineWidth: 2))
                     
                     Text(mushroom.gourmet)
                         .font(.title)
                 }
                 
                 HStack() {
-                    Image("icon3")
+                    Image("familyW")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .clipShape(Circle())
