@@ -18,6 +18,7 @@ struct ProfileView: View {
     @ObservedObject var signupViewModel = SignupViewModel()
     @State var selection: Selection = .grid
     @Environment(\.openURL) var openURL
+    @State var navigateToProfile : Bool
     
     func listen() {
         session.listenAuthenticationState()
@@ -27,29 +28,13 @@ struct ProfileView: View {
          return
              NavigationView {
                  ScrollView {
-                    
-                    
-                    
-//                    if let providerData = Auth.auth().currentUser?.providerData {
-//                        for userInfo in providerData {
-//                            switch userInfo.providerID {
-//                            case "facebook.com":
-//                                print("Facebook Login")
-//                                //isVerifiededUser = true
-//                            default:
-//                                print("provider is \(userInfo.providerID)")
-//                            }
-//                        }
-//                    }
-                    
-                    
-                    
-                    if(self.session.userSession == nil && profileViewModel.seeLoginInfo() == true){
+                     if(navigateToProfile == true){
+                         PfpProfileView()
+                     } else if(self.session.userSession == nil && profileViewModel.seeLoginInfo() == true && navigateToProfile != true){
                         
                         //SignUpForApple(areYouGoingToSecondView: true)
                         VStack {
-                                    NavigationLink(destination: DetailView())
-                                    { Text("Welcome to Mushfeed!\nClick here to set your username and profile pic.") }
+                            DetailView()
                                 }
                         
                         
@@ -89,7 +74,7 @@ struct ProfileView: View {
                  }
              }//.navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(self.session)
-            
+
        
              }
        }
@@ -108,7 +93,7 @@ struct ProfileView: View {
 struct DetailView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     var body: some View {
-        SignUpForApple(areYouGoingToSecondView: true)
+        SignUpForApple(areYouGoingToSecondView: true, navigateToProfile: false)
         
         
     }
@@ -129,8 +114,10 @@ struct PfpProfileView: View {
             //                         ProfileInformation(user: self.session.userSession)
             //                         Divider().padding(.leading, 15).padding(.trailing, 15)
                                         VStack(alignment: .leading) {
+                                            if(self.session.userSession != nil){
+                                                UserProfileView(user: self.session.userSession!)
+                                            }
                                             
-                                            UserProfileView(user: self.session.userSession!)
                                             
                                             
                                             
@@ -145,17 +132,17 @@ struct PfpProfileView: View {
                                             
                                             VStack() {
                                                 
-                                                // New Post
-                                                Button(action: {}) {
-                                                    NavigationLink(destination: CameraView()) {
-                                                        HStack {
-                                                            Text("Create New Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                                                        }.frame(maxWidth: .infinity)
-                                                            .frame(height: 15)
-                                                        .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
-                                                    }
-
-                                                }.cornerRadius(5)
+//                                                // New Post
+//                                                Button(action: {}) {
+//                                                    NavigationLink(destination: CameraView()) {
+//                                                        HStack {
+//                                                            Text("Create New Post").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
+//                                                        }.frame(maxWidth: .infinity)
+//                                                            .frame(height: 15)
+//                                                        .padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10)
+//                                                    }
+//
+//                                                }.cornerRadius(5)
                                                 
                                                 // Search Users button
             //                                    Button(action: {}) {

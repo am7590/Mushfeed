@@ -17,6 +17,8 @@ struct SignUpForApple: View {
     @State var imageData: Data = Data()
     @Environment(\.colorScheme) var colorScheme
     @State var areYouGoingToSecondView: Bool // Step 2
+    @State var navigateToProfile : Bool
+    @State var selection: Int? = nil
     //@Binding var imageName: [String]
     
     func listen() {
@@ -67,7 +69,7 @@ struct SignUpForApple: View {
                         }
             
             listen()
-            
+        self.navigateToProfile = true
             // Switch to the Main App
         
     }
@@ -104,12 +106,30 @@ struct SignUpForApple: View {
             
             //NavigationLink(destination: InitialView(), isActive: $areYouGoingToSecondView) { EmptyView() }
             
+//        NavigationLink(destination: ContentView(), tag: 1, selection: $selection) {
+//            SignupButton(action: {
+//
+//                            signUp()
+//                            self.navigateToProfile = true
+//                            self.session.listenAuthenticationState()
+//                            listen()
+//
+//            }, label: "Save").alert(isPresented: $signupViewModel.showAlert) {
+//                        Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
+//            }
+//        }
+        
+        
         SignupButton(action: {
+                        selection = 1
                         signUp()
+                        self.navigateToProfile = true
+                        self.session.listenAuthenticationState()
                         listen()
-        }, label: "Save").alert(isPresented: $signupViewModel.showAlert) {
+                    
+        }, label: selection == nil ? "Save" : "Go to profile").alert(isPresented: $signupViewModel.showAlert) {
                     Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
-                }
+        }
             
             
         //}

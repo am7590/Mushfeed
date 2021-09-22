@@ -29,7 +29,7 @@ struct MainView: View {
                 GrowHome().tabItem({
                     Image(systemName: "doc.text.magnifyingglass")
                 }).tag(3)
-                ProfileView().tabItem({
+             ProfileView(navigateToProfile: false).tabItem({
                     Image(systemName: "ellipsis.circle")
                 }).tag(2)
             }.accentColor(.primary)
