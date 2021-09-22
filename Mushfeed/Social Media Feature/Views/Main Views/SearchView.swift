@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct SearchView: View {
-        
+        @EnvironmentObject var session: SessionStore
         @ObservedObject var postPopularViewModel = PostPopularViewModel()
         @State var selection: Selection = .table
         var body: some View {
@@ -41,9 +41,16 @@ struct SearchView: View {
                         }.navigationBarTitle(Text("Mushfeed"), displayMode: .inline).onAppear {
                             self.postPopularViewModel.loadPostPopular()
                         }.navigationBarItems(trailing: Button(action: {}) {
-                            NavigationLink(destination: CameraView().navigationViewStyle(StackNavigationViewStyle())) {
-                                Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.primary)
+                            if(session.userSession?.bio[0] == nil){
+                                NavigationLink(destination: ProfileView(navigateToProfile: false).navigationViewStyle(StackNavigationViewStyle())) {
+                                    Image(systemName: "").imageScale(Image.Scale.large).foregroundColor(.primary)
+                                }
+                            } else {
+                                NavigationLink(destination: CameraView().navigationViewStyle(StackNavigationViewStyle())) {
+                                    Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.primary)
+                                }
                             }
+                            
                    }
                 )}
                

@@ -149,9 +149,16 @@ struct FooterCell: View {
                             
                             // VIEW COMMENTS
                             ZStack {
-                                NavigationLink(destination: CommentView(post: self.footerCellViewModel.post)) {
-                                    Image(systemName: "bubble.left").imageScale(.large).foregroundColor(Color.primary)
-                                    
+                                if(session.userSession?.bio[0]==nil){
+                                    NavigationLink(destination: ProfileView(navigateToProfile: false).navigationViewStyle(StackNavigationViewStyle())) {
+                                        Image(systemName: "").imageScale(Image.Scale.large).foregroundColor(.primary)
+                                    }
+                                } else {
+                                    NavigationLink(destination: CommentView(post: self.footerCellViewModel.post)) {
+                                        Image(systemName: "bubble.left").imageScale(.large).foregroundColor(Color.primary)
+                                        
+                                }
+                                
                                 }
                             }.padding(.top, -10)
                             

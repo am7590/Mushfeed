@@ -179,7 +179,7 @@ struct SigninView: View {
                     }
                     
                     //NavigationLink(destination: SignUpForApple()){
-                        SignInWithAppleButton(.signUp, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+                    SignInWithAppleButton(.signIn, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
                    // }
                 
                     //.border(Color.gray, width: 1)
@@ -193,7 +193,7 @@ struct SigninView: View {
                     }.padding(.top, 10)
                 
                     }
-            }.accentColor(Color.primary).foregroundColor(.primary)
+            }
             
         
         }

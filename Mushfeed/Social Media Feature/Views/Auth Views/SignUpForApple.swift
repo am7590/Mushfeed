@@ -52,13 +52,8 @@ struct SignUpForApple: View {
                             
                             let firestoreUserId = Ref.FIRESTORE_DOCUMENT_USERID(userId: userId)
                                     let user = User.init(uid: userId, email: Auth.auth().currentUser?.email ?? "", profileImageUrl: "", username: username, bio: signupViewModel.imageName, keywords: username.splitStringToArray())
-                            print("\n\n\n It WORKED \n\n\n")
-                            //self.areYouGoingToSecondView = true
                             guard let dict = try? user.toDictionary() else {return}
-        //
-        //                        guard let decoderUser = try? User.init(fromDictionary: dict) else {return}
-        //                        print(decoderUser.username)
-                                    
+
                             firestoreUserId.setData(dict) { (error) in
                                 if error != nil {
                                     //onError(error!.localizedDescription)
@@ -69,7 +64,7 @@ struct SignUpForApple: View {
                         }
             
             listen()
-        self.navigateToProfile = true
+            self.navigateToProfile = true
             // Switch to the Main App
         
     }
@@ -127,7 +122,7 @@ struct SignUpForApple: View {
                         self.session.listenAuthenticationState()
                         listen()
                     
-        }, label: selection == nil ? "Save" : "Go to profile").alert(isPresented: $signupViewModel.showAlert) {
+        }, label: selection == nil ? "Save" : "Go to Mushfeed").shadow(color: selection == nil ? Color.secondary : Color.red, radius: 10).alert(isPresented: $signupViewModel.showAlert) {
                     Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
         }
             

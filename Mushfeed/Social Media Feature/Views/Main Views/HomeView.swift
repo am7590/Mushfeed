@@ -11,7 +11,9 @@ import SwiftUI
 struct HomeView: View {
     
     @ObservedObject var homeViewModel = HomeViewModel()
-     
+    @EnvironmentObject var session: SessionStore
+    @ObservedObject var profileViewModel = ProfileViewModel()
+    
     var body: some View {
         NavigationView {
            ScrollView {
@@ -28,8 +30,8 @@ struct HomeView: View {
            }.navigationBarTitle(Text("Mushfeed"), displayMode: .inline).onAppear {
                  self.homeViewModel.loadTimeline()
              }.navigationBarItems(trailing: Button(action: {}) {
-                      NavigationLink(destination: CameraView().navigationViewStyle(StackNavigationViewStyle())) {
-                          Image(systemName: "plus").imageScale(Image.Scale.large).foregroundColor(.black)
+                 NavigationLink(destination: CameraView().navigationViewStyle(StackNavigationViewStyle())) {
+                          Image(systemName:  "plus").imageScale(Image.Scale.large).foregroundColor(.black)
                       }
              }).onDisappear {
                 if self.homeViewModel.listener != nil {
