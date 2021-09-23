@@ -78,6 +78,7 @@ struct SignUpForApple: View {
     //NavigationLink(destination: YourSecondView(), isActive: $areYouGoingToSecondView) { EmptyView() }
     
     var body: some View {
+        ScrollView{
         VStack { //colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0]
             SelectPFPView(imageName: colorScheme == .dark ? $signupViewModel.imageName : $signupViewModel.imageName)
             // Old image picker code
@@ -124,10 +125,11 @@ struct SignUpForApple: View {
                     
         }, label: selection == nil ? "Save" : "Go to Mushfeed").shadow(color: selection == nil ? Color.secondary : Color.red, radius: 10).alert(isPresented: $signupViewModel.showAlert) {
                     Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
-        }
+        }.padding(.bottom, 15)
             
             
         //}
+    }
     }
 }
 

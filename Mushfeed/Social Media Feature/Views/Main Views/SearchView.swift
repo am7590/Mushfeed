@@ -7,6 +7,23 @@
 //
 
 import SwiftUI
+import FirebaseAuth
+
+func seeLoginInfo() -> Bool {
+    if let providerData = Auth.auth().currentUser?.providerData {
+        for userInfo in providerData {
+            switch userInfo.providerID {
+                  case "apple.com":
+                      print("Apple Login")
+                    return true
+                      //isVerifiededUser = true
+                  default:
+                      print("provider is \(userInfo.providerID)")
+                  }
+        }
+    }
+    return false
+}
 
 struct SearchView: View {
         @EnvironmentObject var session: SessionStore
@@ -16,6 +33,13 @@ struct SearchView: View {
             return
                 NavigationView {
                     ScrollView {
+                        
+                        
+                        if(self.session.userSession == nil && seeLoginInfo() == true) {
+                            VStack {
+                                DetailView()
+                                    }
+                        } else {
                             
                             Picker(selection: $selection, label: Text("Grid or Table")) {
                             ForEach(Selection.allCases) { selection in
@@ -37,7 +61,7 @@ struct SearchView: View {
                                   }
                               
                             }
-                   
+                        }
                         }.navigationBarTitle(Text("Mushfeed"), displayMode: .inline).onAppear {
                             self.postPopularViewModel.loadPostPopular()
                         }.navigationBarItems(trailing: Button(action: {}) {
