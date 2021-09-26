@@ -13,6 +13,7 @@ class PostPopularViewModel: ObservableObject {
     @Published var posts: [Post] = []
     @Published var isLoading = false
     var splitted: [[Post]] = []
+    
     func loadPostPopular() {
         isLoading = true
         Api.Post.loadPosts() { (posts) in

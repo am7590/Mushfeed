@@ -37,7 +37,9 @@ struct SearchView: View {
                         
                         if(self.session.userSession == nil && seeLoginInfo() == true) {
                             VStack {
-                                DetailView()
+                                DetailView().onTapGesture {
+                                    self.postPopularViewModel.loadPostPopular()
+                                }
                                     }
                         } else {
                             
@@ -51,12 +53,27 @@ struct SearchView: View {
                                   if selection == .grid {
                                       GridPosts(splitted: self.postPopularViewModel.splitted)
                                   } else {
-                                      ForEach(self.postPopularViewModel.posts, id: \.postId) { post in
-                                          VStack {
-                                              HeaderCell(post: post)
-                                              FooterCell(post: post)
+                                      if(self.postPopularViewModel.posts.count != 0) {
+                                          ForEach(self.postPopularViewModel.posts, id: \.postId) { post in
+                                              VStack {
+                                                  HeaderCell(post: post)
+                                                  FooterCell(post: post)
+                                              }
                                           }
-                                      }
+                                      } else {
+//                                          self.postPopularViewModel.loadPostPopular()
+//                                          ForEach(self.postPopularViewModel.posts, id: \.postId) { post in
+//                                              VStack {
+//                                                  HeaderCell(post: post)
+//                                                  FooterCell(post: post)
+//                                              }
+//                                          }
+                                          Button("Load Posts", action: {
+                                              self.postPopularViewModel.loadPostPopular()
+                                          }
+)                                      }
+                                      
+                                      
                                      
                                   }
                               
