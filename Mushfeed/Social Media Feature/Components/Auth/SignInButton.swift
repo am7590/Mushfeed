@@ -10,13 +10,14 @@ import Foundation
 import SwiftUI
 
 struct SignInButton: View {
+    @Environment(\.colorScheme) var colorScheme
     var action: () -> Void
     var label: String
     var body: some View {
         Button(action: action) {
             HStack {
                 Spacer()
-                Text(label).fontWeight(.bold).foregroundColor(Color.white)
+                Text(label).fontWeight(.bold).foregroundColor(colorScheme == .dark ? .black : .white)
                 Spacer()
             }
             

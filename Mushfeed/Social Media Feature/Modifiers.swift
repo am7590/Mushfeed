@@ -11,14 +11,14 @@ import SwiftUI
 struct TextFieldModifier: ViewModifier { 
     func body(content: Content) -> some View {
         content.padding()
-            .border(Color.gray, width: 1)
+            .border(Color.secondary, width: 1)
                         .padding([.top, .leading, .trailing])
     }
 }
 
 struct SigninButtonModifier: ViewModifier {
     func body(content: Content) -> some View {
-        content.padding().background(Color.gray).cornerRadius(5).shadow(radius: 10, x: 0, y: 10).padding()
+        content.padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10).padding()
     }
 }
 
