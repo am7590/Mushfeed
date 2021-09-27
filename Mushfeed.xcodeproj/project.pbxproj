@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		299F795D27018762009E6FF3 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F795C27018762009E6FF3 /* Welcome.swift */; };
 		29A414CF26F5B352008C3097 /* SignUpForApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A414CE26F5B352008C3097 /* SignUpForApple.swift */; };
 		29B415E126E5410C001B22A6 /* ReportAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E026E5410C001B22A6 /* ReportAPI.swift */; };
 		29B415E326E541B8001B22A6 /* ReportInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E226E541B8001B22A6 /* ReportInput.swift */; };
@@ -114,6 +115,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		299F795C27018762009E6FF3 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		29A414CE26F5B352008C3097 /* SignUpForApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForApple.swift; sourceTree = "<group>"; };
 		29B415E026E5410C001B22A6 /* ReportAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAPI.swift; sourceTree = "<group>"; };
 		29B415E226E541B8001B22A6 /* ReportInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportInput.swift; sourceTree = "<group>"; };
@@ -396,6 +398,7 @@
 				E631CFA425EB3E7700CE8417 /* ProfileView.swift */,
 				E6E86B4726110AFE008068B8 /* DeletePostView.swift */,
 				E6E1F32C268E3D8C0078A289 /* PFPView.swift */,
+				299F795C27018762009E6FF3 /* Welcome.swift */,
 				E631CFA525EB3E7700CE8417 /* PopViewModel.swift */,
 				E631CFA625EB3E7700CE8417 /* ProfileHeader.swift */,
 				E631CFA725EB3E7700CE8417 /* UserProfileView.swift */,
@@ -680,6 +683,7 @@
 				E631CFD525EB3ED100CE8417 /* SignupViewModel.swift in Sources */,
 				E631CFC425EB3EA700CE8417 /* InitialView.swift in Sources */,
 				E631CF8925EB3B9800CE8417 /* SignInHeaderView.swift in Sources */,
+				299F795D27018762009E6FF3 /* Welcome.swift in Sources */,
 				E631CFBA25EB3E7700CE8417 /* NotificationView.swift in Sources */,
 				E631D03B25EB3FC500CE8417 /* ExpandingListTest.swift in Sources */,
 				29B415E126E5410C001B22A6 /* ReportAPI.swift in Sources */,

@@ -108,6 +108,7 @@ struct PfpProfileView: View {
     @State var selection: Selection = .grid
     @Environment(\.openURL) var openURL
     
+    
     var body: some View {
         return VStack(alignment: .center) {
             //                        ProfileHeader(user: self.session.userSession)
