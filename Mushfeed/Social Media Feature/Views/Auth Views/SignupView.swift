@@ -171,7 +171,8 @@ struct SignupView: View {
                     Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
                 }
             
-            SignInWithAppleButton(.signUp, onRequest: configure, onCompletion: handle).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+            SignInWithAppleButton(.signUp, onRequest: configure, onCompletion: handle).cornerRadius(13).padding(.leading).padding(.trailing).frame(height: 50).signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+
             
             
                 //Divider()

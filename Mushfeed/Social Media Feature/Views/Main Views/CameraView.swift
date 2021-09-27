@@ -68,7 +68,7 @@ struct CameraView: View {
                     NavigationLink(destination: HomeView()) {
                         ZStack{
                             Button(action: sharePost) {
-                                Text("Post").padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10).padding()
+                                Text("Post").padding().foregroundColor(colorScheme == .dark ? Color.white : Color.black).background(Color.primary).cornerRadius(13).shadow(radius: 10, x: 0, y: 10).padding()
                             }.alert(isPresented: $cameraViewModel.showAlert) {
                                 Alert(title: Text("Error. Please try again."), message: Text(self.cameraViewModel.errorString), dismissButton: .default(Text("OK")))
                             }

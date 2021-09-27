@@ -18,7 +18,7 @@ struct TextFieldModifier: ViewModifier {
 
 struct SigninButtonModifier: ViewModifier {
     func body(content: Content) -> some View {
-        content.padding().background(Color.primary).cornerRadius(5).shadow(radius: 10, x: 0, y: 10).padding()
+        content.padding().background(Color.primary).cornerRadius(13).shadow(radius: 10, x: 0, y: 10).padding()
     }
 }
 
