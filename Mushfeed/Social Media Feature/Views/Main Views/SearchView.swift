@@ -39,7 +39,7 @@ struct SearchView: View {
                     ScrollView {
                         
                         
-                        if(self.session.userSession == nil && seeLoginInfo() == true) {
+                        if(self.session.userSession == nil && seeLoginInfo() == true && ((session.userSession?.bio[0].isEmpty) != nil)) {
                             VStack {
                                     
                                 ScrollView{
@@ -154,6 +154,7 @@ struct SearchView: View {
                         }
                         }.navigationBarTitle(Text("Mushfeed"), displayMode: .inline).onAppear {
                             self.postPopularViewModel.loadPostPopular()
+                            
                         }.navigationBarItems(trailing: Button(action: {}) {
                             if(session.userSession?.bio[0] == nil){
                                 NavigationLink(destination: ProfileView(navigateToProfile: false).navigationViewStyle(StackNavigationViewStyle())) {
