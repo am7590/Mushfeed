@@ -42,7 +42,7 @@ struct ProfileView: View {
                         
                         
                     
-                    } else if(self.session.userSession == nil){
+                    } else if(self.session.userSession?.bio[0]==nil){
                         
                         Text("Account not recognized.")
                             .font(.title)

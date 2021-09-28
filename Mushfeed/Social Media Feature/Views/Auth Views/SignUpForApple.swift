@@ -40,7 +40,7 @@ struct SignUpForApple: View {
             SelectPFPView(imageName: colorScheme == .dark ? $signupViewModel.imageName : $signupViewModel.imageName)
 
             }
-        Text("Tap on a mushroom to set your profile picture").font(.headline).fontWeight(.bold).foregroundColor(.gray).multilineTextAlignment(.center).padding().fixedSize(horizontal: false, vertical: true)
+        Text("Tap on a mushroom to set your profile picture (scroll to see more)").font(.headline).fontWeight(.bold).foregroundColor(.gray).multilineTextAlignment(.center).padding().fixedSize(horizontal: false, vertical: true)
             
             UsernameTextField(username: $signupViewModel.username)
 
