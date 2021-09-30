@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2917A02B2703E3E600B5CD49 /* AboutMushfeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917A02A2703E3E600B5CD49 /* AboutMushfeedView.swift */; };
 		299F795D27018762009E6FF3 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F795C27018762009E6FF3 /* Welcome.swift */; };
 		29A414CF26F5B352008C3097 /* SignUpForApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A414CE26F5B352008C3097 /* SignUpForApple.swift */; };
 		29B415E126E5410C001B22A6 /* ReportAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B415E026E5410C001B22A6 /* ReportAPI.swift */; };
@@ -115,6 +116,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2917A02A2703E3E600B5CD49 /* AboutMushfeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMushfeedView.swift; sourceTree = "<group>"; };
 		299F795C27018762009E6FF3 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		29A414CE26F5B352008C3097 /* SignUpForApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForApple.swift; sourceTree = "<group>"; };
 		29B415E026E5410C001B22A6 /* ReportAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAPI.swift; sourceTree = "<group>"; };
@@ -396,6 +398,7 @@
 				E631CFA225EB3E7700CE8417 /* SearchView.swift */,
 				E631CFA325EB3E7700CE8417 /* UsersView.swift */,
 				E631CFA425EB3E7700CE8417 /* ProfileView.swift */,
+				2917A02A2703E3E600B5CD49 /* AboutMushfeedView.swift */,
 				E6E86B4726110AFE008068B8 /* DeletePostView.swift */,
 				E6E1F32C268E3D8C0078A289 /* PFPView.swift */,
 				299F795C27018762009E6FF3 /* Welcome.swift */,
@@ -637,6 +640,7 @@
 				E631CFB525EB3E7700CE8417 /* ProfileHeader.swift in Sources */,
 				E631CFBD25EB3E7700CE8417 /* MainView.swift in Sources */,
 				E631CF8725EB3B9800CE8417 /* UsernameTextField.swift in Sources */,
+				2917A02B2703E3E600B5CD49 /* AboutMushfeedView.swift in Sources */,
 				E631CFF425EB3F2B00CE8417 /* CommentApi.swift in Sources */,
 				E631CFE325EB3EFC00CE8417 /* ImagePicker.swift in Sources */,
 				E631D04025EB3FC500CE8417 /* GrowableDetail.swift in Sources */,
@@ -840,7 +844,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Mushfeed/Mushfeed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Mushfeed/Preview Content\"";
 				DEVELOPMENT_TEAM = 7W5ZSCHZ2W;
 				ENABLE_PREVIEWS = YES;
@@ -851,7 +855,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 0.8.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aleksandermichelson.Mushfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -867,7 +871,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Mushfeed/Mushfeed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Mushfeed/Preview Content\"";
 				DEVELOPMENT_TEAM = 7W5ZSCHZ2W;
 				ENABLE_PREVIEWS = YES;
@@ -878,7 +882,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				MARKETING_VERSION = 0.8.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aleksandermichelson.Mushfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

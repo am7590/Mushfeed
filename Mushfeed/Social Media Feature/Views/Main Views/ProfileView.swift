@@ -197,9 +197,9 @@ struct PfpProfileView: View {
                 VStack() {
                     
                     Button(action: {}, label: {
-                        NavigationLink(destination: UsersView()) {
+                        NavigationLink(destination: AboutMushfeedView()) {
                             HStack{
-                                Text("Credits")
+                                Text("About Mushfeed")
                                     .fontWeight(.bold)
                                     .foregroundColor(Color(UIColor.systemBackground))
                             }.frame(maxWidth: .infinity)
@@ -208,16 +208,20 @@ struct PfpProfileView: View {
                          }
                     }).cornerRadius(5)
                     
-
-                    // Log out
-                    Button(action: {}) {
-                        HStack {
-                                Text("About Mushfeed").fontWeight(.bold).foregroundColor(Color(UIColor.systemBackground))
-                        }.frame(maxWidth: .infinity)
+                    
+                    Button(action: {}, label: {
+                        NavigationLink(destination: Welcome()) {
+                            HStack{
+                                Text("App Guidlines")
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color(UIColor.systemBackground))
+                            }.frame(maxWidth: .infinity)
                             .frame(height: 15)
                         .padding().background(Color.primary).cornerRadius(13).shadow(radius: 10, x: 0, y: 10)
-                        
-                    }.cornerRadius(5)
+                         }
+                    }).cornerRadius(5)
+
+         
                 }.padding(.top, 5)
                 
                 

@@ -39,21 +39,21 @@ struct Welcome: View {
 
                     HStack(){
                         Image(colorScheme == .dark ? "pfp3b" : "pfp3w").resizable().aspectRatio(contentMode: .fill).frame(width: 70, height: 70).clipShape(Circle())
-                        Text("Do not post pictures of mushrooms that you know to be hallucinogenic.")
+                        Text("Do not post pictures of mushrooms that you know to be hallucinogenic.").padding(.top, 10)
                             .font(.headline)
                     }
 
                     
                     HStack(){
                         Image(colorScheme == .dark ? "pfp4b" : "pfp4w").resizable().aspectRatio(contentMode: .fill).frame(width: 70, height: 70).clipShape(Circle())
-                        Text("Mushfeed is an entertainment app that is not meant to positively identify mushrooms you find in the wild or otherwise.")
+                        Text("Mushfeed is an entertainment app that is not meant to positively identify mushrooms you find in the wild or otherwise.").padding(.top, 10)
                             .font(.headline)
                     }
 
                     
                     HStack(){
                         Image(colorScheme == .dark ? "pfp5b" : "pfp5w").resizable().aspectRatio(contentMode: .fill).frame(width: 70, height: 70).clipShape(Circle())
-                        Text("Do not use this app as a basis to consume any mushroom.")
+                        Text("Do not use this app as a basis to consume any mushroom.").padding(.top, 10)
                             .font(.headline)
                     }
 

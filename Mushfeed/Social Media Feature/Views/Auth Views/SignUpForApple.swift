@@ -18,7 +18,7 @@ struct SignUpForApple: View {
     @Environment(\.colorScheme) var colorScheme
     @State var areYouGoingToSecondView: Bool // Step 2
     @State var navigateToProfile : Bool
-    @State var selection: Int? = nil
+    @State var selection: Int = 0
     //@Binding var imageName: [String]
     
     func listen() {
@@ -37,7 +37,10 @@ struct SignUpForApple: View {
         
         ScrollView{
         VStack { //colorScheme == .dark ? session.userSession!.bio[1] : session.userSession!.bio[0]
-            SelectPFPView(imageName: colorScheme == .dark ? $signupViewModel.imageName : $signupViewModel.imageName)
+            SelectPFPView(imageName: colorScheme == .dark ? $signupViewModel.imageName : $signupViewModel.imageName).onTapGesture {
+                self.selection = 1
+            }
+            
 
             }
         Text("Tap on a mushroom to set your profile picture (scroll to see more)").font(.headline).fontWeight(.bold).foregroundColor(.gray).multilineTextAlignment(.center).padding().fixedSize(horizontal: false, vertical: true)
@@ -55,6 +58,10 @@ struct SignUpForApple: View {
                                 //print(imageData)
                                 //self.clean()
                                 //self.session.logout()
+                                
+                    if(signupViewModel.imageName[0] == "" && selection == 1){
+                        signupViewModel.showAlert = true
+                    }
                                 
                                 guard let userId = Auth.auth().currentUser?.uid else { return }
                                             print("Auth.auth().currentUser?.uid")
@@ -98,7 +105,7 @@ struct SignUpForApple: View {
                                 
                                 
                             
-                }, label: selection == nil ? "Save" : "Go to Mushfeed").shadow(color: selection == nil ? Color.secondary : Color.red, radius: 10).alert(isPresented: $signupViewModel.showAlert) {
+                }, label: "Save").shadow(color: Color.secondary, radius: 10).alert(isPresented: $signupViewModel.showAlert) {
                             Alert(title: Text("Error"), message: Text(self.signupViewModel.errorString), dismissButton: .default(Text("OK")))
                 }.padding(.bottom, 15)
             }

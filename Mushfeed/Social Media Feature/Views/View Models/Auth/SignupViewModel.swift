@@ -33,7 +33,7 @@ class SignupViewModel: ObservableObject {
     }
 
     func signup(username: String, email: String, password: String, imageData: Data, completed: @escaping(_ user: User) -> Void,  onError: @escaping(_ errorMessage: String) -> Void) {
-        if !username.isEmpty && !email.isEmpty && !password.isEmpty && !imageName.isEmpty { 
+        if !username.isEmpty && !email.isEmpty && !password.isEmpty && !(self.imageName[0]=="" || self.imageName[1] == "") {
             AuthService.signupUser(username: username, email: email, password: password, imageName: imageName, onSuccess: completed, onError: onError)
         } else if self.imageName[0]=="" || self.imageName[1] == "" {
             showAlert = true
