@@ -30,7 +30,7 @@ struct ProfileView: View {
                  ScrollView {
                      if(navigateToProfile == true){
                          PfpProfileView()
-                     } else if(self.session.userSession == nil && profileViewModel.seeLoginInfo() == true && self.session.userSession?.bio[0]==nil && ((session.userSession?.bio[0].isEmpty) != nil)){
+                     } else if(self.session.userSession == nil && profileViewModel.seeLoginInfo() == true && self.session.userSession?.bio[0]==nil && ((session.userSession?.bio[0].isEmpty) == nil)){
                         
                         //SignUpForApple(areYouGoingToSecondView: true)
                         VStack {

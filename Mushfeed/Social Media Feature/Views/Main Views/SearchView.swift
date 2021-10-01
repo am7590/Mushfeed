@@ -39,7 +39,7 @@ struct SearchView: View {
                     ScrollView {
                         
                         
-                        if(self.session.userSession == nil && seeLoginInfo() == true && ((session.userSession?.bio[0].isEmpty) != nil)) {
+                        if(self.session.userSession == nil && seeLoginInfo() == true && ((session.userSession?.bio[0].isEmpty) == nil)) {
                             VStack {
                                     
                                 ScrollView{
