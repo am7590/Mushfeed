@@ -8,9 +8,11 @@ Mushfeed is a niche app built specifically for gourmet mushroom lovers. It is my
 
 How did I make Mushfeed?
  * Senior year of High School I enrolled in a Swift Development Course and learned the basics to Swift and UIKit 
- * I enrolled in several online courses to learn about MVVM, SwiftUI, and Firebase Auth/Cloud Firestore
+ * I enrolled in several online courses to learn about MVVM and Firebase Auth/Cloud Firestore
+ * I learned SwiftUI to make my app usable and great-looking
  
  Why Mushrooms?
-  * I wanted to build a niche-specific app that would be practical and potentially get downloads
-  * Mushroom enthusiasts gave the best feedback when I sent out a survey asking about which features they want in an app 
+  * I wanted to build a niche-specific app that would be practical for those who use it
+  * Mushroom enthusiasts gave the best feedback when I sent out a survey asking about which features they wanted in an app
   
+Mushfeed is under an exclusive copyright by default. 
